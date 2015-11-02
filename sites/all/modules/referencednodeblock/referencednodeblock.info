@@ -1,0 +1,6 @@
+; $Id: Hello Exp $
+name = Referenced Node Block
+description = Dieses Modul formatiert aus allen mit dem aktuell angezeigten Inhalt referenzierten Inhalten entsprechende Blöcke.
+core = 6.x
+package = Referenced Node Block
+dependencies[] = nodereference

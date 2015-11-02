@@ -1,0 +1,1545 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  user.admin.inc,v 1.18.2.1 2008/08/13 23:59:14 drumm
+#  user.pages.inc,v 1.11.2.1 2008/10/08 20:12:18 goba
+#  user.module,v 1.892.2.14 2009/07/01 20:51:56 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: 2009-06-17 09:37+0200\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/user/user.admin.inc:43
+msgid "Show only users where"
+msgstr "Alleen gebruikers weergeven waarvan"
+
+#: modules/user/user.admin.inc:52
+msgid ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+msgstr "<em>en</em> waar <strong>%property</strong> is <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:55
+msgid "<strong>%property</strong> is <strong>%value</strong>"
+msgstr "<strong>%property</strong> is <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:138,911
+msgid "Last access"
+msgstr "Laatste toegang"
+
+#: modules/user/user.admin.inc:221
+msgid "No users selected."
+msgstr "Geen gebruikers geselecteerd."
+
+#: modules/user/user.admin.inc:233
+msgid "User registration settings"
+msgstr "Instellingen gebruikersregistratie"
+
+#: modules/user/user.admin.inc:234
+msgid "Public registrations"
+msgstr "Publieke registraties"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr ""
+"Bezoekers kunnen nieuwe accounts aanmaken zonder dat daarvoor toestemming "
+"van een beheerder nodig is."
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr ""
+"Bezoekers kunnen nieuwe accounts aanmaken maar goedkeuring van een beheerder "
+"is nodig."
+
+#: modules/user/user.admin.inc:235
+msgid "Require e-mail verification when a visitor creates an account"
+msgstr "Verplichte e-mailvalidatie wanneer een gebruiker een account aanmaakt."
+
+#: modules/user/user.admin.inc:235
+msgid ""
+"If this box is checked, new users will be required to validate their e-mail "
+"address prior to logging into the site, and will be assigned a system-"
+"generated password. With it unchecked, users will be logged in immediately "
+"upon registering, and may select their own passwords during registration."
+msgstr ""
+"Als deze keuze gemaakt is, krijgen nieuwe bezoekers een door het systeem "
+"gegenereerd wachtwoord toegewezen en moeten hun e-mailadres valideren "
+"voordat zij kunnen inloggen. Als deze keuze niet gemaakt is, kunnen nieuwe "
+"bezoekers hun eigen wachtwoord kiezen tijdens registratie en kunnen zij na "
+"registratie direct inloggen."
+
+#: modules/user/user.admin.inc:236
+msgid "User registration guidelines"
+msgstr "Registratierichtlijnen voor gebruikers"
+
+#: modules/user/user.admin.inc:236
+msgid ""
+"This text is displayed at the top of the user registration form and is "
+"useful for helping or instructing your users."
+msgstr ""
+"Deze tekst wordt boven het gebruikersregistratieformulier getoond en helpt "
+"of instrueert de gebruikers bij het invullen."
+
+#: modules/user/user.admin.inc:241
+msgid "User e-mail settings"
+msgstr "Gebruikersinstellingen e-mail"
+
+#: modules/user/user.admin.inc:242
+msgid ""
+"Drupal sends emails whenever new users register on your site, and "
+"optionally, may also notify users after other account actions. Using a "
+"simple set of content templates, notification e-mails can be customized to "
+"fit the specific needs of your site."
+msgstr ""
+"Drupal stuurt e-mails wanneer een nieuwe gebruiker zich registreert op uw "
+"site, en optioneel, kan ook gebruikers informeren over andere account-"
+"wijzigingen. Gebruikmakend van eenvoudige sjablonen, kunnen informerende e-"
+"mails ingesteld worden om te voldoen aan specifieke behoefte van uw site."
+
+#: modules/user/user.admin.inc:246
+msgid "Available variables are:"
+msgstr "Beschikbare variabelen zijn:"
+
+#: modules/user/user.admin.inc:250
+msgid "Welcome, new user created by administrator"
+msgstr "Welkom, nieuwe gebruiker door de beheerder aangemaakt"
+
+#: modules/user/user.admin.inc:253
+msgid ""
+"Customize welcome e-mail messages sent to new member accounts created by an "
+"administrator."
+msgstr ""
+"Bewerk de welkoms-e-mail die verstuurd wordt naar een nieuwe gebruiker die "
+"door de beheerder is aangemaakt."
+
+#: modules/user/user.admin.inc:270
+msgid "Welcome, no approval required"
+msgstr "Welkom, geen toestemming nodig"
+
+#: modules/user/user.admin.inc:273
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"no administrator approval is required."
+msgstr ""
+"Bewerk welkoms-e-mail die verstuurd wordt naar nieuwe gebruikers bij hun "
+"registratie, in het geval er geen goedkeuring door de beheerder nodig is."
+
+#: modules/user/user.admin.inc:290
+msgid "Welcome, awaiting administrator approval"
+msgstr "Welkom, in afwachting van toestemming door de beheerder"
+
+#: modules/user/user.admin.inc:293
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"administrative approval is required."
+msgstr ""
+"Bewerk welkoms-e-mail die verstuurd wordt naar nieuwe gebruikers bij hun "
+"registratie, in het geval er goedkeuring door de beheerder nodig is."
+
+#: modules/user/user.admin.inc:310
+msgid "Password recovery email"
+msgstr "E-mail voor wachtwoord herstel"
+
+#: modules/user/user.admin.inc:313
+msgid "Customize e-mail messages sent to users who request a new password."
+msgstr ""
+"Pas de e-mailberichten aan voor gebruikers die een nieuw wachtwoord hebben "
+"aangevraagd."
+
+#: modules/user/user.admin.inc:330
+msgid "Account activation email"
+msgstr "Account activerings-e-mail"
+
+#: modules/user/user.admin.inc:333
+msgid ""
+"Enable and customize e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+"Schakel e-mailberichten in en pas ze aan voor gebruikers wiens account is "
+"geactiveerd. Wordt gebruikt  op een website waar administratieve toestemming "
+"vereist is, wanneer een beheerder de account activeert van een gebruiker die "
+"zich heeft geregistreerd."
+
+#: modules/user/user.admin.inc:337
+msgid "Notify user when account is activated."
+msgstr "Informeer de gebruiker zodra de account geactiveerd is."
+
+#: modules/user/user.admin.inc:355
+msgid "Account blocked email"
+msgstr "Account heeft de e-mail geblokkeerd"
+
+#: modules/user/user.admin.inc:358
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr ""
+"Inschakelen en aanpassen van e-mail berichten voor gebruikers van wie de "
+"account geblokkeerd is."
+
+#: modules/user/user.admin.inc:362
+msgid "Notify user when account is blocked."
+msgstr "Licht gebruiker in wanneer de account geblokkeerd wordt."
+
+#: modules/user/user.admin.inc:380
+msgid "Account deleted email"
+msgstr "Account heeft de e-mail verwijderd"
+
+#: modules/user/user.admin.inc:383
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"deleted."
+msgstr ""
+"Inschakelen en aanpassen van e-mail berichten voor gebruikers van wie de "
+"account verwijderd is."
+
+#: modules/user/user.admin.inc:387
+msgid "Notify user when account is deleted."
+msgstr "Licht gebruiker in wanneer de account verwijderd wordt."
+
+#: modules/user/user.admin.inc:406
+msgid "Signatures"
+msgstr "Handtekeningen"
+
+#: modules/user/user.admin.inc:410
+msgid "Signature support"
+msgstr "Ondersteuning voor handtekeningen"
+
+#: modules/user/user.admin.inc:423
+msgid "Pictures"
+msgstr "Afbeeldingen"
+
+#: modules/user/user.admin.inc:428
+msgid "Picture support"
+msgstr "Ondersteuning voor afbeeldingen"
+
+#: modules/user/user.admin.inc:448
+msgid "Picture image path"
+msgstr "Afbeeldingspad"
+
+#: modules/user/user.admin.inc:452
+msgid "Subdirectory in the directory %dir where pictures will be stored."
+msgstr "Submap in de map %dir waar de afbeeldingen bewaard zullen worden."
+
+#: modules/user/user.admin.inc:456
+msgid "Default picture"
+msgstr "Standaard afbeelding"
+
+#: modules/user/user.admin.inc:460
+msgid ""
+"URL of picture to display for users with no custom picture selected. Leave "
+"blank for none."
+msgstr ""
+"URL van de afbeelding die getoond wordt voor gebruikers die geen eigen "
+"afbeelding geselecteerd hebben. Leeg laten indien u geen afbeelding wenst."
+
+#: modules/user/user.admin.inc:464
+msgid "Picture maximum dimensions"
+msgstr "Maximale afmetingen afbeelding"
+
+#: modules/user/user.admin.inc:468
+msgid "Maximum dimensions for pictures, in pixels."
+msgstr "Maximale afmetingen voor afbeeldingen, in pixels."
+
+#: modules/user/user.admin.inc:472
+msgid "Picture maximum file size"
+msgstr "Maximale bestandsgrootte voor afbeeldingen"
+
+#: modules/user/user.admin.inc:476
+msgid "Maximum file size for pictures, in kB."
+msgstr "Maximale bestandsgrootte voor afbeeldingen, in kB."
+
+#: modules/user/user.admin.inc:480
+msgid "Picture guidelines"
+msgstr "Richtlijnen voor afbeeldingen"
+
+#: modules/user/user.admin.inc:482
+msgid ""
+"This text is displayed at the picture upload form in addition to the default "
+"guidelines. It's useful for helping or instructing your users."
+msgstr ""
+"Deze tekst wordt getoond bovenaan het uploadformulier voor afbeeldingen als "
+"aanvulling voor de standaard richtlijnen. Dit is handig om gebruikers te "
+"helpen of te informeren."
+
+#: modules/user/user.admin.inc:543
+msgid "Save permissions"
+msgstr "Toegangsrechten opslaan"
+
+#: modules/user/user.admin.inc:595
+msgid "Permission"
+msgstr "Toegangsrechten"
+
+#: modules/user/user.admin.inc:624
+msgid "Role name"
+msgstr "Naam rol"
+
+#: modules/user/user.admin.inc:629
+msgid ""
+"The name for this role. Example: \"moderator\", \"editorial board\", \"site "
+"architect\"."
+msgstr ""
+"De naam voor deze rol. Bijvoorbeeld: \"moderator\" of \"website beheerder\"."
+
+#: modules/user/user.admin.inc:637,662,679
+msgid "Save role"
+msgstr "Rol opslaan"
+
+#: modules/user/user.admin.inc:641,683
+msgid "Delete role"
+msgstr "Rol verwijderen"
+
+#: modules/user/user.admin.inc:652,667,691
+msgid "Add role"
+msgstr "Rol toevoegen"
+
+#: modules/user/user.admin.inc:664,669
+msgid "The role name %name already exists. Please choose another role name."
+msgstr "De rolnaam %name is al in gebruik. Kies een andere naam."
+
+#: modules/user/user.admin.inc:674
+msgid "You must specify a valid role name."
+msgstr "U moet een geldige rolnaam opgeven."
+
+#: modules/user/user.admin.inc:681
+msgid "The role has been renamed."
+msgstr "De naam van de rol is gewijzigd."
+
+#: modules/user/user.admin.inc:689
+msgid "The role has been deleted."
+msgstr "De rol is verwijderd."
+
+#: modules/user/user.admin.inc:693
+msgid "The role has been added."
+msgstr "De rol is toegevoegd."
+
+#: modules/user/user.admin.inc:725
+msgid "Save rule"
+msgstr "Regel opslaan"
+
+#: modules/user/user.admin.inc:741,885
+msgid "Access type"
+msgstr "Toegangstype"
+
+#: modules/user/user.admin.inc:743
+msgid "Allow"
+msgstr "Toestaan"
+
+#: modules/user/user.admin.inc:743
+msgid "Deny"
+msgstr "Weigeren"
+
+#: modules/user/user.admin.inc:745
+msgid "Host"
+msgstr "Host"
+
+#: modules/user/user.admin.inc:748,885
+msgid "Rule type"
+msgstr "Regeltype"
+
+#: modules/user/user.admin.inc:754,885
+msgid "Mask"
+msgstr "Maskeren"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches any number of characters, even zero characters"
+msgstr ""
+"Komt overeen met een willekeurig aantal karakters, zelfs met nul karakters"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches exactly one character."
+msgstr "Komt overeen met percies één karakter."
+
+#: modules/user/user.admin.inc:774
+msgid "The access rule has been saved."
+msgstr "De toegangsregel is bewaard."
+
+#: modules/user/user.admin.inc:778
+msgid "The access rule has been added."
+msgstr "De toegangsregel is toegevoegd."
+
+#: modules/user/user.admin.inc:785
+msgid "No value entered. Please enter a test string and try again."
+msgstr ""
+"Er werd geen waarde ingevoerd. Voer aub een teststring in en probeer opnieuw."
+
+#: modules/user/user.admin.inc:791
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr ""
+"Geef een gebruikersnaam op om te controleren of die toegelaten of geweigerd "
+"wordt."
+
+#: modules/user/user.admin.inc:793
+msgid "Check username"
+msgstr "Controleer gebruikersnaam"
+
+#: modules/user/user.admin.inc:802
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr ""
+"Geef een e-mailadres op om te controleren of het toegelaten of geweigerd "
+"wordt."
+
+#: modules/user/user.admin.inc:804
+msgid "Check e-mail"
+msgstr "Controleer e-mailadres"
+
+#: modules/user/user.admin.inc:813
+msgid ""
+"Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr ""
+"Geef een hostnaam of IP-address op om te controleren of het toegelaten of "
+"geweigerd wordt."
+
+#: modules/user/user.admin.inc:815
+msgid "Check hostname"
+msgstr "Controleer hostnaam"
+
+#: modules/user/user.admin.inc:826
+msgid "The username %name is not allowed."
+msgstr "De gebruikersnaam %name is geweigerd."
+
+#: modules/user/user.admin.inc:829
+msgid "The username %name is allowed."
+msgstr "De gebruikersnaam %name is toegestaan."
+
+#: modules/user/user.admin.inc:834
+msgid "The e-mail address %mail is not allowed."
+msgstr "Het e-mailadres %mail is niet toegestaan."
+
+#: modules/user/user.admin.inc:837
+msgid "The e-mail address %mail is allowed."
+msgstr "Het e-mailadres %mail is toegestaan."
+
+#: modules/user/user.admin.inc:842
+msgid "The hostname %host is not allowed."
+msgstr "De hostnaam %host is niet toegestaan."
+
+#: modules/user/user.admin.inc:845
+msgid "The hostname %host is allowed."
+msgstr "De hostnaam %host is toegestaan."
+
+#: modules/user/user.admin.inc:860,887
+msgid "username"
+msgstr "gebruikersnaam"
+
+#: modules/user/user.admin.inc:860,887
+msgid "e-mail"
+msgstr "e-mail"
+
+#: modules/user/user.admin.inc:860,887
+msgid "host"
+msgstr "host"
+
+#: modules/user/user.admin.inc:866
+msgid "Are you sure you want to delete the @type rule for %rule?"
+msgstr "Weet u zeker dat u de regel @type wilt verwijderen voor %rule?"
+
+#: modules/user/user.admin.inc:876
+msgid "The access rule has been deleted."
+msgstr "De toegangsregel is verwijderd."
+
+#: modules/user/user.admin.inc:890
+msgid "allow"
+msgstr "toestaan"
+
+#: modules/user/user.admin.inc:890
+msgid "deny"
+msgstr "weigeren"
+
+#: modules/user/user.admin.inc:893
+msgid "There are currently no access rules."
+msgstr "Er zijn momenteel geen toegangsregels."
+
+#: modules/user/user.admin.inc:930
+msgid "No users available."
+msgstr "Geen gebruikers beschikbaar."
+
+#: modules/user/user.admin.inc:951
+msgid "edit permissions"
+msgstr "toegangsrechten bewerken"
+
+#: modules/user/user.admin.inc:953
+msgid "edit role"
+msgstr "rol aanpassen"
+
+#: modules/user/user.admin.inc:956
+msgid "locked"
+msgstr "vergrendeld"
+
+#: modules/user/user.pages.inc:34
+msgid "Username or e-mail address"
+msgstr "Gebruikersnaam of e-mailadres"
+
+#: modules/user/user.pages.inc:39
+msgid "E-mail new password"
+msgstr "Nieuw wachtwoord aanvragen"
+
+#: modules/user/user.pages.inc:50
+msgid "%name is not allowed to request a new password."
+msgstr "%name mag geen nieuw wachtwoord aanvragen."
+
+#: modules/user/user.pages.inc:63
+msgid "Sorry, %name is not recognized as a user name or an e-mail address."
+msgstr "%name is op deze website niet bekend."
+
+#: modules/user/user.pages.inc:74
+msgid "Further instructions have been sent to your e-mail address."
+msgstr "Verdere instructies zijn verstuurd naar uw e-mailadres."
+
+#: modules/user/user.pages.inc:88
+msgid ""
+"You have already used this one-time login link. It is not necessary to use "
+"this link to login anymore. You are already logged in."
+msgstr ""
+"U heeft deze eenmalige link reeds gebruikt. Het is niet nodig deze link nog "
+"te gebruiken. U bent reeds ingelogd."
+
+#: modules/user/user.pages.inc:99
+msgid ""
+"You have tried to use a one-time login for an account which has been blocked."
+msgstr ""
+"U probeerde een eenmalige login link te gebruiken, maar deze is geblokkeerd."
+
+#: modules/user/user.pages.inc:105
+msgid ""
+"You have tried to use a one-time login link that has expired. Please request "
+"a new one using the form below."
+msgstr ""
+"U probeerde een eenmalige login link te gebruiken die verlopen is. Vraag een "
+"nieuwe link aan met het onderstaande formulier."
+
+#: modules/user/user.pages.inc:117
+msgid ""
+"You have just used your one-time login link. It is no longer necessary to "
+"use this link to login. Please change your password."
+msgstr ""
+"U heeft zojuist uw eenmalige login link gebruikt. Het is niet langer nodig "
+"deze link te gebruiken om in te loggen. Verander uw wachtwoord."
+
+#: modules/user/user.pages.inc:121
+msgid ""
+"<p>This is a one-time login for %user_name and will expire on %"
+"expiration_date.</p><p>Click on this button to login to the site and change "
+"your password.</p>"
+msgstr ""
+"<p>Dit is een eenmalige login voor %user_name en zal verlopen op %"
+"expiration_date.</p><p>Klik op deze knop om in te loggen op de site en uw "
+"wachtwoord te veranderen.</p>"
+
+#: modules/user/user.pages.inc:122
+msgid "This login can be used only once."
+msgstr "Deze login kan slechts één keer gebruikt worden."
+
+#: modules/user/user.pages.inc:129
+msgid ""
+"You have tried to use a one-time login link which has either been used or is "
+"no longer valid. Please request a new one using the form below."
+msgstr ""
+"U probeerde een eenmalige login link te gebruiken die reeds gebruikt is, of "
+"niet langer geldig is. Vraagt een nieuwe link aan met het onderstaande "
+"formulier."
+
+#: modules/user/user.pages.inc:321
+msgid "Are you sure you want to delete the account %name?"
+msgstr "Weet u zeker dat u de account %name wilt verwijderen?"
+
+#: modules/user/user.pages.inc:323
+msgid ""
+"All submissions made by this user will be attributed to the anonymous "
+"account. This action cannot be undone."
+msgstr ""
+"Alle inzendingen door deze gebruiker worden toegekend aan een anoniem "
+"account. Deze actie kan niet ongedaan gemaakt worden."
+
+#: modules/user/user.pages.inc:332
+msgid "%name has been deleted."
+msgstr "%name is verwijderd."
+
+#: modules/user/user.pages.inc:73
+msgid "Password reset instructions mailed to %name at %email."
+msgstr ""
+"De richtlijnen voor het resetten van het wachtwoord zijn verstuurd aan %name "
+"naar %email."
+
+#: modules/user/user.pages.inc:111
+msgid "User %name used one-time login link at time %timestamp."
+msgstr "Gebruiker %name gebruikte een eenmalige login link om %timestamp."
+
+#: modules/user/user.pages.inc:147
+msgid "Session closed for %name."
+msgstr "Sessie gesloten voor %name."
+
+#: modules/user/user.module:381
+msgid "You must enter a username."
+msgstr "U moet een gebruikersnaam opgeven."
+
+#: modules/user/user.module:382
+msgid "The username cannot begin with a space."
+msgstr "De gebruikersnaam mag niet met een spatie beginnen."
+
+#: modules/user/user.module:383
+msgid "The username cannot end with a space."
+msgstr "De gebruikersnaam mag niet met een spatie eindigen."
+
+#: modules/user/user.module:384
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "De gebruikersnaam mag geen meerdere spaties na elkaar bevatten."
+
+#: modules/user/user.module:385,396
+msgid "The username contains an illegal character."
+msgstr "De gebruikersnaam bevat illegale karakters."
+
+#: modules/user/user.module:398
+msgid "The username is not a valid authentication ID."
+msgstr "De gebruikersnaam is geen geldig verificatie-ID."
+
+#: modules/user/user.module:399
+msgid "The username %name is too long: it must be %max characters or less."
+msgstr ""
+"De gebruikersnaam %name is te lang: de naam moet kleiner dan of gelijk aan %"
+"max karakters zijn."
+
+#: modules/user/user.module:403
+msgid "You must enter an e-mail address."
+msgstr "U moet een e-mailadres ingegeven."
+
+#: modules/user/user.module:405
+msgid "The e-mail address %mail is not valid."
+msgstr "Het opgegeven e-mailadres %mail is niet geldig."
+
+#: modules/user/user.module:431
+msgid ""
+"Failed to upload the picture image; the %directory directory doesn't exist "
+"or is not writable."
+msgstr ""
+"Het uploaden van de afbeelding is niet gelukt. De %directory map bestaat "
+"niet of is niet beschrijfbaar."
+
+#: modules/user/user.module:619
+msgid "History"
+msgstr "Geschiedenis"
+
+#: modules/user/user.module:641
+msgid "Account settings"
+msgstr "Accountinstellingen"
+
+#: modules/user/user.module:669
+msgid "Create a new user account."
+msgstr "Nieuwe gebruikersaccount aanmaken."
+
+#: modules/user/user.module:671,922
+msgid "Request new password"
+msgstr "Nieuw wachtwoord aanvragen"
+
+#: modules/user/user.module:671
+msgid "Request new password via e-mail."
+msgstr "Nieuw wachtwoord aanvragen via e-mail."
+
+#: modules/user/user.module:683,730
+msgid "User login"
+msgstr "Gebruikerslogin"
+
+#: modules/user/user.module:692,751
+msgid "Who's new"
+msgstr "Wie is nieuw"
+
+#: modules/user/user.module:695,790
+msgid "Who's online"
+msgstr "Wie is online"
+
+#: modules/user/user.module:702
+msgid "Number of users to display"
+msgstr "Aantal weer te geven gebruikers"
+
+#: modules/user/user.module:710
+msgid "User activity"
+msgstr "Gebruikersaktiviteit"
+
+#: modules/user/user.module:710
+msgid ""
+"A user is considered online for this long after they have last viewed a page."
+msgstr ""
+"Een gebruiker wordt online verondersteld voor deze tijd nadat hij voor een "
+"laatste keer een pagina heeft bekeken."
+
+#: modules/user/user.module:711
+msgid "User list length"
+msgstr "Lengte gebruikerslijst"
+
+#: modules/user/user.module:711
+msgid "Maximum number of currently online users to display."
+msgstr "Het maximaal aantal online gebruikers dat getoond wordt."
+
+#: modules/user/user.module:778
+msgid "There is currently %members and %visitors online."
+msgstr "Er is momenteel %members en %visitors online."
+
+#: modules/user/user.module:781
+msgid "There are currently %members and %visitors online."
+msgstr "Er zijn momenteel %members en %visitors online."
+
+#: modules/user/user.module:787
+msgid "Online users"
+msgstr "Online gebruikers"
+
+#: modules/user/user.module:818
+msgid "@user's picture"
+msgstr "afbeelding van @user"
+
+#: modules/user/user.module:1182,1052
+msgid "My account"
+msgstr "Mijn account"
+
+#: modules/user/user.module:1254
+msgid "Enter your @s username."
+msgstr "Vul uw @s gebruikersnaam in."
+
+#: modules/user/user.module:1257
+msgid "Enter the password that accompanies your username."
+msgstr "Geef het wachtwoord dat bij uw gebruikersnaam hoort."
+
+#: modules/user/user.module:1295
+msgid "The username %name has not been activated or is blocked."
+msgstr "De gebruikersnaam %name is nog geactiveerd of wordt geblokkeerd."
+
+#: modules/user/user.module:1299
+msgid "The name %name is a reserved username."
+msgstr "De naam %name is een gereserveerde gebruikersnaam."
+
+#: modules/user/user.module:1319
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"Gebruikersnaam of wachtwoord is onbekend. <a href=\"@password\">Bent u uw "
+"wachtwoord vergeten?</a>"
+
+#: modules/user/user.module:1342
+msgid ""
+"The name %name is registered using a reserved e-mail address and therefore "
+"could not be logged in."
+msgstr ""
+"De naam %name is geregistreerd met een gereserveerd e-mailadres. U kunt "
+"daarom niet inloggen."
+
+#: modules/user/user.module:1439
+msgid "Account information"
+msgstr "Account-informatie"
+
+#: modules/user/user.module:1456
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"Geef een geldig e-mailadres op. Alle e-mails van dit systeem zullen naar dit "
+"adres verstuurd worden. Het e-mailadres zal niet openbaar gemaakt worden en "
+"zal alleen gebruikt worden wanneer u om een nieuw wachtwoord vraagt of "
+"wanneer u over bepaald nieuws per e-mail geïnformeerd wil worden."
+
+#: modules/user/user.module:1461
+msgid ""
+"To change the current user password, enter the new password in both fields."
+msgstr ""
+"Om het huidige gebruikerswachtwoord te veranderen: geef het nieuwe "
+"wachtwoord in in beide velden."
+
+#: modules/user/user.module:1468
+msgid "Provide a password for the new account in both fields."
+msgstr "Geef in beide velden een wachtwoord voor het nieuwe account."
+
+#: modules/user/user.module:1478
+msgid "Blocked"
+msgstr "Geblokkeerd"
+
+#: modules/user/user.module:1513
+msgid "Signature settings"
+msgstr "Handtekening instellingen"
+
+#: modules/user/user.module:1518
+msgid "Signature"
+msgstr "Ondertekening"
+
+#: modules/user/user.module:1520
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "Uw ondertekening zal worden getoond aan het einde van al uw reacties."
+
+#: modules/user/user.module:1535
+msgid "Picture"
+msgstr "Afbeelding"
+
+#: modules/user/user.module:1539
+msgid "Delete picture"
+msgstr "Afbeeldingen verwijderen"
+
+#: modules/user/user.module:1539
+msgid "Check this box to delete your current picture."
+msgstr "Vink dit vakje aan indien u uw huidige afbeelding wilt verwijderen."
+
+#: modules/user/user.module:1544
+msgid "Upload picture"
+msgstr "Afbeelding uploaden"
+
+#: modules/user/user.module:1544
+msgid ""
+"Your virtual face or picture. Maximum dimensions are %dimensions and the "
+"maximum size is %size kB."
+msgstr ""
+"Uw virtuele gezicht of afbeelding. De maximale afmetingen zijn %dimensions "
+"en de maximale bestandsgrootte is %size kB."
+
+#: modules/user/user.module:1560
+msgid "The name %name is already taken."
+msgstr "De naam %name is reeds in gebruik."
+
+#: modules/user/user.module:1563
+msgid "The name %name has been denied access."
+msgstr "De naam %name werd de toegang geweigerd."
+
+#: modules/user/user.module:1572
+msgid ""
+"The e-mail address %email is already registered. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+"Het e-mailadres %email is al geregistreerd. <a href=\"@password\">Bent u uw "
+"wachtwoord vergeten?</a>"
+
+#: modules/user/user.module:1575
+msgid "The e-mail address %email has been denied access."
+msgstr "Het e-mailadres %email werd de toegang geweigerd."
+
+#: modules/user/user.module:1655
+msgid "Account details for !username at !site"
+msgstr "Accountdetails voor !username bij !site"
+
+#: modules/user/user.module:1657
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. You may now log in to !login_uri using "
+"the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Bedankt voor uw registratie bij !site. U kunt nu inloggen bij !login_uri met "
+"behulp van uw gebruikersnaam en wachtwoord:\n"
+"\n"
+"gebruikersnaam: !username\n"
+"wachtwoord: !password\n"
+"\n"
+"U kunt ook inloggen door op de onderstaande link te klikken of deze in uw "
+"browser te kopiëren:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Dit is een eenmalige login en kan dus maar een maal worden gebruikt.\n"
+"\n"
+"Na het inloggen wordt u doorgestuurd naar !edit_uri waar u uw wachtwoord "
+"kunt wijzigen.\n"
+"\n"
+"\n"
+"-- het !site team"
+
+#: modules/user/user.module:1659
+msgid "An administrator created an account for you at !site"
+msgstr "Een beheerder heeft voor u een account gemaakt op !site"
+
+#: modules/user/user.module:1661
+msgid ""
+"!username,\n"
+"\n"
+"A site administrator at !site has created an account for you. You may now "
+"log in to !login_uri using the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Een beheerder van !site heeft een account voor u gemaakt. U kunt nu inloggen "
+"bij !login_uri met behulp van onderstaande gebruikersnaam en wachtwoord:\n"
+"\n"
+"gebruikersnaam: !username\n"
+"wachtwoord: !password\n"
+"\n"
+"U kunt ook inloggen door op de onderstaande link te klikken of deze in uw "
+"browser te kopiëren:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Dit is een eenmalige login en kan dus maar een maal worden gebruikt.\n"
+"\n"
+"Na het inloggen wordt u doorgestuurd naar !edit_uri waar u uw wachtwoord "
+"kunt wijzigen.\n"
+"\n"
+"\n"
+"-- het !site team"
+
+#: modules/user/user.module:1664
+msgid "Account details for !username at !site (pending admin approval)"
+msgstr ""
+"Accountdetails voor !username op !site (wachtend op de goedkeuring van de "
+"beheerder)"
+
+#: modules/user/user.module:1666
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Bedankt dat u zich heeft geregistreerd op !site. De aanvraag voor een "
+"account wacht momenteel op goedkeuring. Zodra de aanvraag is goedgekeurd "
+"ontvangt u een e-mail met daarin inloginformatie, hoe het wachtwoord kan "
+"worden gewijzigd en andere details.\r\n"
+"\r\n"
+"\r\n"
+"--  !site team"
+
+#: modules/user/user.module:1668
+msgid ""
+"!username has applied for an account.\n"
+"\n"
+"!edit_uri"
+msgstr ""
+"!username heeft een account aangevraagd.\n"
+"\n"
+"!edit_uri"
+
+#: modules/user/user.module:1670
+msgid "Replacement login information for !username at !site"
+msgstr "Vervangingslogin-informatie voor !username op !site"
+
+#: modules/user/user.module:1672
+msgid ""
+"!username,\n"
+"\n"
+"A request to reset the password for your account has been made at !site.\n"
+"\n"
+"You may now log in to !uri_brief by clicking on this link or copying and "
+"pasting it in your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password."
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Er is een verzoek ingediend bij !site om uw wachtwoord te resetten:\r\n"
+"\r\n"
+"U kunt nu inloggen bij !uri_brief door op de onderstaande link te klikken of "
+"deze in uw browser te kopiëren:\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"Dit is een eenmalige login en kan dus maar een maal worden gebruikt. Indien "
+"de login niet wordt gebruikt, vervalt deze na een dag.\r\n"
+"\r\n"
+"Na het inloggen wordt u doorgestuurd naar !edit_uri waar u uw wachtwoord "
+"kunt wijzigen."
+
+#: modules/user/user.module:1674
+msgid "Account details for !username at !site (approved)"
+msgstr "Accountdetails voor !username op !site (goedgekeurd)"
+
+#: modules/user/user.module:1676
+msgid ""
+"!username,\n"
+"\n"
+"Your account at !site has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to !"
+"login_uri in the future using:\n"
+"\n"
+"username: !username\n"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"Uw account op !site is geactiveerd.\r\n"
+"\r\n"
+"U kunt nu inloggen door op de onderstaande link te klikken of deze in uw "
+"browser te kopiëren:\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"Dit is een eenmalige login en kan dus maar een maal worden gebruikt.\r\n"
+"\r\n"
+"Na het inloggen wordt u doorgestuurd naar !edit_uri waar u uw wachtwoord "
+"kunt wijzigen.\r\n"
+"\r\n"
+"Nadat u uw wachtwoord heeft gewijzigd, kunt u in de toekomst inloggen op !"
+"login_uri met:\r\n"
+"\r\n"
+"gebruikersnaam: !username\n"
+
+#: modules/user/user.module:1678
+msgid "Account details for !username at !site (blocked)"
+msgstr "Accountdetails voor !username op !site (geblokkeerd)"
+
+#: modules/user/user.module:1680
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been blocked."
+msgstr "Uw account op !site is geblokkeerd."
+
+#: modules/user/user.module:1682
+msgid "Account details for !username at !site (deleted)"
+msgstr "Accountdetails voor !username op !site (verwijderd)"
+
+#: modules/user/user.module:1684
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been deleted."
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"uw account op !site is verwijderd."
+
+#: modules/user/user.module:1744
+msgid "Unblock the selected users"
+msgstr "Blokkering bij geselecteerde gebruikers verwijderen"
+
+#: modules/user/user.module:1748
+msgid "Block the selected users"
+msgstr "Geselecteerde gebruikers blokkeren"
+
+#: modules/user/user.module:1752
+msgid "Delete the selected users"
+msgstr "Geselecteerde gebruikers verwijderen"
+
+#: modules/user/user.module:1772
+msgid "Add a role to the selected users"
+msgstr "Een rol aan de geselecteerde gebruikers toevoegen"
+
+#: modules/user/user.module:1775
+msgid "Remove a role from the selected users"
+msgstr "Een rol bij de geselecteerde gebruikers verwijderen"
+
+#: modules/user/user.module:1877
+msgid "Are you sure you want to delete these users?"
+msgstr "Weet u zeker dat u deze gebruikers wilt verwijderen?"
+
+#: modules/user/user.module:1887
+msgid "The users have been deleted."
+msgstr "De gebruikers zijn verwijderd."
+
+#: modules/user/user.module:1901
+msgid ""
+"The user module allows users to register, login, and log out. Users benefit "
+"from being able to sign on because it associates content they create with "
+"their account and allows various permissions to be set for their roles. The "
+"user module supports user roles which establish fine grained permissions "
+"allowing each role to do only what the administrator wants them to. Each "
+"user is assigned to one or more roles. By default there are two roles "
+"<em>anonymous</em> - a user who has not logged in, and <em>authenticated</"
+"em> a user who has signed up and who has been authorized."
+msgstr ""
+"Met de User-module kunnen gebruikers zichzelf registreren, inloggen en "
+"uitloggen. Gebruikers hebben voordeel van het registreren bij de site omdat "
+"informatie die zij aan de site toevoegen verbonden is met hun account en "
+"omdat er aan hun rollen toegangsrechten kunnen worden toegewezen. De User-"
+"module ondersteunt het samenstellen van een fijnmazig stelsel van "
+"toegangsrechten waarmee de beheerder kan bepalen wat een gebruiker wel en "
+"niet kan doen. Aan iedere gebruiker worden een of meerdere rollen "
+"toegewezen. Standaard zijn twee rollen beschikbaar: <em>anoniem</em>: een "
+"gebruiker die niet is ingelogd en <em>geverifieerd</em>: een ingelogde en "
+"geverifieerde gebruiker."
+
+#: modules/user/user.module:1902
+msgid ""
+"Users can use their own name or handle and can specify personal "
+"configuration settings through their individual <em>My account</em> page. "
+"Users must authenticate by supplying a local username and password or "
+"through their OpenID, an optional and secure method for logging into many "
+"websites with a single username and password. In some configurations, users "
+"may authenticate using a username and password from another Drupal site, or "
+"through some other site-specific mechanism."
+msgstr ""
+"Op de individuele accountpagina's kunnen gebruikers, al dan niet met hun "
+"eigen naam, hun persoonlijke instellingen wijzigen. Geregistreerde "
+"gebruikers moeten inloggen met hun lokale gebruikersnaam en een wachtwoord "
+"of optioneel met hun OpenID. OpenID is een veilige methode om op "
+"verschillende websites met één wachtwoord en gebruikersnaam in te loggen. In "
+"sommige configuraties kunnen geregistreerde gebruikers inloggen met hun "
+"gebruikersnaam en wachtwoord van een andere Drupal-website of met een site-"
+"specifieke methode inloggen."
+
+#: modules/user/user.module:1903
+msgid ""
+"A visitor accessing your website is assigned a unique ID, or session ID, "
+"which is stored in a cookie. The cookie does not contain personal "
+"information, but acts as a key to retrieve information from your site. Users "
+"should have cookies enabled in their web browser when using your site."
+msgstr ""
+"Wanneer een gebruiker toegang tot de website verkrijgt, ontvangt hij een "
+"uniek ID, het zogenaamde sessie-ID, dat in een cookie wordt opgeslagen. Om "
+"veiligheidsredenen bevat het cookie geen persoonlijke informatie maar "
+"fungeert het als de sleutel tot de persoonlijke informatie die op de server "
+"is opgeslagen. Gebruikers moeten het gebruik van cookies in hun browser "
+"hebben ingeschakeld om deze site te kunnen gebruiken."
+
+#: modules/user/user.module:1904
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@user"
+"\">User module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@user\">User-"
+"module</a>."
+
+#: modules/user/user.module:1907
+msgid ""
+"Drupal allows users to register, login, log out, maintain user profiles, "
+"etc. Users of the site may not use their own names to post content until "
+"they have signed up for a user account."
+msgstr ""
+"Met Drupal kunnen gebruikers zichzelf registreren, inloggen, uitloggen, hun "
+"eigen profiel bijwerken, enz. Gebruikers kunnen alleen onder hun eigen naam "
+"informatie inzenden nadat zij een account hebben aangevraagd."
+
+#: modules/user/user.module:1910
+msgid ""
+"This web page allows administrators to register new users. Users' e-mail "
+"addresses and usernames must be unique."
+msgstr ""
+"Op deze pagina kunnen beheerders nieuwe gebruikers van de site registreren. "
+"Het e-mailadres en de gebruikersnaam moeten uniek zijn."
+
+#: modules/user/user.module:1912
+msgid ""
+"Set up username and e-mail address access rules for new <em>and</em> "
+"existing accounts (currently logged in accounts will not be logged out). If "
+"a username or e-mail address for an account matches any deny rule, but not "
+"an allow rule, then the account will not be allowed to be created or to log "
+"in. A host rule is effective for every page view, not just registrations."
+msgstr ""
+"De toegang op basis van gebruikersnaam en e-mailadres vaststellen voor "
+"nieuwe <em>en</em> bestaande accounts (account die op dit moment zijn "
+"ingelogd worden niet uitgelogd). Wanneer een gebruikersnaam of e-mailadres "
+"overeenkomt met een weigeren-regel en niet met een toestaan-regel, dan zal "
+"deze account niet mogen inloggen of aangemaakt worden. Een host-regel is "
+"werkzaam voor iedere pagina, niet alleen de inlog-pagina."
+
+#: modules/user/user.module:1914
+msgid ""
+"Permissions let you control what users can do on your site. Each user role "
+"(defined on the <a href=\"@role\">user roles page</a>) has its own set of "
+"permissions. For example, you could give users classified as \"Administrators"
+"\" permission to \"administer nodes\" but deny this power to ordinary, "
+"\"authenticated\" users. You can use permissions to reveal new features to "
+"privileged users (those with subscriptions, for example). Permissions also "
+"allow trusted users to share the administrative burden of running a busy "
+"site."
+msgstr ""
+"Met toegangsrechten kunt u bepalen wat gebruikers op de site kunnen doen. "
+"Iedere gebruikersrol (gedefinieerd op de pagina <a href=\"@role\">rollen</"
+"a>) heeft een eigen set toegangsrechten. Zo kunt u bijvoorbeeld gebruikers "
+"met de rol \"Beheerder\" rechten geven voor \"nodes beheren\" maar deze "
+"mogelijkheid aan gewone 'geverifieerde' gebruikers onthouden. U kunt de "
+"toegangsrechten gebruiken om bepaalde functionaliteit beschikbaar te maken "
+"voor groepen gebruikers (bijvoorbeeld voor ingelogde gebruikers). Met "
+"toegangsrechten kan ook de last van het beheren van een drukke site over "
+"verschillende betrouwbare gebruikers worden verdeeld."
+
+#: modules/user/user.module:1916
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A "
+"role defines a group of users that have certain privileges as defined in <a "
+"href=\"@permissions\">user permissions</a>. Examples of roles include: "
+"anonymous user, authenticated user, moderator, administrator and so on. In "
+"this area you will define the <em>role names</em> of the various roles. To "
+"delete a role choose \"edit\".</p><p>By default, Drupal comes with two user "
+"roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user "
+"account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all "
+"logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p>Met rollen kunt u de beveiliging en het beheer van Drupal nauwkeurig "
+"bepalen. Een rol omvat een groep gebruikers die rechten hebben zoals "
+"vastgelegd in <a href=\"@permissions\">toegangsrechten </a>. Voorbeelden van "
+"rollen zijn: anonieme gebruiker, geverifieerde gebruiker, moderator, "
+"beheerder etc. U kunt zelf de namen van de verschillende <em>rollen</em> "
+"bepalen. Met <em>bewerken</em> kunt u een rol verwijderen. Drupal heeft "
+"standaard twee rollen:</p>\n"
+"   <ul>\n"
+"   <li>Anonieme gebruiker: deze rol wordt gebruikt voor gebruikers die geen "
+"account hebben of niet geverifieerd zijn.</li>\n"
+"   <li>Geverifieerde gebruiker: deze rol wordt automatisch toegekend aan "
+"alle gebruikers die zijn ingelogd.</li>\n"
+"   </ul>"
+
+#: modules/user/user.module:1922
+msgid ""
+"Enter a simple pattern (\"*\" may be used as a wildcard match) to search for "
+"a username or e-mail address. For example, one may search for \"br\" and "
+"Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
+msgstr ""
+"Geef een eenvoudig patroon op (\"*\" kan gebruikt worden. Deze geldt als "
+"ieder teken.) om een gebruikersnaam of e-mailadres te zoeken. Wordt er "
+"bijvoorbeeld gezocht met \"br\" dan kan de zoekfunctie \"brian\", \"brad\", "
+"en \"brenda@example.com\" als resultaat geven."
+
+#: modules/user/user.module:1959
+msgid "role"
+msgstr "rol"
+
+#: modules/user/user.module:1977
+msgid "permission"
+msgstr "toegangsrechten"
+
+#: modules/user/user.module:2179
+msgid "Password strength:"
+msgstr "Wachtwoordveiligheid:"
+
+#: modules/user/user.module:2180
+msgid "Low"
+msgstr "Laag"
+
+#: modules/user/user.module:2182
+msgid "High"
+msgstr "Hoog"
+
+#: modules/user/user.module:2183
+msgid ""
+"It is recommended to choose a password that contains at least six "
+"characters. It should include numbers, punctuation, and both upper and "
+"lowercase letters."
+msgstr ""
+"Het wordt aanbevolen een wachtwoord te kiezen die tenminste 6 karakters "
+"telt. Bij voorkeur met nummers, leestekens en zowel hoofd- als kleine "
+"letters."
+
+#: modules/user/user.module:2184
+msgid "The password does not include enough variation to be secure. Try:"
+msgstr "Het watchwoord bevat niet genoeg variatie om veilig te zijn. Probeer:"
+
+#: modules/user/user.module:2185
+msgid "Adding both upper and lowercase letters."
+msgstr "Voeg zowel hoofd- als kleine letters toe."
+
+#: modules/user/user.module:2186
+msgid "Adding numbers."
+msgstr "Nummers toevoegen."
+
+#: modules/user/user.module:2187
+msgid "Adding punctuation."
+msgstr "Leestekens toevoegen."
+
+#: modules/user/user.module:2188
+msgid "It is recommended to choose a password different from the username."
+msgstr ""
+"Het wordt aanbevolen om een wachtwoord te kiezen dat verschilt van de "
+"gebruikersnaam."
+
+#: modules/user/user.module:2191
+msgid "Passwords match:"
+msgstr "Wachtwoord controle:"
+
+#: modules/user/user.module:2206
+msgid "After a user account has been created"
+msgstr "Nadat een gebruikersaccount is gecreëerd"
+
+#: modules/user/user.module:2209
+msgid "After a user's profile has been updated"
+msgstr "Nadat een gebruikersprofiel is bijgewerkt"
+
+#: modules/user/user.module:2212
+msgid "After a user has been deleted"
+msgstr "Nadat een gebruiker is verwijderd"
+
+#: modules/user/user.module:2215
+msgid "After a user has logged in"
+msgstr "Nadat een gebruiker is ingelogd"
+
+#: modules/user/user.module:2218
+msgid "After a user has logged out"
+msgstr "Nadat een gebruiker is uitgelogd"
+
+#: modules/user/user.module:2221
+msgid "When a user's profile is being viewed"
+msgstr "Als een gebruikersprofile wordt bekeken"
+
+#: modules/user/user.module:2234
+msgid "Block current user"
+msgstr "Huidige gebruiker blokkeren"
+
+#: modules/user/user.module:2240
+msgid "Ban IP address of current user"
+msgstr "Het IP-adres van de huidige gebruiker uitsluiten"
+
+#: modules/user/user.module:2333
+msgid ""
+"Welcome to Drupal. You are now logged in as user #1, which gives you full "
+"control over your website."
+msgstr ""
+"Welkom bij Drupal. U bent nu ingelogd als gebruiker #1, dat geeft u "
+"volledige controle over uw website."
+
+#: modules/user/user.module:2335
+msgid ""
+"</p><p> Your password is <strong>%pass</strong>. You may change your "
+"password below.</p>"
+msgstr ""
+"</p><p> Het wachtwoord is <strong>%pass</strong>. Deze kan hieronder worden "
+"gewijzigd.</p>"
+
+#: modules/user/user.module:2347
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail has "
+"been sent."
+msgstr ""
+"Nieuwe account aangemaakt voor gebruiker <a href=\"@url\">%name</a>. Er is "
+"geen e-mail verzonden."
+
+#: modules/user/user.module:2354
+msgid "Registration successful. You are now logged in."
+msgstr "Registratie is gelukt. U bent nu ingelogd."
+
+#: modules/user/user.module:2364
+msgid ""
+"Password and further instructions have been e-mailed to the new user <a href="
+"\"@url\">%name</a>."
+msgstr ""
+"Wachtwoord en verdere instructies zijn naar de nieuwe gebruiker <a href="
+"\"@url\">%name</a> gemaild."
+
+#: modules/user/user.module:2367
+msgid ""
+"Your password and further instructions have been sent to your e-mail address."
+msgstr ""
+"Uw wachtwoord en verdere instructies zijn verstuurd naar uw e-mailadres."
+
+#: modules/user/user.module:2375
+msgid ""
+"Thank you for applying for an account. Your account is currently pending "
+"approval by the site administrator.<br />In the meantime, a welcome message "
+"with further instructions has been sent to your e-mail address."
+msgstr ""
+"Hartelijk dank voor uw accountaanvraag. Deze aanvraag wacht nog op "
+"goedkeuring van een websitebeheerder.<br />Een bericht met instructies is "
+"naar uw e-mailadres verstuurd."
+
+#: modules/user/user.module:2412
+msgid "Notify user of new account"
+msgstr "Gebruiker informeren over nieuwe account"
+
+#: modules/user/user.module:1320
+msgid "Login attempt failed for %user."
+msgstr "Login mislukt voor %user."
+
+#: modules/user/user.module:1366
+msgid "Session opened for %name."
+msgstr "Sessie geopend voor %name."
+
+#: modules/user/user.module:1420
+msgid "New external user: %name using module %module."
+msgstr "Nieuwe externe gebruiker: %name gebruikt module %module."
+
+#: modules/user/user.module:1607
+msgid "Deleted user: %name %email."
+msgstr "Gebruiker verwijderd: %name %email."
+
+#: modules/user/user.module:2265
+msgid "Blocked user %name."
+msgstr "Gebruiker %name geblokkeerd."
+
+#: modules/user/user.module:2275
+msgid "Banned IP address %ip"
+msgstr "Uitgesloten IP-adres %ip"
+
+#: modules/user/user.module:2329
+msgid "New user: %name (%email)."
+msgstr "Nieuwe gebruiker: %name (%email)."
+
+#: modules/user/user.module:778,781
+msgid "1 guest"
+msgid_plural "@count guests"
+msgstr[0] "1 gast"
+msgstr[1] "@count gasten"
+
+#: modules/user/user.module:546
+msgid "administer permissions"
+msgstr "toegangsrechten beheren"
+
+#: modules/user/user.module:546
+msgid "administer users"
+msgstr "gebruikers beheren"
+
+#: modules/user/user.module:546
+msgid "access user profiles"
+msgstr "toegang tot gebruikersprofielen"
+
+#: modules/user/user.module:546
+msgid "change own username"
+msgstr "uw gebruikersnaam wijzigen"
+
+#: modules/user/user.module:889
+msgid "User autocomplete"
+msgstr "Automatische aanvulling gebruikersnaam"
+
+#: modules/user/user.module:899
+msgid "User account"
+msgstr "Gebruikersaccount"
+
+#: modules/user/user.module:930
+msgid "Reset password"
+msgstr "Wachtwoord resetten"
+
+#: modules/user/user.module:940
+msgid "User management"
+msgstr "Gebruikersbeheer"
+
+#: modules/user/user.module:941
+msgid "Manage your site's users, groups and access to site features."
+msgstr ""
+"Beheer de gebruikers van de site, de groepen en de toegang tot de "
+"mogelijkheden van de site."
+
+#: modules/user/user.module:950
+msgid "List, add, and edit users."
+msgstr "Gebruikers opsommen, toevoegen en wijzigen."
+
+#: modules/user/user.module:962
+msgid "Add user"
+msgstr "Gebruiker toevoegen"
+
+#: modules/user/user.module:969
+msgid "User settings"
+msgstr "Gebruikersinstellingen"
+
+#: modules/user/user.module:970
+msgid ""
+"Configure default behavior of users, including registration requirements, e-"
+"mails, and user pictures."
+msgstr ""
+"Standaard gedrag voor gebruikers bepalen, waaronder registratievereisten, e-"
+"mail en gebruikersafbeeldingen."
+
+#: modules/user/user.module:979
+msgid "Permissions"
+msgstr "Toegangsrechten"
+
+#: modules/user/user.module:980
+msgid "Determine access to features by selecting permissions for roles."
+msgstr ""
+"Bepaal de toegang tot functionaliteit van de site door toegangsrechten per "
+"rol te selecteren."
+
+#: modules/user/user.module:988
+msgid "List, edit, or add user roles."
+msgstr "Rollen opsommen, toevoegen en wijzigen."
+
+#: modules/user/user.module:995
+msgid "Edit role"
+msgstr "Rol bewerken"
+
+#: modules/user/user.module:1002
+msgid "Access rules"
+msgstr "Toegangsregels"
+
+#: modules/user/user.module:1003
+msgid ""
+"List and create rules to disallow usernames, e-mail addresses, and IP "
+"addresses."
+msgstr ""
+"Toegangsregels opsommen en aanmaken om gebruikers te weren op basis van "
+"gebruikersnaam, e-mailadres en IP-adres."
+
+#: modules/user/user.module:1021
+msgid "Check rules"
+msgstr "Regels controleren"
+
+#: modules/user/user.module:1028
+msgid "Edit rule"
+msgstr "Regel bewerken"
+
+#: modules/user/user.module:1035
+msgid "Delete rule"
+msgstr "Regel verwijderen"
+
+#: modules/user/user.module:1044
+msgid "Log out"
+msgstr "Uitloggen"
+
+#: modules/user/user.module:1091
+msgid "Account"
+msgstr "Account"
+
+#: modules/user/user.module:0
+msgid "anonymous user"
+msgstr "anonieme gebruiker"
+
+#: modules/user/user.module:0
+msgid "authenticated user"
+msgstr "geverifieerde gebruiker"
+
+#: modules/user/user.module:1526
+msgid ""
+"The signature input format has been set to a format you don't have access "
+"to. It will be changed to a format you have access to when you save this "
+"page."
+msgstr ""
+"U heeft niet de juiste toegangsrechten voor het huidige invoerformaat van uw "
+"handtekening. Het invoerformaat wordt aangepast naar een formaat waar u wel "
+"rechten voor heeft zodra u deze pagina opslaat."

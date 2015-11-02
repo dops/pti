@@ -1,0 +1,375 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  statistics.admin.inc,v 1.6 2008/01/08 10:35:42 goba
+#  statistics.module,v 1.272.2.1 2009/04/27 12:25:24 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: 2009-05-04 23:32+0200\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/statistics/statistics.admin.inc:50,79,115
+msgid "Hits"
+msgstr "Hits"
+
+#: modules/statistics/statistics.admin.inc:52
+msgid "Average page generation time"
+msgstr "Gemiddelde tijd om een pagina te maken"
+
+#: modules/statistics/statistics.admin.inc:53,81
+msgid "Total page generation time"
+msgstr "Totale tijd om pagina te maken"
+
+#: modules/statistics/statistics.admin.inc:60
+msgid "%time ms"
+msgstr "%time ms"
+
+#: modules/statistics/statistics.admin.inc:67
+msgid "Top pages in the past %interval"
+msgstr "Toppaginas in de laatste %interval"
+
+#: modules/statistics/statistics.admin.inc:92
+msgid "unban"
+msgstr "deblokkeren"
+
+#: modules/statistics/statistics.admin.inc:92
+msgid "ban"
+msgstr "blokkeren"
+
+#: modules/statistics/statistics.admin.inc:100
+msgid "Top visitors in the past %interval"
+msgstr "Meest actieve gebruikers in de laatste %interval"
+
+#: modules/statistics/statistics.admin.inc:112
+msgid "Top referrers in the past %interval"
+msgstr "Topverwijzers in de laatste %interval"
+
+#: modules/statistics/statistics.admin.inc:116
+msgid "Url"
+msgstr "URL"
+
+#: modules/statistics/statistics.admin.inc:117
+msgid "Last visit"
+msgstr "Laatste bezoek"
+
+#: modules/statistics/statistics.admin.inc:191
+msgid "Enable access log"
+msgstr "Toegangslog inschakelen"
+
+#: modules/statistics/statistics.admin.inc:194
+msgid "Log each page access. Required for referrer statistics."
+msgstr "Elke paginatoegang loggen. Dit is nodig voor verwijzerstatistieken."
+
+#: modules/statistics/statistics.admin.inc:198
+msgid "Discard access logs older than"
+msgstr "Verwijder toegangslogs ouder dan"
+
+#: modules/statistics/statistics.admin.inc:201
+msgid ""
+"Older access log entries (including referrer statistics) will be "
+"automatically discarded. (Requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>.)"
+msgstr ""
+"Oudere berichten in de toegangslog (inclusief verwijzerstatitieken) zullen "
+"automatisch worden verwijderd. Hiervoor is <a href=\"@cron\">cron</a> nodig."
+
+#: modules/statistics/statistics.admin.inc:206
+msgid "Content viewing counter settings"
+msgstr ""
+"Instellingen voor het tellen van het aantal keer dat inhoud bekeken wordt"
+
+#: modules/statistics/statistics.admin.inc:209
+msgid "Count content views"
+msgstr "Tel aantal maal dat de inhoud wordt bekeken"
+
+#: modules/statistics/statistics.admin.inc:212
+msgid "Increment a counter each time content is viewed."
+msgstr "Verhoog een teller elke keer dat de inhoud bekeken wordt."
+
+#: modules/statistics/statistics.module:15
+msgid ""
+"The statistics module keeps track of numerous site usage statistics, "
+"including the number of times, and from where, each of your posts is viewed. "
+"These statistics are useful in determining how users are interacting with "
+"each other and with your site, and are required for the display of some "
+"Drupal blocks."
+msgstr ""
+"De Statistics-module houdt statistieken bij van het websitegebruik waaronder "
+"het aantal keer en waarvandaan, elk van uw berichten bekeken wordt. Deze "
+"statistieken geven inzicht in hoe gebruikers met elkaar en met uw site "
+"omgaan en zijn vereist voor de weergave van een aantal Drupal-blokken."
+
+#: modules/statistics/statistics.module:16
+msgid "The statistics module provides:"
+msgstr "De Statistics-module biedt:"
+
+#: modules/statistics/statistics.module:17
+msgid ""
+"a counter for each post on your site that increments each time the post is "
+"viewed. (Enable <em>Count content views</em> on the <a href=\"@accesslog"
+"\">access log settings page</a>, and determine if the post access counters "
+"should be visible to any user roles on the <a href=\"@permissions"
+"\">permissions page</a>.)"
+msgstr ""
+"Een teller die wordt opgehoogd telkens wanneer een een bezoeker de pagina "
+"bekijkt. Schakel voor deze teller de optie <em>Tel aantal maal dat de inhoud "
+"wordt bekeken</em> in op pagina <a href=\"@accesslog\">Toegangslog-"
+"instellingen</a> en stel de toegangsrechten om deze teller weer te geven in "
+"op de pagina <a href=\"@permissions\">Toegangsrechten</a>."
+
+#: modules/statistics/statistics.module:18
+msgid ""
+"a <a href=\"@recent-hits\">recent hits</a> log that displays information "
+"about the latest activity on your site, including the URL and title of the "
+"page accessed, the user name (if available) and IP address of the accessing "
+"party."
+msgstr ""
+"En log van <a href=\"@recent-hits\">recente hits</a> die informatie "
+"weergeeft over recente activiteiten op de website. Beschikbare gegevens zijn "
+"o.a.: de URL van de bezochte pagina, de gebruikersnaam (indien beschikbaar) "
+"en het IP-adres van de bezoeker."
+
+#: modules/statistics/statistics.module:19
+msgid ""
+"a <a href=\"@top-referrers\">top referrers</a> log that displays the "
+"referring parties for your site visits (where your visitors came from)."
+msgstr ""
+"Een log van <a href=\"@top-referrers\">topverwijzers</a> die de verwijzende "
+"pagina's van de bezoekers weergeeft (de pagina's waar de bezoeker vandaan "
+"kwam)."
+
+#: modules/statistics/statistics.module:20
+msgid ""
+"a <a href=\"@top-pages\">top pages</a> log that displays site content in "
+"descending order by number of views."
+msgstr ""
+"Een overzicht van <a href=\"@top-pages\">toppagina's</a>, aflopend "
+"gesorteerd op het aantal malen dat de inhoud bekeken is."
+
+#: modules/statistics/statistics.module:21
+msgid ""
+"a <a href=\"@top-visitors\">top visitors</a> log that displays the most "
+"active users on your site."
+msgstr ""
+"Een overzicht van de <a href=\"@top-visitors\">meest actieve bezoekers</a> "
+"van de website."
+
+#: modules/statistics/statistics.module:22
+msgid ""
+"a <em>Popular content</em> block that displays the day's most viewed "
+"content, the all-time most viewed content, and the last content viewed. "
+"(Enable the <em>Popular content</em> block on the <a href=\"@blocks\">blocks "
+"administration page</a>.)"
+msgstr ""
+"Het blok <em>Populaire inhoud</em> geeft de meest bekeken inhoud van de dag, "
+"de meest populaire inhoud aller tijden en de laatst bekeken inhoud. Het blok "
+"<em>populiare inhoud</em> kan worden ingeschakeld op de pagina <a href="
+"\"@blocks\">blokbeheer</a>."
+
+#: modules/statistics/statistics.module:23
+msgid "Configuring the statistics module"
+msgstr "Statistics-module configureren"
+
+#: modules/statistics/statistics.module:24
+msgid ""
+"When the <em>Enable access log</em> setting on the <a href=\"@accesslog"
+"\">access log settings page</a> is enabled, data about every page accessed "
+"(including the remote host's IP address, referrer, node accessed, and user "
+"name) is stored in the access log. The access log must be enabled for the <a "
+"href=\"@recent-hits\">recent hits</a>, <a href=\"@top-referrers\">top "
+"referrers</a>, <a href=\"@top-pages\">top pages</a>, and <a href=\"@top-"
+"visitors\">top visitors</a> log pages to function. Enabling the access log "
+"adds one additional database call per page displayed by Drupal."
+msgstr ""
+"Als de optie <em>Toegangslog inschakelen</em> op de pagina <a href="
+"\"@accesslog\">Toegangslog-instellingen</a> is ingeschakeld, worden gegevens "
+"van iedere paginabezoek (inclusief het host IP-adres, verwijzer, de pagina "
+"en de gebruikersnaam) in de toegangslog bijgehouden. De toegangslog is "
+"noodzakelijk voor overzichten van <a href=\"@recent-hits\">recente hits</a>, "
+"<a href=\"@top-referrers\">topverwijzers</a>, <a href=\"@top-pages"
+"\">toppagina's</a> en <a href=\"@top-visitors\">topbezoekers</a>. "
+"Inschakelen van de toegangslog betekent dat voor iedere opgevraagde pagina "
+"de database eenmaal extra moet worden aangeroepen."
+
+#: modules/statistics/statistics.module:25
+msgid ""
+"The <em>Discard access logs older than</em> setting on the <a href="
+"\"@accesslog\">access log settings page</a> specifies the length of time "
+"entries are retained in the access log before they are deleted. Automatic "
+"access log entry deletion requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>."
+msgstr ""
+"De instelling <em>Verwijder toegangslogs ouder dan</em> op de pagina <a href="
+"\"@accesslog\">toegangslog-beheer</a> bepaalt de tijd dat toegangslog "
+"bewaard blijven voordat deze uit de database worden verwijderd. Voor het "
+"automatisch verwijderen van toegangslogs is <a href=\"@cron\">cron</a> nodig."
+
+#: modules/statistics/statistics.module:26
+msgid ""
+"The <em>Count content views</em> setting on the <a href=\"@accesslog"
+"\">access log settings page</a> enables a counter for each post on your site "
+"that increments each time the post is viewed. This option must be enabled to "
+"provide post-specific access counts. Enabling this option adds one "
+"additional database call per each post displayed by Drupal."
+msgstr ""
+"De optie <em>Tel aantal maal dat de inhoud wordt bekeken</em> op de pagina "
+"<a href=\"@accesslog\">toegangslog-instellingen</a> schakelt een teller in "
+"die wordt opgehoogd telkens wanneer een een bezoeker de pagina bekijkt. Deze "
+"optie dient ingeschakeld te worden voor inhoudspecifieke toegangstelling. "
+"Inschakelen van de optie betekent dat voor iedere opgevraagde pagina de "
+"database eenmaal extra moet worden aangeroepen."
+
+#: modules/statistics/statistics.module:27
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@statistics"
+"\">Statistics module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@statistics"
+"\">Statistics-module</a>."
+
+#: modules/statistics/statistics.module:30
+msgid ""
+"Settings for the statistical information that Drupal will keep about the "
+"site. See <a href=\"@statistics\">site statistics</a> for the actual "
+"information."
+msgstr ""
+"Instellingen voor statistische informatie over de website die door Drupal "
+"wordt bewaard. Zie <a href=\"@statistics\">website statistieken</a> voor de "
+"bewaarde statistische informatie."
+
+#: modules/statistics/statistics.module:32
+msgid "This page displays the site's most recent hits."
+msgstr ""
+"Deze pagina toont de acties van de bezoekers, die recent de website "
+"bezochten."
+
+#: modules/statistics/statistics.module:34
+msgid ""
+"This page displays all external referrers, or external references to your "
+"website."
+msgstr ""
+"Deze pagina toont alle externe verwijzers en externe verwijzingen naar uw "
+"website."
+
+#: modules/statistics/statistics.module:36
+msgid ""
+"When you ban a visitor, you prevent the visitor's IP address from accessing "
+"your site. Unlike blocking a user, banning a visitor works even for "
+"anonymous users. This is most commonly used to block resource-intensive bots "
+"or web crawlers."
+msgstr ""
+"Wanneer u een bezoeker blokkeert, kunt u voorkomen dat het IP-adres van deze "
+"bezoeker toegang heeft tot de site. In tegenstelling tot het blokkeren van "
+"een gebruiker, werkt het blokkeren van een IP-adres ook voor anonieme "
+"bezoekers. De meest voorkomende toepassing van deze wijze van blokkeren, is "
+"het blokkeren van bijvoorbeeld web-crawlers of zoekmachines die teveel "
+"servercapaciteit verbruiken."
+
+#: modules/statistics/statistics.module:246,288
+msgid "Popular content"
+msgstr "Populaire inhoud"
+
+#: modules/statistics/statistics.module:256
+msgid "Number of day's top views to display"
+msgstr "Aantal weer te geven topbezoeken van de dag"
+
+#: modules/statistics/statistics.module:256
+msgid "How many content items to display in \"day\" list."
+msgstr "Aantal weer te geven inhoudselementen in \"day\" lijst."
+
+#: modules/statistics/statistics.module:257
+msgid "Number of all time views to display"
+msgstr "Weer te geven totaal aantal bezoeken"
+
+#: modules/statistics/statistics.module:257
+msgid "How many content items to display in \"all time\" list."
+msgstr "Weer te geven aantal inhoudselementen in \"all time\" lijst."
+
+#: modules/statistics/statistics.module:258
+msgid "Number of most recent views to display"
+msgstr "Weer te geven aantal meest recente bezoeken"
+
+#: modules/statistics/statistics.module:258
+msgid "How many content items to display in \"recently viewed\" list."
+msgstr "Weer te geven aantal inhoudselementen in \"recently viewed\" lijst."
+
+#: modules/statistics/statistics.module:272
+msgid "Today's:"
+msgstr "Van vandaag:"
+
+#: modules/statistics/statistics.module:277
+msgid "All time:"
+msgstr "Van altijd:"
+
+#: modules/statistics/statistics.module:282
+msgid "Last viewed:"
+msgstr "Laatst bekeken:"
+
+#: modules/statistics/statistics.module:85
+msgid "1 read"
+msgid_plural "@count reads"
+msgstr[0] "1 keer gelezen"
+msgstr[1] "@count keer gelezen"
+
+#: modules/statistics/statistics.module:72
+msgid "access statistics"
+msgstr "toegangsstatistieken"
+
+#: modules/statistics/statistics.module:72
+msgid "view post access counter"
+msgstr "teller van toegang tot de inzendingen bekijken"
+
+#: modules/statistics/statistics.module:97
+msgid "Recent hits"
+msgstr "Recente hits"
+
+#: modules/statistics/statistics.module:98
+msgid "View pages that have recently been visited."
+msgstr "Pagina's die recent zijn bekeken."
+
+#: modules/statistics/statistics.module:104
+msgid "Top pages"
+msgstr "Toppagina's"
+
+#: modules/statistics/statistics.module:105
+msgid "View pages that have been hit frequently."
+msgstr "Pagina's die frequent worden bekeken."
+
+#: modules/statistics/statistics.module:112
+msgid "Top visitors"
+msgstr "Meest actieve gebruikers"
+
+#: modules/statistics/statistics.module:113
+msgid "View visitors that hit many pages."
+msgstr "Bezoekers die veel pagina's bekijken."
+
+#: modules/statistics/statistics.module:120
+msgid "Top referrers"
+msgstr "Topverwijzers"
+
+#: modules/statistics/statistics.module:121
+msgid "View top referrers."
+msgstr "Topverwijzers bekijken."
+
+#: modules/statistics/statistics.module:128
+msgid "View access log."
+msgstr "Toegangslog bekijken."
+
+#: modules/statistics/statistics.module:137
+msgid "Control details about what and how your site logs."
+msgstr "Beheer wat en hoe de site logt."
+
+#: modules/statistics/statistics.module:146
+msgid "Track page visits"
+msgstr "Pagina bezoeken opvolgen"
+
+#: modules/statistics/statistics.module:0
+msgid "statistics"
+msgstr "statistieken"

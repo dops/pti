@@ -1,0 +1,230 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
+#  poll.module,v 1.263.2.3 2008/12/18 15:46:20 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/poll/poll.pages.inc:20
+msgid "open"
+msgstr "open"
+
+#: modules/poll/poll.pages.inc:20
+msgid "closed"
+msgstr "gesloten"
+
+#: modules/poll/poll.pages.inc:32
+msgid ""
+"This table lists all the recorded votes for this poll. If anonymous users "
+"are allowed to vote, they will be identified by the IP address of the "
+"computer they used when they voted."
+msgstr ""
+"In deze tabel vindt u alle geregistreerde stemmen voor deze enquête. Wanneer "
+"anonieme gebruikers mogen stemmen worden zij met het IP-adres van hun "
+"computer geïdentificeerd."
+
+#: modules/poll/poll.module:16
+msgid ""
+"The poll module can be used to create simple polls for site users. A poll is "
+"a simple, multiple choice questionnaire which displays the cumulative "
+"results of the answers to the poll. Having polls on the site is a good way "
+"to receive feedback from community members."
+msgstr ""
+"De Poll-module wordt gebruikt om eenvoudige enquêtes voor gebruikers aan te "
+"maken. Een enquête is een eenvoudige meerkeuzevraag die de cummulatieve "
+"resultaten van de antwoorden weergeeft. Enquêtes zijn een goede manier om "
+"snel feedback van uw gebruikers te krijgen."
+
+#: modules/poll/poll.module:17
+msgid ""
+"When creating a poll, enter the question being posed, as well as the "
+"potential choices (and beginning vote counts for each choice). The status "
+"and duration (length of time the poll remains active for new votes) can also "
+"be specified. Use the <a href=\"@poll\">poll</a> menu item to view all "
+"current polls. To vote in or view the results of a specific poll, click on "
+"the poll itself."
+msgstr ""
+"Om een enquête aan te maken voert u de enquêtevraag in en de mogelijke "
+"antwoorden. Verder kunt u het aantal aanvangsstemmen per antwoord opgeven, "
+"de status van de enquête en de tijdsduur dat de enquête voor nieuwe stemmen "
+"open staat. Gebruik het menu-onderdeel <a href=\"@poll\">enquête</a> om alle "
+"enquêtes te bekijken, om op een bepaalde enquête te stemmen klikt u op de "
+"betreffende enquête."
+
+#: modules/poll/poll.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@poll"
+"\">Poll module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@poll\">Poll-"
+"module</a>."
+
+#: modules/poll/poll.module:133
+msgid "Most recent poll"
+msgstr "Meeste recente enquête"
+
+#: modules/poll/poll.module:174
+msgid ""
+"A <em>poll</em> is a question with a set of possible responses. A <em>poll</"
+"em>, once created, automatically provides a simple running count of the "
+"number of votes received for each response."
+msgstr ""
+"Een <em>enquête</em> is een vraag met een set mogelijke antwoorden. Eenmaal "
+"aangemaakt, biedt een <em>enquête</em> een eenvoudige doorlopende teller van "
+"het aantal stemmen op iedere optie."
+
+#: modules/poll/poll.module:175
+msgid "Question"
+msgstr "Vraag"
+
+#: modules/poll/poll.module:237
+msgid "More choices"
+msgstr "Meer keuzes"
+
+#: modules/poll/poll.module:238
+msgid ""
+"If the amount of boxes above isn't enough, click here to add more choices."
+msgstr "Klik hier indien het aantal kaders hierboven niet voldoende is."
+
+#: modules/poll/poll.module:251
+msgid "Closed"
+msgstr "Gesloten"
+
+#: modules/poll/poll.module:257
+msgid "Poll settings"
+msgstr "Enquête instellingen"
+
+#: modules/poll/poll.module:263
+msgid "Poll status"
+msgstr "Status enquête"
+
+#: modules/poll/poll.module:266
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr ""
+"Als een enquête gesloten is, kunnen bezoekers er niet langer op stemmen."
+
+#: modules/poll/poll.module:271
+msgid "Poll duration"
+msgstr "Duur van de enquête"
+
+#: modules/poll/poll.module:274
+msgid "After this period, the poll will be closed automatically."
+msgstr "Na deze periode zal de enquête automatisch afgesloten worden."
+
+#: modules/poll/poll.module:307
+msgid "Choice @n"
+msgstr "Keuze @n"
+
+#: modules/poll/poll.module:315
+msgid "Votes for choice @n"
+msgstr "Aantal stemmen voor keuze @n"
+
+#: modules/poll/poll.module:380
+msgid "Negative values are not allowed."
+msgstr "Negatieve waarden zijn niet toegestaan."
+
+#: modules/poll/poll.module:385
+msgid "You must fill in at least two choices."
+msgstr "U moet tenminste twee keuzes opgeven."
+
+#: modules/poll/poll.module:506
+msgid "Older polls"
+msgstr "Oudere enquêtes"
+
+#: modules/poll/poll.module:506
+msgid "View the list of polls on this site."
+msgstr "De lijst met enquêtes van deze site bekijken."
+
+#: modules/poll/poll.module:508,98
+msgid "Results"
+msgstr "Resultaten"
+
+#: modules/poll/poll.module:508
+msgid "View the current poll results."
+msgstr "De huidige enquête-resultaten weergeven."
+
+#: modules/poll/poll.module:588
+msgid ""
+"Your vote could not be recorded because you did not select any of the "
+"choices."
+msgstr ""
+"Uw stem kan niet geregistreerd worden omdat u geen geldige keuze heeft "
+"gemaakt."
+
+#: modules/poll/poll.module:611
+msgid "Your vote was recorded."
+msgstr "Uw stem is geregistreerd."
+
+#: modules/poll/poll.module:667
+msgid "Add another choice"
+msgstr "Een keuze toevoegen"
+
+#: modules/poll/poll.module:671
+msgid "Choice"
+msgstr "Keuze"
+
+#: modules/poll/poll.module:672
+msgid "Vote count"
+msgstr "Aantal stemmen"
+
+#: modules/poll/poll.module:754
+msgid "Cancel your vote"
+msgstr "Uw stem terugtrekken"
+
+#: modules/poll/poll.module:57
+msgid "create poll content"
+msgstr "enquête-inhoud aanmaken"
+
+#: modules/poll/poll.module:57
+msgid "delete own poll content"
+msgstr "eigen enquête-inhoud verwijderen"
+
+#: modules/poll/poll.module:57
+msgid "delete any poll content"
+msgstr "iedere enquête-inhoud verwijderen"
+
+#: modules/poll/poll.module:57
+msgid "edit any poll content"
+msgstr "inhoud van elke enquête bijwerken"
+
+#: modules/poll/poll.module:57
+msgid "edit own poll content"
+msgstr "inhoud van eigen enquête bijwerken"
+
+#: modules/poll/poll.module:57
+msgid "vote on polls"
+msgstr "op enquêtes stemmen"
+
+#: modules/poll/poll.module:57
+msgid "cancel own vote"
+msgstr "uw stem terugtrekken"
+
+#: modules/poll/poll.module:57
+msgid "inspect all votes"
+msgstr "alle stemmen bekijken"
+
+#: modules/poll/poll.module:79
+msgid "Polls"
+msgstr "Enquêtes"
+
+#: modules/poll/poll.module:87
+msgid "Votes"
+msgstr "Stemmen"
+
+#: modules/poll/poll.module:109
+msgid "Javascript Choice Form"
+msgstr "Javascript Keuzeformulier"
+
+#: modules/poll/poll.module:0
+msgid "poll"
+msgstr "Poll"

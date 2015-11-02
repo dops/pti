@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/**
+ * "Yet Another Multicolumn Layout" for Drupal
+ *
+ * (en) RTL Modification of project style for the YAML for Drupal layout
+ * (de) RTL Modifikation des project Style für das YAML für Drupal Layout
+ *
+ * @copyright       Copyright 2006-2011, Alexander Hass
+ * @license         http://www.yaml-fuer-drupal.de/en/terms-of-use
+ * @link            http://www.yaml-for-drupal.com
+ * @package         yaml-for-drupal
+ * @version         6.x-3.2.1.14
+ * @lastmodified    2011/07/10
+ */
+
+@media all
+{
+
+  ul.project-terms li {
+    padding-left: 0; /* Reset LTR */
+    padding-right: 1.5em;
+  }
+
+}

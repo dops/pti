@@ -1,0 +1,147 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  color.module,v 1.39.2.2 2009/05/16 16:09:21 dries
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/color/color.module:10
+msgid ""
+"The color module allows a site administrator to quickly and easily change "
+"the color scheme of certain themes. Although not all themes support color "
+"module, both Garland (the default theme) and Minnelli were designed to take "
+"advantage of its features. By using color module with a compatible theme, "
+"you can easily change the color of links, backgrounds, text, and other theme "
+"elements. Color module requires that your <a href=\"@url\">file download "
+"method</a> be set to public."
+msgstr ""
+"Met de Color-module kan de beheerder snel en eenvoudig het kleurenschema van "
+"bepaalde templates aanpassen. Hoewel niet alle templates de Color-module "
+"ondersteunen, zijn Garland en Minelli ontworpen om van deze mogelijkheid "
+"gebruik te maken. Met de Color-module en een bijpassend template kunt u "
+"gemakkelijk de kleur van een link, achtergrond, tekst enz. aanpassen "
+"naargelang de gebruikte template. De Color-module vereist dat de <a href="
+"\"@url\">download methode</a> op publiek wordt ingesteld."
+
+#: modules/color/color.module:11
+msgid ""
+"It is important to remember that color module saves a modified copy of the "
+"theme's specified stylesheets in the files directory. This means that if you "
+"make any manual changes to your theme's stylesheet, you must save your color "
+"settings again, even if they haven't changed. This causes the color module "
+"generated version of the stylesheets in the files directory to be recreated "
+"using the new version of the original file."
+msgstr ""
+"Het is belangrijk om te onthouden dat de Color-module een aangepaste kopie "
+"van het stijlblad van de template in de map files opslaat. Dit betekent dat "
+"u de kleur-instellingen opnieuw moet opslaan nadat u het stijlblad heeft "
+"aangepast (ook als de kleur niet veranderd is). Hierdoor wordt het stijlblad "
+"in de map files overschreven met de nieuwe, aangepaste versie."
+
+#: modules/color/color.module:12
+msgid ""
+"To change the color settings for a compatible theme, select the \"configure"
+"\" link for the theme on the <a href=\"@themes\">themes administration page</"
+"a>."
+msgstr ""
+"Om de kleur-instellingen van een compatibel template te wijzigen kiest u van "
+"de betreffende template de link 'instellen' op de pagina <a href=\"@themes"
+"\">Templates beheren</a>."
+
+#: modules/color/color.module:13
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@color"
+"\">Color module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@color"
+"\">Color-module</a>."
+
+#: modules/color/color.module:38
+msgid ""
+"The color picker only works if the <a href=\"@url\">download method</a> is "
+"set to public."
+msgstr ""
+"De kleurselectie werkt alleen als de <a href=\"@url\">download methode</a> "
+"op 'publiek' is ingesteld."
+
+#: modules/color/color.module:43
+msgid "Color scheme"
+msgstr "Kleurenschema"
+
+#: modules/color/color.module:171
+msgid "Custom"
+msgstr "Speciaal"
+
+#: modules/color/color.module:174
+msgid "Color set"
+msgstr "Kleurenset"
+
+#: modules/color/color.module:182
+msgid "Base color"
+msgstr "Basiskleur"
+
+#: modules/color/color.module:183
+msgid "Link color"
+msgstr "Linkkleur"
+
+#: modules/color/color.module:184
+msgid "Header top"
+msgstr "Bovenzijde kop"
+
+#: modules/color/color.module:185
+msgid "Header bottom"
+msgstr "Onderzijde kop"
+
+#: modules/color/color.module:186
+msgid "Text color"
+msgstr "Tekstkleur"
+
+#: modules/color/color.module:271
+msgid ""
+"There is not enough memory available to PHP to change this theme's color "
+"scheme. You need at least %size more. Check the <a href=\"@url\">PHP "
+"documentation</a> for more information."
+msgstr ""
+"Er is onvoldoende geheugen voor PHP beschikbaar om het kleurenschema van "
+"deze template te wijzigen. Er is nog minimaal %size extra geheugen nodig. "
+"Lees de <a href=\"@url\">PHP-documentatie</a> voor meer informatie."
+
+#: modules/color/color.module:0
+msgid "color"
+msgstr "kleur"
+
+#: modules/color/color.install:21
+msgid ""
+"The GD library for PHP is enabled, but was compiled without PNG support. "
+"Please check the <a href=\"@url\">PHP image documentation</a> for "
+"information on how to correct this."
+msgstr ""
+"De PHP GD-bibliotheek is ingeschakeld maar is zonder PNG-ondersteuning "
+"gecompileerd. Lees de <a href=\"@url\">PHP beeldverwerkingsdocumentatie</a> "
+"voor informatie om dit op te lossen."
+
+#: modules/color/color.install:26
+msgid "Not installed"
+msgstr "Niet geïnstalleerd"
+
+#: modules/color/color.install:28
+msgid ""
+"The GD library for PHP is missing or outdated. Please check the <a href="
+"\"@url\">PHP image documentation</a> for information on how to correct this."
+msgstr ""
+"De PHP GD-bibliotheek ontbreekt of is verouderd. Lees de <a href=\"@url"
+"\">PHP beeldverwerkingsdocumentatie</a> voor informatie om dit op te lossen."
+
+#: modules/color/color.install:31
+msgid "GD library"
+msgstr "GD-bibliotheek"

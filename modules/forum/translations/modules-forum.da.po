@@ -1,0 +1,452 @@
+# Dansk translation of drupal (6.12)
+# Copyright (c) 2009 by the Dansk translation team
+# Generated from files:
+#  forum-list.tpl.php,v 1.4 2007/08/30 18:58:12 goba
+#  forum-submitted.tpl.php,v 1.3 2007/08/07 08:39:35 goba
+#  forum-topic-navigation.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  forum.admin.inc,v 1.8 2008/01/30 10:14:42 goba
+#  forum.module,v 1.448.2.6 2009/03/30 11:09:51 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.12)\n"
+"POT-Creation-Date: 2009-05-20 03:59-0700\n"
+"PO-Revision-Date: 2009-05-12 02:20-0700\n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/forum/forum-list.tpl.php:38
+msgid "Topics"
+msgstr "Emner"
+
+#: modules/forum/forum-list.tpl.php:39
+msgid "Posts"
+msgstr "Indlæg"
+
+#: modules/forum/forum-list.tpl.php:40
+msgid "Last post"
+msgstr "Seneste indlæg"
+
+#: modules/forum/forum-submitted.tpl.php:21
+msgid "@time ago<br />by !author"
+msgstr "@time siden<br />af !author"
+
+#: modules/forum/forum-topic-navigation.tpl.php:29
+msgid "Go to previous forum topic"
+msgstr "Gå til forrige forumemne"
+
+#: modules/forum/forum-topic-navigation.tpl.php:32
+msgid "Go to next forum topic"
+msgstr "Gå til næste forumemne"
+
+#: modules/forum/forum.admin.inc:38
+msgid "Forum name"
+msgstr "Forumnavn"
+
+#: modules/forum/forum.admin.inc:41
+msgid "Short but meaningful name for this collection of threaded discussions."
+msgstr "Kort men sigende navn for denne samling af diskussioner."
+
+#: modules/forum/forum.admin.inc:47
+msgid "Description and guidelines for discussions within this forum."
+msgstr "Beskrivelse og retningslinjer for forummet."
+
+#: modules/forum/forum.admin.inc:54
+msgid ""
+"Forums are displayed in ascending order by weight (forums with equal weights "
+"are displayed alphabetically)."
+msgstr ""
+"Forummer vises i stigende rækkefølge sorteret efter vægt (forummer med samme "
+"vægt vises alfabetisk)."
+
+#: modules/forum/forum.admin.inc:75
+msgid "forum container"
+msgstr "forumbeholder"
+
+#: modules/forum/forum.admin.inc:90
+msgid "Created new @type %term."
+msgstr "Nyt @type %term oprettet."
+
+#: modules/forum/forum.admin.inc:93
+msgid "The @type %term has been updated."
+msgstr "@type %term opdateret."
+
+#: modules/forum/forum.admin.inc:116
+msgid "Container name"
+msgstr "Beholdernavn"
+
+#: modules/forum/forum.admin.inc:120
+msgid "Short but meaningful name for this collection of related forums."
+msgstr "Kort men sigende navn for denne samling af forummer."
+
+#: modules/forum/forum.admin.inc:128
+msgid "Description and guidelines for forums within this container."
+msgstr "Beskrivelse og retningslinjer for forummer i denne beholder."
+
+#: modules/forum/forum.admin.inc:136
+msgid ""
+"Containers are displayed in ascending order by weight (containers with equal "
+"weights are displayed alphabetically)."
+msgstr ""
+"Beholdere vises i stigende rækkefølge sorteret efter vægt (beholdere med "
+"samme vægt vises alfabetisk)."
+
+#: modules/forum/forum.admin.inc:168
+msgid "Are you sure you want to delete the forum %name?"
+msgstr "Ønsker du at slette forummet %name?"
+
+#: modules/forum/forum.admin.inc:168
+msgid ""
+"Deleting a forum or container will also delete its sub-forums, if any. To "
+"delete posts in this forum, visit <a href=\"@content\">content "
+"administration</a> first. This action cannot be undone."
+msgstr ""
+"Sletter du et forum eller en beholder slettes alle underforummer. Gå til <a "
+"href=\"@content\">Indhold</a> for at slette indlæg i forummet. Handlingen "
+"kan ikke fortrydes."
+
+#: modules/forum/forum.admin.inc:176
+msgid ""
+"The forum %term and all sub-forums and associated posts have been deleted."
+msgstr "Forummet %term samt alle underforummer og indlæg slettet."
+
+#: modules/forum/forum.admin.inc:192
+msgid "Hot topic threshold"
+msgstr "Popularitetsgrænse"
+
+#: modules/forum/forum.admin.inc:195
+msgid "The number of posts a topic must have to be considered \"hot\"."
+msgstr ""
+"Hvor mange kommentarer der skal være til et indlæg, før det bliver betragtet "
+"som populært."
+
+#: modules/forum/forum.admin.inc:199
+msgid "Topics per page"
+msgstr "Emner pr. side"
+
+#: modules/forum/forum.admin.inc:202
+msgid "Default number of forum topics displayed per page."
+msgstr "Antal indlæg der vises pr. side."
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - most active first"
+msgstr "Indlæg - mest aktive først"
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - least active first"
+msgstr "Indlæg - mindst aktive først"
+
+#: modules/forum/forum.admin.inc:206
+msgid "Default order"
+msgstr "Sortering"
+
+#: modules/forum/forum.admin.inc:209
+msgid "Default display order for topics."
+msgstr "Standardsortering af indlæg."
+
+#: modules/forum/forum.admin.inc:230
+msgid "edit container"
+msgstr "redigér beholder"
+
+#: modules/forum/forum.admin.inc:233
+msgid "edit forum"
+msgstr "redigér forum"
+
+#: modules/forum/forum.admin.inc:245
+msgid ""
+"There are no existing containers or forums. Containers and forums may be "
+"added using the <a href=\"@container\">add container</a> and <a href=\"@forum"
+"\">add forum</a> pages."
+msgstr ""
+"Der er ikke oprettet beholdere eller forummer. Du kan bruge siderne <a href="
+"\"@container\">tilføj beholder</a> eller <a href=\"@forum\">tilføj forum</a> "
+"til at oprette dem."
+
+#: modules/forum/forum.admin.inc:286
+msgid ""
+"Containers are usually placed at the top (root) level, but may also be "
+"placed inside another container or forum."
+msgstr ""
+"Beholdere vises normalt i toppen af dit forum, men du kan også placere en "
+"beholder inden i en anden beholder eller i et andet forum."
+
+#: modules/forum/forum.admin.inc:289
+msgid ""
+"Forums may be placed at the top (root) level, or inside another container or "
+"forum."
+msgstr ""
+"Forummer kan placeres på det øverste niveau (roden) eller inden i en anden "
+"beholder eller i et andet forum."
+
+#: modules/forum/forum.admin.inc:177
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr "forum: %term samt alle underforummer og indlæg slettet."
+
+#: modules/forum/forum.module:15
+msgid ""
+"The forum module lets you create threaded discussion forums with "
+"functionality similar to other message board systems. Forums are useful "
+"because they allow community members to discuss topics with one another "
+"while ensuring those conversations are archived for later reference. The <a "
+"href=\"@create-topic\">forum topic</a> menu item (under <em>Create content</"
+"em> on the Navigation menu) creates the initial post of a new threaded "
+"discussion, or thread."
+msgstr ""
+"Med forummodulet kan du oprette diskussioner med funktionalitet svarende til "
+"andre forumsystemer. Forummer er nyttige fordi de gør det muligt for "
+"brugerne at diskutere forskellige emner med hinanden, samtidig med at "
+"diskussionerne gemmes til senere gennemsyn. Menupunktet <a href=\"@create-"
+"topic\">forumindlæg</a> (under <em>Opret indhold</em> i navigationsmenuen) "
+"opretter det første indlæg i en ny diskussion eller tråd."
+
+#: modules/forum/forum.module:16
+msgid ""
+"A threaded discussion occurs as people leave comments on a forum topic (or "
+"on other comments within that topic). A forum topic is contained within a "
+"forum, which may hold many similar or related forum topics. Forums are "
+"(optionally) nested within a container, which may hold many similar or "
+"related forums. Both containers and forums may be nested within other "
+"containers and forums, and provide structure for your message board. By "
+"carefully planning this structure, you make it easier for users to find and "
+"comment on a specific forum topic."
+msgstr ""
+"Der opstår en trådet diskussion når folk kommenterer et forumindlæg (eller "
+"andre kommentarer i tråden). Et indlæg indgår i et forum som kan indeholde "
+"mange tilsvarende indlæg. Forummer kan være indlejret i en beholder som kan "
+"indeholde mange tilsvarende forummer. Både beholdere og forummer kan "
+"indlejres i andre beholdere eller forummer, og derved give dit forum "
+"struktur. Ved nøje at planlægge strukturen kan du gøre det nemmere for "
+"brugerne at finde og kommentere et bestemt indlæg."
+
+#: modules/forum/forum.module:17
+msgid "When administering a forum, note that:"
+msgstr "Når du administrerer et forum, skal du bemærke at:"
+
+#: modules/forum/forum.module:18
+msgid ""
+"a forum topic (and all of its comments) may be moved between forums by "
+"selecting a different forum while editing a forum topic."
+msgstr ""
+"et indlæg (og alle dets kommentarer) kan flyttes mellem forummer ved at "
+"vælge et andet forum nårindlægget redigeres."
+
+#: modules/forum/forum.module:19
+msgid ""
+"when moving a forum topic between forums, the <em>Leave shadow copy</em> "
+"option creates a link in the original forum pointing to the new location."
+msgstr ""
+"når et indlæg flyttes mellem forummer kan funktionen <em>efterlad kopi</em> "
+"bruges til at oprette et link i det oprindelige forum som peger på den nye "
+"placering."
+
+#: modules/forum/forum.module:20
+msgid ""
+"selecting <em>Read only</em> under <em>Comment settings</em> while editing a "
+"forum topic will lock (prevent new comments) on the thread."
+msgstr ""
+"vælg <em>Kun læse</em> under <em>Kommentarer</em> når du redigerer et indlæg "
+"for at låse tråden (forhindre nye kommentarer)."
+
+#: modules/forum/forum.module:21
+msgid ""
+"selecting <em>Disabled</em> under <em>Comment settings</em> while editing a "
+"forum topic will hide all existing comments on the thread, and prevent new "
+"ones."
+msgstr ""
+"vælg <em>Deaktiveret</em> under <em>Kommentarer</em> når du redigerer et "
+"indlæg for at skjule alle eksisterende kommentarer og forhindre nye "
+"kommentarer."
+
+#: modules/forum/forum.module:22
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@forum"
+"\">Forum module</a>."
+msgstr ""
+"Læs håndbogens afsnit om <a href=\"@forum\">forummer</a> for yderligere "
+"information."
+
+#: modules/forum/forum.module:25
+msgid ""
+"This page displays a list of existing forums and containers. Containers "
+"(optionally) hold forums, and forums hold forum topics (a forum topic is the "
+"initial post to a threaded discussion). To provide structure, both "
+"containers and forums may be placed inside other containers and forums. To "
+"rearrange forums and containers, grab a drag-and-drop handle under the "
+"<em>Name</em> column and drag the forum or container to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"Siden viser en liste over eksisterende forummer og beholdere. Beholdere kan "
+"indeholde forummer og forummer indeholder indlæg (et indlæg er den første "
+"meddelelse i en trådet diskussion). For at give struktur kan både "
+"beholdereog forummer indlejres i andre beholdere og forummer. Tag fat i træk-"
+"og-slip håndtaget under <em>Navn</em>-kolonnen for at omorganisere beholdere "
+"og forummer. (Tag fat i håndtaget ved at klikke mens musen holdes over "
+"håndtagets ikon.) Husk at dine ændringer ikke gemmes før du klikker på "
+"knappen <em>Gem</em> nederst på siden."
+
+#: modules/forum/forum.module:27
+msgid ""
+"By grouping related or similar forums, containers help organize forums. For "
+"example, a container named \"Food\" may hold two forums named \"Fruit\" and "
+"\"Vegetables\", respectively."
+msgstr ""
+"Beholdere hjælper dig til at holde styr på dine forummer. For eksempel kan "
+"en beholder kaldet \"Mad\" indeholde to forummer kaldet \"Frugt\" og "
+"\"Grøntsager\"."
+
+#: modules/forum/forum.module:29
+msgid ""
+"A forum holds related or similar forum topics (a forum topic is the initial "
+"post to a threaded discussion). For example, a forum named \"Fruit\" may "
+"contain forum topics titled \"Apples\" and \"Bananas\", respectively."
+msgstr ""
+"Et forum indeholder diskussioner om et givent emne. For eksempel kan et "
+"forum kaldet \"Frugt\" indeholde indlæg med titlerne \"Æbler\" og \"Bananer"
+"\"."
+
+#: modules/forum/forum.module:31
+msgid ""
+"These settings allow you to adjust the display of your forum topics. The "
+"content types available for use within a forum may be selected by editing "
+"the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum "
+"vocabulary page</a>."
+msgstr ""
+"Tilpas visningen af forumindlæg. Indholdstyperne, der kan bruges i forummet, "
+"kan vælges ved at redigere <em>Indholdstyper</em> i forummets <a href="
+"\"@forum-vocabulary\">ordforråd</a>."
+
+#: modules/forum/forum.module:236
+msgid ""
+"The item %forum is only a container for forums. Please select one of the "
+"forums below it."
+msgstr ""
+"Forummet %forum bruges til gruppering af andre forummer. Vælg venligst et af "
+"de underliggende forummer."
+
+#: modules/forum/forum.module:302
+msgid "Forum topic"
+msgstr "Forumemne"
+
+#: modules/forum/forum.module:304
+msgid ""
+"A <em>forum topic</em> is the initial post to a new discussion thread within "
+"a forum."
+msgstr ""
+"Et <em>forumindlæg</em> er det første indlæg i en ny diskussion i et forum."
+
+#: modules/forum/forum.module:367
+msgid ""
+"This is the designated forum vocabulary. Some of the normal vocabulary "
+"options have been removed."
+msgstr ""
+"Dette ordforråd bruges af forummer. Nogle af de almindelige "
+"ordforrådsmuligheder er blevet fjernet."
+
+#: modules/forum/forum.module:409,425
+msgid "Active forum topics"
+msgstr "Aktive emner"
+
+#: modules/forum/forum.module:410,432
+msgid "New forum topics"
+msgstr "Nye emner"
+
+#: modules/forum/forum.module:414
+msgid "Number of topics"
+msgstr "Antal emner"
+
+#: modules/forum/forum.module:441
+msgid "Read the latest forum topics."
+msgstr "Læs de seneste emner."
+
+#: modules/forum/forum.module:460
+msgid "Leave shadow copy"
+msgstr "Efterlad kopi"
+
+#: modules/forum/forum.module:460
+msgid ""
+"If you move this topic, you can leave a link in the old forum to the new "
+"forum."
+msgstr ""
+"Hvis du flytter emnet, kan du oprette et link fra den gamle til den nye "
+"placering."
+
+#: modules/forum/forum.module:559
+msgid "Topic"
+msgstr "Emne"
+
+#: modules/forum/forum.module:561
+msgid "Created"
+msgstr "Oprettet"
+
+#: modules/forum/forum.module:562
+msgid "Last reply"
+msgstr "Seneste svar"
+
+#: modules/forum/forum.module:675
+msgid "Post new @node_type"
+msgstr "Opret ny @node_type"
+
+#: modules/forum/forum.module:682
+msgid "You are not allowed to post new content in forum."
+msgstr "Du har ikke tilladelse til at oprette indhold i forummet."
+
+#: modules/forum/forum.module:686
+msgid "<a href=\"@login\">Login</a> to post new content in forum."
+msgstr "<a href=\"@login\">Log ind</a> for at oprette indhold i forummet."
+
+#: modules/forum/forum.module:724
+msgid "No forums defined"
+msgstr "Ingen forummer oprettet"
+
+#: modules/forum/forum.module:810
+msgid "This topic has been moved"
+msgstr "Emne flyttet"
+
+#: modules/forum/forum.module:328
+msgid "create forum topics"
+msgstr "opret emner"
+
+#: modules/forum/forum.module:328
+msgid "delete own forum topics"
+msgstr "slet egne indlæg"
+
+#: modules/forum/forum.module:328
+msgid "delete any forum topic"
+msgstr "slet alle indlæg"
+
+#: modules/forum/forum.module:328
+msgid "edit own forum topics"
+msgstr "redigér egne emner"
+
+#: modules/forum/forum.module:328
+msgid "edit any forum topic"
+msgstr "redigér alle indlæg"
+
+#: modules/forum/forum.module:328
+msgid "administer forums"
+msgstr "administrer forummer"
+
+#: modules/forum/forum.module:94
+msgid "Control forums and their hierarchy and change forum settings."
+msgstr "Konfigurér dine forummers hierarki og indstillinger."
+
+#: modules/forum/forum.module:106
+msgid "Add container"
+msgstr "Tilføj beholder"
+
+#: modules/forum/forum.module:115
+msgid "Add forum"
+msgstr "Tilføj forum"
+
+#: modules/forum/forum.module:140
+msgid "Edit container"
+msgstr "Redigér beholder"
+
+#: modules/forum/forum.module:148
+msgid "Edit forum"
+msgstr "Redigér forum"

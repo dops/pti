@@ -1,0 +1,256 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
+#  upload.module,v 1.197.2.4 2009/01/12 15:30:23 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: 2009-05-04 23:31+0200\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/upload/upload.admin.inc:10
+msgid ""
+"The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set "
+"to 0 for no restriction."
+msgstr ""
+"De maximaal toegelaten afmetingen voor afbeeldingen uitgedrukt in "
+"BREEDTExHOOGTE (bijvoorbeeld 640x480). Gebruik 0 wanneer u geen beperkingen "
+"wenst."
+
+#: modules/upload/upload.admin.inc:18
+msgid ""
+"Depending on your server environment, these settings may be changed in the "
+"system-wide php.ini file, a php.ini file in your Drupal root directory, in "
+"your Drupal site's settings.php file, or in the .htaccess file in your "
+"Drupal root directory."
+msgstr ""
+"Afhankelijk van de server-configuratie kunnen deze instelling gewijzigd "
+"worden in het algemene php.ini bestand, het php.ini bestand in de Drupal-"
+"hoofdmap, in het Drupal settings.php bestand of in het .htaccess bestand in "
+"de Drupal-hoofdmap."
+
+#: modules/upload/upload.admin.inc:21,24,39,42
+msgid "The %role file size limit must be a number and greater than zero."
+msgstr ""
+"De maximale bestandsgrootte van %role moet een getal groter dan nul zijn."
+
+#: modules/upload/upload.admin.inc:21,24,31
+msgid "default"
+msgstr "standaard"
+
+#: modules/upload/upload.admin.inc:31,49
+msgid ""
+"The %role maximum file size per upload is greater than the total file size "
+"allowed per user"
+msgstr ""
+"De maximale bestandsgrootte per upload van %role is groter dan de totale "
+"toegestane bestandsgrootte per gebruiker"
+
+#: modules/upload/upload.admin.inc:64
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: modules/upload/upload.admin.inc:69
+msgid "Maximum resolution for uploaded images"
+msgstr "Maximale afmetingen voor upgeloade afbeeldingen"
+
+#: modules/upload/upload.admin.inc:73
+msgid ""
+"The maximum allowed image size (e.g. 640x480). Set to 0 for no restriction. "
+"If an <a href=\"!image-toolkit-link\">image toolkit</a> is installed, files "
+"exceeding this value will be scaled down to fit."
+msgstr ""
+"De maximum toegestane afmeting van een afbeelding (bijv. 640x480). Voer een "
+"0 voor onbeperkte afmetingen. Wanneer <a href=\"!image-toolkit-link\">image "
+"toolkit</a> is geïnstalleerd zullen bestanden groter dan deze waarde kleiner "
+"geschaald worden om ze passend te maken."
+
+#: modules/upload/upload.admin.inc:74
+msgid "WIDTHxHEIGHT"
+msgstr "BREEDTExHOOGTE"
+
+#: modules/upload/upload.admin.inc:78
+msgid "List files by default"
+msgstr "De bestanden standaard vermelden"
+
+#: modules/upload/upload.admin.inc:81
+msgid "Display attached files when viewing a post."
+msgstr "Toon bijgevoegde bestanden als een ingezonden bericht bekeken wordt."
+
+#: modules/upload/upload.admin.inc:97
+msgid ""
+"The default maximum file size a user can upload. If an image is uploaded and "
+"a maximum resolution is set, the size will be checked after the file has "
+"been resized."
+msgstr ""
+"Standaard maximum bestandsgrootte die een gebruiker kan uploaden. Na upload "
+"van een afbeelding en toewijzing van de maximale resolutie, zal de "
+"bestandsgrootte gecontroleeerd worden, na herschaling van het bestand."
+
+#: modules/upload/upload.admin.inc:135
+msgid ""
+"The maximum size of a file a user can upload. If an image is uploaded and a "
+"maximum resolution is set, the size will be checked after the file has been "
+"resized."
+msgstr ""
+"Maximale bestandsgrootte die een gebruiker kan uploaden. Na upload van een "
+"afbeelding en bepaling van de maximale resolutie zal, na herschaling van het "
+"bestand, de bestandsgrootte gecontroleerd worden."
+
+#: modules/upload/upload.admin.inc:144
+msgid "The maximum size of all files a user can have on the site."
+msgstr ""
+"De maximale bestandsgrootte van alle bestanden die een gebruiker op de "
+"website kan hebben."
+
+#: modules/upload/upload.module:16
+msgid ""
+"The upload module allows users to upload files to the site. The ability to "
+"upload files is important for members of a community who want to share work. "
+"It is also useful to administrators who want to keep uploaded files "
+"connected to posts."
+msgstr ""
+"Met de Upload-module kunnen gebruikers bestanden uploaden naar de site. Deze "
+"mogelijkheid is belangrijk voor leden van een gemeenschap die hun werk "
+"willen delen. Het is ook nuttig voor bbeheerders die geuploade bestanden aan "
+"berichten gekoppeld willen houden."
+
+#: modules/upload/upload.module:17
+msgid ""
+"Users with the upload files permission can upload attachments to posts. "
+"Uploads may be enabled for specific content types on the content types "
+"settings page. Each user role can be customized to limit or control the file "
+"size of uploads, or the maximum dimension of image files."
+msgstr ""
+"Gebruikers met de toegangsrechten voor 'bestanden uploaden' kunnen bijlages "
+"uploaden. U kunt kiezen welke inhoudstypen bijlages mogen hebben op de "
+"instellingenpagina voor inhoudstypen. De bestandsgrootte van upgeloade "
+"bestanden en de afmetingen van upgeloade afbeeldingen kunnen voor elke "
+"gebruikersrol aangepast worden."
+
+#: modules/upload/upload.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@upload"
+"\">Upload module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@upload"
+"\">Upload-module</a>."
+
+#: modules/upload/upload.module:21
+msgid ""
+"Users with the <a href=\"@permissions\">upload files permission</a> can "
+"upload attachments. Users with the <a href=\"@permissions\">view uploaded "
+"files permission</a> can view uploaded attachments. You can choose which "
+"post types can take attachments on the <a href=\"@types\">content types "
+"settings</a> page."
+msgstr ""
+"<p>Gebruikers met toegangsrechten <a href=\"@permissions\">bestanden "
+"uploaden</a> kunnen bijlages uploaden. Gebruikers met toegangsrechten <a "
+"href=\"@permissions\">upgeloade bestanden bekijken</a> kunnen geladen "
+"bijlages bekijken. U kunt kiezen welk type inzendingen een bijlage kunnen "
+"krijgen op de pagina <a href=\"@types\"> inhoudstypen instellingen</a>.</p>"
+
+#: modules/upload/upload.module:67
+msgid "Read full article to view attachments."
+msgstr "Lees het volledige artikel om de bijlages te zien."
+
+#: modules/upload/upload.module:213
+msgid "Attachments"
+msgstr "Bijlagen"
+
+#: modules/upload/upload.module:226
+msgid "File attachments"
+msgstr "Bestandsbijlages"
+
+#: modules/upload/upload.module:229
+msgid ""
+"Changes made to the attachments are not permanent until you save this post. "
+"The first \"listed\" file will be included in RSS feeds."
+msgstr ""
+"Veranderingen aan bijlagen zijn niet permanent totdat u het bericht heeft "
+"opgeslagen. Het eerst vermelde bestand zal in de RSS-feed worden opgenomen."
+
+#: modules/upload/upload.module:247
+msgid ""
+"File attachments are disabled. The file directories have not been properly "
+"configured."
+msgstr ""
+"Bestandsbijlages zijn uitgeschakeld. De bestandsmappen zijn niet goed "
+"ingesteld."
+
+#: modules/upload/upload.module:249
+msgid ""
+"Please visit the <a href=\"@admin-file-system\">file system configuration "
+"page</a>."
+msgstr ""
+"Bezoek de pagina <a href=\"@admin-file-system\">bestandssysteem "
+"configuratie</a>."
+
+#: modules/upload/upload.module:252
+msgid "Please contact the site administrator."
+msgstr "Neem contact op met de beheerder."
+
+#: modules/upload/upload.module:344
+msgid "Attachment"
+msgstr "Bijlage"
+
+#: modules/upload/upload.module:344,517
+msgid "Size"
+msgstr "Grootte"
+
+#: modules/upload/upload.module:491
+msgid "Attach new file"
+msgstr "Een nieuw bestand bijvoegen"
+
+#: modules/upload/upload.module:493
+msgid "Images are larger than %resolution will be resized. "
+msgstr "Afbeeldingen groter dan %resolution zullen verkleind worden. "
+
+#: modules/upload/upload.module:493
+msgid ""
+"The maximum upload size is %filesize. Only files with the following "
+"extensions may be uploaded: %extensions. "
+msgstr ""
+"Het maximum grootte van geuploade bestanden is %filesize. U kunt alleen "
+"bestanden met de volgende extensies uploaden: %extensions. "
+
+#: modules/upload/upload.module:497
+msgid "Attach"
+msgstr "Bijvoegen"
+
+#: modules/upload/upload.module:502
+msgid "Please wait..."
+msgstr "Even geduld..."
+
+#: modules/upload/upload.module:65,309
+msgid "1 attachment"
+msgid_plural "@count attachments"
+msgstr[0] "1 bijlage"
+msgstr[1] "@count bijlagen"
+
+#: modules/upload/upload.module:46
+msgid "upload files"
+msgstr "bestanden uploaden"
+
+#: modules/upload/upload.module:46
+msgid "view uploaded files"
+msgstr "upgeloade bestanden bekijken"
+
+#: modules/upload/upload.module:86
+msgid "File uploads"
+msgstr "Bestand-uploads"
+
+#: modules/upload/upload.module:87
+msgid "Control how files may be attached to content."
+msgstr "Bepalen hoe bestanden aan inhoud kunnen worden toegevoegd."
+
+#: modules/upload/upload.module:0
+msgid "upload"
+msgstr "uploaden"

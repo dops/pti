@@ -1,0 +1,237 @@
+# Dansk translation of drupal (6.12)
+# Copyright (c) 2009 by the Dansk translation team
+# Generated from files:
+#  translation.pages.inc,v 1.2.2.1 2008/09/30 10:50:43 goba
+#  translation.module,v 1.23.2.4 2009/01/14 23:34:07 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.12)\n"
+"POT-Creation-Date: 2009-05-20 03:59-0700\n"
+"PO-Revision-Date: 2009-04-24 07:48-0700\n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/translation/translation.pages.inc:41
+msgid "outdated"
+msgstr "udløbet"
+
+#: modules/translation/translation.pages.inc:50
+msgid "add translation"
+msgstr "tilføj oversættelse"
+
+#: modules/translation/translation.pages.inc:52
+msgid "Not translated"
+msgstr "Ikke oversat"
+
+#: modules/translation/translation.pages.inc:57
+msgid "Translations of %title"
+msgstr "Oversættelser af %title"
+
+#: modules/translation/translation.module:34
+msgid ""
+"The content translation module allows content to be translated into "
+"different languages. Working with the <a href=\"@locale\">locale module</a> "
+"(which manages enabled languages and provides translation for the site "
+"interface), the content translation module is key to creating and "
+"maintaining translated site content."
+msgstr ""
+"Med oversættelsesmodulet kan indhold oversættes til forskellige sprog. "
+"Sammen med <a href=\"@locale\">lokaliseringsmodulet</a> (som håndterer "
+"aktive sprog og oversættelsen af sitets grænseflade) er oversættelsesmodulet "
+"nøglen til oprettelse og vedligehold af oversat indhold."
+
+#: modules/translation/translation.module:35
+msgid "Configuring content translation and translation-enabled content types:"
+msgstr "Indstil oversættelse af indhold og indholdstyper, som kan oversættes:"
+
+#: modules/translation/translation.module:36
+msgid ""
+"Assign the <em>translate content</em> permission to the appropriate user "
+"roles at the <a href=\"@permissions\">Permissions configuration page</a>."
+msgstr ""
+"Giv tilladelsen <em>oversæt indhold</em> til de rette brugerroller under <a "
+"href=\"@permissions\">tilladelser</a>."
+
+#: modules/translation/translation.module:37
+msgid ""
+"Add and enable desired languages at the <a href=\"@languages\">Languages "
+"configuration page</a>."
+msgstr ""
+"Tilføj og aktiver de ønskede sprog under <a href=\"@languages"
+"\">Sprogindstillinger</a>."
+
+#: modules/translation/translation.module:38
+msgid ""
+"Determine which <a href=\"@content-types\">content types</a> should support "
+"translation features. To enable translation support for a content type, edit "
+"the type and at the <em>Multilingual support</em> drop down, select "
+"<em>Enabled, with translation</em>. (<em>Multilingual support</em> is "
+"located within <em>Workflow settings</em>.) Be sure to save each content "
+"type after enabling multilingual support."
+msgstr ""
+"Bestem hvilke <a href=\"@content-types\">indholdstyper</a> der skal kunne "
+"oversættes. For at aktivere oversættelse af en indholdstype skal du redigere "
+"indholdstypen og i rullelisten <em>Understøttelse af flere sprog</em> vælge "
+"<em>Aktiveret, med oversættelse</em>. (<em>Understøttelse af flere sprog</"
+"em> findes under indstillingerne for <em>Arbejdsgang</em>.) Husk at gemmer "
+"hver indholdstype når du har aktiveret understøttelse af flere sprog."
+
+#: modules/translation/translation.module:39
+msgid "Working with translation-enabled content types:"
+msgstr "Sådan arbejder du med indholdstyper, som kan oversættes:"
+
+#: modules/translation/translation.module:40
+msgid ""
+"Use the <em>Language</em> drop down to select the appropriate language when "
+"creating or editing posts."
+msgstr ""
+"Brug rullelisten <em>Sprog</em> til at vælge det ønskede sprog når du "
+"opretter eller redigerer indhold."
+
+#: modules/translation/translation.module:41
+msgid ""
+"Provide new or edit current translations for existing posts via the "
+"<em>Translation</em> tab. Only visible while viewing a post as a user with "
+"the <em>translate content</em> permission, this tab allows translations to "
+"be added or edited using a specialized editing form that also displays the "
+"content being translated."
+msgstr ""
+"Opret nye oversættelser eller redigér eksisterende oversættelser under fanen "
+"<em>Oversættelse</em>. Fanen er kun synlig for brugere med tilladelsen "
+"<em>oversæt indhold</em> og gør det muligt at tilføje og redigere "
+"oversættelser med en særlig formular, der også viser indholdet som skal "
+"oversættes."
+
+#: modules/translation/translation.module:42
+msgid ""
+"Update translations as needed, so that they accurately reflect changes in "
+"the content of the original post. The translation status flag provides a "
+"simple method for tracking outdated translations. After editing a post, for "
+"example, select the <em>Flag translations as outdated</em> check box to mark "
+"all of its translations as outdated and in need of revision. Individual "
+"translations may be marked for revision by selecting the <em>This "
+"translation needs to be updated</em> check box on the translation editing "
+"form."
+msgstr ""
+"Opdater oversættelser som nødvendigt så du reflektere ændringerne i det "
+"oprindelige indlæg. Statusflaget gør det nemt at spore udløbne "
+"oversættelser. Vælg f.eks. <em>Marker som udløbet</em> når du har redigeret "
+"et indlæg for at markere at alle oversættelser skal opdateres. Individuelle "
+"oversættelser kan markeres til opdatering ved at vælge <em>Denne "
+"oversættelse skal opdateres</em> på oversættelsesformularen."
+
+#: modules/translation/translation.module:43
+msgid ""
+"The <a href=\"@content-node\">Content management administration page</a> "
+"displays the language of each post, and also allows filtering by language or "
+"translation status."
+msgstr ""
+"<a href=\"@content-node\">Indholdssiden</a> viser sproget for hvert indlæg "
+"og gør det muligt at filtrere efter sprog og oversættelsesstatus."
+
+#: modules/translation/translation.module:44
+msgid ""
+"Use the <a href=\"@blocks\">language switcher block</a> provided by locale "
+"module to allow users to select a language. If available, both the site "
+"interface and site content are presented in the language selected."
+msgstr ""
+"Brug blokken <a href=\"@blocks\">skift sprog</a> til at lade brugerne skifte "
+"sprog. Hvis det er muligt vises både sitets grænseflade og indhold på det "
+"valgt sprog."
+
+#: modules/translation/translation.module:45
+msgid ""
+"For more information, see the online handbook entry for <a href="
+"\"@translation\">Translation module</a>."
+msgstr ""
+"Læs håndbogens afsnit om <a href=\"@translation\">oversættelse</a> for "
+"yderligere information."
+
+#: modules/translation/translation.module:48
+msgid ""
+"Translations of a piece of content are managed with translation sets. Each "
+"translation set has one source post and any number of translations in any of "
+"the <a href=\"!languages\">enabled languages</a>. All translations are "
+"tracked to be up to date or outdated based on whether the source post was "
+"modified significantly."
+msgstr ""
+"Oversættelse af indhold håndteres med oversættelsesgrupper. Hver gruppe har "
+"et kilde-indlæg og et antal oversættelser i hvert af de <a href=\"!languages"
+"\">aktiverede sprog</a>. Alle oversættelser markeres som aktuelle eller "
+"udløbne baseret på hvorvidt der er foretaget store ændringer i kilde-"
+"indlægget."
+
+#: modules/translation/translation.module:99
+msgid "Enabled, with translation"
+msgstr "Aktiveret, med oversættelse"
+
+#: modules/translation/translation.module:101
+msgid ""
+"Enable multilingual support for this content type. If enabled, a language "
+"selection field will be added to the editing form, allowing you to select "
+"from one of the <a href=\"!languages\">enabled languages</a>. You can also "
+"turn on translation for this content type, which lets you have content "
+"translated to any of the enabled languages. If disabled, new posts are saved "
+"with the default language. Existing content will not be affected by changing "
+"this option."
+msgstr ""
+"Aktiver flersproget understøttelse for denne indholdstype. Hvis funktionen "
+"aktiveres vises et felt der gør det muligt at vælge mellem et af de <a href="
+"\"!languages\">aktiverede sprog</a>. Du kan også aktivere oversættelse af "
+"denne indholdstype, som gør det muligt at oversætte indhold til ethvert af "
+"de aktiverede sprog. Hvis funktionen er deaktiveret gemmes alt indhold i "
+"standardsproget. Eksisterende indhold blive ikke påvirket hvis du ændrer "
+"denne indstilling."
+
+#: modules/translation/translation.module:124
+msgid "Translation settings"
+msgstr "Indstillinger for oversættelse"
+
+#: modules/translation/translation.module:135
+msgid "Flag translations as outdated"
+msgstr "Marker oversættelsen som udløbet"
+
+#: modules/translation/translation.module:137
+msgid ""
+"If you made a significant change, which means translations should be "
+"updated, you can flag all translations of this post as outdated. This will "
+"not change any other property of those posts, like whether they are "
+"published or not."
+msgstr ""
+"Hvis du har foretaget en stor ændring ,som betyder at oversættelsen skal "
+"opdateres, kan du markere alle oversættelser af dette indlæg som udløbne. "
+"Det ændrer ikke ved andre af oversættelsernes egenskaber, som f.eks. deres "
+"udgivelsesstatus."
+
+#: modules/translation/translation.module:144
+msgid "This translation needs to be updated"
+msgstr "Denne oversættelse skal opdateres"
+
+#: modules/translation/translation.module:146
+msgid ""
+"When this option is checked, this translation needs to be updated because "
+"the source post has changed. Uncheck when the translation is up to date "
+"again."
+msgstr ""
+"Oversættelsen skal opdateres fordi kilden er blevet ændret. Fjern "
+"markeringen når oversættelsen er blevet opdateret."
+
+#: modules/translation/translation.module:86
+msgid "translate content"
+msgstr "oversæt indhold"
+
+#: modules/translation/translation.module:59
+msgid "Translate"
+msgstr "Oversæt"
+
+#: modules/translation/translation.module:0
+msgid "translation"
+msgstr "oversættelse"
+
+#: modules/translation/translation.pages.inc:43
+msgid "<strong>@language_name</strong> (source)"
+msgstr "<strong>@language_name</strong> (kilde)"

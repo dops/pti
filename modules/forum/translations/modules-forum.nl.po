@@ -1,0 +1,466 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  forum-list.tpl.php,v 1.4 2007/08/30 18:58:12 goba
+#  forum-submitted.tpl.php,v 1.3 2007/08/07 08:39:35 goba
+#  forum-topic-navigation.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  forum.admin.inc,v 1.8.2.1 2009/05/26 08:13:00 goba
+#  forum.module,v 1.448.2.7 2009/06/03 18:27:48 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: 2009-05-31 07:54+0200\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/forum/forum-list.tpl.php:38
+msgid "Topics"
+msgstr "Onderwerpen"
+
+#: modules/forum/forum-list.tpl.php:39
+msgid "Posts"
+msgstr "Berichten"
+
+#: modules/forum/forum-list.tpl.php:40
+msgid "Last post"
+msgstr "Laatste bericht"
+
+#: modules/forum/forum-submitted.tpl.php:21
+msgid "@time ago<br />by !author"
+msgstr "@time geleden<br />door !author"
+
+#: modules/forum/forum-topic-navigation.tpl.php:29
+msgid "Go to previous forum topic"
+msgstr "Naar vorige forumonderwerp"
+
+#: modules/forum/forum-topic-navigation.tpl.php:32
+msgid "Go to next forum topic"
+msgstr "Naar volgende forumonderwerp"
+
+#: modules/forum/forum.admin.inc:38
+msgid "Forum name"
+msgstr "Forumnaam"
+
+#: modules/forum/forum.admin.inc:41
+msgid "Short but meaningful name for this collection of threaded discussions."
+msgstr "Korte beschrijvende naam voor deze verzameling van discussies."
+
+#: modules/forum/forum.admin.inc:47
+msgid "Description and guidelines for discussions within this forum."
+msgstr "Omschrijving en richtlijnen voor de discussie in dit forum."
+
+#: modules/forum/forum.admin.inc:54
+msgid ""
+"Forums are displayed in ascending order by weight (forums with equal weights "
+"are displayed alphabetically)."
+msgstr ""
+"Forums worden weergegeven in volgorde van toenemend gewicht. Forums met "
+"hetzelfde gewicht worden alfabetisch gesorteerd."
+
+#: modules/forum/forum.admin.inc:75
+msgid "forum container"
+msgstr "forumcontainer"
+
+#: modules/forum/forum.admin.inc:90
+msgid "Created new @type %term."
+msgstr "Nieuw @type %term aangemaakt."
+
+#: modules/forum/forum.admin.inc:93
+msgid "The @type %term has been updated."
+msgstr "De @type %term is bijgewerkt."
+
+#: modules/forum/forum.admin.inc:116
+msgid "Container name"
+msgstr "Naam container"
+
+#: modules/forum/forum.admin.inc:120
+msgid "Short but meaningful name for this collection of related forums."
+msgstr "Korte beschrijvende naam voor deze verzameling van verwante forums."
+
+#: modules/forum/forum.admin.inc:128
+msgid "Description and guidelines for forums within this container."
+msgstr "Omschrijving en richtlijnen voor de forums in deze container."
+
+#: modules/forum/forum.admin.inc:136
+msgid ""
+"Containers are displayed in ascending order by weight (containers with equal "
+"weights are displayed alphabetically)."
+msgstr ""
+"Containers worden weergegeven in volgorde van toenemend gewicht. Containers "
+"met hetzelfde gewicht worden alfabetisch gesorteerd."
+
+#: modules/forum/forum.admin.inc:168
+msgid "Are you sure you want to delete the forum %name?"
+msgstr "Weet u zeker dat u het %name forum wilt verwijderen?"
+
+#: modules/forum/forum.admin.inc:168
+msgid ""
+"Deleting a forum or container will also delete its sub-forums, if any. To "
+"delete posts in this forum, visit <a href=\"@content\">content "
+"administration</a> first. This action cannot be undone."
+msgstr ""
+"Als u een forum of container verwijdert, dan verwijdert u ook alle "
+"bijbehorende subforums en berichten. Om berichten uit dit forum te "
+"verwijderen gaat u naar de pagina <a href=\"@content\">inhoud beheren</a>. "
+"Deze actie kan niet ongedaan worden gemaakt."
+
+#: modules/forum/forum.admin.inc:176
+msgid ""
+"The forum %term and all sub-forums and associated posts have been deleted."
+msgstr ""
+"Het forum %term, alle onderliggende forums en de daarmee geassociëerde "
+"berichten zijn verwijderd."
+
+#: modules/forum/forum.admin.inc:192
+msgid "Hot topic threshold"
+msgstr "Hot topic drempelwaarde"
+
+#: modules/forum/forum.admin.inc:195
+msgid "The number of posts a topic must have to be considered \"hot\"."
+msgstr ""
+"Het aantal berichten dat een onderwerp moet hebben om als 'hot' beschouwd te "
+"worden."
+
+#: modules/forum/forum.admin.inc:199
+msgid "Topics per page"
+msgstr "Aantal onderwerpen per pagina"
+
+#: modules/forum/forum.admin.inc:202
+msgid "Default number of forum topics displayed per page."
+msgstr "Standaard aantal forums dat per pagina wordt weergegeven."
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - most active first"
+msgstr "Berichten - meest actieve eerst"
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - least active first"
+msgstr "Berichten - minst actieve eerst"
+
+#: modules/forum/forum.admin.inc:206
+msgid "Default order"
+msgstr "Standaard volgorde"
+
+#: modules/forum/forum.admin.inc:209
+msgid "Default display order for topics."
+msgstr "Standaard weergave-volgorde van onderwerpen."
+
+#: modules/forum/forum.admin.inc:229
+msgid "edit container"
+msgstr "container bewerken"
+
+#: modules/forum/forum.admin.inc:232
+msgid "edit forum"
+msgstr "forum bewerken"
+
+#: modules/forum/forum.admin.inc:244
+msgid ""
+"There are no existing containers or forums. Containers and forums may be "
+"added using the <a href=\"@container\">add container</a> and <a href=\"@forum"
+"\">add forum</a> pages."
+msgstr ""
+"Er zijn momenteel geen containers of forums. U kunt containers en forums "
+"toevoegen op de pagina's <a href=\"@container\">container toevoegen</a> en "
+"<a href=\"@forum\">forum toevoegen</a>."
+
+#: modules/forum/forum.admin.inc:285
+msgid ""
+"Containers are usually placed at the top (root) level, but may also be "
+"placed inside another container or forum."
+msgstr ""
+"Containers worden gewoonlijk op het hoogste niveau (root) geplaatst, maar "
+"kunnen ook binnen een andere container of forum worden geplaatst."
+
+#: modules/forum/forum.admin.inc:288
+msgid ""
+"Forums may be placed at the top (root) level, or inside another container or "
+"forum."
+msgstr ""
+"Forums kunnen op het hoogste niveau (root), binnen een container of een "
+"ander forum worden geplaatst."
+
+#: modules/forum/forum.admin.inc:177
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr ""
+"forum: %term, de onderliggende forums en de daarmee geassociëerde berichten "
+"zijn verwijderd."
+
+#: modules/forum/forum.module:15
+msgid ""
+"The forum module lets you create threaded discussion forums with "
+"functionality similar to other message board systems. Forums are useful "
+"because they allow community members to discuss topics with one another "
+"while ensuring those conversations are archived for later reference. The <a "
+"href=\"@create-topic\">forum topic</a> menu item (under <em>Create content</"
+"em> on the Navigation menu) creates the initial post of a new threaded "
+"discussion, or thread."
+msgstr ""
+"Met de Forum-module kunt u discussieforums op de site aanmaken, functioneel "
+"vergelijkbaar met bulletin-boards. Forums zijn zeer bruikbaar omdat "
+"groepsleden onderwerpen met elkaar kunnen bespreken terwijl de discussie "
+"voor toekomstig gebruik wordt bewaard. Een nieuwe discussie wordt gestart "
+"door een <a href=\"@create-topic\">forumonderwerp</a> aan te maken in het "
+"Navigatiemenu onder <em>Inhoud aanmaken</em>."
+
+#: modules/forum/forum.module:16
+msgid ""
+"A threaded discussion occurs as people leave comments on a forum topic (or "
+"on other comments within that topic). A forum topic is contained within a "
+"forum, which may hold many similar or related forum topics. Forums are "
+"(optionally) nested within a container, which may hold many similar or "
+"related forums. Both containers and forums may be nested within other "
+"containers and forums, and provide structure for your message board. By "
+"carefully planning this structure, you make it easier for users to find and "
+"comment on a specific forum topic."
+msgstr ""
+"Een discussie ontstaat wanneer mensen reageren op een forumonderwerp. Een "
+"discussie waarbij zowel op het oorspronkelijke artikel als op de reacties "
+"wordt gereageerd, wordt een vertakte discussie genoemd. Forumonderwerpen "
+"over verwante onderwerpen kunnen gegroepeerd zijn binnen een forum. Verwante "
+"forums kunnen vervolgens gegroepeerd zijn binnen een container. Zowel "
+"containers als forums kunnen gegroepeerd worden binnen containers of forums "
+"en zo de structuur van het bulletin-board bepalen. Door een goed gekozen "
+"structuur van containers en forums kunt u het gebruikers eenvoudiger maken "
+"om voor hen interessante onderwerpen te vinden."
+
+#: modules/forum/forum.module:17
+msgid "When administering a forum, note that:"
+msgstr "Weet bij forumbeheer dat:"
+
+#: modules/forum/forum.module:18
+msgid ""
+"a forum topic (and all of its comments) may be moved between forums by "
+"selecting a different forum while editing a forum topic."
+msgstr ""
+"Een forumonderwerp (en alle bijbehorende reacties) kan naar een ander forum "
+"verplaatst worden door het kiezen van een ander forum tijdens het bijwerken "
+"van het forumonderwerp."
+
+#: modules/forum/forum.module:19
+msgid ""
+"when moving a forum topic between forums, the <em>Leave shadow copy</em> "
+"option creates a link in the original forum pointing to the new location."
+msgstr ""
+"Bij het verplaatsen van een forumonderwerp naar een ander forum kan met de "
+"optie <em>schaduwkopie achterlaten</em> een link in het originele forum "
+"worden aangemaakt die verwijst naar de nieuwe locatie."
+
+#: modules/forum/forum.module:20
+msgid ""
+"selecting <em>Read only</em> under <em>Comment settings</em> while editing a "
+"forum topic will lock (prevent new comments) on the thread."
+msgstr ""
+"Met de optie <em>Alleen lezen</em> onder <em>Reactie-instellingen</em> van "
+"het forumonderwerp kan een discussie worden gesloten. Verdere reacties zijn "
+"dan niet meer mogelijk."
+
+#: modules/forum/forum.module:21
+msgid ""
+"selecting <em>Disabled</em> under <em>Comment settings</em> while editing a "
+"forum topic will hide all existing comments on the thread, and prevent new "
+"ones."
+msgstr ""
+"Met de optie <em>Uitgeschakeld</em> onder <em>Reactie-instellingen</em> van "
+"het forumonderwerp kunnen alle reacties op een forumonderwerp worden "
+"verborgen. Ook nieuwe reacties zijn dan niet meer mogelijk."
+
+#: modules/forum/forum.module:22
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@forum"
+"\">Forum module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@forum"
+"\">Forum-module</a>."
+
+#: modules/forum/forum.module:25
+msgid ""
+"This page displays a list of existing forums and containers. Containers "
+"(optionally) hold forums, and forums hold forum topics (a forum topic is the "
+"initial post to a threaded discussion). To provide structure, both "
+"containers and forums may be placed inside other containers and forums. To "
+"rearrange forums and containers, grab a drag-and-drop handle under the "
+"<em>Name</em> column and drag the forum or container to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"Op deze pagina vindt u een lijst van bestaande forums en containers. "
+"Containers kunnen (optioneel) forums bevatten en forums bevatten "
+"forumonderwerpen (een forumonderwerp is het initiële artikel van een "
+"discussie). Om het forum te structureren kunnen zowel containers als forums "
+"worden gegroepeerd binnen andere containers of forums. Om forums en "
+"containers te verplaatsen klik-sleept u deze aan het handvat in de kolom "
+"<em>Naam</em> naar een nieuwe positie in de lijst. (U klik-sleept het blok "
+"door met de muis boven het handvatpictogram te klikken, vast te houden en de "
+"muis te verplaatsen.) Wijzigingen worden pas opgeslagen wanneer u de knop "
+"<em>Opslaan</em> onderaan de pagina aanklikt."
+
+#: modules/forum/forum.module:27
+msgid ""
+"By grouping related or similar forums, containers help organize forums. For "
+"example, a container named \"Food\" may hold two forums named \"Fruit\" and "
+"\"Vegetables\", respectively."
+msgstr ""
+"Verwante forums kunnen worden gegroepeerd met behulp van containers. "
+"Bijvoorbeeld: een container genaamd 'Eten' kan twee forums bevatten 'Fruit' "
+"en 'Groenten'."
+
+#: modules/forum/forum.module:29
+msgid ""
+"A forum holds related or similar forum topics (a forum topic is the initial "
+"post to a threaded discussion). For example, a forum named \"Fruit\" may "
+"contain forum topics titled \"Apples\" and \"Bananas\", respectively."
+msgstr ""
+"Een forum bevat verwante forumonderwerpen (een forumonderwerp is het "
+"initiële artikel van een discussie). Bijvoorbeeld: een forum met de naam "
+"'Fruit' kan forumonderwerpen bevatten als 'Appels' en 'Peren'."
+
+#: modules/forum/forum.module:31
+msgid ""
+"These settings allow you to adjust the display of your forum topics. The "
+"content types available for use within a forum may be selected by editing "
+"the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum "
+"vocabulary page</a>."
+msgstr ""
+"Met deze instellingen kunt u bepalen hoe forumonderwerpen worden "
+"weergegeven. De inhoudstypen die binnen een forum gebruikt kunnen worden "
+"selecteert u onder <em>Inhoudstypen</em> op de pagina <a href=\"@forum-"
+"vocabulary\">forumwoordenlijst</a>."
+
+#: modules/forum/forum.module:236
+msgid ""
+"The item %forum is only a container for forums. Please select one of the "
+"forums below it."
+msgstr ""
+"Het item %forum is alleen een container van forums. U moet één van de "
+"onderliggende onderwerpen selecteren."
+
+#: modules/forum/forum.module:302
+msgid "Forum topic"
+msgstr "Forumonderwerp"
+
+#: modules/forum/forum.module:304
+msgid ""
+"A <em>forum topic</em> is the initial post to a new discussion thread within "
+"a forum."
+msgstr ""
+"Een <em>forumonderwerp</em> is het eerste bericht in een nieuwe "
+"forumdiscussie."
+
+#: modules/forum/forum.module:367
+msgid ""
+"This is the designated forum vocabulary. Some of the normal vocabulary "
+"options have been removed."
+msgstr ""
+"Dit is de woordenlijst voor de forums. Enkele van de normale woordenlijst-"
+"opties zijn verwijderd."
+
+#: modules/forum/forum.module:409,425
+msgid "Active forum topics"
+msgstr "Actieve forumonderwerpen"
+
+#: modules/forum/forum.module:410,432
+msgid "New forum topics"
+msgstr "Nieuwe forumonderwerpen"
+
+#: modules/forum/forum.module:414
+msgid "Number of topics"
+msgstr "Aantal onderwerpen"
+
+#: modules/forum/forum.module:441
+msgid "Read the latest forum topics."
+msgstr "De laatste forumonderwerpen lezen."
+
+#: modules/forum/forum.module:460
+msgid "Leave shadow copy"
+msgstr "schaduwkopie achterlaten"
+
+#: modules/forum/forum.module:460
+msgid ""
+"If you move this topic, you can leave a link in the old forum to the new "
+"forum."
+msgstr ""
+"Indien u dit onderwerp verplaatst, kunt u in het oude forum een link naar "
+"het nieuwe forum achterlaten."
+
+#: modules/forum/forum.module:559
+msgid "Topic"
+msgstr "Onderwerp"
+
+#: modules/forum/forum.module:561
+msgid "Created"
+msgstr "Aangemaakt"
+
+#: modules/forum/forum.module:562
+msgid "Last reply"
+msgstr "Laatste antwoord"
+
+#: modules/forum/forum.module:675
+msgid "Post new @node_type"
+msgstr "@node_type toevoegen"
+
+#: modules/forum/forum.module:724
+msgid "No forums defined"
+msgstr "Geen forums gedefinieerd"
+
+#: modules/forum/forum.module:810
+msgid "This topic has been moved"
+msgstr "Dit onderwerp is verplaatst"
+
+#: modules/forum/forum.module:328
+msgid "create forum topics"
+msgstr "forumonderwerpen maken"
+
+#: modules/forum/forum.module:328
+msgid "delete own forum topics"
+msgstr "eigen forumonderwerpen verwijderen"
+
+#: modules/forum/forum.module:328
+msgid "delete any forum topic"
+msgstr "ieder forumonderwerp verwijderen"
+
+#: modules/forum/forum.module:328
+msgid "edit own forum topics"
+msgstr "eigen forumonderwerpen bewerken"
+
+#: modules/forum/forum.module:328
+msgid "edit any forum topic"
+msgstr "ieder forumonderwerp bewerken"
+
+#: modules/forum/forum.module:328
+msgid "administer forums"
+msgstr "forums beheren"
+
+#: modules/forum/forum.module:94
+msgid "Control forums and their hierarchy and change forum settings."
+msgstr "Forums en hun hiërarchie instellen en foruminstellingen wijzigen."
+
+#: modules/forum/forum.module:106
+msgid "Add container"
+msgstr "Container toevoegen"
+
+#: modules/forum/forum.module:115
+msgid "Add forum"
+msgstr "Forum toevoegen"
+
+#: modules/forum/forum.module:140
+msgid "Edit container"
+msgstr "Container bewerken"
+
+#: modules/forum/forum.module:148
+msgid "Edit forum"
+msgstr "Forum bewerken"
+
+#: modules/forum/forum.module:682
+msgid "You are not allowed to post new content in the forum."
+msgstr "U mag geen nieuwe inhoud aan het forum toevoegen."
+
+#: modules/forum/forum.module:686
+msgid "<a href=\"@login\">Login</a> to post new content in the forum."
+msgstr ""
+"<a href=\"@login\">Aanmelden</a> om nieuwe inhoud in het forum toe te voegen."

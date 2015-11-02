@@ -1,0 +1,18 @@
+# Dansk translation of drupal (6.12)
+# Copyright (c) 2009 by the Dansk translation team
+# Generated from file: page.tpl.php,v 1.25.2.2 2009/04/30 00:13:31 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.12)\n"
+"POT-Creation-Date: 2009-05-20 03:59-0700\n"
+"PO-Revision-Date: 2008-08-18 01:46-0700\n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: themes/pushbutton/page.tpl.php:15
+msgid "Skip navigation"
+msgstr "Spring over navigation"

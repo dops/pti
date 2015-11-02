@@ -1,0 +1,145 @@
+# Dansk translation of drupal (6.12)
+# Copyright (c) 2009 by the Dansk translation team
+# Generated from files:
+#  color.module,v 1.39.2.1 2009/02/25 11:47:37 goba
+#  color.install,v 1.2 2006/12/05 05:49:50 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.12)\n"
+"POT-Creation-Date: 2009-05-20 03:59-0700\n"
+"PO-Revision-Date: 2009-04-24 05:51-0700\n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/color/color.module:10
+msgid ""
+"The color module allows a site administrator to quickly and easily change "
+"the color scheme of certain themes. Although not all themes support color "
+"module, both Garland (the default theme) and Minnelli were designed to take "
+"advantage of its features. By using color module with a compatible theme, "
+"you can easily change the color of links, backgrounds, text, and other theme "
+"elements. Color module requires that your <a href=\"@url\">file download "
+"method</a> be set to public."
+msgstr ""
+"Med farvemodulet kan administratoren hurtigt og enkelt skifte farverne på "
+"visse temaer. Ikke alle temaer understøtter farvemodulet, men både Garland "
+"(standardtemaet) og Minelli er designet til at gøre brug af dets "
+"funktionalitet. Med farvemodulet og et kompatibelt tema kan du nemt skifte "
+"farve på links, baggrunde, tekst og andre elementer. Farvemodulet kræver at "
+"<a href=\"@url\">download-metoden</a> er sat til offentlig."
+
+#: modules/color/color.module:11
+msgid ""
+"It is important to remember that color module saves a modified copy of the "
+"theme's specified stylesheets in the files directory. This means that if you "
+"make any manual changes to your theme's stylesheet, you must save your color "
+"settings again, even if they haven't changed. This causes the color module "
+"generated version of the stylesheets in the files directory to be recreated "
+"using the new version of the original file."
+msgstr ""
+"Det er vigtigt at huske, at farvemodulet gemmer en ændret kopi af temaets "
+"stylesheets i i fil-kataloget. Det betyder, at du skal gemme dine "
+"farveindstillinger hver gang du ændrer temaets stylesheet, også selvom du "
+"ikke ønsker at ændre farverne. Det tvinger farvemodulet til at lave en ny "
+"ændret kopi på basis af det opdaterede stylesheet."
+
+#: modules/color/color.module:12
+msgid ""
+"To change the color settings for a compatible theme, select the \"configure"
+"\" link for the theme on the <a href=\"@themes\">themes administration page</"
+"a>."
+msgstr ""
+"For at skifte farveindstillingerne for et kompatibelt tema, skal du "
+"indstille temaet på <a href=\"@themes\">tema-administrationssiden</a>."
+
+#: modules/color/color.module:13
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@color"
+"\">Color module</a>."
+msgstr ""
+"Læs håndbogens afsnit om <a href=\"@contact\">farvemodulet</a> for "
+"yderligere information."
+
+#: modules/color/color.module:38
+msgid ""
+"The color picker only works if the <a href=\"@url\">download method</a> is "
+"set to public."
+msgstr ""
+"Farvevælgeren virker kun hvis <a href=\"@url\">download-metoden</a> er sat "
+"til offentlig."
+
+#: modules/color/color.module:43
+msgid "Color scheme"
+msgstr "Farvevalg"
+
+#: modules/color/color.module:171
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: modules/color/color.module:174
+msgid "Color set"
+msgstr "Farvevalg"
+
+#: modules/color/color.module:182
+msgid "Base color"
+msgstr "Grundfarve"
+
+#: modules/color/color.module:183
+msgid "Link color"
+msgstr "Linkfarve"
+
+#: modules/color/color.module:184
+msgid "Header top"
+msgstr "Sidehovede top"
+
+#: modules/color/color.module:185
+msgid "Header bottom"
+msgstr "Sidehovede bund"
+
+#: modules/color/color.module:186
+msgid "Text color"
+msgstr "Tekstfarve"
+
+#: modules/color/color.module:271
+msgid ""
+"There is not enough memory available to PHP to change this theme's color "
+"scheme. You need at least %size more. Check the <a href=\"@url\">PHP "
+"documentation</a> for more information."
+msgstr ""
+"PHP har ikke nok hukommelse til at ændre dette farveskema. Du skal bruge "
+"mindst %size mere. Se <a href=\"@url\">PHP dokumentationen</a> for "
+"yderligere information."
+
+#: modules/color/color.module:0
+msgid "color"
+msgstr "farve"
+
+#: modules/color/color.install:21
+msgid ""
+"The GD library for PHP is enabled, but was compiled without PNG support. "
+"Please check the <a href=\"@url\">PHP image documentation</a> for "
+"information on how to correct this."
+msgstr ""
+"GD-biblioteket er aktiveret men er kompileret uden PNG-understøttelse. Læs "
+"<a href=\"@url\">PHP dokumentationen</a> for at lære hvordan du kan rette op "
+"på det."
+
+#: modules/color/color.install:26
+msgid "Not installed"
+msgstr "Ikke installeret."
+
+#: modules/color/color.install:28
+msgid ""
+"The GD library for PHP is missing or outdated. Please check the <a href="
+"\"@url\">PHP image documentation</a> for information on how to correct this."
+msgstr ""
+"GD-biblioteket er for gammelt eller findes ikke. Læs <a href=\"@url\">PHP "
+"dokumentationen</a> for at lære hvordan du kan rette op på det."
+
+#: modules/color/color.install:31
+msgid "GD library"
+msgstr "GD-bibliotek"

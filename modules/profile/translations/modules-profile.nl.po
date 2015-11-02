@@ -1,0 +1,425 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  profile.admin.inc,v 1.8.2.1 2008/10/16 12:43:08 goba
+#  profile.module,v 1.236.2.3 2009/01/12 10:09:19 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/profile/profile.admin.inc:55
+msgid "Add new field"
+msgstr "Veld toevoegen"
+
+#: modules/profile/profile.admin.inc:82
+msgid "Profile fields have been updated."
+msgstr "Profielvelden zijn bijgewerkt."
+
+#: modules/profile/profile.admin.inc:115
+msgid ""
+"No fields in this category. If this category remains empty when saved, it "
+"will be removed."
+msgstr ""
+"Geen velden in deze categorie. Als deze categorie leeg wordt opgeslagen zal "
+"ze worden verwijderd."
+
+#: modules/profile/profile.admin.inc:144
+msgid "No fields available."
+msgstr "Geen velden beschikbaar."
+
+#: modules/profile/profile.admin.inc:178
+msgid "edit %title"
+msgstr "%title bewerken"
+
+#: modules/profile/profile.admin.inc:196
+msgid "add new %type"
+msgstr "%type toevoegen"
+
+#: modules/profile/profile.admin.inc:211
+msgid "Field settings"
+msgstr "Veldinstellingen"
+
+#: modules/profile/profile.admin.inc:217
+msgid ""
+"The category the new field should be part of. Categories are used to group "
+"fields logically. An example category is \"Personal information\"."
+msgstr ""
+"De categorie waartoe het nieuwe veld behoort. Categorieën worden gebruikt om "
+"velden logisch in groepen in te delen. Een voorbeeldcategorie is "
+"\"Persoonlijke informatie\"."
+
+#: modules/profile/profile.admin.inc:223
+msgid ""
+"The title of the new field. The title will be shown to the user. An example "
+"title is \"Favorite color\"."
+msgstr ""
+"De titel van het nieuwe veld. Deze titel zal aan de gebruiker getoond "
+"worden. Een voorbeeld is \"Favoriete kleur\"."
+
+#: modules/profile/profile.admin.inc:227
+msgid "Form name"
+msgstr "Veldnaam"
+
+#: modules/profile/profile.admin.inc:229
+msgid ""
+"The name of the field. The form name is not shown to the user but used "
+"internally in the HTML code and URLs.\n"
+"Unless you know what you are doing, it is highly recommended that you prefix "
+"the form name with <code>profile_</code> to avoid name clashes with other "
+"fields. Spaces or any other special characters except dash (-) and "
+"underscore (_) are not allowed. An example name is \"profile_favorite_color"
+"\" or perhaps just \"profile_color\"."
+msgstr ""
+"De naam van het veld. De naam van het formulier wordt niet aan de gebruiker "
+"getoond, maar wordt intern in de HTML-code en in URL's gebruikt. Tenzij u "
+"weet wat u doet, is het ten zeerste aangeraden om <code>profile_</code> als "
+"voorvoegsel van de formuliernaam te gebruiken om botsingen met andere velden "
+"te verkomen. Spaties en andere speciale tekens (behalve '-' en '_') zijn "
+"niet toegestaan. Een voorbeeld van een veldnaam is \"profile_favoriete_kleur"
+"\" of \"profile_kleur\"."
+
+#: modules/profile/profile.admin.inc:234
+msgid "Explanation"
+msgstr "Uitleg"
+
+#: modules/profile/profile.admin.inc:236
+msgid ""
+"An optional explanation to go with the new field. The explanation will be "
+"shown to the user."
+msgstr ""
+"Een optionele uitleg bij het nieuwe veld. Deze uitleg wordt aan de gebruiker "
+"getoond."
+
+#: modules/profile/profile.admin.inc:240
+msgid "Selection options"
+msgstr "Selectie-opties"
+
+#: modules/profile/profile.admin.inc:242
+msgid ""
+"A list of all options. Put each option on a separate line. Example options "
+"are \"red\", \"blue\", \"green\", etc."
+msgstr ""
+"Een lijst van alle opties. Plaats iedere optie op een afzonderlijke regel. "
+"Voorbeelden zijn \"rood\", \"blauw\", \"groen\"\", enz."
+
+#: modules/profile/profile.admin.inc:246
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Hidden profile field, only accessible by administrators, modules and themes."
+msgstr ""
+"Verborgen profielveld. Alleen zichtbaar voor beheerders, modules en "
+"templates."
+
+#: modules/profile/profile.admin.inc:248
+msgid "Private field, content only available to privileged users."
+msgstr ""
+"Privé veld, inhoud is alleen beschikbaar voor gebruikers met voldoende "
+"toegangsrechten."
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Public field, content shown on profile page but not used on member list "
+"pages."
+msgstr ""
+"Publiek veld, de inhoud wordt getoond op de profiel-pagina maar niet op de "
+"gebruikerslijst-pagina's."
+
+#: modules/profile/profile.admin.inc:248
+msgid "Public field, content shown on profile page and on member list pages."
+msgstr ""
+"Publiek veld, de inhoud wordt getoond op de profiel-pagina en op de "
+"gebruikerslijst-pagina's."
+
+#: modules/profile/profile.admin.inc:252,259
+msgid "Page title"
+msgstr "Pagina titel"
+
+#: modules/profile/profile.admin.inc:254
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. The word <code>%value</code> will be substituted with the "
+"corresponding value. An example page title is \"People whose favorite color "
+"is %value\". This is only applicable for a public field."
+msgstr ""
+"Om dit veld per waarde door te kunnen bladeren moet u een titel voor de "
+"resulterende pagina opgeven. Het woord <code>%value</code> wordt daarbij "
+"vervangen door de overeenkomstige waarde. Een voorbeeld van een paginatitel "
+"is \"Mensen wiens favoriete kleur %value is\". Dit is alleen van toepassing "
+"voor publieke velden."
+
+#: modules/profile/profile.admin.inc:261
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. An example page title is \"People who are employed\". This is only "
+"applicable for a public field."
+msgstr ""
+"Om dit veld per waarde door te kunnen bladeren moet u een titel voor de "
+"resulterende pagina opgeven. Een voorbeeld van een paginatitel is \"Mensen "
+"die werk hebben\". Dit is alleen van toepassing voor een publiek veld."
+
+#: modules/profile/profile.admin.inc:267
+msgid ""
+"The weights define the order in which the form fields are shown. Lighter "
+"fields \"float up\" towards the top of the category."
+msgstr ""
+"De gewichten bepalen de volgorde waarin de velden weergegeven worden. "
+"Lichtere velden \"drijven\" naar de bovenkant van de categorie."
+
+#: modules/profile/profile.admin.inc:270
+msgid "Form will auto-complete while user is typing."
+msgstr ""
+"Velden in dit formulier worden tijdens het typen automatisch aangevuld (auto-"
+"complete)."
+
+#: modules/profile/profile.admin.inc:272
+msgid ""
+"For security, auto-complete will be disabled if the user does not have "
+"access to user profiles."
+msgstr ""
+"Om veiligheidsredenen zal automatische aangevulling worden uitgeschakeld "
+"wanneer de gebruiker geen toegang tot gebruikersprofielen heeft."
+
+#: modules/profile/profile.admin.inc:275
+msgid "The user must enter a value."
+msgstr "De gebruiker moet een waarde opgeven."
+
+#: modules/profile/profile.admin.inc:279
+msgid "Visible in user registration form."
+msgstr "Zichtbaar in registratieformulier gebruikers."
+
+#: modules/profile/profile.admin.inc:283
+msgid "Save field"
+msgstr "Veld opslaan"
+
+#: modules/profile/profile.admin.inc:294
+msgid ""
+"The specified form name contains one or more illegal characters. Spaces or "
+"any other special characters except dash (-) and underscore (_) are not "
+"allowed."
+msgstr ""
+"De opgegeven formuliernaam bevat één of meer ongeldige tekens. Spaties of "
+"andere bijzondere tekens behalve koppelteken (-) en onderstrepingsteken (_) "
+"zijn niet toegestaan."
+
+#: modules/profile/profile.admin.inc:298
+msgid "The specified form name is reserved for use by Drupal."
+msgstr "De opgegeven formuliernaam is gereserveerd voor gebruik door Drupal."
+
+#: modules/profile/profile.admin.inc:305
+msgid "The specified category name is reserved for use by Drupal."
+msgstr "De opgegeven categorienaam is gereserveerd voor gebruik door Drupal."
+
+#: modules/profile/profile.admin.inc:317
+msgid "The specified title is already in use."
+msgstr "Het opgegeven titel is reeds in gebruik."
+
+#: modules/profile/profile.admin.inc:320
+msgid "The specified name is already in use."
+msgstr "Het opgegeven pad is reeds in gebruik."
+
+#: modules/profile/profile.admin.inc:324
+msgid "A hidden field cannot be required."
+msgstr "Een verborgen veld kan niet verplicht zijn."
+
+#: modules/profile/profile.admin.inc:327
+msgid "A hidden field cannot be set to visible on the user registration form."
+msgstr ""
+"Een verborgen veld kan niet zichtbaar gemaakt worden op het "
+"registratieformulier voor gebruikers."
+
+#: modules/profile/profile.admin.inc:345
+msgid "The field has been created."
+msgstr "Het veld is aangemaakt."
+
+#: modules/profile/profile.admin.inc:351
+msgid "The field has been updated."
+msgstr "Het veld is bijgewerkt."
+
+#: modules/profile/profile.admin.inc:373
+msgid "Are you sure you want to delete the field %field?"
+msgstr "Wilt u het veld %field verwijderen?"
+
+#: modules/profile/profile.admin.inc:374
+msgid ""
+"This action cannot be undone. If users have entered values into this field "
+"in their profile, these entries will also be deleted. If you want to keep "
+"the user-entered data, instead of deleting the field you may wish to <a href="
+"\"@edit-field\">edit this field</a> and change it to a hidden profile field "
+"so that it may only be accessed by administrators."
+msgstr ""
+"Deze actie kan niet ongedaan gemaakt worden. Wanneer gebruikers reeds "
+"gegevens in dit veld hebben ingevoerd, zullen deze gegevens ook worden "
+"verwijderd. Wanneer u deze gegevens wilt behouden, kunt u in plaats van het "
+"te verwijderen <a href=\"@edit-field\">dit veld bewerken</a> en het wijzigen "
+"in een verborgen veld waardoor alleen nog beheerders toegang tot dit veld "
+"hebben."
+
+#: modules/profile/profile.admin.inc:387
+msgid "The field %field has been deleted."
+msgstr "Het veld %field is verwijderd."
+
+#: modules/profile/profile.admin.inc:346
+msgid "Profile field %field added under category %category."
+msgstr "Profielveld %field toegevoegd onder categorie %category."
+
+#: modules/profile/profile.admin.inc:388
+msgid "Profile field %field deleted."
+msgstr "Profielveld %field verwijderd."
+
+#: modules/profile/profile.module:35
+msgid ""
+"The profile module allows custom fields (such as country, full name, or age) "
+"to be defined and displayed in the <em>My Account</em> section. This permits "
+"users of a site to share more information about themselves, and can help "
+"community-based sites organize users around specific information."
+msgstr ""
+"Met de Profile-module kunnen velden (zoals land, volledige naam of leeftijd) "
+"worden toegevoegd aan en weergegeven op de <em>Mijn account</em>-pagina. "
+"Hiermee kunnen gebruikers van een website informatie over zichzelf delen en "
+"kunnen community-sites de gebruikers naar onderwerp te groeperen."
+
+#: modules/profile/profile.module:36
+msgid "The following types of fields can be added to a user profile:"
+msgstr ""
+"De volgende veldtypen kunnen aan een gebruikersprofiel worden toegevoegd:"
+
+#: modules/profile/profile.module:37,545
+msgid "single-line textfield"
+msgstr "tekstveld van één regel"
+
+#: modules/profile/profile.module:38,546
+msgid "multi-line textfield"
+msgstr "tekstveld van meerdere regels"
+
+#: modules/profile/profile.module:39,547
+msgid "checkbox"
+msgstr "keuzevakje"
+
+#: modules/profile/profile.module:40,548
+msgid "list selection"
+msgstr "keuzelijst"
+
+#: modules/profile/profile.module:41,549
+msgid "freeform list"
+msgstr "vrijevormlijst"
+
+#: modules/profile/profile.module:43,551
+msgid "date"
+msgstr "datum"
+
+#: modules/profile/profile.module:44
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@profile"
+"\">Profile module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@profile"
+"\">Profile-module</a>."
+
+#: modules/profile/profile.module:47
+msgid ""
+"This page displays a list of the existing custom profile fields to be "
+"displayed on a user's <em>My Account</em> page. To provide structure, "
+"similar or related fields may be placed inside a category. To add a new "
+"category (or edit an existing one), edit a profile field and provide a new "
+"category name. To change the category of a field or the order of fields "
+"within a category, grab a drag-and-drop handle under the Title column and "
+"drag the field to a new location in the list. (Grab a handle by clicking and "
+"holding the mouse while hovering over a handle icon.) Remember that your "
+"changes will not be saved until you click the <em>Save configuration</em> "
+"button at the bottom of the page."
+msgstr ""
+"Op deze pagina biedt een lijst van bestaande velden die kunnen worden "
+"weergegeven op de <em>Mijn account</em>-pagina van een gebruiker. Om "
+"structuur aan de pagina te geven kunnen verwante velden in een categorie "
+"worden geplaatst. Om een categorie toe te voegen (of een bestaande categorie "
+"te wijzigen) vult u een categorienaam in tijdens het aanmaken of wijzingen "
+"van een veld. Om een veld in een andere categorie te plaatsen of de volgorde "
+"van velden binnen een categorie te wijzigen, klik-sleept u een veld aan het "
+"handvat in de kolom <em>Titel</em> naar een nieuwe positie in de lijst. (U "
+"klik-sleept het blok door met de muis boven het handvatpictogram te klikken, "
+"vast te houden en de muis te verplaatsen.) Wijzigingen worden pas opgeslagen "
+"wanneer u de knop <em>Configuratie opslaan</em> onderaan de pagina aanklikt."
+
+#: modules/profile/profile.module:141
+msgid "Author information"
+msgstr "Informatie over de auteur"
+
+#: modules/profile/profile.module:152
+msgid "Link to full user profile"
+msgstr "Link naar volledig gebruikersprofiel"
+
+#: modules/profile/profile.module:154
+msgid "Profile fields to display"
+msgstr "Weer te geven profielvelden"
+
+#: modules/profile/profile.module:157
+msgid ""
+"Select which profile fields you wish to display in the block. Only fields "
+"designated as public in the <a href=\"@profile-admin\">profile field "
+"configuration</a> are available."
+msgstr ""
+"Kies welke velden van het profiel u in het blok wilt weergeven. Alleen de "
+"als publiek gemarkeerde velden in <a href=\"@profile-admin\">profielveld "
+"configuratie</a> zijn beschikbaar."
+
+#: modules/profile/profile.module:189
+msgid "View full user profile"
+msgstr "Bekijk het volledige gebruikersprofiel"
+
+#: modules/profile/profile.module:194
+msgid "About %name"
+msgstr "Over %name"
+
+#: modules/profile/profile.module:337
+msgid ""
+"Put each item on a separate line or separate them by commas. No HTML allowed."
+msgstr ""
+"Gebruik voor ieder item een nieuwe regel of scheid de items door komma's. "
+"HTML is niet toegestaan."
+
+#: modules/profile/profile.module:439
+msgid "The value provided for %field is not a valid URL."
+msgstr "De opgegeven waarde voor %field is geen geldige URL."
+
+#: modules/profile/profile.module:444
+msgid "The field %field is required."
+msgstr "Het veld %field is verplicht."
+
+#: modules/profile/profile.module:87
+msgid "Profiles"
+msgstr "Profielen"
+
+#: modules/profile/profile.module:88
+msgid "Create customizable fields for your users."
+msgstr "Speciale velden voor uw gebruikersprofielen aanmaken."
+
+#: modules/profile/profile.module:95
+msgid "Add field"
+msgstr "Veld toevoegen"
+
+#: modules/profile/profile.module:103
+msgid "Profile category autocomplete"
+msgstr "Profiel categorie autocomplete"
+
+#: modules/profile/profile.module:110
+msgid "Edit field"
+msgstr "Veld bewerken"
+
+#: modules/profile/profile.module:118
+msgid "Delete field"
+msgstr "Veld verwijderen"
+
+#: modules/profile/profile.module:126
+msgid "Profile autocomplete"
+msgstr "Profiel autocomplete"

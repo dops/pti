@@ -1,0 +1,43 @@
+<?php
+
+function imagereport_elements() {
+	$fields = array();
+	
+	$fields['text_imagereport'] = array(
+		'#input' => true,
+	);
+	
+	return $fields;
+}
+
+function imagereport_field_info() {
+  return array(
+    'text_imagereport' => array(
+      'label' => t('Imagereport'),
+      'description' => t('Stores text combined with images in the database.'),
+//      'content_icon' => 'icon_content_text.png',
+    ),
+  );
+}
+
+
+function imagereport_theme() {
+  return array(
+    'text_imagereport' => array(
+       'arguments' => array('element' => NULL)
+    ),
+  );
+}
+
+
+function theme_text_imagereports($element) {
+	$elements = array();
+	
+	$elements['text'] = array(
+		'#type' => 'textfield',
+		'#size' => 30,
+		'#name' => 'imagereport',
+	);
+	
+	return drupal_render($elements);
+}

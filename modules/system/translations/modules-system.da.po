@@ -1,0 +1,1996 @@
+# Dansk translation of drupal (6.12)
+# Copyright (c) 2009 by the Dansk translation team
+# Generated from files:
+#  system.admin.inc,v 1.63.2.7 2009/02/25 11:38:41 goba
+#  system.module,v 1.585.2.36 2009/05/13 19:11:04 goba
+#  system.install,v 1.238.2.14 2009/04/27 12:50:13 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.12)\n"
+"POT-Creation-Date: 2009-05-20 03:59-0700\n"
+"PO-Revision-Date: 2009-05-20 03:57-0700\n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/system/system.admin.inc:22
+msgid ""
+"One or more problems were detected with your Drupal installation. Check the "
+"<a href=\"@status\">status report</a> for more information."
+msgstr ""
+"Der er et eller flere problemer med din Drupal-installation. Se <a href="
+"\"@status\">statusrapporten</a> for yderligere information."
+
+#: modules/system/system.admin.inc:58,79
+msgid "You do not have any administrative items."
+msgstr "Du har ingen administrationselementer."
+
+#: modules/system/system.admin.inc:118
+msgid "Get help"
+msgstr "Hjælp"
+
+#: modules/system/system.admin.inc:158
+msgid "System default"
+msgstr "Standard"
+
+#: modules/system/system.admin.inc:167
+msgid ""
+"Choose which theme the administration pages should display in. If you choose "
+"\"System default\" the administration pages will use the same theme as the "
+"rest of the site."
+msgstr ""
+"Vælg hvilket tema der skal bruges på administrationssiderne. Hvis du vælge "
+"\"standard\" bruges samme tema som på resten af sitet."
+
+#: modules/system/system.admin.inc:173
+msgid "Use administration theme for content editing"
+msgstr "Brug administrationstema til redigering af indhold"
+
+#: modules/system/system.admin.inc:174
+msgid ""
+"Use the administration theme when editing existing posts or creating new "
+"ones."
+msgstr ""
+"Brug administrationstemaet når du redigerer eksisterende indhold eller "
+"opretter nyt."
+
+#: modules/system/system.admin.inc:288
+msgid ""
+"Please note that the <a href=\"!admin_theme_page\">administration theme</a> "
+"is still set to the %admin_theme theme; consequently, the theme on this page "
+"remains unchanged. All non-administrative sections of the site, however, "
+"will show the selected %selected_theme theme by default."
+msgstr ""
+"Bemærk at <a href=\"!admin_theme_page\">administrationstema</a> stadig er "
+"sat til %admin_theme. Det betyder at temaet på denne side ikke ændres. Alle "
+"ikke-administrative sider på sitet viser det valgte tema %selected_theme som "
+"standard."
+
+#: modules/system/system.admin.inc:377
+msgid "Logo"
+msgstr "Logo"
+
+#: modules/system/system.admin.inc:379
+msgid "Site slogan"
+msgstr "Sitets slogan"
+
+#: modules/system/system.admin.inc:380
+msgid "Mission statement"
+msgstr "Formålsparagraf"
+
+#: modules/system/system.admin.inc:381
+msgid "User pictures in posts"
+msgstr "Brugerbilleder i indlæg"
+
+#: modules/system/system.admin.inc:382
+msgid "User pictures in comments"
+msgstr "Brugerbilleder i kommentarer"
+
+#: modules/system/system.admin.inc:383
+msgid "Search box"
+msgstr "Søgefelt"
+
+#: modules/system/system.admin.inc:384
+msgid "Shortcut icon"
+msgstr "Genvejsikon"
+
+#: modules/system/system.admin.inc:401
+msgid "Toggle display"
+msgstr "Vælg visning"
+
+#: modules/system/system.admin.inc:402
+msgid "Enable or disable the display of certain page elements."
+msgstr "Vælg visning af sidelementer."
+
+#: modules/system/system.admin.inc:427
+msgid "Display post information on"
+msgstr "Vis information"
+
+#: modules/system/system.admin.inc:428
+msgid ""
+"Enable or disable the <em>submitted by Username on date</em> text when "
+"displaying posts of the following type."
+msgstr ""
+"Bestem om teksten <em>skrevet af brugernavn den</em> skal vises sammen med "
+"følgende indholdstyper."
+
+#: modules/system/system.admin.inc:447
+msgid "Logo image settings"
+msgstr "Logo"
+
+#: modules/system/system.admin.inc:448
+msgid "If toggled on, the following logo will be displayed."
+msgstr "Vis følgende logo."
+
+#: modules/system/system.admin.inc:453
+msgid "Use the default logo"
+msgstr "Brug standardlogo."
+
+#: modules/system/system.admin.inc:456
+msgid "Check here if you want the theme to use the logo supplied with it."
+msgstr ""
+"Aktiver dette hvis du ønsker at temaet skal bruge det medfølgende logo."
+
+#: modules/system/system.admin.inc:460
+msgid "Path to custom logo"
+msgstr "Sti til logo"
+
+#: modules/system/system.admin.inc:462
+msgid ""
+"The path to the file you would like to use as your logo file instead of the "
+"default logo."
+msgstr ""
+"Stien til den fil du ønsker at bruge som logo i stedet for standardlogoet."
+
+#: modules/system/system.admin.inc:466
+msgid "Upload logo image"
+msgstr "Upload logobillede"
+
+#: modules/system/system.admin.inc:468
+msgid ""
+"If you don't have direct file access to the server, use this field to upload "
+"your logo."
+msgstr ""
+"Har du ikke direkte adgang til serveren kan du bruge dette felt til at "
+"uploade dit logo."
+
+#: modules/system/system.admin.inc:475
+msgid "Shortcut icon settings"
+msgstr "Indstillinger for genvejsikon"
+
+#: modules/system/system.admin.inc:476
+msgid ""
+"Your shortcut icon, or 'favicon', is displayed in the address bar and "
+"bookmarks of most browsers."
+msgstr ""
+"Dit genvejsikon eller 'favicon' vises i adresselinjen og bogmærkerne i de "
+"fleste browsere."
+
+#: modules/system/system.admin.inc:480
+msgid "Use the default shortcut icon."
+msgstr "Brug standard genvejsikonet."
+
+#: modules/system/system.admin.inc:482
+msgid "Check here if you want the theme to use the default shortcut icon."
+msgstr ""
+"Aktiver dette hvis du ønsker at temaet skal bruge det medfølgende "
+"genvejsikon."
+
+#: modules/system/system.admin.inc:486
+msgid "Path to custom icon"
+msgstr "Sti til tilpasset ikon"
+
+#: modules/system/system.admin.inc:488
+msgid ""
+"The path to the image file you would like to use as your custom shortcut "
+"icon."
+msgstr ""
+"Stien til den fil du ønsker at bruge som genvejsikon i stedet for "
+"standardikonet."
+
+#: modules/system/system.admin.inc:493
+msgid "Upload icon image"
+msgstr "Upload ikonbillede"
+
+#: modules/system/system.admin.inc:494
+msgid ""
+"If you don't have direct file access to the server, use this field to upload "
+"your shortcut icon."
+msgstr ""
+"Har du ikke direkte adgang til serveren kan du bruge dette felt til at "
+"uploade dit genvejsikon."
+
+#: modules/system/system.admin.inc:515
+msgid "Theme-engine-specific settings"
+msgstr "Tema-motor-specifikke indstillinger"
+
+#: modules/system/system.admin.inc:515
+msgid ""
+"These settings only exist for all the templates and styles based on the %"
+"engine theme engine."
+msgstr "Indstillingerne vises kun for temaer baseret på %engine motoren."
+
+#: modules/system/system.admin.inc:527
+msgid "Theme-specific settings"
+msgstr "Tema-specifikke indstillinger"
+
+#: modules/system/system.admin.inc:527
+msgid ""
+"These settings only exist for the %theme theme and all the styles based on "
+"it."
+msgstr "Indstillinger findes kun for temaet %theme og dets varianter."
+
+#: modules/system/system.admin.inc:699
+msgid "Depends on: !dependencies"
+msgstr "Afhænger af: !dependencies"
+
+#: modules/system/system.admin.inc:722
+msgid "Required by: !required"
+msgstr "Kræves af: !required"
+
+#: modules/system/system.admin.inc:841
+msgid "Some required modules must be enabled"
+msgstr "Nogle påkrævede moduler skal aktiveres"
+
+#: modules/system/system.admin.inc:843
+msgid "Would you like to continue with enabling the above?"
+msgstr "Ønsker du at aktivere alle ovennævnte?"
+
+#: modules/system/system.admin.inc:844
+msgid "Continue"
+msgstr "Fortsæt"
+
+#: modules/system/system.admin.inc:1075
+msgid ""
+"The following modules will be completely uninstalled from your site, and "
+"<em>all data from these modules will be lost</em>!"
+msgstr ""
+"Følgende moduler afinstalleres fra dit site og <em>alle data fra disse "
+"moduler går tabt!</em>"
+
+#: modules/system/system.admin.inc:1078
+msgid "Confirm uninstall"
+msgstr "Fortsæt afinstallering"
+
+#: modules/system/system.admin.inc:1080
+msgid "Would you like to continue with uninstalling the above?"
+msgstr "Ønsker du at afinstallere ovennævnte?"
+
+#: modules/system/system.admin.inc:1093
+msgid "No modules selected."
+msgstr "Ingen moduler markeret."
+
+#: modules/system/system.admin.inc:1110
+msgid "The selected modules have been uninstalled."
+msgstr "De valgte moduler er blevet afinstalleret."
+
+#: modules/system/system.admin.inc:1131
+msgid "The name of this website."
+msgstr "Sitets navn."
+
+#: modules/system/system.admin.inc:1143
+msgid "Slogan"
+msgstr "Slogan"
+
+#: modules/system/system.admin.inc:1145
+msgid ""
+"Your site's motto, tag line, or catchphrase (often displayed alongside the "
+"title of the site)."
+msgstr "Sitets motto eller slogan (vises ofte sammen med sitets titel)."
+
+#: modules/system/system.admin.inc:1149
+msgid "Mission"
+msgstr "Formål"
+
+#: modules/system/system.admin.inc:1151
+msgid ""
+"Your site's mission or focus statement (often prominently displayed on the "
+"front page)."
+msgstr "Sitets mission eller fokus (ofte prominent placeret på forsiden)."
+
+#: modules/system/system.admin.inc:1155
+msgid "Footer message"
+msgstr "Sidefod"
+
+#: modules/system/system.admin.inc:1157
+msgid ""
+"This text will be displayed at the bottom of each page. Useful for adding a "
+"copyright notice to your pages."
+msgstr ""
+"Denne tekst vises i bunden af alle sider. Kan bruges til at tilføje en "
+"copyright-besked til alle sider."
+
+#: modules/system/system.admin.inc:1161
+msgid "Anonymous user"
+msgstr "Anonym bruger"
+
+#: modules/system/system.admin.inc:1163
+msgid "The name used to indicate anonymous users."
+msgstr "Navnet der tildeles anonyme brugere."
+
+#: modules/system/system.admin.inc:1168
+msgid "Default front page"
+msgstr "Standardforside"
+
+#: modules/system/system.admin.inc:1171
+msgid ""
+"The home page displays content from this relative URL. If unsure, specify "
+"\"node\"."
+msgstr ""
+"Forsiden viser indhold fra denne relative URL. Vælg \"node\" hvis du er i "
+"tvivl."
+
+#: modules/system/system.admin.inc:1196
+msgid "The path '@path' is either invalid or you do not have access to it."
+msgstr "Stien '@path' er enten ugyldig eller du har ikke adgang til den."
+
+#: modules/system/system.admin.inc:1210
+msgid "Default 403 (access denied) page"
+msgstr "Standard 403 (adgang nægtet) side"
+
+#: modules/system/system.admin.inc:1213
+msgid ""
+"This page is displayed when the requested document is denied to the current "
+"user. If unsure, specify nothing."
+msgstr ""
+"Vises når brugeren nægtes adgang til den efterspurgte side. Lad feltet være "
+"tomt hvis du er i tvivl."
+
+#: modules/system/system.admin.inc:1219
+msgid "Default 404 (not found) page"
+msgstr "Standard 404 (ikke fundet) side"
+
+#: modules/system/system.admin.inc:1222
+msgid ""
+"This page is displayed when no other content matches the requested document. "
+"If unsure, specify nothing."
+msgstr ""
+"Vises når intet indhold svarer til forespørgslen. Lad feltet være tomt hvis "
+"du er i tvivl."
+
+#: modules/system/system.admin.inc:1228
+msgid "Write errors to the log"
+msgstr "Skriv fejl til loggen"
+
+#: modules/system/system.admin.inc:1228
+msgid "Write errors to the log and to the screen"
+msgstr "Skriv fejl til loggen og til skærmen"
+
+#: modules/system/system.admin.inc:1229
+msgid ""
+"Specify where Drupal, PHP and SQL errors are logged. While it is recommended "
+"that a site running in a production environment write errors to the log "
+"only, in a development or testing environment it may be helpful to write "
+"errors both to the log and to the screen."
+msgstr ""
+"Angiv hvor Drupal-, PHP- og SQL-fejl logges. På en server i produktion "
+"anbefales det at fejl kun skrives til loggen. På en testserver kan det være "
+"en fordel at skrive fejlmeddelelser til skærmen."
+
+#: modules/system/system.admin.inc:1255
+msgid ""
+"The normal cache mode is suitable for most sites and does not cause any side "
+"effects. The aggressive cache mode causes Drupal to skip the loading (boot) "
+"and unloading (exit) of enabled modules when serving a cached page. This "
+"results in an additional performance boost but can cause unwanted side "
+"effects."
+msgstr ""
+"Den normale cachemetode kan bruges på de fleste sites og har ingen "
+"bivirkninger. Den aggressive cachemetode får Drupal til at springer over "
+"load (boot) og unload (exit) af aktive moduler når en cachet side vises. Det "
+"giver bedre ydelse men kan have uønskede bivirkninger."
+
+#: modules/system/system.admin.inc:1261
+msgid ""
+"<strong class=\"error\">The following enabled modules are incompatible with "
+"aggressive mode caching and will not function properly: %modules</strong>"
+msgstr ""
+"<strong class=\"error\">Følgende aktive moduler er ikke kompatible med den "
+"aggressive cachemetode og vil ikke fungere korrekt: %modules</strong>"
+
+#: modules/system/system.admin.inc:1264
+msgid ""
+"<strong class=\"ok\">Currently, all enabled modules are compatible with the "
+"aggressive caching policy.</strong> Please note, if you use aggressive "
+"caching and enable new modules, you will need to check this page again to "
+"ensure compatibility."
+msgstr ""
+"<strong class=\"ok\">Alle aktive moduler er kompatible med den aggressive "
+"cachemetode.</strong> Hvis du bruger den aggressive cachemetode og aktiverer "
+"yderligere moduler skal du besøge denne side igen for at sikre "
+"kompatibilitet."
+
+#: modules/system/system.admin.inc:1268
+msgid "Page cache"
+msgstr "Sidecache"
+
+#: modules/system/system.admin.inc:1269
+msgid ""
+"Enabling the page cache will offer a significant performance boost. Drupal "
+"can store and send compressed cached pages requested by <em>anonymous</em> "
+"users. By caching a web page, Drupal does not have to construct the page "
+"each time it is viewed."
+msgstr ""
+"Aktiver cachen for at forbedre sitets ydelse. Drupal kan gemme komprimerede "
+"kopier af sider der sendes til <em>anonyme</em> brugere. Ved at cache en "
+"side behøver Drupal ikke at bygge den fra bunden hver gang den vises."
+
+#: modules/system/system.admin.inc:1274
+msgid "Caching mode"
+msgstr "Cachetilstand"
+
+#: modules/system/system.admin.inc:1276
+msgid "Normal (recommended for production sites, no side effects)"
+msgstr "Normal (anbefales til sites i produktion, ingen bivirkninger)"
+
+#: modules/system/system.admin.inc:1276
+msgid "Aggressive (experts only, possible side effects)"
+msgstr "Aggressiv (kun for eksperter, mulige bivirkninger)"
+
+#: modules/system/system.admin.inc:1284
+msgid "Minimum cache lifetime"
+msgstr "Mindste cachelevetid"
+
+#: modules/system/system.admin.inc:1287
+msgid ""
+"On high-traffic sites, it may be necessary to enforce a minimum cache "
+"lifetime. The minimum cache lifetime is the minimum amount of time that will "
+"elapse before the cache is emptied and recreated, and is applied to both "
+"page and block caches. A larger minimum cache lifetime offers better "
+"performance, but users will not see new content for a longer period of time."
+msgstr ""
+"Aktivering af cachen vil give et løft i ydelsen for de fleste sites med "
+"lille til mellemstor trafik. På sites med høj trafik kan det være nødvendigt "
+"at justere cachens levetid. Levetiden angiver den mindste tid der går inden "
+"cachen tømmes og gendannes. En høj levetid giver bedre ydelse, men besøgende "
+"vil se nyt indhold med en større forsinkelse."
+
+#: modules/system/system.admin.inc:1291
+msgid "Page compression"
+msgstr "Sidekomprimering"
+
+#: modules/system/system.admin.inc:1294
+msgid ""
+"By default, Drupal compresses the pages it caches in order to save bandwidth "
+"and improve download times. This option should be disabled when using a "
+"webserver that performs compression."
+msgstr ""
+"Som standard komprimerer Drupal de sider der caches for at spare båndbredde "
+"og forbedre overførselstider. Bør slås fra hvis du bruger en webserver der "
+"komprimerer data."
+
+#: modules/system/system.admin.inc:1299,1305
+msgid "Block cache"
+msgstr "Blokcache"
+
+#: modules/system/system.admin.inc:1300
+msgid ""
+"Enabling the block cache can offer a performance increase for all users by "
+"preventing blocks from being reconstructed on each page load. If the page "
+"cache is also enabled, performance increases from enabling the block cache "
+"will mainly benefit authenticated users."
+msgstr ""
+"Blokcachen kan forbedre ydelsen for alle brugere ved at forhindre at alle "
+"blokke opbygges ved hver sidevisning. Hvis side-cachen er aktiv vil "
+"blokcachen mestendels være til gavn for godkendte brugere."
+
+#: modules/system/system.admin.inc:1307
+msgid "Enabled (recommended)"
+msgstr "Aktiveret (anbefalet)"
+
+#: modules/system/system.admin.inc:1309
+msgid ""
+"Note that block caching is inactive when modules defining content access "
+"restrictions are enabled."
+msgstr ""
+"Bemærk at blokcachen slås fra når moduler, der bruger adgangsbegrænsing, er "
+"aktiveret."
+
+#: modules/system/system.admin.inc:1314
+msgid "Bandwidth optimizations"
+msgstr "Båndbreddeoptimering"
+
+#: modules/system/system.admin.inc:1315
+msgid ""
+"<p>Drupal can automatically optimize external resources like CSS and "
+"JavaScript, which can reduce both the size and number of requests made to "
+"your website. CSS files can be aggregated and compressed into a single file, "
+"while JavaScript files are aggregated (but not compressed). These optional "
+"optimizations may reduce server load, bandwidth requirements, and page "
+"loading times.</p><p>These options are disabled if you have not set up your "
+"files directory, or if your download method is set to private.</p>"
+msgstr ""
+"<p>Drupal kan automatisk optimere eksterne ressourcer som CSS og JavaScript, "
+"hvilket kan mindske både størrelsen og antallet af forespørgsler der "
+"foretages til dit site. CSS-filer kan samles og komprimeres i én fil, mens "
+"JavaScript-filer kan samles (men ikke komprimeres). Disse valgfri "
+"optimeringer kan mindske server-belastning, forbrug af båndbredde og "
+"indlæsningstid.</p><p>Indstillingerne er deaktiveret hvis du ikke har "
+"indstillet en fil-mappe eller du har valgt den private overførselsmetode.</p>"
+
+#: modules/system/system.admin.inc:1322
+msgid "Optimize CSS files"
+msgstr "Optimér CSS filer"
+
+#: modules/system/system.admin.inc:1326
+msgid ""
+"This option can interfere with theme development and should only be enabled "
+"in a production environment."
+msgstr ""
+"Kan gribe ind i tema-udvikling og bør kun aktiveres i produktionsmiljøer."
+
+#: modules/system/system.admin.inc:1330
+msgid "Optimize JavaScript files"
+msgstr "Optimér JavaScript filer"
+
+#: modules/system/system.admin.inc:1334
+msgid ""
+"This option can interfere with module development and should only be enabled "
+"in a production environment."
+msgstr ""
+"Kan gribe ind i modul-udvikling og bør kun aktiveres i produktionsmiljøer."
+
+#: modules/system/system.admin.inc:1339,1345
+msgid "Clear cached data"
+msgstr "Ryd cachet data"
+
+#: modules/system/system.admin.inc:1340
+msgid ""
+"Caching data improves performance, but may cause problems while "
+"troubleshooting new modules, themes, or translations, if outdated "
+"information has been cached. To refresh all cached data on your site, click "
+"the button below. <em>Warning: high-traffic sites will experience "
+"performance slowdowns while cached data is rebuilt.</em>"
+msgstr ""
+"Caching giver bedre ydelse men kan skabe problemer ved fejlfinding i nye "
+"moduler, temaer og oversættelser. Klik på knappen herunder for at "
+"genopfriske alt cachet data på dit site. <em>Advarsel: Sites med høj trafik "
+"vil opleve nedgang i ydelsen mens cachen genopbygges.</em>"
+
+#: modules/system/system.admin.inc:1362
+msgid "Caches cleared."
+msgstr "Cacher tømt"
+
+#: modules/system/system.admin.inc:1375
+msgid "File system path"
+msgstr "Filsystemsti"
+
+#: modules/system/system.admin.inc:1378
+msgid ""
+"A file system path where the files will be stored. This directory must exist "
+"and be writable by Drupal. If the download method is set to public, this "
+"directory must be relative to the Drupal installation directory and be "
+"accessible over the web. If the download method is set to private, this "
+"directory should not be accessible over the web. Changing this location will "
+"modify all download paths and may cause unexpected problems on an existing "
+"site."
+msgstr ""
+"Stien til mappen hvor uploadede filer gemmes. Mappen skal eksistere og "
+"Drupal skal kunne skrive til den. Hvis downloadmetoden er sat til offentlig, "
+"skal denne sti være relativ til Drupal mappen og være tilgængelig via "
+"nettet. Når downloadmetoden er sat til privat bør denne mappe ikke være "
+"tilgængelig via nettet. Ændres denne sti efter sitet har været i brug vil "
+"der opstår problemer, så skift kun denne indstilling hvis du ved hvad du gør."
+
+#: modules/system/system.admin.inc:1384
+msgid "Temporary directory"
+msgstr "Mappe til midlertidige filer"
+
+#: modules/system/system.admin.inc:1387
+msgid "A file system path where uploaded files will be stored during previews."
+msgstr "Stien hvor uploadede filer gemmes under gennemsyn."
+
+#: modules/system/system.admin.inc:1393
+msgid "Download method"
+msgstr "Filoverførsel"
+
+#: modules/system/system.admin.inc:1395
+msgid "Public - files are available using HTTP directly."
+msgstr "Offentlig - filer er tilgængelige via HTTP."
+
+#: modules/system/system.admin.inc:1395
+msgid "Private - files are transferred by Drupal."
+msgstr "Privat - filer overføres via Drupal"
+
+#: modules/system/system.admin.inc:1396
+msgid ""
+"Choose the <em>Public download</em> method unless you wish to enforce fine-"
+"grained access controls over file downloads. Changing the download method "
+"will modify all download paths and may cause unexpected problems on an "
+"existing site."
+msgstr ""
+"Vælg metoden <em>offentlige overførsler</em> med mindre du ønsker lave "
+"adgangskontrol for filer. Skifter du overførselsmetoden ændres alle "
+"overførselsstier og der kan opstå uventede problemer på et eksisterende site."
+
+#: modules/system/system.admin.inc:1413
+msgid "Select an image processing toolkit"
+msgstr "Vælg et værktøj til billedbehandling"
+
+#: modules/system/system.admin.inc:1437
+msgid "Number of items in each feed"
+msgstr "Antal elementer i hvert feed"
+
+#: modules/system/system.admin.inc:1440
+msgid "Default number of items to include in each feed."
+msgstr "Antal elementer der som standard inkluderes i hvert feed."
+
+#: modules/system/system.admin.inc:1444
+msgid "Feed content"
+msgstr "Feed-indhold"
+
+#: modules/system/system.admin.inc:1446
+msgid "Titles only"
+msgstr "Kun titler"
+
+#: modules/system/system.admin.inc:1446
+msgid "Titles plus teaser"
+msgstr "Titler og resuméer"
+
+#: modules/system/system.admin.inc:1446
+msgid "Full text"
+msgstr "Fuld tekst"
+
+#: modules/system/system.admin.inc:1447
+msgid "Global setting for the default display of content items in each feed."
+msgstr ""
+"Global indstilling for standardvisning af indholdselementer i hvert feed."
+
+#: modules/system/system.admin.inc:1490
+msgid "Custom format"
+msgstr "Tilpasset format"
+
+#: modules/system/system.admin.inc:1502
+msgid "Select the default site time zone."
+msgstr "Vælg standardtidszone for sitet."
+
+#: modules/system/system.admin.inc:1507
+msgid "User-configurable time zones"
+msgstr "Tidszonevalg"
+
+#: modules/system/system.admin.inc:1510
+msgid ""
+"When enabled, users can set their own time zone and dates will be displayed "
+"accordingly."
+msgstr "Brugerne kan vælge deres egen tidszone og datoer vises derefter."
+
+#: modules/system/system.admin.inc:1515
+msgid "First day of week"
+msgstr "Første dag i ugen"
+
+#: modules/system/system.admin.inc:1518
+msgid "The first day of the week for calendar views."
+msgstr "Den første dag i ugen ved kalendervisning."
+
+#: modules/system/system.admin.inc:1523
+msgid "Formatting"
+msgstr "Formatering"
+
+#: modules/system/system.admin.inc:1531
+msgid "Short date format"
+msgstr "Kort datoformat"
+
+#: modules/system/system.admin.inc:1535
+msgid "The short format of date display."
+msgstr "Kort datovisning"
+
+#: modules/system/system.admin.inc:1543
+msgid "Custom short date format"
+msgstr "Tilpasset kort datoformat"
+
+#: modules/system/system.admin.inc:1546
+msgid ""
+"A user-defined short date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as <span>%"
+"date</span>."
+msgstr ""
+"Brugerdefineret kort datoformat. Se <a href=\"@url\">PHP manualen</a> for "
+"mulige valg. Formatet vises i øjeblikket som <span>%date</span>."
+
+#: modules/system/system.admin.inc:1554
+msgid "Medium date format"
+msgstr "Mellem datoformat"
+
+#: modules/system/system.admin.inc:1558
+msgid "The medium sized date display."
+msgstr "Mellem datovisning"
+
+#: modules/system/system.admin.inc:1566
+msgid "Custom medium date format"
+msgstr "Tilpasset mellem datoformat"
+
+#: modules/system/system.admin.inc:1569
+msgid ""
+"A user-defined medium date format. See the <a href=\"@url\">PHP manual</a> "
+"for available options. This format is currently set to display as <span>%"
+"date</span>."
+msgstr ""
+"Brugerdefineret mellem datoformat. Se <a href=\"@url\">PHP manualen</a> for "
+"mulige valg. Formatet vises i øjeblikket som <span>%date</span>."
+
+#: modules/system/system.admin.inc:1577
+msgid "Long date format"
+msgstr "Langt datoformat"
+
+#: modules/system/system.admin.inc:1581
+msgid "Longer date format used for detailed display."
+msgstr "Lang datovisning"
+
+#: modules/system/system.admin.inc:1589
+msgid "Custom long date format"
+msgstr "Tilpasset langt datoformat"
+
+#: modules/system/system.admin.inc:1592
+msgid ""
+"A user-defined long date format. See the <a href=\"@url\">PHP manual</a> for "
+"available options. This format is currently set to display as <span>%date</"
+"span>."
+msgstr ""
+"Brugerdefineret langt datoformat. Se <a href=\"@url\">PHP manualen</a> for "
+"mulige valg. Formatet vises i øjeblikket som <span>%date</span>."
+
+#: modules/system/system.admin.inc:1636
+msgid "Site status"
+msgstr "Site-status"
+
+#: modules/system/system.admin.inc:1638
+msgid "Online"
+msgstr "Online"
+
+#: modules/system/system.admin.inc:1638
+msgid "Off-line"
+msgstr "Offline"
+
+#: modules/system/system.admin.inc:1639
+msgid ""
+"When set to \"Online\", all visitors will be able to browse your site "
+"normally. When set to \"Off-line\", only users with the \"administer site "
+"configuration\" permission will be able to access your site to perform "
+"maintenance; all other visitors will see the site off-line message "
+"configured below. Authorized users can log in during \"Off-line\" mode "
+"directly via the <a href=\"@user-login\">user login</a> page."
+msgstr ""
+"Når \"Online\" er valgt, kan alle brugere se dit site som normalt. Når "
+"\"Offline\" er valgt kan kun brugere med tilladelsen \"administrer "
+"indstillinger\" tilgå sitet for at udføre vedligehold. Alle andre brugere "
+"vil se den besked, som du indtaster herunder. Autoriserede brugere kan <a "
+"href=\"@user-login\">logge ind</a> selv om sitet er offline."
+
+#: modules/system/system.admin.inc:1644
+msgid "Site off-line message"
+msgstr "Offline-besked"
+
+#: modules/system/system.admin.inc:1646
+msgid "Message to show visitors when the site is in off-line mode."
+msgstr "Beskeden der vises til besøgende når sitet er offline."
+
+#: modules/system/system.admin.inc:1671
+msgid ""
+"Before enabling clean URLs, you must perform a test to determine if your "
+"server is properly configured. If you are able to see this page again after "
+"clicking the \"Run the clean URL test\" link, the test has succeeded and the "
+"radio buttons above will be available. If instead you are directed to a "
+"\"Page not found\" error, you will need to change the configuration of your "
+"server. The <a href=\"@handbook\">handbook page on Clean URLs</a> has "
+"additional troubleshooting information."
+msgstr ""
+"Før du aktiverer rene URLer, skal du køre en test for at finde ud af, om din "
+"server er korrekt indstillet. Hvis du kan se denne side efter du har klikket "
+"på knappen \"Kør testen af rene URLer\" er testen lykkedes og knapperne "
+"herover aktiveres. Hvis du i stedet får fejlmeddelelsen \"Siden ikke fundet"
+"\" er du nødt til at ændre din servers indstillinger. Håndbogens afsnit om "
+"<a href=\"@handbook\">rene URLer</a> har yderligere information om "
+"fejlfinding."
+
+#: modules/system/system.admin.inc:1675
+msgid "<a href=\"@clean_url\">Run the clean url test</a>."
+msgstr "<a href=\"@clean_url\">Kør test af rene URLer</a>."
+
+#: modules/system/system.admin.inc:1716
+msgid "Cron ran successfully."
+msgstr "Cron-opgave fuldført."
+
+#: modules/system/system.admin.inc:1719
+msgid "Cron run failed."
+msgstr "Cron-opgave mislykkedes."
+
+#: modules/system/system.admin.inc:1751
+msgid "Variable"
+msgstr "Variabel"
+
+#: modules/system/system.admin.inc:1751
+msgid "Value"
+msgstr "Værdi"
+
+#: modules/system/system.admin.inc:1766
+msgid "Command counters"
+msgstr "Tællere"
+
+#: modules/system/system.admin.inc:1768
+msgid "The number of <code>SELECT</code>-statements."
+msgstr "Antal <code>SELECT</code>-udtryk."
+
+#: modules/system/system.admin.inc:1769
+msgid "The number of <code>INSERT</code>-statements."
+msgstr "Antal <code>INSERT</code>-udtryk."
+
+#: modules/system/system.admin.inc:1770
+msgid "The number of <code>UPDATE</code>-statements."
+msgstr "Antal <code>UPDATE</code>-udtryk."
+
+#: modules/system/system.admin.inc:1771
+msgid "The number of <code>DELETE</code>-statements."
+msgstr "Antal <code>DELETE</code>-udtryk."
+
+#: modules/system/system.admin.inc:1772
+msgid "The number of table locks."
+msgstr "Antal tabel-låsninger."
+
+#: modules/system/system.admin.inc:1773
+msgid "The number of table unlocks."
+msgstr "Antal tabel-oplukninger."
+
+#: modules/system/system.admin.inc:1776
+msgid "Query performance"
+msgstr "Ydelse"
+
+#: modules/system/system.admin.inc:1778
+msgid "The number of joins without an index; should be zero."
+msgstr "Antal joins uden indeks. Bør være nul."
+
+#: modules/system/system.admin.inc:1779
+msgid ""
+"The number of joins without keys that check for key usage after each row; "
+"should be zero."
+msgstr ""
+"Antal joins uden nøgler der tjekker nøglebrug for hver række. Bør være nul."
+
+#: modules/system/system.admin.inc:1780
+msgid "The number of sorts done without using an index; should be zero."
+msgstr "Antal sorteringer uden brug af indeks. Bør være nul."
+
+#: modules/system/system.admin.inc:1781
+msgid "The number of times a lock could be acquired immediately."
+msgstr "Antal gange en lås ikke kunne opnås med det samme."
+
+#: modules/system/system.admin.inc:1782
+msgid "The number of times the server had to wait for a lock."
+msgstr "Antal gange serveren måtte vente på en lås."
+
+#: modules/system/system.admin.inc:1785
+msgid "Query cache information"
+msgstr "Information om cache til forespørgsler"
+
+#: modules/system/system.admin.inc:1786
+msgid ""
+"The MySQL query cache can improve performance of your site by storing the "
+"result of queries. Then, if an identical query is received later, the MySQL "
+"server retrieves the result from the query cache rather than parsing and "
+"executing the statement again."
+msgstr ""
+"MySQL's forespørgselscache kan forbedre ydelsen af dit site ved at gemme "
+"resultater af forespørgsler. MySQL kan bruge resultater fra cachen i stedet "
+"for at køre den samme forespørgsel igen."
+
+#: modules/system/system.admin.inc:1788
+msgid "The number of queries in the query cache."
+msgstr "Antal cachede forespørgsler."
+
+#: modules/system/system.admin.inc:1789
+msgid "The number of times MySQL found previous results in the cache."
+msgstr "Antal gange MySQL fandt tidligere resultater i cachen."
+
+#: modules/system/system.admin.inc:1790
+msgid "The number of times MySQL added a query to the cache (misses)."
+msgstr "Antal gange MySQL tilføjede et resultat til cachen (forbiere)."
+
+#: modules/system/system.admin.inc:1791
+msgid ""
+"The number of times MySQL had to remove queries from the cache because it "
+"ran out of memory. Ideally should be zero."
+msgstr ""
+"Antal gange MySQL måtte fjerne forespørgsler fra cachen fordi den løb tør "
+"for hukommelse. Bør ideelt være nul."
+
+#: modules/system/system.admin.inc:1904
+msgid "Show descriptions"
+msgstr "Vis beskrivelser"
+
+#: modules/system/system.admin.inc:1904
+msgid "Expand layout to include descriptions."
+msgstr "Skift til visning med beskrivelser."
+
+#: modules/system/system.admin.inc:1907
+msgid "Hide descriptions"
+msgstr "Skjul beskrivelser"
+
+#: modules/system/system.admin.inc:1907
+msgid "Compress layout by hiding descriptions."
+msgstr "Skift til visning uden beskrivelser."
+
+#: modules/system/system.admin.inc:2023,2207
+msgid "Version"
+msgstr "Version"
+
+#: modules/system/system.admin.inc:2030
+msgid "Other"
+msgstr "Anden"
+
+#: modules/system/system.admin.inc:2045,2050,2175,2180
+msgid "incompatible"
+msgstr "inkompatibel"
+
+#: modules/system/system.admin.inc:2045,2175
+msgid "Incompatible with this version of Drupal core"
+msgstr "Inkompatibel med denne version af Drupal-kernen."
+
+#: modules/system/system.admin.inc:2046,2176
+msgid ""
+"This version is incompatible with the !core_version version of Drupal core."
+msgstr ""
+"Denne version er ikke kompatibel med version  !core_version af Drupal-kernen."
+
+#: modules/system/system.admin.inc:2050,2180
+msgid "Incompatible with this version of PHP"
+msgstr "Inkompatibel med denne version af PHP"
+
+#: modules/system/system.admin.inc:2055
+msgid ""
+"This module requires PHP version @php_required and is incompatible with PHP "
+"version !php_version."
+msgstr ""
+"Modulet kræver PHP version @php_required og er ikke kompatibelt med PHP "
+"version !php_version."
+
+#: modules/system/system.admin.inc:2123
+msgid "No modules are available to uninstall."
+msgstr "Der er ingen moduler at afinstallere."
+
+#: modules/system/system.admin.inc:2149,2207
+msgid "Screenshot"
+msgstr "Skærmbillede"
+
+#: modules/system/system.admin.inc:2185
+msgid ""
+"This theme requires PHP version @php_required and is incompatible with PHP "
+"version !php_version."
+msgstr ""
+"Temaet kræver PHP version @php_required og er ikke kompatibelt med PHP "
+"version !php_version."
+
+#: modules/system/system.admin.inc:833
+msgid "You must enable the @dependencies module to install @module."
+msgid_plural "You must enable the @dependencies modules to install @module."
+msgstr[0] "Du skal aktivere @dependencies-modulet for at installere @module."
+msgstr[1] "Du skal aktivere @dependencies-modulerne for at installere @module."
+
+#: modules/system/system.module:52
+msgid ""
+"The system module is at the foundation of your Drupal website, and provides "
+"basic but extensible functionality for use by other modules and themes. Some "
+"integral elements of Drupal are contained in and managed by the system "
+"module, including caching, enabling or disabling of modules and themes, "
+"preparing and displaying the administrative page, and configuring "
+"fundamental site settings. A number of key system maintenance operations are "
+"also part of the system module."
+msgstr ""
+"System-modulet er grundlaget for dit Drupal-site og leverer basal men "
+"udvidelig funktionalitet som kan bruges af andre moduler og temaer. Nogle "
+"uundværlige dele af Drupal findes i og håndteres af system-modulet, "
+"inklusive caching, aktivering af moduler og temaer, opbygning og visning af "
+"administratorsiden og basale indstillinger. Et antal vigtige handlinger til "
+"systemvedlighold er også en del af system-modulet."
+
+#: modules/system/system.module:53
+msgid "The system module provides:"
+msgstr "System-modulet giver:"
+
+#: modules/system/system.module:54
+msgid ""
+"support for enabling and disabling <a href=\"@modules\">modules</a>. Drupal "
+"comes packaged with a number of core modules; each module provides a "
+"discrete set of features and may be enabled depending on the needs of your "
+"site. A wide array of additional modules contributed by members of the "
+"Drupal community are available for download at the <a href=\"@drupal-modules"
+"\">Drupal.org module page</a>."
+msgstr ""
+"understøtter aktivering og deaktivering af <a href=\"@modules\">moduler</a>. "
+"Drupal kommer med en række kerne-moduler. Hvert modul tilbyder en separat "
+"funktionalitet og kan aktiveres afhængigt af dit sites behov. Der kan hentes "
+"en lang række af moduler fra <a href=\"@drupal-modules\">Drupal.orgs "
+"modulside</a>."
+
+#: modules/system/system.module:55
+msgid ""
+"support for enabling and disabling <a href=\"@themes\">themes</a>, which "
+"determine the design and presentation of your site. Drupal comes packaged "
+"with several core themes and additional contributed themes are available at "
+"the <a href=\"@drupal-themes\">Drupal.org theme page</a>."
+msgstr ""
+"understøtter aktivering og deaktivering af <a href=\"@themes\">temaer</a>, "
+"som bestemmer sitets udseende. Der kan hentes en lang række af temaer fra <a "
+"href=\"@drupal-themes\">Drupal.orgs temaside</a>."
+
+#: modules/system/system.module:56
+msgid ""
+"a robust <a href=\"@cache-settings\">caching system</a> that allows the "
+"efficient re-use of previously-constructed web pages and web page "
+"components. Drupal stores the pages requested by anonymous users in a "
+"compressed format; depending on your site configuration and the amount of "
+"your web traffic tied to anonymous visitors, Drupal's caching system may "
+"significantly increase the speed of your site."
+msgstr ""
+"et robust <a href=\"@cache-settings\">cache-system</a> som gør det nemt at "
+"genbruge hele sider og dele af sider. Alle sider, som vises til anonyme "
+"brugere, gemmes i et komprimeret format. Afhængigt af sitets opsætning og "
+"hvor stor en del af dine besøgende er anonyme kan cache-systemet give en "
+"betydelig forbedring af hastigheden."
+
+#: modules/system/system.module:57
+msgid ""
+"a set of routine administrative operations that rely on a correctly-"
+"configured <a href=\"@cron\">cron maintenance task</a> to run automatically. "
+"A number of other modules, including the feed aggregator, ping module and "
+"search also rely on <a href=\"@cron\">cron maintenance tasks</a>. For more "
+"information, see the online handbook entry for <a href=\"@handbook"
+"\">configuring cron jobs</a>."
+msgstr ""
+"en samling administrative rutineopgaver som kræver at cron er <a href=\"@cron"
+"\">indstillet korrekt</a>. En række af andre moduler inklusiv feed-læser, "
+"ping-modulet og søgning bruger også <a href=\"@cron\">cron</a>. Se "
+"håndbogens afsnit om <a href=\"@handbook\">cron jobs</a> for yderligere "
+"information."
+
+#: modules/system/system.module:58
+msgid ""
+"basic configuration options for your site, including <a href=\"@date-settings"
+"\">date and time settings</a>, <a href=\"@file-system\">file system "
+"settings</a>, <a href=\"@clean-url\">clean URL support</a>, <a href=\"@site-"
+"info\">site name and other information</a>, and a <a href=\"@site-maintenance"
+"\">site maintenance</a> function for taking your site temporarily off-line."
+msgstr ""
+"grundlæggende indstillinger for sitet, inklusiv <a href=\"@date-settings"
+"\">indstilling af dato og tid</a>, <a href=\"@file-system\">indstillinger "
+"for filsystemet</a>, <a href=\"@clean-url\">understøttelse af rene URLer</"
+"a>, <a href=\"@site-info\">site-navn og anden information</a>, og en <a href="
+"\"@site-maintenance\">site-vedligehold</a> funktion så du midlertigt kan "
+"tage dit site offline."
+
+#: modules/system/system.module:59
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@system"
+"\">System module</a>."
+msgstr ""
+"Læs håndbogens afsnit om <a href=\"@system\">system-modulet</a> for "
+"yderligere information."
+
+#: modules/system/system.module:62
+msgid ""
+"Welcome to the administration section. Here you may control how your site "
+"functions."
+msgstr ""
+"Velkommen til administrationssektionen. Her kan du bestemme hvordan dit site "
+"virker."
+
+#: modules/system/system.module:64
+msgid "This page shows you all available administration tasks for each module."
+msgstr ""
+"Denne side viser dig alle tilgængelige administrative handlinger for hvert "
+"modul."
+
+#: modules/system/system.module:66
+msgid ""
+"Select which themes are available to your users and specify the default "
+"theme. To configure site-wide display settings, click the \"configure\" task "
+"above. Alternatively, to override these settings in a specific theme, click "
+"the \"configure\" link for that theme. Note that different themes may have "
+"different regions available for displaying content; for consistency in "
+"presentation, you may wish to enable only one theme."
+msgstr ""
+"Vælg hvilke temaer brugerne skal have adgang til og angiv hvilket tema der "
+"skal være standard. Klik på \"indstil\" herover for at at ændre de globale "
+"indstillinger eller klik på \"indstil\" ud for et enkelt tema for at "
+"foretage lokale ændringer. Bemærk at forskellige temaer stiller forskellige "
+"regioner til rådighed for blokke. Hvis du ønsker at kontrollere hvad dine "
+"brugere ser, kan det være en god ide kun at aktivere et enkelt tema."
+
+#: modules/system/system.module:67
+msgid ""
+"To change the appearance of your site, a number of <a href=\"@themes"
+"\">contributed themes</a> are available."
+msgstr ""
+"Du kan ændre sitets udseende med de mange <a href=\"@themes"
+"\">tredjepartstemaer</a> som er til rådighed."
+
+#: modules/system/system.module:72
+msgid ""
+"These options control the display settings for the <code>%template</code> "
+"theme. When your site is displayed using this theme, these settings will be "
+"used. By clicking \"Reset to defaults,\" you can choose to use the <a href="
+"\"@global\">global settings</a> for this theme."
+msgstr ""
+"Disse indstillinger gælder for <code>%template</code> temaet. Når sitet "
+"vises med dette tema vil disse indstillinger blive brugt. Ved at klikke på "
+"\"gendan standarder\" kan du vælge at bruge de <a href=\"@global\">globale "
+"indstillinger</a> for dette tema."
+
+#: modules/system/system.module:74
+msgid ""
+"These options control the default display settings for your entire site, "
+"across all themes. Unless they have been overridden by a specific theme, "
+"these settings will be used."
+msgstr ""
+"Disse indstillinger gælder for alle temaer på sitet. Indstillinger i de "
+"enkelte temaer overskriver disse indstillinger."
+
+#: modules/system/system.module:76
+msgid ""
+"Modules are plugins that extend Drupal's core functionality. Enable modules "
+"by selecting the <em>Enabled</em> checkboxes below and clicking the <em>Save "
+"configuration</em> button. Once a module is enabled, new <a href="
+"\"@permissions\">permissions</a> may be available. To reduce server load, "
+"modules with their <em>Throttle</em> checkbox selected are temporarily "
+"disabled when your site becomes extremely busy. (Note that the <em>Throttle</"
+"em> checkbox is only available if the Throttle module is enabled.)"
+msgstr ""
+"Moduler er plugins som udvider Drupals kernefunktionalitet. Aktivér moduler "
+"ved at markere afkrydsningsfeltet <em>Aktiveret</em> herunder og klikke på "
+"knappen <em>Gem indstillinger</em>. Når et modul er aktiveret kan nye <a "
+"href=\"@permissions\">tilladelser</a> blive tilgængelige. Moduler hvor "
+"feltet <em>Begræns</em> er markeret deaktiveres midlertidigt når din server "
+"har meget travlt. (Afkrydsningsfeltet <em>Begræns</em> vises kun hvis "
+"Throttle-modulet er aktiveret.)"
+
+#: modules/system/system.module:78
+msgid ""
+"The auto-throttle functionality must be enabled on the <a href=\"@throttle"
+"\">throttle configuration page</a> after having enabled the throttle module."
+msgstr ""
+"Den automatisk throttle-funktion skal aktiveres under <a href=\"@throttle"
+"\">indstillinger for throttle</a> når modulet er blevet aktiveret."
+
+#: modules/system/system.module:81
+msgid ""
+"It is important that <a href=\"@update-php\">update.php</a> is run every "
+"time a module is updated to a newer version."
+msgstr ""
+"Det er vigtigt at <a href=\"@update-php\">update.php</a> køres hver gang et "
+"modul opdateres til en nyere version."
+
+#: modules/system/system.module:82
+msgid ""
+"You can find all administration tasks belonging to a particular module on "
+"the <a href=\"@by-module\">administration by module page</a>."
+msgstr ""
+"Du kan finde alle administrationsopgaver for et bestemt modul under <a href="
+"\"@by-module\">administration efter modul</a>."
+
+#: modules/system/system.module:83
+msgid ""
+"To extend the functionality of your site, a number of <a href=\"@modules"
+"\">contributed modules</a> are available."
+msgstr ""
+"Du kan udvide sitets funktionalitet med de mange <a href=\"@modules"
+"\">tredjepartsmoduler</a>, som er til rådighed."
+
+#: modules/system/system.module:86
+msgid ""
+"The uninstall process removes all data related to a module. To uninstall a "
+"module, you must first disable it. Not all modules support this feature."
+msgstr ""
+"Afinstalleringsprocessen fjerner alle data der hører til et modul. Du skal "
+"deaktivere et modul før du kan afinstallere det. Ikke alle moduler "
+"understøtter denne funktion."
+
+#: modules/system/system.module:89
+msgid ""
+"The <em>Powered by Drupal</em> block is an optional link to the home page of "
+"the Drupal project. While there is absolutely no requirement that sites "
+"feature this link, it may be used to show support for Drupal."
+msgstr ""
+"Blokken <em>Drevet af Drupal</em> er et valgfrit link til Drupals "
+"hjemmeside. Det er ikke et krav at sites bruger dette link, men det kan "
+"bruges til at vise støtte til Drupal."
+
+#: modules/system/system.module:94
+msgid ""
+"Actions are individual tasks that the system can do, such as unpublishing a "
+"piece of content or banning a user. Modules, such as the trigger module, can "
+"fire these actions when certain system events happen; for example, when a "
+"new post is added or when a user logs in. Modules may also provide "
+"additional actions."
+msgstr ""
+"Handlinger er individuelle opgaver som systemet kan udføre, som at skjule "
+"indhold eller blokere en bruger. Moduler som f.eks. Trigger-modulet kan "
+"udløse handlingerne når bestemte systemhændelser opstår, f.eks. når der "
+"oprettes et indlæg eller når en bruger logger ind. Moduler kan levere "
+"yderligere handlinger."
+
+#: modules/system/system.module:95
+msgid ""
+"There are two types of actions: simple and advanced. Simple actions do not "
+"require any additional configuration, and are listed here automatically. "
+"Advanced actions can do more than simple actions; for example, send an e-"
+"mail to a specified address, or check for certain words within a piece of "
+"content. These actions need to be created and configured first before they "
+"may be used. To create an advanced action, select the action from the drop-"
+"down below and click the <em>Create</em> button."
+msgstr ""
+"Der er to typer af handlinger: Simple og avancerede. Simple handlinger "
+"kræver ikke yderligere indstilling og vises automatisk her. Avancerede "
+"handlinger kan gøre mere end simple handlinger, f.eks. sende e-mail til en "
+"bestemt adresse eller tjekke om bestemte ord optræder i indholdet. Det kan "
+"være nødvendigt at oprette og indstille disse handlinger før de kan tages i "
+"brug. Opret en avanceret handling ved at vælge den fra listen herunder og "
+"klikke på knappen <em>Opret</em>."
+
+#: modules/system/system.module:97
+msgid ""
+"You may proceed to the <a href=\"@url\">Triggers</a> page to assign these "
+"actions to system events."
+msgstr ""
+"Du kan fortsætte til siden <a href=\"@url\">triggers</a> for at knytte "
+"handlingerne til systemhændelser."
+
+#: modules/system/system.module:101
+msgid ""
+"An advanced action offers additional configuration options which may be "
+"filled out below. Changing the <em>Description</em> field is recommended, in "
+"order to better identify the precise action taking place. This description "
+"will be displayed in modules such as the trigger module when assigning "
+"actions to system events, so it is best if it is as descriptive as possible "
+"(for example, \"Send e-mail to Moderation Team\" rather than simply \"Send e-"
+"mail\")."
+msgstr ""
+"En avanceret handling muliggør yderligere indstillinger som kan vælges "
+"herunder. Det anbefales at opdatere feltet <em>beskrivelse</em> så det "
+"beskriver den præcise handling der udføres. Beskrivelsen vises bl.a. i "
+"Trigger-modulet når handlinger knyttes til systemhændelser, så den børvære "
+"så sigende som muligt (f.eks. \"send e-mail til moderatorer\" i stedet for "
+"\"send e-mail\")."
+
+#: modules/system/system.module:103
+msgid ""
+"Here you can find a short overview of your site's parameters as well as any "
+"problems detected with your installation. It may be useful to copy and paste "
+"this information into support requests filed on drupal.org's support forums "
+"and project issue queues."
+msgstr ""
+"Her kan du finde en kort oversigt over dit Drupal-sites parametre og "
+"eventuelle problemer med din installation. Det kan være nyttigt at kopiere "
+"denne information til supportforespørgsler på drupal.org's forum og projekt "
+"fejlkøer."
+
+#: modules/system/system.module:552
+msgid "Selecting a different theme will change the look and feel of the site."
+msgstr "Vælg et andet tema for at skifte sitets udseende."
+
+#: modules/system/system.module:564
+msgid "Time zone"
+msgstr "Tidszone"
+
+#: modules/system/system.module:567
+msgid ""
+"Select your current local time. Dates and times throughout this site will be "
+"displayed using this time zone."
+msgstr ""
+"Vælg din lokale tid. Datoer og tidspunkter på sitet vises med den valgte "
+"tidszone."
+
+#: modules/system/system.module:584
+msgid "Powered by Drupal"
+msgstr "Drives af Drupal"
+
+#: modules/system/system.module:594
+msgid "Badge color"
+msgstr "Badge-farve"
+
+#: modules/system/system.module:596
+msgid "Black"
+msgstr "Sort"
+
+#: modules/system/system.module:596
+msgid "Blue"
+msgstr "Blå"
+
+#: modules/system/system.module:596
+msgid "Gray"
+msgstr "Grå"
+
+#: modules/system/system.module:600
+msgid "Badge size"
+msgstr "Badge-størrelse"
+
+#: modules/system/system.module:602
+msgid "Small"
+msgstr "Lille"
+
+#: modules/system/system.module:602
+msgid "Large"
+msgstr "Stor"
+
+#: modules/system/system.module:692
+msgid "Theme configuration"
+msgstr "Temaindstillinger"
+
+#: modules/system/system.module:715
+msgid "(site default theme)"
+msgstr "(sitets standardtema)"
+
+#: modules/system/system.module:1028
+msgid "The settings have not been saved because of the errors."
+msgstr "På grund af fejlene er indstillingerne ikke blevet gemt."
+
+#: modules/system/system.module:1199
+msgid "Configure permissions"
+msgstr "Tilladelser"
+
+#: modules/system/system.module:1253
+msgid "When cron runs"
+msgstr "Når cron kører"
+
+#: modules/system/system.module:1267
+msgid "Display a message to the user"
+msgstr "Vis en meddelelse til brugeren"
+
+#: modules/system/system.module:1288
+msgid "Redirect to URL"
+msgstr "Omdirigér til URL"
+
+#: modules/system/system.module:1308
+msgid "Choose an advanced action"
+msgstr "Vælg en avanceret handling"
+
+#: modules/system/system.module:1323
+msgid "Action type"
+msgstr "Handlingstype"
+
+#: modules/system/system.module:1343
+msgid "Actions available to Drupal:"
+msgstr "Tilgængelige handlinger:"
+
+#: modules/system/system.module:1369
+msgid "Make a new advanced action available"
+msgstr "Gør en ny avanceret handling tilgængelig"
+
+#: modules/system/system.module:1381
+msgid "Create"
+msgstr "Opret"
+
+#: modules/system/system.module:1448
+msgid ""
+"A unique description for this advanced action. This description will be "
+"displayed in the interface of modules that integrate with actions, such as "
+"Trigger module."
+msgstr ""
+"En unik beskrivelse af denne avancerede handling. Beskrivelsen vises i "
+"grænsefladen til moduler som integrerer med handlinger, som Trigger-modulet."
+
+#: modules/system/system.module:1504
+msgid "The action has been successfully saved."
+msgstr "Handlingen er blevet gemt."
+
+#: modules/system/system.module:1522
+msgid "Are you sure you want to delete the action %action?"
+msgstr "Ønsker du at slette handlingen %action?"
+
+#: modules/system/system.module:1524
+msgid "This cannot be undone."
+msgstr "Dette kan ikke fortrydes."
+
+#: modules/system/system.module:1540
+msgid "Action %action was deleted"
+msgstr "Handlingen %action slettet"
+
+#: modules/system/system.module:1552
+msgid "Deleted orphaned action (%action)."
+msgstr "Forældreløs handling slettet  (%action)."
+
+#: modules/system/system.module:1588
+msgid "Recipient"
+msgstr "Modtager"
+
+#: modules/system/system.module:1591
+msgid ""
+"The email address to which the message should be sent OR enter %author if "
+"you would like to send an e-mail to the author of the original post."
+msgstr ""
+"E-mail-adressen som meddelelsen skal sendes til ELLER %author hvis du vil "
+"sende en e-mail til forfatteren af det oprindelige indlæg."
+
+#: modules/system/system.module:1598
+msgid "The subject of the message."
+msgstr "Meddelelsens emne."
+
+#: modules/system/system.module:1606
+msgid ""
+"The message that should be sent. You may include the following variables: %"
+"site_name, %username, %node_url, %node_type, %title, %teaser, %body. Not all "
+"variables will be available in all contexts."
+msgstr ""
+"Meddelelsen som skal sendes. Du kan bruge følgende variable: %site_name, %"
+"username, %node_url, %node_type, %title, %teaser, %body. Alle variable er "
+"ikke tilgængelige i alle sammenhænge."
+
+#: modules/system/system.module:1619
+msgid "Please enter a valid email address or %author."
+msgstr "Indtast en gyldig e-mail-adresse eller %author."
+
+#: modules/system/system.module:1752
+msgid ""
+"The message to be displayed to the current user. You may include the "
+"following variables: %site_name, %username, %node_url, %node_type, %title, %"
+"teaser, %body. Not all variables will be available in all contexts."
+msgstr ""
+"Meddelelsen som vises til den aktuelle bruger. Du kan bruge følgende "
+"variable: %site_name, %username, %node_url, %node_type, %title, %teaser, %"
+"body. Alle variable er ikke tilgængelige i alle sammenhænge."
+
+#: modules/system/system.module:1825
+msgid ""
+"The URL to which the user should be redirected. This can be an internal URL "
+"like node/1234 or an external URL like http://drupal.org."
+msgstr ""
+"URLen som brugeren viderestilles til. Kan være en intern URL som node/1234 "
+"eller en ekstern url som http://drupal.org."
+
+#: modules/system/system.module:1882
+msgid "Powered by Drupal, an open source content management system"
+msgstr "Drives af Drupal, et open source system til håndtering af indhold"
+
+#: modules/system/system.module:1232
+msgid "Could not delete temporary file \"%path\" during garbage collection"
+msgstr "Kunne ikke slette midlertidig fil \"%path\" under oprydning"
+
+#: modules/system/system.module:1539
+msgid "Deleted action %aid (%action)"
+msgstr "Handling %aid (%action) slettet"
+
+#: modules/system/system.module:1666
+msgid "Cannot use %author token in this context."
+msgstr "Kan ikke bruge %author-symbol i denne sammenhæng."
+
+#: modules/system/system.module:1697
+msgid "Sent email to %recipient"
+msgstr "E-mail sendt til %recipient"
+
+#: modules/system/system.module:1700
+msgid "Unable to send email to %recipient"
+msgstr "Kunne ikke sende e-mail til %recipient"
+
+#: modules/system/system.module:158
+msgid "administer site configuration"
+msgstr "administrer indstillinger"
+
+#: modules/system/system.module:158
+msgid "access administration pages"
+msgstr "tilgå administrationssider"
+
+#: modules/system/system.module:158
+msgid "administer actions"
+msgstr "administrer handlinger"
+
+#: modules/system/system.module:158
+msgid "access site reports"
+msgstr "se site-rapporter"
+
+#: modules/system/system.module:158
+msgid "select different theme"
+msgstr "vælg andet tema"
+
+#: modules/system/system.module:158
+msgid "administer files"
+msgstr "administrer filer"
+
+#: modules/system/system.module:200
+msgid "File download"
+msgstr "Fil download"
+
+#: modules/system/system.module:206
+msgid "Administer"
+msgstr "Administration"
+
+#: modules/system/system.module:213
+msgid "Compact mode"
+msgstr "Kompakt visning"
+
+#: modules/system/system.module:220
+msgid "By task"
+msgstr "Efter opgave"
+
+#: modules/system/system.module:227
+msgid "By module"
+msgstr "Efter modul"
+
+#: modules/system/system.module:235
+msgid "Content management"
+msgstr "Indhold"
+
+#: modules/system/system.module:236
+msgid "Manage your site's content."
+msgstr "Håndtér sitets indhold."
+
+#: modules/system/system.module:246
+msgid "Site configuration"
+msgstr "Indstillinger"
+
+#: modules/system/system.module:247
+msgid "Adjust basic site configuration options."
+msgstr "Tilpas grundlæggende indstillinger."
+
+#: modules/system/system.module:255
+msgid "Site building"
+msgstr "Opbygning"
+
+#: modules/system/system.module:256
+msgid "Control how your site looks and feels."
+msgstr "Bestem hvordan sitet ser ud og opfører sig."
+
+#: modules/system/system.module:265
+msgid "Settings for how your administrative pages should look."
+msgstr "Indstillinger for administrationssidernes udseende."
+
+#: modules/system/system.module:276
+msgid "Change which theme your site uses or allows users to set."
+msgstr "Bestem hvilket tema sitet bruger eller som brugerne kan vælge."
+
+#: modules/system/system.module:284
+msgid "Select the default theme."
+msgstr "Vælg standard-tema."
+
+#: modules/system/system.module:296
+msgid "Global settings"
+msgstr "Globale indstillinger"
+
+#: modules/system/system.module:314
+msgid "Enable or disable add-on modules for your site."
+msgstr "Aktivér eller deaktivér sitets udvidelsesmoduler."
+
+#: modules/system/system.module:343
+msgid "Actions"
+msgstr "Handlinger"
+
+#: modules/system/system.module:344,350
+msgid "Manage the actions defined for your site."
+msgstr "Håndtér sitets handlinger."
+
+#: modules/system/system.module:349
+msgid "Manage actions"
+msgstr "Håndtér handlinger"
+
+#: modules/system/system.module:356
+msgid "Configure an advanced action"
+msgstr "Indstil en avanceret handling"
+
+#: modules/system/system.module:363
+msgid "Delete action"
+msgstr "Slet handling"
+
+#: modules/system/system.module:364
+msgid "Delete an action."
+msgstr "Slet en handling."
+
+#: modules/system/system.module:371
+msgid "Remove orphans"
+msgstr "Fjern forældreløse"
+
+#: modules/system/system.module:380
+msgid ""
+"Change basic site information, such as the site name, slogan, e-mail "
+"address, mission, front page and more."
+msgstr ""
+"Skift grundlæggende information, som f.eks. sitets navn, slogan, e-mail-"
+"adresse, formål, forside m.m."
+
+#: modules/system/system.module:388
+msgid ""
+"Control how Drupal deals with errors including 403/404 errors as well as PHP "
+"error reporting."
+msgstr ""
+"Bestem hvordan Drupal håndterer fejl inklusive 403/404-fejl såvel som PHP "
+"fejlrapportering."
+
+#: modules/system/system.module:395
+msgid "Logging and alerts"
+msgstr "Logs og advarsler"
+
+#: modules/system/system.module:396
+msgid ""
+"Settings for logging and alerts modules. Various modules can route Drupal's "
+"system events to different destination, such as syslog, database, email, ..."
+"etc."
+msgstr ""
+"Indstillinger for log- og alarmmoduler. Forskellige moduler kan sende "
+"Drupals systemhændelser til andre destinationer som f.eks. syslog, database, "
+"e-mail osv."
+
+#: modules/system/system.module:402
+msgid "Performance"
+msgstr "Ydelse"
+
+#: modules/system/system.module:403
+msgid ""
+"Enable or disable page caching for anonymous users and set CSS and JS "
+"bandwidth optimization options."
+msgstr ""
+"Aktiver caching af sider for anonyme brugere og vælg indstillinger for "
+"båndbreddeoptimering af CSS og JS."
+
+#: modules/system/system.module:411
+msgid "Tell Drupal where to store uploaded files and how they are accessed."
+msgstr "Vælg hvor Drupal skal gemme uploadede filer og hvordan de kan hentes."
+
+#: modules/system/system.module:418
+msgid "Image toolkit"
+msgstr "Billedværktøj"
+
+#: modules/system/system.module:419
+msgid ""
+"Choose which image toolkit to use if you have installed optional toolkits."
+msgstr "Vælg hvilket billedværktøj du ønsker at bruge."
+
+#: modules/system/system.module:426
+msgid "RSS publishing"
+msgstr "RSS-udgivelse"
+
+#: modules/system/system.module:427
+msgid ""
+"Configure the number of items per feed and whether feeds should be titles/"
+"teasers/full-text."
+msgstr ""
+"Indstil antallet af emner pr. feed og hvorvidt feeds skal vise titler, "
+"resuméer eller fuldtekst."
+
+#: modules/system/system.module:434
+msgid "Date and time"
+msgstr "Dato og tid"
+
+#: modules/system/system.module:435
+msgid ""
+"Settings for how Drupal displays date and time, as well as the system's "
+"default timezone."
+msgstr ""
+"Indstillinger for hvordan Drupal viser dato og tid samt systemets tidszone."
+
+#: modules/system/system.module:442
+msgid "Date and time lookup"
+msgstr "Dato og tid opslag"
+
+#: modules/system/system.module:449
+msgid "Site maintenance"
+msgstr "Vedligeholdelse"
+
+#: modules/system/system.module:450
+msgid "Take the site off-line for maintenance or bring it back online."
+msgstr "Sæt sitet offline til vedligehold eller sæt det online igen."
+
+#: modules/system/system.module:458
+msgid "Enable or disable clean URLs for your site."
+msgstr "Aktivér eller deaktivér rene URLer på sitet."
+
+#: modules/system/system.module:465
+msgid "Clean URL check"
+msgstr "Tjek rene URLer"
+
+#: modules/system/system.module:474
+msgid "Reports"
+msgstr "Rapporter"
+
+#: modules/system/system.module:475
+msgid "View reports from system logs and other status information."
+msgstr "Vis rapporter fra systemlogs og anden statusinformation."
+
+#: modules/system/system.module:483
+msgid "Status report"
+msgstr "Statusrapport"
+
+#: modules/system/system.module:484
+msgid ""
+"Get a status report about your site's operation and any detected problems."
+msgstr ""
+"Få en statusrapport og en oversigt over eventuelle problemer med sitet."
+
+#: modules/system/system.module:491
+msgid "Run cron"
+msgstr "Kør cron"
+
+#: modules/system/system.module:505
+msgid "SQL"
+msgstr "SQL"
+
+#: modules/system/system.module:0
+msgid "system"
+msgstr "system"
+
+#: modules/system/system.module:0
+msgid "Footer"
+msgstr "Sidefod"
+
+#: modules/system/system.install:497
+msgid ""
+"Stores details about batches (processes that run in multiple HTTP requests)."
+msgstr ""
+"Gemmer information om batches (processer som spænder over flere HTTP "
+"forespørgsler)."
+
+#: modules/system/system.install:20
+msgid "Drupal"
+msgstr "Drupal"
+
+#: modules/system/system.install:30
+msgid "Web server"
+msgstr "Webserver"
+
+#: modules/system/system.install:40
+msgid ""
+"Your PHP installation is too old. Drupal requires at least PHP %version."
+msgstr ""
+"Din PHP-installation er for gammel. Drupal kræver minimum PHP %version."
+
+#: modules/system/system.install:46
+msgid "PHP register globals"
+msgstr "PHP register globals"
+
+#: modules/system/system.install:55
+msgid ""
+"<em>register_globals</em> is enabled. Drupal requires this configuration "
+"directive to be disabled. Your site may not be secure when "
+"<em>register_globals</em> is enabled. The PHP manual has instructions for <a "
+"href=\"http://php.net/configuration.changes\">how to change configuration "
+"settings</a>."
+msgstr ""
+"<em>register_globals</em> er slået til. Drupal kræver at denne indstilling "
+"slås fra. Dit er muligvis ikke sikkert når <em>register_globals</em> er "
+"slået til. Se <a href=\"http://php.net/configuration.changes\">PHP manualen</"
+"a> for information om hvordan du ændrer denne indstilling."
+
+#: modules/system/system.install:57
+msgid "Enabled ('@value')"
+msgstr "Aktiveret ('@value')"
+
+#: modules/system/system.install:66
+msgid "PHP memory limit"
+msgstr "PHP hukommelsesgrænse"
+
+#: modules/system/system.install:73
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the installation process."
+msgstr ""
+"Du bør overveje at øge PHPs hukommelsesgrænse til %memory_minimum_limit for "
+"at undgå fejl under installationen."
+
+#: modules/system/system.install:76
+msgid ""
+"Consider increasing your PHP memory limit to %memory_minimum_limit to help "
+"prevent errors in the update process."
+msgstr ""
+"Du bør overveje at øge PHPs hukommelsesgrænse til %memory_minimum_limit for "
+"at undgå fejl under opdateringen."
+
+#: modules/system/system.install:79
+msgid ""
+"Depending on your configuration, Drupal can run with a %memory_limit PHP "
+"memory limit. However, a %memory_minimum_limit PHP memory limit or above is "
+"recommended, especially if your site uses additional custom or contributed "
+"modules."
+msgstr ""
+"Afhængigt af din konfiguration er det muligt at køre Drupal med en PHP "
+"hukommelsesgrænse på %memory_limit. Vi anbefaler dog at du sætter "
+"hukommelsesgrænsen til %memory_minimum_limit eller derover, især hvis dit "
+"site bruger mange moduler."
+
+#: modules/system/system.install:84
+msgid ""
+"Increase the memory limit by editing the memory_limit parameter in the file %"
+"configuration-file and then restart your web server (or contact your system "
+"administrator or hosting provider for assistance)."
+msgstr ""
+"Øg hukommelsesgrænsen ved at redigere memory_limit i %configuration-file og "
+"derefter genstarte webserveren (eller kontakt din systemadministrator eller "
+"udbyder for at få hjælp)."
+
+#: modules/system/system.install:87
+msgid ""
+"Contact your system administrator or hosting provider for assistance with "
+"increasing your PHP memory limit."
+msgstr ""
+"Kontakt din systemadministrator eller udbyder for at få hjælp til at øge "
+"PHPs hukommelsesgrænse."
+
+#: modules/system/system.install:90
+msgid "See the <a href=\"@url\">Drupal requirements</a> for more information."
+msgstr "Se <a href=\"@url\">Drupal systemkrav</a> for yderligere information."
+
+#: modules/system/system.install:107,254
+msgid "Not protected"
+msgstr "Ikke beskyttet"
+
+#: modules/system/system.install:112
+msgid ""
+"The directory %file is not protected from modifications and poses a security "
+"risk. You must change the directory's permissions to be non-writable. "
+msgstr ""
+"Mappen %file er ikke beskyttet mod ændringer og udgør en sikkerhedsrisiko. "
+"Du skal ændre mappens tilladelser så der ikke kan skrives til den. "
+
+#: modules/system/system.install:115
+msgid ""
+"The file %file is not protected from modifications and poses a security "
+"risk. You must change the file's permissions to be non-writable."
+msgstr ""
+"Filen %file er ikke beskyttet mod ændringer og udgør en sikkerhedsrisiko. Du "
+"skal ændre filens tilladelser så der ikke kan skrives til den."
+
+#: modules/system/system.install:120,261
+msgid "Protected"
+msgstr "Beskyttet"
+
+#: modules/system/system.install:123
+msgid "Configuration file"
+msgstr "Konfigurationsfil"
+
+#: modules/system/system.install:133
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@cron-"
+"handbook\">configuring cron jobs</a>."
+msgstr ""
+"Læs håndbogens afsnit om <a href=\"@cron-handbook\">cron</a> for yderligere "
+"information."
+
+#: modules/system/system.install:157
+msgid ""
+"Cron has not run. Please visit the <a href=\"@status\">status report</a> for "
+"more information."
+msgstr ""
+"Cron har ikke kørt. Se <a href=\"@status\">statusrapporten</a> for "
+"yderligere information."
+
+#: modules/system/system.install:162
+msgid "Never run"
+msgstr "Aldrig kørt"
+
+#: modules/system/system.install:163
+msgid "Cron has not run."
+msgstr "Cron har ikke kørt."
+
+#: modules/system/system.install:166
+msgid "Last run !time ago"
+msgstr "Sidst kørt for !time siden"
+
+#: modules/system/system.install:169
+msgid "Cron has not run recently."
+msgstr "Cron har ikke kørt for nylig."
+
+#: modules/system/system.install:174
+msgid "Cron maintenance tasks"
+msgstr "Cron-opgaver"
+
+#: modules/system/system.install:177
+msgid "You can <a href=\"@cron\">run cron manually</a>."
+msgstr "Du kan <a href=\"@cron\">køre cron manuelt</a>."
+
+#: modules/system/system.install:196
+msgid "Not writable"
+msgstr "Ikke skrivbar"
+
+#: modules/system/system.install:201
+msgid "The directory %directory is not writable."
+msgstr "Der kan ikke skrives til mappen %directory."
+
+#: modules/system/system.install:205
+msgid ""
+"You may need to set the correct directory at the <a href=\"@admin-file-system"
+"\">file system settings page</a> or change the current directory's "
+"permissions so that it is writable."
+msgstr ""
+"Du skal muligvis vælge den rigtige mappe under <a href=\"@admin-file-system"
+"\">indstillinger for filsystem</a> eller ændre mappens tilladelser så der "
+"kan skrives til den."
+
+#: modules/system/system.install:210
+msgid ""
+"An automated attempt to create this directory failed, possibly due to a "
+"permissions problem. To proceed with the installation, either create the "
+"directory and modify its permissions manually, or ensure that the installer "
+"has the permissions to create it automatically. For more information, please "
+"see INSTALL.txt or the <a href=\"@handbook_url\">on-line handbook</a>."
+msgstr ""
+"Forsøget på at oprette kataloget mislykkedes, sikkert på grund af manglende "
+"tilladelser. For at fortsætte installationen skal du enten oprette kataloget "
+"og rette dets tilladelser manuelt, eller sikre dig at webserveren har "
+"tilladelse til at oprette det automatisk. Se INSTALL.txt eller <a href="
+"\"@handbook_url\">online-hjælpen</a> for yderligere information."
+
+#: modules/system/system.install:220
+msgid "Writable (<em>public</em> download method)"
+msgstr "Skrivbar (<em>offentlig</em> download-metode)"
+
+#: modules/system/system.install:223
+msgid "Writable (<em>private</em> download method)"
+msgstr "Skrivbar (<em>privat</em> download-metode)"
+
+#: modules/system/system.install:230
+msgid "Database updates"
+msgstr "Databaseopdateringer"
+
+#: modules/system/system.install:243
+msgid ""
+"Some modules have database schema updates to install. You should run the <a "
+"href=\"@update\">database update script</a> immediately."
+msgstr ""
+"Et eller flere moduler har opdateringer til databasen. Du bør køre <a href="
+"\"@update\">database-opdateringen</a> med det samme."
+
+#: modules/system/system.install:256
+msgid ""
+"The update.php script is accessible to everyone without authentication "
+"check, which is a security risk. You must change the $update_free_access "
+"value in your settings.php back to FALSE."
+msgstr ""
+"update.php-scriptet er tilgængeligt for alle uden godkendelse, hvilket udgør "
+"en sikkerhedsrisiko. Du skal ændre værdien af $update_free_access i settings."
+"php til FALSE."
+
+#: modules/system/system.install:264
+msgid "Access to update.php"
+msgstr "Adgang til update.php"
+
+#: modules/system/system.install:275
+msgid "Not enabled"
+msgstr "Ikke aktiveret"
+
+#: modules/system/system.install:277
+msgid ""
+"Update notifications are not enabled. It is <strong>highly recommended</"
+"strong> that you enable the update status module from the <a href=\"@module"
+"\">module administration page</a> in order to stay up-to-date on new "
+"releases. For more information please read the <a href=\"@update\">Update "
+"status handbook page</a>."
+msgstr ""
+"Opdateringsbeskeder er ikke aktiveret. Det <strong>anbefales kraftigt</"
+"strong> at du aktiverer \"update status\"-modulet på <a href=\"@module"
+"\">modulsiden</a> for at modtage information om nye versioner. Se <a href="
+"\"@update\">håndbogens afsnit om opdateringsstatus</a> for yderligere "
+"information."
+
+#: modules/system/system.install:290
+msgid "HTTP request status"
+msgstr "HTTP forespørgselsstatus"
+
+#: modules/system/system.install:291
+msgid "Fails"
+msgstr "Mislykkes"
+
+#: modules/system/system.install:293
+msgid ""
+"Your system or network configuration does not allow Drupal to access web "
+"pages, resulting in reduced functionality. This could be due to your "
+"webserver configuration or PHP settings, and should be resolved in order to "
+"download information about available updates, fetch aggregator feeds, sign "
+"in via OpenID, or use other network-dependent services."
+msgstr ""
+"Din system- eller netværkskonfiguration gør det umuligt for Drupal at få "
+"adgang til andre sites, hvilket nedsætter funktionaliteten. Det kan skyldes "
+"konfigurationen af din webserver eller PHP-indstillinger, og bør rettes, så "
+"du kan hente information om opdateringer, hente nyhedsfeeds, logge ind med "
+"OpenID og bruge andre netværksbaserede tjenester."
+
+#: modules/system/system.admin.inc:683,715
+msgid "@module (<span class=\"admin-disabled\">disabled</span>)"
+msgstr "@module (<span class=\"admin-disabled\">deaktiveret</span>)"
+
+#: modules/system/system.admin.inc:686
+msgid "@module (<span class=\"admin-missing\">missing</span>)"
+msgstr "@module (<span class=\"admin-missing\">mangler</span>)"
+
+#: modules/system/system.admin.inc:692,710
+msgid "@module (<span class=\"admin-enabled\">enabled</span>)"
+msgstr "@module (<span class=\"admin-enabled\">aktiveret</span>)"
+
+#: modules/system/system.install:67
+msgid "-1 (Unlimited)"
+msgstr "-1 (Ubegrænset)"

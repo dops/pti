@@ -1,0 +1,531 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  taxonomy.admin.inc,v 1.22.2.3 2009/02/25 12:53:24 goba
+#  taxonomy.module,v 1.414.2.11 2009/05/13 19:38:33 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: 2009-05-04 23:42+0200\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/taxonomy/taxonomy.admin.inc:29
+msgid "edit vocabulary"
+msgstr "woordenschat bewerken"
+
+#: modules/taxonomy/taxonomy.admin.inc:30
+msgid "list terms"
+msgstr "lijst van termen"
+
+#: modules/taxonomy/taxonomy.admin.inc:31
+msgid "add terms"
+msgstr "termen toevoegen"
+
+#: modules/taxonomy/taxonomy.admin.inc:85
+msgid "No vocabularies available."
+msgstr "Geen woordenschatten beschikbaar."
+
+#: modules/taxonomy/taxonomy.admin.inc:122
+msgid "Vocabulary name"
+msgstr "Naam van woordenlijst"
+
+#: modules/taxonomy/taxonomy.admin.inc:125
+msgid "The name for this vocabulary, e.g., <em>\"Tags\"</em>."
+msgstr "De naam van deze woordenlijst. Bijvoorbeeld: <em>\"Tags\"</em>."
+
+#: modules/taxonomy/taxonomy.admin.inc:131
+msgid "Description of the vocabulary; can be used by modules."
+msgstr "Beschrijving van de woordenlijst; kan gebruikt worden door modules."
+
+#: modules/taxonomy/taxonomy.admin.inc:134
+msgid "Help text"
+msgstr "Helptekst"
+
+#: modules/taxonomy/taxonomy.admin.inc:137
+msgid ""
+"Instructions to present to the user when selecting terms, e.g., <em>\"Enter "
+"a comma separated list of words\"</em>."
+msgstr ""
+"Instructies voor de gebruiker bij het selecteren van termen. Bijvoorbeeld: "
+"<em>\"Voer een lijst in, gescheiden door komma's\"</em>."
+
+#: modules/taxonomy/taxonomy.admin.inc:148
+msgid "Select content types to categorize using this vocabulary."
+msgstr "Gebruik de woordenlijst om inhoudstypen te categoriseren."
+
+#: modules/taxonomy/taxonomy.admin.inc:156
+msgid "Tags"
+msgstr "Labels"
+
+#: modules/taxonomy/taxonomy.admin.inc:158
+msgid ""
+"Terms are created by users when submitting posts by typing a comma separated "
+"list."
+msgstr ""
+"Termen worden aangemaakt wanneer gebruikers een door komma's gescheiden "
+"lijst indienen."
+
+#: modules/taxonomy/taxonomy.admin.inc:161
+msgid "Multiple select"
+msgstr "Meervoudige selectie"
+
+#: modules/taxonomy/taxonomy.admin.inc:163
+msgid ""
+"Allows posts to have more than one term from this vocabulary (always true "
+"for tags)."
+msgstr ""
+"Inzendingen mogen meer dan één term uit deze woordenlijst bevatten (altijd "
+"geldig voor labels)."
+
+#: modules/taxonomy/taxonomy.admin.inc:168
+msgid ""
+"At least one term in this vocabulary must be selected when submitting a post."
+msgstr "Inzendingen moeten minimaal één term uit deze woordenlijst bevatten."
+
+#: modules/taxonomy/taxonomy.admin.inc:173
+msgid "Vocabularies are displayed in ascending order by weight."
+msgstr "Woordenlijsten worden weergegeven in volgorde van oplopend gewicht."
+
+#: modules/taxonomy/taxonomy.admin.inc:202,203
+msgid "Created new vocabulary %name."
+msgstr "Nieuwe woordenlijst %name is aangemaakt."
+
+#: modules/taxonomy/taxonomy.admin.inc:206,207
+msgid "Updated vocabulary %name."
+msgstr "Woordenlijst %name is bijgewerkt."
+
+#: modules/taxonomy/taxonomy.admin.inc:254
+msgid "Terms in %vocabulary"
+msgstr "Termen in %vocabulary"
+
+#: modules/taxonomy/taxonomy.admin.inc:409
+msgid "No terms available."
+msgstr "Geen termen beschikbaar."
+
+#: modules/taxonomy/taxonomy.admin.inc:418,445,912
+msgid "Reset to alphabetical"
+msgstr "Terugzetten naar alfabetisch"
+
+#: modules/taxonomy/taxonomy.admin.inc:624
+msgid "Add term to %vocabulary"
+msgstr "Term toevoegen aan %vocabulary"
+
+#: modules/taxonomy/taxonomy.admin.inc:663
+msgid "Term name"
+msgstr "Naam term"
+
+#: modules/taxonomy/taxonomy.admin.inc:666
+msgid "The name of this term."
+msgstr "De naam van deze term."
+
+#: modules/taxonomy/taxonomy.admin.inc:672
+msgid ""
+"A description of the term. To be displayed on taxonomy/term pages and RSS "
+"feeds."
+msgstr ""
+"Een beschrijving van de term. Om weer te geven op taxonomie/term pagina's en "
+"in RSS-feeds."
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parents"
+msgstr "Bovenliggenden"
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parent terms"
+msgstr "Bovenliggende termen"
+
+#: modules/taxonomy/taxonomy.admin.inc:696
+msgid "Related terms"
+msgstr "Gerelateerde termen"
+
+#: modules/taxonomy/taxonomy.admin.inc:700
+msgid "Synonyms"
+msgstr "Synoniemen"
+
+#: modules/taxonomy/taxonomy.admin.inc:702
+msgid "Synonyms of this term, one synonym per line."
+msgstr "Synoniemen van deze term. Eén synoniem per regel."
+
+#: modules/taxonomy/taxonomy.admin.inc:708
+msgid "Terms are displayed in ascending order by weight."
+msgstr "Termen worden in oplopende volgorde op gewicht getoond."
+
+#: modules/taxonomy/taxonomy.admin.inc:739
+msgid "Weight value must be numeric."
+msgstr "De waarde voor gewicht moet numeriek zijn."
+
+#: modules/taxonomy/taxonomy.admin.inc:768,769
+msgid "Created new term %term."
+msgstr "Nieuwe term %term aangemaakt."
+
+#: modules/taxonomy/taxonomy.admin.inc:772,773
+msgid "Updated term %term."
+msgstr "Term %term bijgewerkt."
+
+#: modules/taxonomy/taxonomy.admin.inc:818
+msgid "Set multiple term parents?"
+msgstr "Meerdere bovenliggende termen toekennen?"
+
+#: modules/taxonomy/taxonomy.admin.inc:819
+msgid ""
+"Adding multiple parents to a term will cause the %vocabulary vocabulary to "
+"look for multiple parents on every term. Because multiple parents are not "
+"supported when using the drag and drop outline interface, drag and drop will "
+"be disabled if you enable this option. If you choose to have multiple "
+"parents, you will only be able to set parents by using the term edit form."
+msgstr ""
+"Het toekennen van meerdere bovenliggende termen aan een term maakt dat de %"
+"vocabulary woordenlijst voor elke term naar meerdere bovenliggende termen "
+"zal zoeken. Omdat meerdere bovenliggende termen niet ondersteund wordt in de "
+"klik-en-sleep interface zal klik-en-sleep uitgeschakeld worden als u deze "
+"optie inschakelt. Als u ervoor kiest meerdere bovenliggende termen in te "
+"schakelen zult u alleen met het bewerkingsformulier voor de term de "
+"bovenliggende onderdelen kunnen toekennen."
+
+#: modules/taxonomy/taxonomy.admin.inc:820
+msgid ""
+"You may re-enable the drag and drop interface at any time by reducing "
+"multiple parents to a single parent for the terms in this vocabulary."
+msgstr ""
+"U kunt de klik-en-sleep-interface op ieder moment weer inschakelen door het "
+"aantal bovenliggende onderdelen van de temen in deze woordenlijst tot een "
+"enkel bovenliggend onderdeel te verminderen."
+
+#: modules/taxonomy/taxonomy.admin.inc:821
+msgid "Set multiple parents"
+msgstr "Meerdere bovenliggende onderdelen toekennen"
+
+#: modules/taxonomy/taxonomy.admin.inc:838
+msgid "Are you sure you want to delete the term %title?"
+msgstr "Weet u zeker dat u de term %title wilt verwijderen?"
+
+#: modules/taxonomy/taxonomy.admin.inc:841
+msgid ""
+"Deleting a term will delete all its children if there are any. This action "
+"cannot be undone."
+msgstr ""
+"Als u een term verwijdert, verwijdert u ook al haar onderliggende termen "
+"(indien die er zijn). Deze aktie kan niet ongedaan gemaakt worden."
+
+#: modules/taxonomy/taxonomy.admin.inc:854,855
+msgid "Deleted term %name."
+msgstr "Term %name verwijderd."
+
+#: modules/taxonomy/taxonomy.admin.inc:873
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr "Weet u zeker dat u de woordenlijst %title wilt verwijderen?"
+
+#: modules/taxonomy/taxonomy.admin.inc:876
+msgid ""
+"Deleting a vocabulary will delete all the terms in it. This action cannot be "
+"undone."
+msgstr ""
+"Als u een woordenlijst verwijdert, verwijdert u ook al haar termen. Deze "
+"aktie kan niet ongedaan gemaakt worden."
+
+#: modules/taxonomy/taxonomy.admin.inc:888,889
+msgid "Deleted vocabulary %name."
+msgstr "Woordenlijst %name is verwijderd."
+
+#: modules/taxonomy/taxonomy.admin.inc:908
+msgid ""
+"Are you sure you want to reset the vocabulary %title to alphabetical order?"
+msgstr ""
+"Weet u zeker dat u de woordenlijst %title terug wilt zetten naar "
+"alfabetische volgorde?"
+
+#: modules/taxonomy/taxonomy.admin.inc:911
+msgid ""
+"Resetting a vocabulary will discard all custom ordering and sort items "
+"alphabetically."
+msgstr ""
+"Een woordenlijst terugzetten zal alle speciale sorteringen verwijderen en de "
+"onderdelen alfabetisch sorteren."
+
+#: modules/taxonomy/taxonomy.admin.inc:923,924
+msgid "Reset vocabulary %name to alphabetical order."
+msgstr "Zet woordenlijst %name terug naar alfabetische volgorde."
+
+#: modules/taxonomy/taxonomy.module:421
+msgid "- None selected -"
+msgstr "- Niets geselecteerd -"
+
+#: modules/taxonomy/taxonomy.module:424
+msgid "- None -"
+msgstr "- Geen -"
+
+#: modules/taxonomy/taxonomy.module:520
+msgid ""
+"A comma-separated list of terms describing this content. Example: funny, "
+"bungee jumping, \"Company, Inc.\"."
+msgstr ""
+"Een door komma's gescheiden lijst van termen die de inhoud beschrijft. "
+"Bijvoorbeeld: grappig, bungee springen, \"Company, Inc.\"."
+
+#: modules/taxonomy/taxonomy.module:551
+msgid "Vocabularies"
+msgstr "Woordenlijsten"
+
+#: modules/taxonomy/taxonomy.module:638
+msgid "The %name vocabulary can not be modified in this way."
+msgstr "De woordenlijst %name kan niet op deze manier aangepast worden."
+
+#: modules/taxonomy/taxonomy.module:1163
+msgid "There are currently no posts in this category."
+msgstr "Er zijn momenteel geen inzendingen in deze categorie."
+
+#: modules/taxonomy/taxonomy.module:1266
+msgid ""
+"The taxonomy module allows you to categorize content using various systems "
+"of classification. Free-tagging vocabularies are created by users on the fly "
+"when they submit posts (as commonly found in blogs and social bookmarking "
+"applications). Controlled vocabularies allow for administrator-defined short "
+"lists of terms as well as complex hierarchies with multiple relationships "
+"between different terms. These methods can be applied to different content "
+"types and combined together to create a powerful and flexible method of "
+"classifying and presenting your content."
+msgstr ""
+"Met de Taxonomy-module kunt u de inhoud van de website met behulp van "
+"verschillende classificatie systemen categoriseren. Met 'Vrij labelen' "
+"kunnen gebruikers tijdens het indienen van inhoud deze van zelf gekozen "
+"labels voorzien (deze methode wordt vaak in blogs en community-sites "
+"toegepast). Met gecontroleerde woordenlijsten kunnen eenvoudige lijsten, "
+"maar ook complexe hiërarchieën met meervoudige relaties tussen de termen, "
+"worden samengesteld om inhoud te categoriseren. Deze methoden kunnen op "
+"verschilende inhoudstypen worden toegepast en gecombineerd worden tot een "
+"krachtige en flexibele methode voor het classificeren en presenteren van de "
+"website-inhoud."
+
+#: modules/taxonomy/taxonomy.module:1267
+msgid ""
+"For example, when creating a recipe site, you might want to classify posts "
+"by both the type of meal and preparation time. A vocabulary for each allows "
+"you to categorize using each criteria independently instead of creating a "
+"tag for every possible combination."
+msgstr ""
+"Wanneer u bijvoorbeeld een receptensite maakt, wilt u wellicht berichten "
+"classificeren op het soort maaltijd en op bereidingstijd. Met een "
+"woordenlijst voor maaltijd én voor bereidingstijd kunt u beide criteria "
+"onafhankelijk van elkaar gebruiken in plaats van voor elke mogelijke "
+"combinatie een nieuwe label aan te maken."
+
+#: modules/taxonomy/taxonomy.module:1268
+msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
+msgstr "Soort gerecht: <em>Voorgerecht, Hoofdgerecht, Salade, Dessert</em>"
+
+#: modules/taxonomy/taxonomy.module:1269
+msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
+msgstr ""
+"Bereidingstijd: <em>0-30 min., 30-60 min., 1-2 uur, meer dan 2 uur</em>"
+
+#: modules/taxonomy/taxonomy.module:1270
+msgid ""
+"Each taxonomy term (often called a 'category' or 'tag' in other systems) "
+"automatically provides lists of posts and a corresponding RSS feed. These "
+"taxonomy/term URLs can be manipulated to generate AND and OR lists of posts "
+"classified with terms. In our recipe site example, it then becomes easy to "
+"create pages displaying 'Main courses', '30 minute recipes', or '30 minute "
+"main courses and appetizers' by using terms on their own or in combination "
+"with others. There are a significant number of contributed modules which you "
+"to alter and extend the behavior of the core module for both display and "
+"organization of terms."
+msgstr ""
+"Iedere taxonomie-term (in andere systemen ook wel 'categorie' of 'tag' "
+"genoemd) voorziet standaard in een lijst van inzendingen met deze term en "
+"een bijbehorende RSS-feed. De URL's van deze lijsten kunnen worden "
+"samengesteld om EN- en OF-lijsten te maken van inzendingen die van "
+"verschillende termen zijn voorzien. In het voorbeeld van de receptensite "
+"kunnen eenvoudig pagina's gemaakt worden met alle 'Hoofdgerechten', '30 "
+"minuten' recepten of een samengestelde lijst '30 minuten hoofdgerechten en "
+"voorgerechten' door gebruik te maken van losse of gecombineerde termen. Er "
+"is een groot aantal uitbreidingsmodules beschikbaar waarmee u de "
+"functionaliteit van de kernmodules op het gebied van weergave en organisatie "
+"van termen kunt veranderen en uitbreiden."
+
+#: modules/taxonomy/taxonomy.module:1271
+msgid ""
+"Terms can also be organized in parent/child relationships from the admin "
+"interface. An example would be a vocabulary grouping countries under their "
+"parent geo-political regions. The taxonomy module also enables advanced "
+"implementations of hierarchy, for example placing Turkey in both the 'Middle "
+"East' and 'Europe'."
+msgstr ""
+"Op de beheerpagina kunnen termen hiërarchisch gerangschikt worden. "
+"Bijvoorbeeld landen rangschikken van onder regio's in de wereld. Met de "
+"Taxonomy-module kunnen gegevens op geavanceerde wijze worden gerangschikt. "
+"Zoals bijvoorbeeld Turkije plaatsen onder 'Midden Oosten' én onder 'Europa'."
+
+#: modules/taxonomy/taxonomy.module:1272
+msgid ""
+"The taxonomy module supports the use of both synonyms and related terms, but "
+"does not directly use this functionality. However, optional contributed or "
+"custom modules may make full use of these advanced features."
+msgstr ""
+"De Taxonomy-module maakt het gebruik van synoniemen en gerelateerde termen "
+"mogelijk maar kent geen actieve ondersteuning hiervan. Uitbreidingsmodules "
+"kunnen deze functies echter volledig benutten."
+
+#: modules/taxonomy/taxonomy.module:1273
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@taxonomy"
+"\">Taxonomy module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@taxonomy"
+"\">Taxonomy-module</a>."
+
+#: modules/taxonomy/taxonomy.module:1276
+msgid ""
+"The taxonomy module allows you to categorize your content using both tags "
+"and administrator defined terms. It is a flexible tool for classifying "
+"content with many advanced features. To begin, create a 'Vocabulary' to hold "
+"one set of terms or tags. You can create one free-tagging vocabulary for "
+"everything, or separate controlled vocabularies to define the various "
+"properties of your content, for example 'Countries' or 'Colors'."
+msgstr ""
+"Met de Taxonomy-module kunt u inhoud van de site classificeren met labels en "
+"gecontroleerde termen. Het is een flexibel classificatie gereedschap met "
+"geavanceerde mogelijkheden. Om te beginnen wordt een 'Woordenlijst' "
+"aangemaakt voor een groep van labels of termen. U kunt één woordenlijst voor "
+"vrij-labelen voor alle termen aanmaken of verschillende gecontroleerde "
+"woordenlijsten die ieder verschillende eigenschappen van de inhoud "
+"weergeven; Bijvoorbeeld: 'Landen' en 'Kleuren'."
+
+#: modules/taxonomy/taxonomy.module:1277
+msgid ""
+"Use the list below to configure and review the vocabularies defined on your "
+"site, or to list and manage the terms (tags) they contain. A vocabulary may "
+"(optionally) be tied to specific content types as shown in the <em>Type</em> "
+"column and, if so, will be displayed when creating or editing posts of that "
+"type. Multiple vocabularies tied to the same content type will be displayed "
+"in the order shown below. To change the order of a vocabulary, grab a drag-"
+"and-drop handle under the <em>Name</em> column and drag it to a new location "
+"in the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"De onderstaande lijst kan gebruikt worden om de gebruikte woordenlijsten te "
+"controleren en te configureren of om de termen (labels) daarin te beheren. "
+"Een woordenlijst is (optioneel) gekoppeld aan een inhoudstype weergegeven in "
+"de kolom <em>Type</em> en wordt bij het aanmaken of bewerken van een pagina "
+"van dit inhoudstype weergegeven. Wanneer meerdere woordenlijsten aan een "
+"zelfde inhoudstype zijn gekoppeld worden deze in de onderstaande volgorde "
+"weergegeven. Om de volgorde van de woordenlijsten aan te passen klik-sleept "
+"u een woordenlijst aan het handvat in de kolom <em>Naam</em> naar een nieuwe "
+"positie in de lijst. (U klik-sleept het blok door met de muis boven het "
+"handvatpictogram te klikken, vast te houden en de muis te verplaatsen.) "
+"Wijzigingen worden pas opgeslagen wanneer u de knop <em>Opslaan</em> "
+"onderaan de pagina aanklikt."
+
+#: modules/taxonomy/taxonomy.module:1282
+msgid ""
+"%capital_name is a free-tagging vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name is een woordenlijst voor vrij labelen. Om de naam of de "
+"omschrijving van een term te veranderen klikt u op de link <em>bewerken</em> "
+"naast de term."
+
+#: modules/taxonomy/taxonomy.module:1286
+msgid ""
+"%capital_name is a flat vocabulary. You may organize the terms in the %name "
+"vocabulary by using the handles on the left side of the table. To change the "
+"name or description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name is een woordenlijst zonder hiërarchie. U kan de volgorde van "
+"de termen binnen de %name woordenlijst met de pictogram aan de linkerzijde "
+"van de tabel veranderen. Om de naam of de omschrijving van een term te "
+"veranderen klikt u op de link <em>bewerken</em> naast de term."
+
+#: modules/taxonomy/taxonomy.module:1288
+msgid ""
+"%capital_name is a single hierarchy vocabulary. You may organize the terms "
+"in the %name vocabulary by using the handles on the left side of the table. "
+"To change the name or description of a term, click the <em>edit</em> link "
+"next to the term."
+msgstr ""
+"%capital_name is een woordenlijst met een enkele hiërarchie. U kan de "
+"volgorde van de termen binnen de %name woordenlijst met de pictogram aan de "
+"linkerzijde van de tabel veranderen. Om de naam of de omschrijving van een "
+"term te veranderen klikt u op de link <em>bewerken</em> naast de term."
+
+#: modules/taxonomy/taxonomy.module:1290
+msgid ""
+"%capital_name is a multiple hierarchy vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term. Drag "
+"and drop of multiple hierarchies is not supported, but you can re-enable "
+"drag and drop support by editing each term to include only a single parent."
+msgstr ""
+"%capital_name is een woordenlijst met een meervoudige hiërarchie. U kan de "
+"volgorde van de termen binnen de %name woordenlijst met de pictogram aan de "
+"linkerzijde van de tabel veranderen. Om de naam of de omschrijving van een "
+"term te veranderen klikt u op de link <em>bewerken</em> naast de term."
+
+#: modules/taxonomy/taxonomy.module:1293
+msgid ""
+"Define how your vocabulary will be presented to administrators and users, "
+"and which content types to categorize with it. Tags allows users to create "
+"terms when submitting posts by typing a comma separated list. Otherwise "
+"terms are chosen from a select list and can only be created by users with "
+"the \"administer taxonomy\" permission."
+msgstr ""
+"Geef aan hoe uw woordenlijst aan beheerders en gebruikers getoond wordt en "
+"welke inhoudstypen ermee gecategoriseerd worden. Met labels kunnen "
+"gebruikers termen aanmaken tijdens het inzenden van berichten door een komma-"
+"gescheiden lijst in te voeren. In overige situaties kiest men termen uit een "
+"keuzelijst. Nieuwe termen kunnen dan alleen door een gebruiker met "
+"toegangsrechten voor 'taxonomie beheren' worden aangemaakt."
+
+#: modules/taxonomy/taxonomy.module:1332
+msgid "After saving a new term to the database"
+msgstr "Na het opslaan van een nieuwe term in de database"
+
+#: modules/taxonomy/taxonomy.module:1335
+msgid "After saving an updated term to the database"
+msgstr "Na het opslaan van een gewijzigde term in de database"
+
+#: modules/taxonomy/taxonomy.module:1338
+msgid "After deleting a term"
+msgstr "Na het verwijderen van een term"
+
+#: modules/taxonomy/taxonomy.module:13
+msgid "administer taxonomy"
+msgstr "taxonomie beheren"
+
+#: modules/taxonomy/taxonomy.module:113
+msgid "Manage tagging, categorization, and classification of your content."
+msgstr ""
+"Beheren van labelen, categoriseren en classificeren van de website-inhoud"
+
+#: modules/taxonomy/taxonomy.module:127
+msgid "Add vocabulary"
+msgstr "Woordenlijst toevoegen"
+
+#: modules/taxonomy/taxonomy.module:137
+msgid "Edit vocabulary"
+msgstr "Woordenlijst bewerken"
+
+#: modules/taxonomy/taxonomy.module:146
+msgid "Edit term"
+msgstr "Term bewerken"
+
+#: modules/taxonomy/taxonomy.module:154
+msgid "Taxonomy term"
+msgstr "Taxonomie term"
+
+#: modules/taxonomy/taxonomy.module:163
+msgid "Autocomplete taxonomy"
+msgstr "Taxonomie automatisch aanvullen"
+
+#: modules/taxonomy/taxonomy.module:170
+msgid "List terms"
+msgstr "Termen opsommen"
+
+#: modules/taxonomy/taxonomy.module:185
+msgid "Add term"
+msgstr "Term toevoegen"

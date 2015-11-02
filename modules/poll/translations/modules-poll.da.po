@@ -1,0 +1,229 @@
+# Dansk translation of drupal (6.12)
+# Copyright (c) 2009 by the Dansk translation team
+# Generated from files:
+#  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
+#  poll.module,v 1.263.2.3 2008/12/18 15:46:20 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.12)\n"
+"POT-Creation-Date: 2009-05-20 03:59-0700\n"
+"PO-Revision-Date: 2009-05-12 02:14-0700\n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/poll/poll.pages.inc:20
+msgid "open"
+msgstr "åben"
+
+#: modules/poll/poll.pages.inc:20
+msgid "closed"
+msgstr "lukket"
+
+#: modules/poll/poll.pages.inc:32
+msgid ""
+"This table lists all the recorded votes for this poll. If anonymous users "
+"are allowed to vote, they will be identified by the IP address of the "
+"computer they used when they voted."
+msgstr ""
+"Tabellen viser alle stemmer i denne afstemning. Hvis anonyme brugere kan "
+"stemme, er de registreret med den IP-adresse, som stemmen blev afgivet fra."
+
+#: modules/poll/poll.module:16
+msgid ""
+"The poll module can be used to create simple polls for site users. A poll is "
+"a simple, multiple choice questionnaire which displays the cumulative "
+"results of the answers to the poll. Having polls on the site is a good way "
+"to receive feedback from community members."
+msgstr ""
+"Afstemningsmodulet kan bruges til at lave simple afstemninger for sitets "
+"brugere. En afstemning er et simpelt spørgsmål med flere svarmuligheder, der "
+"viser det samlede antal svar. At have en afstemning på sitet er en god måde "
+"at få respons fra brugerne."
+
+#: modules/poll/poll.module:17
+msgid ""
+"When creating a poll, enter the question being posed, as well as the "
+"potential choices (and beginning vote counts for each choice). The status "
+"and duration (length of time the poll remains active for new votes) can also "
+"be specified. Use the <a href=\"@poll\">poll</a> menu item to view all "
+"current polls. To vote in or view the results of a specific poll, click on "
+"the poll itself."
+msgstr ""
+"Når du opretter en afstemning skal du indtaste spørgsmålet, som du vil "
+"stille, og en liste over mulige svar (og indledende stemmetal for hvert "
+"valg). Status og varighed (hvor lang tid det er muligt at afgive sin stemme) "
+"kan også angives. Brug menupunktet <a href=\"@poll\">afstemning</a> til at "
+"se alle aktuelle afstemninger. Klik på en specifik afstemning for at se den "
+"resultat eller for at afgive din stemme."
+
+#: modules/poll/poll.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@poll"
+"\">Poll module</a>."
+msgstr ""
+"Læs håndbogens afsnit om <a href=\"@poll\">afstemninger</a> for yderligere "
+"information."
+
+#: modules/poll/poll.module:133
+msgid "Most recent poll"
+msgstr "Seneste afstemning"
+
+#: modules/poll/poll.module:174
+msgid ""
+"A <em>poll</em> is a question with a set of possible responses. A <em>poll</"
+"em>, once created, automatically provides a simple running count of the "
+"number of votes received for each response."
+msgstr ""
+"En <em>afstemning</em> er et spørgsmål med en række mulige svar. Når en "
+"<em>afstemning</em> er oprettet laver den en løbende optælling af stemmerne "
+"på de enkelte valgmuligheder."
+
+#: modules/poll/poll.module:175
+msgid "Question"
+msgstr "Spørgsmål"
+
+#: modules/poll/poll.module:237
+msgid "More choices"
+msgstr "Flere valgmuligheder"
+
+#: modules/poll/poll.module:238
+msgid ""
+"If the amount of boxes above isn't enough, click here to add more choices."
+msgstr ""
+"Hvis der ikke er nok felter, kan du klikke her for at tilføje flere "
+"valgmuligheder."
+
+#: modules/poll/poll.module:251
+msgid "Closed"
+msgstr "Lukket"
+
+#: modules/poll/poll.module:257
+msgid "Poll settings"
+msgstr "Indstillinger for afstemning"
+
+#: modules/poll/poll.module:263
+msgid "Poll status"
+msgstr "Status"
+
+#: modules/poll/poll.module:266
+msgid "When a poll is closed, visitors can no longer vote for it."
+msgstr "Når en afstemning er lukket, kan brugerne ikke længere afgive stemmer."
+
+#: modules/poll/poll.module:271
+msgid "Poll duration"
+msgstr "Varighed"
+
+#: modules/poll/poll.module:274
+msgid "After this period, the poll will be closed automatically."
+msgstr "Efter denne periode lukkes afstemningen automatisk."
+
+#: modules/poll/poll.module:307
+msgid "Choice @n"
+msgstr "Valg @n"
+
+#: modules/poll/poll.module:315
+msgid "Votes for choice @n"
+msgstr "Stemmer for valg @n"
+
+#: modules/poll/poll.module:380
+msgid "Negative values are not allowed."
+msgstr "Negative værdier er ikke tilladt."
+
+#: modules/poll/poll.module:385
+msgid "You must fill in at least two choices."
+msgstr "Du skal indtaste mindst to valgmuligheder."
+
+#: modules/poll/poll.module:506
+msgid "Older polls"
+msgstr "Tidligere afstemninger"
+
+#: modules/poll/poll.module:506
+msgid "View the list of polls on this site."
+msgstr "Vis afstemningerne på dette site."
+
+#: modules/poll/poll.module:508,98
+msgid "Results"
+msgstr "Resultater"
+
+#: modules/poll/poll.module:508
+msgid "View the current poll results."
+msgstr "Vis nuværende afstemningsresultat."
+
+#: modules/poll/poll.module:588
+msgid ""
+"Your vote could not be recorded because you did not select any of the "
+"choices."
+msgstr ""
+"Du havde ikke markeret en valgmulighed, så din stemme blev ikke registreret."
+
+#: modules/poll/poll.module:611
+msgid "Your vote was recorded."
+msgstr "Stemme registreret."
+
+#: modules/poll/poll.module:667
+msgid "Add another choice"
+msgstr "Tilføj valgmulighed"
+
+#: modules/poll/poll.module:671
+msgid "Choice"
+msgstr "Valgmulighed"
+
+#: modules/poll/poll.module:672
+msgid "Vote count"
+msgstr "Stemmer"
+
+#: modules/poll/poll.module:754
+msgid "Cancel your vote"
+msgstr "Fortryd din stemme"
+
+#: modules/poll/poll.module:57
+msgid "create poll content"
+msgstr "opret afstemninger"
+
+#: modules/poll/poll.module:57
+msgid "delete own poll content"
+msgstr "slet egne afstemninger"
+
+#: modules/poll/poll.module:57
+msgid "delete any poll content"
+msgstr "slet alle afstemninger"
+
+#: modules/poll/poll.module:57
+msgid "edit any poll content"
+msgstr "redigér alle afstemninger"
+
+#: modules/poll/poll.module:57
+msgid "edit own poll content"
+msgstr "redigér egne afstemninger"
+
+#: modules/poll/poll.module:57
+msgid "vote on polls"
+msgstr "deltag i afstemning"
+
+#: modules/poll/poll.module:57
+msgid "cancel own vote"
+msgstr "fortryd egen stemme"
+
+#: modules/poll/poll.module:57
+msgid "inspect all votes"
+msgstr "se alle stemmer"
+
+#: modules/poll/poll.module:79
+msgid "Polls"
+msgstr "Afstemninger"
+
+#: modules/poll/poll.module:87
+msgid "Votes"
+msgstr "Stemmer"
+
+#: modules/poll/poll.module:109
+msgid "Javascript Choice Form"
+msgstr "JavaScript valgformular"
+
+#: modules/poll/poll.module:0
+msgid "poll"
+msgstr "afstemning"

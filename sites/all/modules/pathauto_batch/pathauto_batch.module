@@ -1,0 +1,169 @@
+<?php
+
+// $Id:$
+
+/**
+ * @file
+ * Batch update functions for Pathauto.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function pathauto_batch_menu() {
+  $items = array();
+
+  $items['admin/build/path/pathauto-batch'] = array(
+    'title' => 'Batch update aliases',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('pathauto_batch_form'),
+    'access arguments' => array('administer pathauto'),
+    'type' => MENU_LOCAL_TASK,
+    'weight' => 11,
+  );
+
+  return $items;
+}
+
+/**
+ * Batch selection form.
+ */
+function pathauto_batch_form() {
+  $form = array();
+  $types = node_get_types('names');
+  if (empty($types)) {
+    $form['msg'] = array('#value' => t('There are no node types defined.'));
+  }
+  else {
+    $options = array();
+    foreach ($types as $machine => $name) {
+      $options[$machine] = check_plain($name);
+    }
+    $form['types'] = array(
+      '#type' => 'checkboxes',
+      '#title' => t('Node types'),
+      '#options' => $options,
+      '#required' => TRUE,
+      '#description' => t('Select the node types for which you wish to update path aliases.'),
+    );
+  }
+  $form['db_action'] = array(
+    '#type' => 'radios',
+    '#title' => t('Action to perform'),
+    '#options' => array('1' => t('Update existing records'), '2' => t('Delete records and insert'), '3' => t('Delete records')),
+    '#default_value' => 1,
+    '#description' => t('Determine the type of update to run. <em>Update existing records</em> will not create new aliases.'),
+  );
+  $form['submit'] = array(
+    '#type' => 'submit',
+    '#value' => t('Update paths'),
+  );
+  return $form;
+}
+
+/**
+ * Submit handler.
+ */
+function pathauto_batch_form_submit($form, &$form_state) {
+  // Set pathauto verbose mode to off, but store the current value.
+  variable_set('pathauto_batch', variable_get('pathauto_verbose', FALSE));
+  variable_set('pathauto_verbose', FALSE);
+  $types = array_filter($form_state['values']['types']);
+  $action = $form_state['values']['db_action'];
+  // Get the files for the batch processor.
+  $operations = array();
+  $result = db_query("SELECT nid FROM {node} WHERE type IN (". db_placeholders($types, 'varchar') .")", $types);
+  while ($data = db_fetch_object($result)) {
+    $operations[] = array('pathauto_batch_perform', array($data->nid, 'pathauto_batch_process_node', $action));
+  }
+  $batch = array(
+    'title' => t('Updating path aliases'),
+    'operations' => $operations,
+    'finished' => 'pathauto_batch_complete',
+    'init_message' => t('Path alias update started.'),
+    'progress_message' => t('Processed @current out of @total.'),
+    'error_message' => t('Pathauto batch update has encountered an error.'),
+  );
+  batch_set($batch);
+  batch_process();
+}
+
+/**
+ * Perform the batch process.
+ */
+function pathauto_batch_perform($id, $function, $action, &$context) {
+  // We have to ensure the pathauto files are included on each batch action.
+  _pathauto_include();
+  $alias = $function($id, $action);
+  $context['results'][] = $id;
+  $context['message'] = $alias;
+}
+
+/**
+ * Corrects path aliases for capsule reviews.
+ */
+function pathauto_batch_process_node($nid, $action) {
+  $node = node_load($nid);
+  if (empty($node->nid)) {
+    return t('No alias created');
+  }
+  $alias = _pathauto_batch_generate_node_alias($node);
+  $src= 'node/'. $node->nid;
+  $language = (isset($node->language)) ? $node->language : '';
+  if ($action == 1 && !empty($alias)) {
+    db_query("UPDATE {url_alias} SET dst = '%s'  language = '%s' WHERE src = '%s'", $alias, $language, $src);
+  }
+  else if ($action == 2 || empty($alias)) {
+    db_query("DELETE FROM {url_alias} WHERE src = '%s'", $src);
+    if (!empty($alias)) {
+      db_query("INSERT INTO {url_alias} (src, dst, language) VALUES ('%s', '%s', '%s')", $src, $alias, $language);
+    }
+  }
+  else if ($action == 3) {
+    db_query("DELETE FROM {url_alias} WHERE src = '%s'", $src);  
+  }
+  return $alias;
+}
+
+/**
+ * Function cribbed from pathauto_nodeapi().
+ *
+ * We have to do this here, because that function cannot return the alias.
+ */
+function _pathauto_batch_generate_node_alias($node, $op = 'return') {
+  // Get the specific pattern or the default
+  if (variable_get('language_content_type_'. $node->type, 0)) {
+    $pattern = trim(variable_get('pathauto_node_'. $node->type .'_'. $node->language .'_pattern', FALSE));
+  }
+  if (empty($pattern)) {
+    $pattern = trim(variable_get('pathauto_node_'. $node->type .'_pattern', FALSE));
+    if (empty($pattern)) {
+      $pattern = trim(variable_get('pathauto_node_pattern', FALSE));
+    }
+  }
+  // Only do work if there's a pattern
+  if ($pattern) {
+    // Only create an alias if the checkbox was not provided or if the checkbox was provided and is checked
+    if (!isset($node->pathauto_perform_alias) || $node->pathauto_perform_alias) {
+      $placeholders = pathauto_get_placeholders('node', $node);
+      $src = "node/$node->nid";
+      $alias = pathauto_create_alias('node', $op, $placeholders, $src, $node->nid, $node->type, $node->language);
+    }
+  }
+  return $alias;
+}
+
+/**
+ * Complete function.
+ */
+function pathauto_batch_complete($success, $results, $operations) {
+  if ($success) {
+    $message = format_plural(count($results), 'One post processed.', '@count posts processed.');
+  }
+  else {
+    $message = t('Finished with an error.');
+  }
+  drupal_set_message($message);
+  variable_set('pathauto_verbose', variable_get('pathauto_batch', FALSE));
+  variable_del('pathauto_batch');
+}

@@ -1,0 +1,72 @@
+<?php
+
+function referencednodeblock_help($path, $arg) {
+  return '';
+} // referencednodeblock_help()
+
+/**
+* Valid permissions for this module
+* @return array An array of valid permissions for the onthisdate module
+*/
+function referencednodeblock_perm() {
+  return array('access referencednodeblock content');
+} // function onthisdate_perm()
+
+function referencednodeblock_block($op = 'list', $delta = 0, $edit = array()) {
+  switch ($op) {
+    case 'list':
+      $block = array();
+      $block[0]['info'] = t('References');
+    break;
+    
+    case 'view': default:
+      $block = theme_referencednodeblock_reference_block();
+  }
+  return $block;
+} // function onthisdate_block()
+
+
+function theme_referencednodeblock_reference_block() {
+  // Get the nid
+  $nid = (arg(0) == 'node' and is_numeric(arg(1))) ? arg(1) : false;
+  
+  if ($nid) {
+    // Get the names of all fields of type "nodereference"
+    $nodereference_field_names = array();
+    foreach (content_fields() as $field_name => $field_settings) {
+//      print_r($field_settings);
+    	if ($field_settings['type'] == 'nodereference') {
+    		$nodereference_field_names[] = $field_name;
+    	}
+    }
+    
+  	// Load the node to get his references
+  	$node = node_load($nid);
+  	
+  	// Getting the nodetypes
+  	$node_types = content_types();
+  	
+  	// Iterating through all found nodereference field-names and the existing nodes fields.
+  	$teaser = array();
+  	foreach ($nodereference_field_names as $reference_field_name) {
+  	  if (property_exists($node, $reference_field_name)) {
+  	  	foreach ($node->{$reference_field_name} as $reference) {
+  	  	  if ($reference['nid']) {
+  	  	  	$ref_node = node_load($reference['nid']);
+      			$teaser[$ref_node->type] .= '<div class="reference-box"><h4>' . l($ref_node->title, $ref_node->path) . '</h4>' . theme_teaser_img_link($ref_node) . '</div>';
+  	  	  }
+    		}
+  	  }
+  	}
+  	
+  	foreach ($teaser as $node_type => $teasers) {
+  		$block['content'] .= '<h3>' . $node_types[$node_type]['name'] . '</h3>' . $teasers;
+  	}
+  	
+//  	$block['subject'] = '<h6>' . t('mehr...');
+  	
+  	return $block;
+  }
+} // theme_referencednodeblock_reference_block()
+
+?>

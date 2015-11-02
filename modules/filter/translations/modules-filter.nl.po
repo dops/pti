@@ -1,0 +1,723 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  filter.admin.inc,v 1.8.2.1 2008/02/12 14:25:34 goba
+#  filter.pages.inc,v 1.2 2007/11/10 17:41:18 dries
+#  filter.module,v 1.204.2.8 2008/12/10 22:30:14 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/filter/filter.admin.inc:33
+msgid "All roles may use default format"
+msgstr "Alle rollen mogen het standaard formaat gebruiken"
+
+#: modules/filter/filter.admin.inc:33
+msgid "No roles may use this format"
+msgstr "Geen van de rollen mag dit formaat gebruiken"
+
+#: modules/filter/filter.admin.inc:38
+msgid "Set default format"
+msgstr "Het standaardformaat instellen"
+
+#: modules/filter/filter.admin.inc:45
+msgid "Default format updated."
+msgstr "Standaardformaat aangepast."
+
+#: modules/filter/filter.admin.inc:97
+msgid "All roles for the default format must be enabled and cannot be changed."
+msgstr ""
+"Alle rollen voor het standaardformaat moeten ingeschakeld zijn en kunnen "
+"niet gewijzigd worden."
+
+#: modules/filter/filter.admin.inc:104
+msgid "Specify a unique name for this filter format."
+msgstr "U moet een unieke naam voor dit invoerformaat kiezen."
+
+#: modules/filter/filter.admin.inc:111
+msgid ""
+"Choose which roles may use this filter format. Note that roles with the "
+"\"administer filters\" permission can always use all the filter formats."
+msgstr ""
+"Kies welke rollen dit invoerformaat mogen gebruiken. Merk op dat rollen met "
+"de \"filters beheren\"-permissie altijd alle formaten kunnen gebruiken."
+
+#: modules/filter/filter.admin.inc:130
+msgid "Filters"
+msgstr "Filters"
+
+#: modules/filter/filter.admin.inc:131
+msgid "Choose the filters that will be used in this filter format."
+msgstr "Kies de filters die in dit invoerformaat gebruikt moeten worden."
+
+#: modules/filter/filter.admin.inc:149
+msgid "No guidelines available."
+msgstr "Geen richtlijnen aanwezig."
+
+#: modules/filter/filter.admin.inc:151
+msgid ""
+"These are the guidelines that users will see for posting in this input "
+"format. They are automatically generated from the filter settings."
+msgstr ""
+"Dit zijn de richtlijnen die de gebruikers te zien krijgen wanneer ze inhoud "
+"van dit invoerformaat ingeven. Ze worden automatisch gegeneerd uit de "
+"filterinstellingen."
+
+#: modules/filter/filter.admin.inc:168
+msgid ""
+"Filter format names need to be unique. A format named %name already exists."
+msgstr ""
+"Invoerformaatnamen moeten uniek zijn. Er bestaat reeds een formaat dat %naam "
+"heet."
+
+#: modules/filter/filter.admin.inc:187
+msgid "Added input format %format."
+msgstr "Invoerformaat %format toegevoegd."
+
+#: modules/filter/filter.admin.inc:190
+msgid "The input format settings have been updated."
+msgstr "De invoerformaat-instellingen zijn bijgewerkt."
+
+#: modules/filter/filter.admin.inc:252
+msgid "Are you sure you want to delete the input format %format?"
+msgstr "Weet u zeker dat u invoerformaat %format wil verwijderen?"
+
+#: modules/filter/filter.admin.inc:252
+msgid ""
+"If you have any content left in this input format, it will be switched to "
+"the default input format. This action cannot be undone."
+msgstr ""
+"Indien er nog inhoud bestaat van dit invoerformaat zal die omgeschakeld "
+"worden naar het standaard formaat.Deze actie kan niet ongedaan gemaakt "
+"worden."
+
+#: modules/filter/filter.admin.inc:255
+msgid "The default format cannot be deleted."
+msgstr "Het standaardformaat kan niet verwijderd worden."
+
+#: modules/filter/filter.admin.inc:278
+msgid "Deleted input format %format."
+msgstr "Invoerformaat %format verwijderd."
+
+#: modules/filter/filter.admin.inc:289
+msgid "Configure %format"
+msgstr "%format instellen"
+
+#: modules/filter/filter.admin.inc:312
+msgid "No settings are available."
+msgstr "Er zijn geen instellingen beschikbaar."
+
+#: modules/filter/filter.admin.inc:330
+msgid "Rearrange %format"
+msgstr "%format herschikken"
+
+#: modules/filter/filter.admin.inc:391
+msgid "The filter ordering has been saved."
+msgstr "De filtervolgorde is bewaard."
+
+#: modules/filter/filter.pages.inc:35
+msgid "input formats"
+msgstr "invoerformaat"
+
+#: modules/filter/filter.module:23
+msgid ""
+"The filter module allows administrators to configure text input formats for "
+"use on your site. An input format defines the HTML tags, codes, and other "
+"input allowed in both content and comments, and is a key feature in guarding "
+"against potentially damaging input from malicious users. Two input formats "
+"included by default are <em>Filtered HTML</em> (which allows only an "
+"administrator-approved subset of HTML tags) and <em>Full HTML</em> (which "
+"allows the full set of HTML tags). Additional input formats may be created "
+"by an administrator."
+msgstr ""
+"Met de Filter-module kunnen beheerders tekstinvoerformaten voor de site "
+"instellen. In een invoerformaat wordt bepaald welke HTML-tags, codes en "
+"tekst in inhoud en reacties zijn toegestaan. Invoerformaten zijn een vitaal "
+"onderdeel van de bescherming tegen mogelijk schadelijke invoer door "
+"kwaadwillende gebruikers. Standaard zijn twee invoerformaten beschikbaar: "
+"<em>Gefilterde HTML</em> (een door de beheerde goedgekeurde set HTML-tags) "
+"en <em>Volledige HTML</em> (alle HTML-tags zijn toegelaten). Andere "
+"invoerformaten kunnen door de beheerder worden aangemaakt."
+
+#: modules/filter/filter.module:24
+msgid ""
+"Each input format uses filters to manipulate text, and most input formats "
+"apply several different filters to text in a specific order. Each filter is "
+"designed for a specific purpose, and generally either adds, removes or "
+"transforms elements within user-entered text before it is displayed. A "
+"filter does not change the actual content of a post, but instead, modifies "
+"it temporarily before it is displayed. A filter may remove unapproved HTML "
+"tags, for instance, while another automatically adds HTML to make links "
+"referenced in text clickable."
+msgstr ""
+"Ieder invoerformaat gebruikt filters om tekst te bewerken, de meeste "
+"invoerformaten passen meerdere filters in een bepaalde volgorde toe. Ieder "
+"filter is voor een bepaald doel gebouwd en zal gewoonlijk delen van de "
+"gebruikersinvoer verwijderen, omvormen of informatie toevoegen voordat deze "
+"wordt weergegeven. Een filter zal bijvoorbeeld niet toegelaten HTML-tags "
+"verwijderen een ander filter zal bijvoorbeeld HTML-tags toevoegen om "
+"verwijzingen in de tekst klikbaar te maken."
+
+#: modules/filter/filter.module:25
+msgid ""
+"Users can choose between the available input formats when creating or "
+"editing content. Administrators can configure which input formats are "
+"available to which user roles, as well as choose a default input format."
+msgstr ""
+"Gebruikers kunnen bij het invoeren van gegevens uit de beschikbare "
+"invoerformaten kiezen. Beheerders kunnen instellen welke invoerformaten "
+"beschikbaar zijn voor welke rollen en een standaard invoerformaat kiezen."
+
+#: modules/filter/filter.module:26
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@filter"
+"\">Filter module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@filter"
+"\">Filter-module</a>."
+
+#: modules/filter/filter.module:29
+msgid ""
+"<em>Input formats</em> define a way of processing user-supplied text in "
+"Drupal. Each input format uses filters to manipulate text, and most input "
+"formats apply several different filters to text, in a specific order. Each "
+"filter is designed to accomplish a specific purpose, and generally either "
+"removes elements from or adds elements to text before it is displayed. Users "
+"can choose between the available input formats when submitting content."
+msgstr ""
+"<em>Invoerformaten</em> vormen het mechanisme waarmee Drupal de door "
+"gebruikers ingevoerde tekst verwerkt. Ieder invoerformaat gebruikt filters "
+"om tekst te bewerken, de meeste invoerformaten passen meerdere filters in "
+"een bepaalde volgorde toe. Ieder filter is voor een bepaald doel gebouwd en "
+"zal gewoonlijk delen van de gebruikersinvoer verwijderen, omvormen of "
+"informatie toevoegen voordat deze wordt weergegeven. Gebruikers kunnen "
+"tijdens het aanmaken of bewerken van inhoud tussen de beschikbare "
+"invoerformaten kiezen."
+
+#: modules/filter/filter.module:30
+msgid ""
+"Use the list below to configure which input formats are available to which "
+"roles, as well as choose a default input format (used for imported content, "
+"for example). The default format is always available to users. All input "
+"formats are available to users in a role with the \"administer filters\" "
+"permission."
+msgstr ""
+"Gebruik de onderstaande lijst om aan te geven welke invoerformaten voor "
+"welke rollen beschikbaar zijn en om het standaard invoerformaat te "
+"selecteren. Het standaardformaat is voor alle gebruikers beschikbaar. Voor "
+"gebruikers met toegangsrechten \"filters beheren\" zijn alle invoerformaten "
+"beschikbaar."
+
+#: modules/filter/filter.module:33
+msgid ""
+"Every <em>filter</em> performs one particular change on the user input, for "
+"example stripping out malicious HTML or making URLs clickable. Choose which "
+"filters you want to apply to text in this input format. If you notice some "
+"filters are causing conflicts in the output, you can <a href=\"@rearrange"
+"\">rearrange them</a>."
+msgstr ""
+"Elke <em>filter</em> voert een bepaalde verandering uit van de "
+"gebruikersinvoer. Bijvoorbeeld het verwijderen zijn van schadelijke HTML, of "
+"het klikbaar maken van URL's. Kies welke filters u op tekst met dit "
+"invoerformaat wilt toepassen. Indien u merkt dat filters conflicten "
+"veroorzaken in de uitvoer, kunt u ze <a href=\"@rearrange\">herschikken</a>."
+
+#: modules/filter/filter.module:35
+msgid ""
+"If you cannot find the settings for a certain filter, make sure you have "
+"enabled it on the <a href=\"@url\">view tab</a> first."
+msgstr ""
+"Indien u de instellingen voor een bepaald filter niet kan vinden, "
+"controlleer dan eerst of het filter wel ingeschakeld is op het <a href=\"@url"
+"\">bekijken tabblad</a>."
+
+#: modules/filter/filter.module:37
+msgid ""
+"Because of the flexible filtering system, you might encounter a situation "
+"where one filter prevents another from doing its job. For example: a word in "
+"an URL gets converted into a glossary term, before the URL can be converted "
+"to a clickable link. When this happens, rearrange the order of the filters."
+msgstr ""
+"Vanwege het flexibele filtersysteem kan het zijn dat u situaties tegenkomt "
+"waar de ene filter een andere zijn werk niet laat doen. Bijvoorbeeld: een "
+"woord wordt omgezet in een woordenboek woord, voordat het in een klikbare "
+"link kan worden omgezet. Wanneer dit gebeurt zult u de volgorde waarin ze "
+"worden uitgevoerd moeten veranderen."
+
+#: modules/filter/filter.module:38
+msgid ""
+"Filters are executed from top-to-bottom. To change the order of the filters, "
+"modify the values in the <em>Weight</em> column or grab a drag-and-drop "
+"handle under the <em>Name</em> column and drag filters to new locations in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"Filters worden uitgevoerd van boven naar beneden. Om de volgorde van de "
+"filters aan te passen kunt u de waarde in de kolom <em>Gewicht</em> "
+"wijzingen of klik-sleept u het filter aan het handvat in de kolom <em>Naam</"
+"em> naar een nieuwe positie in de lijst. (U klik-sleept het blok door met de "
+"muis boven het handvatpictogram te klikken, vast te houden en de muis te "
+"verplaatsen.) Wijzigingen worden pas opgeslagen wanneer u de knop "
+"<em>Configuratie opslaan</em> onderaan de pagina aanklikt."
+
+#: modules/filter/filter.module:180,182
+msgid "Allowed HTML tags: @tags"
+msgstr "Toegelaten HTML-tags: @tags"
+
+#: modules/filter/filter.module:187
+msgid ""
+"\n"
+"<p>This site allows HTML content. While learning all of HTML may feel "
+"intimidating, learning how to use a very small number of the most basic HTML "
+"\"tags\" is very easy. This table provides examples for each tag that is "
+"enabled on this site.</p>\n"
+"<p>For more information see W3C's <a href=\"http://www.w3.org/TR/html/"
+"\">HTML Specifications</a> or use your favorite search engine to find other "
+"sites that explain HTML.</p>"
+msgstr ""
+"\n"
+"<p>Op deze site kan HTML worden gebruikt. Terwijl het leren van de volledige "
+"HTML-code overweldigend kan zijn, is het leren van een beperkte aantal basis "
+"HTML-'tags' veel eenvoudiger. Deze tabel geeft een aantal voorbeelden van "
+"iedere tag die op deze site kan worden gebruikt.</p>\r\n"
+"<p>Voor meer informatie zie de <a href=\"http://www.w3.org/TR/html/\">HTML-"
+"specificaties</a> van W3C of gebruik uw favoriete zoekmachine om een site te "
+"te vinden die uitleg over HTML geeft.</p>"
+
+#: modules/filter/filter.module:191
+msgid "Anchors are used to make links to other pages."
+msgstr "Ankers worden gebruikt om links te maken naar andere pagina's."
+
+#: modules/filter/filter.module:192
+msgid ""
+"By default line break tags are automatically added, so use this tag to add "
+"additional ones. Use of this tag is different because it is not used with an "
+"open/close pair like all the others. Use the extra \" /\" inside the tag to "
+"maintain XHTML 1.0 compatibility"
+msgstr ""
+"Regeleinde-tags worden standaard al automatisch aan de tekst toegevoegd, dus "
+"gebruik deze tag alleen om extra regeleinden toe te voegen. Het gebruik van "
+"deze tag is anders dan andere XHTML-tags omdat het niet bestaat uit een "
+"open- en sluit tag-paar. Gebruik de extra \"/\" binnenin de tag om de XHTML "
+"1.0 compatibiliteit te behouden"
+
+#: modules/filter/filter.module:192
+msgid "Text with <br />line break"
+msgstr "Tekst met <br />regeleinde"
+
+#: modules/filter/filter.module:193
+msgid ""
+"By default paragraph tags are automatically added, so use this tag to add "
+"additional ones."
+msgstr ""
+"Paragraaf-tags worden standaard automatisch toegevoegd. Gebruik dus deze "
+"tagom er extra toe te voegen."
+
+#: modules/filter/filter.module:193
+msgid "Paragraph one."
+msgstr "Paragraph één."
+
+#: modules/filter/filter.module:193
+msgid "Paragraph two."
+msgstr "Paragraph twee."
+
+#: modules/filter/filter.module:194
+msgid "Strong"
+msgstr "Sterk"
+
+#: modules/filter/filter.module:195
+msgid "Emphasized"
+msgstr "Benadrukt"
+
+#: modules/filter/filter.module:196
+msgid "Cited"
+msgstr "Geciteerd"
+
+#: modules/filter/filter.module:197
+msgid "Coded text used to show programming source code"
+msgstr "Code-tekst, gebruikt om programmacode weer te geven"
+
+#: modules/filter/filter.module:197
+msgid "Coded"
+msgstr "Code"
+
+#: modules/filter/filter.module:198
+msgid "Bolded"
+msgstr "Vet"
+
+#: modules/filter/filter.module:199
+msgid "Underlined"
+msgstr "Onderstreept"
+
+#: modules/filter/filter.module:200
+msgid "Italicized"
+msgstr "Cursief"
+
+#: modules/filter/filter.module:201
+msgid "Superscripted"
+msgstr "Superscript"
+
+#: modules/filter/filter.module:201
+msgid "<sup>Super</sup>scripted"
+msgstr "<sup>Super</sup>script"
+
+#: modules/filter/filter.module:202
+msgid "Subscripted"
+msgstr "Subscript"
+
+#: modules/filter/filter.module:202
+msgid "<sub>Sub</sub>scripted"
+msgstr "<sub>Sub</sub>script"
+
+#: modules/filter/filter.module:203
+msgid "Preformatted"
+msgstr "Voorgeformateerd"
+
+#: modules/filter/filter.module:204
+msgid "Abbreviation"
+msgstr "Afkorting"
+
+#: modules/filter/filter.module:204
+msgid "<abbr title=\"Abbreviation\">Abbrev.</abbr>"
+msgstr "<abbr title=\"Afkorting\">Afkort.</abbr>"
+
+#: modules/filter/filter.module:205
+msgid "Acronym"
+msgstr "Acroniem"
+
+#: modules/filter/filter.module:205
+msgid "<acronym title=\"Three-Letter Acronym\">TLA</acronym>"
+msgstr "<acronym title=\"Drie-Letter-Acroniem\">DLA</acronym>"
+
+#: modules/filter/filter.module:206
+msgid "Block quoted"
+msgstr "blok aanhaling"
+
+#: modules/filter/filter.module:207
+msgid "Quoted inline"
+msgstr "Inline aangehaald"
+
+#: modules/filter/filter.module:209
+msgid "Table"
+msgstr "Tabel"
+
+#: modules/filter/filter.module:209
+msgid "Table header"
+msgstr "Tabelkop"
+
+#: modules/filter/filter.module:209
+msgid "Table cell"
+msgstr "Tabelcel"
+
+#: modules/filter/filter.module:211
+msgid "Deleted"
+msgstr "Verwijderd"
+
+#: modules/filter/filter.module:212
+msgid "Inserted"
+msgstr "Ingevoegd"
+
+#: modules/filter/filter.module:214
+msgid "Ordered list - use the &lt;li&gt; to begin each list item"
+msgstr "Geordende lijst - gebruik &lt;li&gt; voor elk lijst-item"
+
+#: modules/filter/filter.module:214,215
+msgid "First item"
+msgstr "Eerste item"
+
+#: modules/filter/filter.module:214,215
+msgid "Second item"
+msgstr "Tweede item"
+
+#: modules/filter/filter.module:215
+msgid "Unordered list - use the &lt;li&gt; to begin each list item"
+msgstr "Ongeordende lijst - gebruik &lt;li&gt; voor elke lijst-item"
+
+#: modules/filter/filter.module:218
+msgid ""
+"Definition lists are similar to other HTML lists. &lt;dl&gt; begins the "
+"definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins "
+"the definition description."
+msgstr ""
+"Definitielijsten zijn zeer gelijkaardig aan andere HTML-lijsten. &lt;dl&gt; "
+"start de definitielijst, &lt;dt&gt; start de definitieterm en &lt;dd&gt; "
+"start de definitiebeschrijving."
+
+#: modules/filter/filter.module:218
+msgid "First term"
+msgstr "Eerste term"
+
+#: modules/filter/filter.module:218
+msgid "First definition"
+msgstr "Eerste definitie"
+
+#: modules/filter/filter.module:218
+msgid "Second term"
+msgstr "Tweede term"
+
+#: modules/filter/filter.module:218
+msgid "Second definition"
+msgstr "Tweede definitie"
+
+#: modules/filter/filter.module:221
+msgid "Subtitle"
+msgstr "Ondertitel"
+
+#: modules/filter/filter.module:222
+msgid "Subtitle three"
+msgstr "Ondertitel drie"
+
+#: modules/filter/filter.module:223
+msgid "Subtitle four"
+msgstr "Ondertitel vier"
+
+#: modules/filter/filter.module:224
+msgid "Subtitle five"
+msgstr "Ondertitel vijf"
+
+#: modules/filter/filter.module:225
+msgid "Subtitle six"
+msgstr "Ondertitel zes"
+
+#: modules/filter/filter.module:227
+msgid "Tag Description"
+msgstr "Tag Beschrijving"
+
+#: modules/filter/filter.module:227,256
+msgid "You Type"
+msgstr "U typt"
+
+#: modules/filter/filter.module:227,256
+msgid "You Get"
+msgstr "U krijgt"
+
+#: modules/filter/filter.module:241
+msgid "No help provided for tag %tag."
+msgstr "Er is geen hulp beschikbaar voor tag %tag."
+
+#: modules/filter/filter.module:247
+msgid ""
+"\n"
+"<p>Most unusual characters can be directly entered without any problems.</"
+"p>\n"
+"<p>If you do encounter problems, try using HTML character entities. A common "
+"example looks like &amp;amp; for an ampersand &amp; character. For a full "
+"list of entities see HTML's <a href=\"http://www.w3.org/TR/html4/sgml/"
+"entities.html\">entities</a> page. Some of the available characters include:"
+"</p>"
+msgstr ""
+"\n"
+"<p>De meest gebruikelijke karakters kunnen direct ingegeven worden zonder "
+"problemen.</p>\n"
+"<p>Indien u wel problemen ondervindt, probeer dan eens HTML-karaters te "
+"gebruiken. Een standaard voorbeeld is &amp;amp; voor een ampersand &amp;-"
+"karakter. Voor een volledige lijst van karakters: zie HTML's <a href="
+"\"http://www.w3.org/TR/html4/sgml/entities.html\">entititeiten</a>-pagina. "
+"Een aantal van de beschikbare karakters zijn:</p>"
+
+#: modules/filter/filter.module:251
+msgid "Ampersand"
+msgstr "Ampersand"
+
+#: modules/filter/filter.module:252
+msgid "Greater than"
+msgstr "Groter dan"
+
+#: modules/filter/filter.module:253
+msgid "Less than"
+msgstr "Kleiner dan"
+
+#: modules/filter/filter.module:254
+msgid "Quotation mark"
+msgstr "Aanhalingsteken"
+
+#: modules/filter/filter.module:256
+msgid "Character Description"
+msgstr "Karakterbeschrijving"
+
+#: modules/filter/filter.module:270
+msgid "No HTML tags allowed"
+msgstr "Geen HTML-tags toegestaan"
+
+#: modules/filter/filter.module:278
+msgid "Lines and paragraphs break automatically."
+msgstr "Regels en paragrafen worden automatisch gesplitst."
+
+#: modules/filter/filter.module:280
+msgid ""
+"Lines and paragraphs are automatically recognized. The &lt;br /&gt; line "
+"break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted "
+"automatically. If paragraphs are not recognized simply add a couple blank "
+"lines."
+msgstr ""
+"Regels en paragrafen worden automatisch herkend. De &lt;br /&gt; "
+"regeleinde-, &lt;p&gt; paragraaf- en &lt;/p&gt; paragraafeinde-tags worden "
+"automatisch ingevoegd Indien paragrafen niet herkend worden, voeg dan "
+"gewoonweg een aantaal lege regels toe."
+
+#: modules/filter/filter.module:284
+msgid "Web page addresses and e-mail addresses turn into links automatically."
+msgstr ""
+"Adressen van webpagina's en e-mailadressen worden automatisch naar links "
+"omgezet."
+
+#: modules/filter/filter.module:495
+msgid "Input format"
+msgstr "Invoerformaat"
+
+#: modules/filter/filter.module:615,666
+msgid "HTML filter"
+msgstr "HTML-filter"
+
+#: modules/filter/filter.module:615
+msgid "Line break converter"
+msgstr "Regeleinde-omzetter"
+
+#: modules/filter/filter.module:615,726
+msgid "URL filter"
+msgstr "URL-filter"
+
+#: modules/filter/filter.module:615
+msgid "HTML corrector"
+msgstr "HTML-corrector"
+
+#: modules/filter/filter.module:620
+msgid ""
+"Allows you to restrict whether users can post HTML and which tags to filter "
+"out. It will also remove harmful content such as JavaScript events, "
+"JavaScript URLs and CSS styles from those tags that are not removed."
+msgstr ""
+"Maakt het mogelijk om door gebruikers ingevoerde HTML te beperken en "
+"selectief tags te verwijderen. Verwijdert ook schadelijke inhoud zoals "
+"JavaScript-gebeurtenissen, JavaScript-URLs en CSS-stijlen."
+
+#: modules/filter/filter.module:622
+msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
+msgstr ""
+"Converteert het einde van regels in HTML (i.e. &lt;br&gt; and &lt;p&gt; "
+"tags)."
+
+#: modules/filter/filter.module:624
+msgid "Turns web and e-mail addresses into clickable links."
+msgstr "Adressen van webpagina's en e-mailadressen worden naar links omgezet."
+
+#: modules/filter/filter.module:626
+msgid "Corrects faulty and chopped off HTML in postings."
+msgstr "Corrigeert foutieve en afgekorte HTML in berichten."
+
+#: modules/filter/filter.module:671
+msgid "Filter HTML tags"
+msgstr "HTML-tags filteren"
+
+#: modules/filter/filter.module:673
+msgid "Strip disallowed tags"
+msgstr "Verboden tags verwijderen"
+
+#: modules/filter/filter.module:673
+msgid "Escape all tags"
+msgstr "Tags onschadelijk maken"
+
+#: modules/filter/filter.module:674
+msgid ""
+"How to deal with HTML tags in user-contributed content. If set to \"Strip "
+"disallowed tags\", dangerous tags are removed (see below). If set to "
+"\"Escape tags\", all HTML is escaped and presented as it was typed."
+msgstr ""
+"Hoe moet er omgegaan worden met HTML- en PHP-tags in gebruikersinhoud? "
+"Indien \"Verboden tags verwijderen\" is gekozen, zullen gevaarlijke tags "
+"worden verwijderd (Zie beneden). Indien \"Tags onschadelijk maken\" is "
+"gekozen zal alle HTML onschadelijk gemaakt worden. De tags worden dan "
+"letterlijk weergegeven worden zoals ze ingetikt werden door de gebruiker."
+
+#: modules/filter/filter.module:682
+msgid ""
+"If \"Strip disallowed tags\" is selected, optionally specify tags which "
+"should not be stripped. JavaScript event attributes are always stripped."
+msgstr ""
+"Indien \"Verboden tags verwijderen\"is gekozen, kunt u optioneel aangeven "
+"welke tags niet verwijderd mogen worden. Javascript-gebeurtenisattributen "
+"worden altijd verwijderd."
+
+#: modules/filter/filter.module:686
+msgid "Display HTML help"
+msgstr "HTML-hulp weergeven"
+
+#: modules/filter/filter.module:688
+msgid ""
+"If enabled, Drupal will display some basic HTML help in the long filter tips."
+msgstr ""
+"Indien ingeschakeld, zal enige HTML-hulpinformatie onder het tekstveld "
+"worden weergeven."
+
+#: modules/filter/filter.module:692
+msgid "Spam link deterrent"
+msgstr "Spamlink-afschrikmiddel"
+
+#: modules/filter/filter.module:694
+msgid ""
+"If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to "
+"reduce the effectiveness of spam links. Note: this will also prevent valid "
+"links from being followed by search engines, therefore it is likely most "
+"effective when enabled for anonymous users."
+msgstr ""
+"Indien ingeschakeld zal Drupal rel=\"nofollow\" toevoegen aan alle links om "
+"zo de effectiviteit van spam-links te verminderen. Bedenk daarbij dat ook "
+"geldige links die door zoekmachines worden gevolgd hierdoor worden "
+"beïnvloed. Deze functie is waarschijnlijk het meest effectief wanneer ze bij "
+"anonieme bezoekers wordt toegepast."
+
+#: modules/filter/filter.module:731
+msgid "Maximum link text length"
+msgstr "Maximale lengte van de linktekst"
+
+#: modules/filter/filter.module:734
+msgid ""
+"URLs longer than this number of characters will be truncated to prevent long "
+"strings that break formatting. The link itself will be retained; just the "
+"text portion of the link will be truncated."
+msgstr ""
+"URL's die langer zijn dan dit aantal tekens zullen worden afgebroken om te "
+"voorkomen dat lange tekenreeksen de weergave verstoren. De link zelf blijft "
+"ongewijzigd; alleen de tekstweergave van de link wordt ingekort."
+
+#: modules/filter/filter.module:157
+msgid "administer filters"
+msgstr "filters beheren"
+
+#: modules/filter/filter.module:71
+msgid "Input formats"
+msgstr "Invoerformaten"
+
+#: modules/filter/filter.module:72
+msgid ""
+"Configure how content input by users is filtered, including allowed HTML "
+"tags. Also allows enabling of module-provided filters."
+msgstr ""
+"Bepaal hoe door gebruikers ingevoerde inhoud wordt gefilterd, inclusief "
+"toegestane HTML-tags. Ondersteunt het inschakelen van filters die door "
+"modules worden aangeboden."
+
+#: modules/filter/filter.module:91
+msgid "Delete input format"
+msgstr "Invoerformaat verwijderen"
+
+#: modules/filter/filter.module:99
+msgid "Compose tips"
+msgstr "Opsteltips"
+
+#: modules/filter/filter.module:131
+msgid "Rearrange"
+msgstr "Herschikken"
+
+#: modules/filter/filter.module:0
+msgid "filter"
+msgstr "filter"

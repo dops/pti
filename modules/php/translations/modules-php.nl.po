@@ -1,0 +1,251 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  php.module,v 1.8.2.1 2008/02/05 09:29:50 goba
+#  php.install,v 1.1 2007/04/24 10:54:34 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/php/php.module:16
+msgid ""
+"The PHP filter adds the ability to include PHP code in posts. PHP is a "
+"general-purpose scripting language widely-used for web development; the "
+"content management system used by this website has been developed using PHP."
+msgstr ""
+"Het PHP-filter biedt de mogelijkheid om PHP-code aan inzendingen toe te "
+"voegen. PHP is een programmeertaal die zeer veel toegepast wordt voor "
+"website-ontwikkeling. Het Drupal Content Management Systeem dat door deze "
+"website wordt gebruikt is ook met PHP ontwikkeld."
+
+#: modules/php/php.module:17
+msgid ""
+"Through the PHP filter, users with the proper permission may include custom "
+"PHP code within a page of the site. While this is a powerful and flexible "
+"feature if used by a trusted user with PHP experience, it is a significant "
+"and dangerous security risk in the hands of a malicious user. Even a trusted "
+"user may accidentally compromise the site by entering malformed or incorrect "
+"PHP code. Only the most trusted users should be granted permission to use "
+"the PHP filter, and all PHP code added through the PHP filter should be "
+"carefully examined before use."
+msgstr ""
+"Met behulp van het PHP-filter kunnen gebruikers met de juiste "
+"toegangsrechten eigen PHP-code aan een websitepagina toevoegen. Dit is een "
+"krachtige en flexibele mogelijkheid in de handen van ervaren en betrouwbare "
+"PHP-programmeurs, maar tegelijkertijd een groot risico wanneer het in handen "
+"van onbevoegde of onervaren gebruikers komt. Zelf een ervaren gebruiker kan "
+"ongewild de veiligheid van de site in gevaar brengen door foutieve PHP-code "
+"te gebruiken. Slechts aan de meest ervaren en betrouwbare gebruikers dient u "
+"de rechten te verlenen voor het gebruik van het PHP-filter. Ook moet alle "
+"PHP-code die via het filter aan de site wordt toegevoegd zorgvuldig worden "
+"gecontroleerd voordat deze in gebruik wordt genomen."
+
+#: modules/php/php.module:18,61
+msgid ""
+"<a href=\"@drupal\">Drupal.org</a> offers <a href=\"@php-snippets\">some "
+"example PHP snippets</a>, or you can create your own with some PHP "
+"experience and knowledge of the Drupal system."
+msgstr ""
+"<a href=\"@drupal\">Drupal.org</a> biedt <a href=\"@php-snippets\">enige "
+"voorbeeld-PHP-knipsels</a>, of u kunt uw eigen maken met enige PHP ervaring "
+"en kennis van het Drupal systeem."
+
+#: modules/php/php.module:19
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@php\">PHP "
+"module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@php\">PHP-"
+"module</a>."
+
+#: modules/php/php.module:32
+msgid "You may post PHP code. You should include &lt;?php ?&gt; tags."
+msgstr ""
+"U mag PHP code gebruiken. Daarvoor moet u &lt;?php ?&gt; tags gebruiken."
+
+#: modules/php/php.module:34
+msgid "Using custom PHP code"
+msgstr "Gebruikt aangepast PHP-code"
+
+#: modules/php/php.module:35
+msgid ""
+"Custom PHP code may be embedded in some types of site content, including "
+"posts and blocks. While embedding PHP code inside a post or block is a "
+"powerful and flexible feature when used by a trusted user with PHP "
+"experience, it is a significant and dangerous security risk when used "
+"improperly. Even a small mistake when posting PHP code may accidentally "
+"compromise your site."
+msgstr ""
+"In sommige inhoudstypen, waaronder berichten en blokken, kan eigen PHP-code "
+"geplaatst worden. Wanneer dit door een betrouwbare gebruiker met PHP-"
+"ervaring wordt gedaan biedt dit krachtige en flexibele functionaiteit, maar "
+"het is ook een groot veiligheidsrisico wanneer het onjuist gebruikt wordt. "
+"Zelfs een kleine vergissing bij het plaatsen van PHP-code kan inbreuk doen "
+"op uw site."
+
+#: modules/php/php.module:36
+msgid ""
+"If you are unfamiliar with PHP, SQL, or Drupal, avoid using custom PHP code "
+"within posts. Experimenting with PHP may corrupt your database, render your "
+"site inoperable, or significantly compromise security."
+msgstr ""
+"Als u onbekend bent met PHP, SQL of Drupal maak dan geen gebruik van eigen "
+"PHP-code in berichten. Experimenten met PHP kunnen uw database beschadigen, "
+"uw site onbruikbaar maken of de veiligheid sterk verminderen."
+
+#: modules/php/php.module:37
+msgid "Notes:"
+msgstr "Aantekeningen:"
+
+#: modules/php/php.module:38
+msgid ""
+"Remember to double-check each line for syntax and logic errors "
+"<strong>before</strong> saving."
+msgstr ""
+"Controleer iedere regel op syntax en logische fouten <strong>voordat</"
+"strong> u deze opslaat."
+
+#: modules/php/php.module:39
+msgid "Statements must be correctly terminated with semicolons."
+msgstr "Statements dienen met puntkomma's te worden afgesloten."
+
+#: modules/php/php.module:40
+msgid ""
+"Global variables used within your PHP code retain their values after your "
+"script executes."
+msgstr ""
+"Globale variabelen die gebruikt worden in uw PHP-code behouden hun waarden "
+"nadat uw script is uitgevoerd."
+
+#: modules/php/php.module:41
+msgid ""
+"<code>register_globals</code> is <strong>turned off</strong>. If you need to "
+"use forms, understand and use the functions in <a href=\"@formapi\">the "
+"Drupal Form API</a>."
+msgstr ""
+"<code>register_globals</code> is <strong>uitgeschakeld</strong>. Als u "
+"formulieren wil gebruiken, maak dan gebruik van de beschikbare functies in "
+"<a href=\"@formapi\">de Drupal Form API</a>."
+
+#: modules/php/php.module:42
+msgid ""
+"Use a <code>print</code> or <code>return</code> statement in your code to "
+"output content."
+msgstr ""
+"Gebruik <code>print</code> of <code>return</code> in uw code om inhoud naar "
+"het scherm te schrijven."
+
+#: modules/php/php.module:43
+msgid ""
+"Develop and test your PHP code using a separate test script and sample "
+"database before deploying on a production site."
+msgstr ""
+"Ontwikkel en test uw PHP-code met behulp van test-scripts en voorbeeld "
+"database-gegevens voordat de code op een productiesite wordt toegepast."
+
+#: modules/php/php.module:44
+msgid ""
+"Consider including your custom PHP code within a site-specific module or "
+"<code>template.php</code> file rather than embedding it directly into a post "
+"or block."
+msgstr ""
+"Overweeg om uw PHP-code in een site-specifieke module of in het "
+"<code>template.php</code>-bestand op te nemen in plaats van deze direct in "
+"een pagina of een blok te plaatsen."
+
+#: modules/php/php.module:45
+msgid ""
+"Be aware that the ability to embed PHP code within content is provided by "
+"the PHP Filter module. If this module is disabled or deleted, then blocks "
+"and posts with embedded PHP may display, rather than execute, the PHP code."
+msgstr ""
+"Met het PHP-filter kan PHP-code aan de website-inhoud worden toegevoegd. Let "
+"op: wanneer deze module is uitgeschakeld of verwijderd zal de toegevoegde "
+"PHP-code als tekst worden weergegeven en als PHP-code worden uitgevoerd."
+
+#: modules/php/php.module:46
+msgid ""
+"A basic example: <em>Creating a \"Welcome\" block that greets visitors with "
+"a simple message.</em>"
+msgstr ""
+"Een eenvoudig voorbeeld: <em>Een 'welkomblok' maken dat bezoekers met een "
+"eenvoudige tekst begroet.</em>"
+
+#: modules/php/php.module:47
+msgid ""
+"<p>Add a custom block to your site, named \"Welcome\". With its input format "
+"set to \"PHP code\" (or another format supporting PHP input), add the "
+"following in the Block body:</p>\n"
+"<pre>\n"
+"print t('Welcome visitor! Thank you for visiting.');\n"
+"</pre>"
+msgstr ""
+"<p>Voeg een nieuw blok genaamd 'Welkom', toe aan uw site. Stel het "
+"invoerformaat in op 'PHP code' (of elk ander formaat dat PHP invoer "
+"ondersteunt) en voeg dit toe aan de berichttekst van het blok:</p>\r\n"
+"<pre>\r\n"
+"print t('Welkom! Dank voor uw bezoek.');\r\n"
+"</pre>"
+
+#: modules/php/php.module:51
+msgid ""
+"<p>To display the name of a registered user, use this instead:</p>\n"
+"<pre>\n"
+"global $user;\n"
+"if ($user->uid) {\n"
+"  print t('Welcome @name! Thank you for visiting.', array('@name' => $user-"
+">name));\n"
+"}\n"
+"else {\n"
+"  print t('Welcome visitor! Thank you for visiting.');\n"
+"}\n"
+"</pre>"
+msgstr ""
+"<p>Om de naam van een geregistreerde gebruiker weer te geven gebruikt u:</p>"
+"\r\n"
+"<pre>\r\n"
+"global $user;\r\n"
+"if ($user->uid) {\r\n"
+"  print t('Welkom @name! Dank voor uw bezoek.', array('@name' => $user-"
+">name));\r\n"
+"}\r\n"
+"else {\r\n"
+"  print t('Welkom! Dank voor uw bezoek.');\r\n"
+"}\r\n"
+"</pre>"
+
+#: modules/php/php.module:75
+msgid "PHP evaluator"
+msgstr "PHP-evaluator"
+
+#: modules/php/php.module:80
+msgid ""
+"Executes a piece of PHP code. The usage of this filter should be restricted "
+"to administrators only!"
+msgstr ""
+"Voert een stuk PHP-code uit. Dit filter mag alleen door beheerders gebruikt "
+"worden!"
+
+#: modules/php/php.install:20
+msgid "A !php-code input format has been created."
+msgstr "Een !php-code invoerfilter is aangemaakt."
+
+#: modules/php/php.install:28
+msgid ""
+"The PHP module has been disabled. Please note that any existing content that "
+"was using the PHP filter will now be visible in plain text. This might pose "
+"a security risk by exposing sensitive information, if any, used in the PHP "
+"code."
+msgstr ""
+"De PHP-module is uitgeschakeld. Merk op dat alle bestaande inhoud die "
+"gebruik maakte van het PHP-filter nu zichtbaar zal zijn als platte tekst. "
+"Dit kan een veiligheidsrisico betekenen omdat eventuele gevoelige informatie "
+"in de PHP-code getoond wordt."

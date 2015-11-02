@@ -1,0 +1,7 @@
+; $Id:$
+name = Imagereport
+description = Defines a text that could contain multiple images.
+dependencies[] = content
+dependencies[] = text
+package = CCK
+core = 6.x

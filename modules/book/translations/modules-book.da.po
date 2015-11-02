@@ -1,0 +1,382 @@
+# Dansk translation of drupal (6.12)
+# Copyright (c) 2009 by the Dansk translation team
+# Generated from files:
+#  book-navigation.tpl.php,v 1.1 2007/11/04 14:29:09 goba
+#  book.admin.inc,v 1.8.2.3 2008/10/22 19:26:01 goba
+#  book.pages.inc,v 1.5.2.1 2008/08/13 23:59:13 drumm
+#  book.module,v 1.454.2.6 2009/02/25 11:47:37 goba
+#  book.install,v 1.20.2.1 2009/01/06 15:46:36 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.12)\n"
+"POT-Creation-Date: 2009-05-20 03:59-0700\n"
+"PO-Revision-Date: 2009-05-12 02:11-0700\n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/book/book-navigation.tpl.php:40
+msgid "‹ "
+msgstr "‹ "
+
+#: modules/book/book-navigation.tpl.php:43
+msgid "Go to parent page"
+msgstr "Gå til overordnet side"
+
+#: modules/book/book-navigation.tpl.php:43
+msgid "up"
+msgstr "op"
+
+#: modules/book/book-navigation.tpl.php:46
+msgid " ›"
+msgstr " ›"
+
+#: modules/book/book.admin.inc:15
+msgid "edit order and titles"
+msgstr "redigér rækkefølge og titler"
+
+#: modules/book/book.admin.inc:33
+msgid "Allowed book outline types"
+msgstr "Tilladte indholdstyper"
+
+#: modules/book/book.admin.inc:36
+msgid ""
+"Select content types which users with the %add-perm permission will be "
+"allowed to add to the book hierarchy. Users with the %outline-perm "
+"permission can add all content types."
+msgstr ""
+"Vælg indholdstyper som brugere med tilladelsen %add-perm kan indføje i "
+"boghierarkiet. Brugere med tilladelsen %outline-perm kan tilføje alle "
+"indholdstyper."
+
+#: modules/book/book.admin.inc:41
+msgid "Default child page type"
+msgstr "Standard indholdstype for undersider"
+
+#: modules/book/book.admin.inc:44,60
+msgid ""
+"The content type for the %add-child link must be one of those selected as an "
+"allowed book outline type."
+msgstr ""
+"Indholdstypen for %add-child linket skal være tilladt i indholdsfortegnelser."
+
+#: modules/book/book.admin.inc:78
+msgid "Save book pages"
+msgstr "Gem sider"
+
+#: modules/book/book.admin.inc:128
+msgid "Title changed from %original to %current."
+msgstr "Titel ændret fra %original til %current."
+
+#: modules/book/book.admin.inc:135
+msgid "Updated book %title."
+msgstr "Bog %title opdateret."
+
+#: modules/book/book.admin.inc:130
+msgid "book: updated %title."
+msgstr "bog: %title opdateret."
+
+#: modules/book/book.pages.inc:52
+msgid "Unknown export format."
+msgstr "Ukendt eksportformat."
+
+#: modules/book/book.pages.inc:126
+msgid "Update book outline"
+msgstr "Opdatér resumé"
+
+#: modules/book/book.pages.inc:126
+msgid "Add to book outline"
+msgstr "Tilføj til bog"
+
+#: modules/book/book.pages.inc:132
+msgid "Remove from book outline"
+msgstr "Fjern fra resumé"
+
+#: modules/book/book.pages.inc:160
+msgid "No changes were made"
+msgstr "Ingen ændringer foretaget"
+
+#: modules/book/book.pages.inc:169
+msgid ""
+"The post has been added to the selected book. You may now position it "
+"relative to other pages."
+msgstr ""
+"Indholdet er blevet tilføjet til den valgte bog. Du kan nu placere det i "
+"forhold til de andre sider."
+
+#: modules/book/book.pages.inc:173
+msgid "The book outline has been updated."
+msgstr "Indholdsfortegnelse opdateret."
+
+#: modules/book/book.pages.inc:177
+msgid "There was an error adding the post to the book."
+msgstr "Der opstod en fejl da indlægget blev tilføjet til bogen."
+
+#: modules/book/book.pages.inc:193
+msgid ""
+"%title has associated child pages, which will be relocated automatically to "
+"maintain their connection to the book. To recreate the hierarchy (as it was "
+"before removing this page), %title may be added again using the Outline tab, "
+"and each of its former child pages will need to be relocated manually."
+msgstr ""
+"%title har undersider, som vil blive flyttet automatisk for at fastholde "
+"deres forbindelse til bogen. For at genoprette hierarkiet (som det var før "
+"siden blev slettet) skal %title tilføjes igen under fanen \"Føj til "
+"indholdsfortegnelse\", og alle tidligere undersider skal flyttes manuelt."
+
+#: modules/book/book.pages.inc:196
+msgid "%title may be added to hierarchy again using the Outline tab."
+msgstr ""
+"%title kan tilføjes til hierarkiet igen under fanen \"Føj til "
+"indholdsfortegnelse\"."
+
+#: modules/book/book.pages.inc:199
+msgid "Are you sure you want to remove %title from the book hierarchy?"
+msgstr "Ønsker du at fjerne %title fra boghierarkiet?"
+
+#: modules/book/book.pages.inc:199
+msgid "Remove"
+msgstr "Fjern"
+
+#: modules/book/book.pages.inc:213
+msgid "The post has been removed from the book."
+msgstr "Indlægget er fjernet fra bogen."
+
+#: modules/book/book.module:64
+msgid "Printer-friendly version"
+msgstr "Udskriftsvenlig udgave"
+
+#: modules/book/book.module:66
+msgid "Show a printer-friendly version of this book page and its sub-pages."
+msgstr "Viser en udskriftsvenlig udgave af siden og dens undersider."
+
+#: modules/book/book.module:180,189
+msgid "Book navigation"
+msgstr "Bognavigation"
+
+#: modules/book/book.module:223
+msgid "Show block on all pages"
+msgstr "Vis blok på alle sider"
+
+#: modules/book/book.module:224
+msgid "Show block only on book pages"
+msgstr "Vis kun blok på bogsider"
+
+#: modules/book/book.module:228
+msgid "Book navigation block display"
+msgstr "Visning af navigationsblok"
+
+#: modules/book/book.module:231
+msgid ""
+"If <em>Show block on all pages</em> is selected, the block will contain the "
+"automatically generated menus for all of the site's books. If <em>Show block "
+"only on book pages</em> is selected, the block will contain only the one "
+"menu corresponding to the current page's book. In this case, if the current "
+"page is not in a book, no block will be displayed. The <em>Page specific "
+"visibility settings</em> or other visibility settings can be used in "
+"addition to selectively display this block."
+msgstr ""
+"Vælg <em>Vis blok på alle sider</em> for at vise automatiske menuer for alle "
+"sitets bøger. Vælg <em>Vis kun på bogsider</em> for at vise menuen der "
+"svarer til den aktuelle sides bog. Hvis den aktuelle side ikke er del af en "
+"bog vises blokken ikke. Brug <em>Sidespecifik synlighed</em> eller andre "
+"synlighedsindstillinger til at bestemme hvor blokken vises."
+
+#: modules/book/book.module:302
+msgid "Change book (update list of parents)"
+msgstr "Skift bog (opdatér liste af overordnede sider)"
+
+#: modules/book/book.module:337
+msgid "This is the top-level page in this book."
+msgstr "Dette er den øverste side i bogen."
+
+#: modules/book/book.module:340
+msgid "This will be the top-level page in this book."
+msgstr "Dette bliver den øverste side i bogen."
+
+#: modules/book/book.module:344
+msgid "No book selected."
+msgstr "Ingen bog valgt"
+
+#: modules/book/book.module:351
+msgid ""
+"The parent page in the book. The maximum depth for a book and all child "
+"pages is !maxdepth. Some pages in the selected book may not be available as "
+"parents if selecting them would exceed this limit."
+msgstr ""
+"Den overordnede side i bogen. Den maksimale dybde for bogen og alle dens "
+"undersider er !maxdepth. Sider, der overskrider grænsen, kan ikke vælges som "
+"overordnede sider."
+
+#: modules/book/book.module:369
+msgid "Book outline"
+msgstr "Indholdsfortegnelse"
+
+#: modules/book/book.module:391
+msgid "Pages at a given level are ordered first by weight and then by title."
+msgstr ""
+"Sider på et givet niveau sorteres først efter vægt og dernæst efter titel."
+
+#: modules/book/book.module:408
+msgid "create a new book"
+msgstr "opret ny bog"
+
+#: modules/book/book.module:422
+msgid "Your page will be a part of the selected book."
+msgstr "Siden bliver en del af den valgte bog."
+
+#: modules/book/book.module:763
+msgid ""
+"%title is part of a book outline, and has associated child pages. If you "
+"proceed with deletion, the child pages will be relocated automatically."
+msgstr ""
+"%title er del af en indholdsfortegnelse og har tilknyttet undersider. Hvis "
+"du fortsætter flyttes undersiderne automatisk."
+
+#: modules/book/book.module:1006
+msgid ""
+"The book module is suited for creating structured, multi-page hypertexts "
+"such as site resource guides, manuals, and Frequently Asked Questions "
+"(FAQs). It permits a document to have chapters, sections, subsections, etc. "
+"Authors with suitable permissions can add pages to a collaborative book, "
+"placing them into the existing document by adding them to a table of "
+"contents menu."
+msgstr ""
+"Med bog-modulet kan du oprette strukturerede hypertekst-dokumenter som f."
+"eks. brugervejledninger og ofte stillede spørgsmål (OSS). Det gør det muligt "
+"for et dokument at have kapitler, afsnit, underafsnit osv. Forfattere med de "
+"rette tilladelser kan tilføje sider til en bog ved at oprette dem i "
+"indholdsfortegnelsen."
+
+#: modules/book/book.module:1007
+msgid ""
+"Pages in the book hierarchy have navigation elements at the bottom of the "
+"page for moving through the text. These links lead to the previous and next "
+"pages in the book, and to the level above the current page in the book's "
+"structure. More comprehensive navigation may be provided by enabling the "
+"<em>book navigation block</em> on the <a href=\"@admin-block\">blocks "
+"administration page</a>."
+msgstr ""
+"Sider i boghierarkiet har navigationselementer i bunden af hver side, der "
+"gør det nemmere at bevæge sig gennem teksten. Der kan navigeres til forrige "
+"og næste side, samt til niveauet over det nuværende i bogens struktur. "
+"Yderligere navigation kan tilføjes ved at aktivere blokken "
+"<em>bognavigation</em> under <a href=\"@admin-block\">blok administration</"
+"a>."
+
+#: modules/book/book.module:1008
+msgid ""
+"Users can select the <em>printer-friendly version</em> link visible at the "
+"bottom of a book page to generate a printer-friendly display of the page and "
+"all of its subsections. "
+msgstr ""
+"Brugere kan vælge linket <em>udskriftsvenlig udgave</em> i bunden af en side "
+"for at udskrive siden og alle dens undersider. "
+
+#: modules/book/book.module:1009
+msgid ""
+"Users with the <em>administer book outlines</em> permission can add a post "
+"of any content type to a book, by selecting the appropriate book while "
+"editing the post or by using the interface available on the post's "
+"<em>outline</em> tab."
+msgstr ""
+"Brugere med tilladelsen <em>administrér indholdsfortegnelser</em> kan "
+"tilføje alle typer af indhold til en bog ved at vælge den ønskede bog når "
+"indholdet oprettes eller redigeres, eller ved at bruge fanen \"Føj til "
+"indholdsfortegnelse\"."
+
+#: modules/book/book.module:1010
+msgid ""
+"Administrators can view a list of all books on the <a href=\"@admin-node-book"
+"\">book administration page</a>. The <em>Outline</em> page for each book "
+"allows section titles to be edited or rearranged."
+msgstr ""
+"Administratorer kan se en liste over alle bøger på <a href=\"@admin-node-book"
+"\">bogadministrationssiden</a>. Hver bogs <em>indholdsfortegnelse</em> kan "
+"bruges til at redigere og sortere sektionstitler."
+
+#: modules/book/book.module:1011
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@book"
+"\">Book module</a>."
+msgstr ""
+"Læs håndbogens afsnit om <a href=\"@book\">bøger</a> for yderligere "
+"information."
+
+#: modules/book/book.module:1014
+msgid ""
+"The book module offers a means to organize a collection of related posts, "
+"collectively known as a book. When viewed, these posts automatically display "
+"links to adjacent book pages, providing a simple navigation system for "
+"creating and reviewing structured content."
+msgstr ""
+"Book-modulet hjælper med at organisere en samling af beslægtet indhold, "
+"samlet kaldet en bog. Der bliver automatisk tilføjet links til alle sider i "
+"bogen, som gør det nemt at oprette og navigere struktureret indhold."
+
+#: modules/book/book.module:1016
+msgid ""
+"The outline feature allows you to include posts in the <a href=\"@book"
+"\">book hierarchy</a>, as well as move them within the hierarchy or to <a "
+"href=\"@book-admin\">reorder an entire book</a>."
+msgstr ""
+"Brug indholdsfortegnelser til at tilføje indhold til <a href=\"@book"
+"\">boghierarkiet</a>, flytte det rundt i hierarkiet, eller <a href=\"@book-"
+"admin\">omorganisere en hel bog</a>."
+
+#: modules/book/book.module:43
+msgid "create new books"
+msgstr "opret nye bøger"
+
+#: modules/book/book.module:43
+msgid "access printer-friendly version"
+msgstr "tilgå udskriftsvenlig udgave"
+
+#: modules/book/book.module:79,108
+msgid "Books"
+msgstr "Bøger"
+
+#: modules/book/book.module:80
+msgid "Manage your site's book outlines."
+msgstr "Håndtér sitets bøger."
+
+#: modules/book/book.module:99
+msgid "Re-order book pages and change titles"
+msgstr "Omorganisér bogsider og skift titler"
+
+#: modules/book/book.module:122
+msgid "Outline"
+msgstr "Indholdsfortegnelse"
+
+#: modules/book/book.module:132
+msgid "Remove from outline"
+msgstr "Fjern fra indholdsfortegnelse"
+
+#: modules/book/book.module:0
+msgid "book"
+msgstr "bog"
+
+#: modules/book/book.install:29
+msgid "Book page"
+msgstr "Bogside"
+
+#: modules/book/book.install:31
+msgid ""
+"A <em>book page</em> is a page of content, organized into a collection of "
+"related entries collectively known as a <em>book</em>. A <em>book page</em> "
+"automatically displays links to adjacent pages, providing a simple "
+"navigation system for organizing and reviewing structured content."
+msgstr ""
+"En <em>bogside</em> er et indholdselement, som er en del af en samling af "
+"beslægtet indhold, samlet kaldet en bog. Der bliver automatisk tilføjet "
+"links til <em>bogsider</em>, som gør det nemt at oprette og navigere "
+"struktureret indhold."
+
+#: modules/book/book.admin.inc:90
+msgid ""
+"This book has been modified by another user, the changes could not be saved."
+msgstr ""
+"Denne bog er blevet ændret af en anden bruger. Ændringerne kunne ikke gemmes."

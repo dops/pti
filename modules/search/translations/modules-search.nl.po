@@ -1,0 +1,271 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  search.admin.inc,v 1.4 2008/01/08 10:35:42 goba
+#  search.pages.inc,v 1.4 2007/12/06 09:51:01 goba
+#  search.module,v 1.250.2.6 2009/03/10 17:20:01 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: 2009-05-04 23:32+0200\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/search/search.admin.inc:13
+msgid "Are you sure you want to re-index the site?"
+msgstr "Wilt u uw site opnieuw indexeren?"
+
+#: modules/search/search.admin.inc:14
+msgid ""
+" The search index is not cleared but systematically updated to reflect the "
+"new settings. Searching will continue to work but new content won't be "
+"indexed until all existing content has been re-indexed. This action cannot "
+"be undone."
+msgstr ""
+" De zoekindex wordt niet gewist maar geleidelijk aangepast aan de nieuwe "
+"instellingen. Het zoeken zal blijven werken, maar nieuwe inhoud wordt pas "
+"geïndexeerd nadat alle bestaande inhoud opnieuw is geïndexeerd. Deze actie "
+"kan niet ongedaan worden gemaakt."
+
+#: modules/search/search.admin.inc:14,52,76
+msgid "Re-index site"
+msgstr "Site opnieuw indexeren"
+
+#: modules/search/search.admin.inc:23,82
+msgid "The index will be rebuilt."
+msgstr "De index zal opnieuw worden opgebouwd."
+
+#: modules/search/search.admin.inc:49
+msgid "%percentage of the site has been indexed."
+msgstr "%percentage van de site is geïndexeerd."
+
+#: modules/search/search.admin.inc:50
+msgid "Indexing status"
+msgstr "Indexeerstatus"
+
+#: modules/search/search.admin.inc:57
+msgid "Indexing throttle"
+msgstr "Throttle de indexering"
+
+#: modules/search/search.admin.inc:58
+msgid "Number of items to index per cron run"
+msgstr "Aantal items dat per cron-uitvoering wordt geïndexeerd"
+
+#: modules/search/search.admin.inc:58
+msgid ""
+"The maximum number of items indexed in each pass of a <a href=\"@cron\">cron "
+"maintenance task</a>. If necessary, reduce the number of items to prevent "
+"timeouts and memory errors while indexing."
+msgstr ""
+"Het maximum aantal items dat per <a href=\"@cron\">cron-uitvoering</a> wordt "
+"geïndexeerd. Indien nodig kan het aantal verminderd worden om timeout- en "
+"geheugenfouten tijdens het indexeren te voorkomen."
+
+#: modules/search/search.admin.inc:60
+msgid "Indexing settings"
+msgstr "Indexeerinstellingen"
+
+#: modules/search/search.admin.inc:61
+msgid ""
+"<p><em>Changing the settings below will cause the site index to be rebuilt. "
+"The search index is not cleared but systematically updated to reflect the "
+"new settings. Searching will continue to work but new content won't be "
+"indexed until all existing content has been re-indexed.</em></p><p><em>The "
+"default settings should be appropriate for the majority of sites.</em></p>"
+msgstr ""
+"<p><emIndien u de instellingen hieronder wijzigt zal de site-index vernieuwd "
+"worden. De zoekindex wordt niet gewist maar systematisch aangepast aan de "
+"nieuwe instellingen. De zoekfunctie blijft werken maar nieuwe inhoud wordt "
+"pas geïndexeerd nadat alle bestaande inhoud opnieuw is geïndexeerd.</em></"
+"p><p><em> De standaardinstellingen zouden ok moeten zijn voor de meeste "
+"sites.</em></p>"
+
+#: modules/search/search.admin.inc:62
+msgid "Minimum word length to index"
+msgstr "Minimum woordlengte voor indexering"
+
+#: modules/search/search.admin.inc:62
+msgid ""
+"The number of characters a word has to be to be indexed. A lower setting "
+"means better search result ranking, but also a larger database. Each search "
+"query must contain at least one keyword that is this size (or longer)."
+msgstr ""
+"Het aantal tekens dat een woord moet hebben om geïndexeerd te worden. Een "
+"lager aantal tekens levert een betere kwaliteit van de resultaten op, maar "
+"ook een grotere database. Iedere zoekopdracht moet minstens één trefwoord "
+"met het hier opgegeven minimum aantal tekens bevatten."
+
+#: modules/search/search.admin.inc:63
+msgid "Simple CJK handling"
+msgstr "Eenvoudige CJK-bewerking"
+
+#: modules/search/search.admin.inc:63
+msgid ""
+"Whether to apply a simple Chinese/Japanese/Korean tokenizer based on "
+"overlapping sequences. Turn this off if you want to use an external "
+"preprocessor for this instead. Does not affect other languages."
+msgstr ""
+"Gebruik een eenvoudige Chinees/Japans/Koreaans tokenizer gebaseerd op "
+"overlappende reeksen. Gebruik deze optie niet wanneer u een externe "
+"preprocessor wilt gebuiken. Deze instelling heeft geen invloed op andere "
+"talen."
+
+#: modules/search/search.admin.inc:47
+msgid "There is 1 item left to index."
+msgid_plural "There are @count items left to index."
+msgstr[0] "Er moet nog 1 item geïndexeerd worden."
+msgstr[1] "Er moeten nog @count items geïndexeerd worden."
+
+#: modules/search/search.pages.inc:29
+msgid "results"
+msgstr "resultaten"
+
+#: modules/search/search.pages.inc:35
+msgid "Search results"
+msgstr "Zoekresultaten"
+
+#: modules/search/search.pages.inc:38
+msgid "Your search yielded no results"
+msgstr "Uw zoekopdracht heeft geen resultaten opgeleverd"
+
+#: modules/search/search.pages.inc:123
+msgid "Please enter some keywords."
+msgstr "Geef enkele trefwoorden op."
+
+#: modules/search/search.pages.inc:29
+msgid "%keys (@type)."
+msgstr "%keys (@type)."
+
+#: modules/search/search.module:99
+msgid ""
+"The search module adds the ability to search for content by keywords. Search "
+"is often the only practical way to find content on a large site, and is "
+"useful for finding both users and posts."
+msgstr ""
+"De Search-module biedt de mogelijkheid om de inhoud van de site op trefwoord "
+"te doorzoeken. Zoeken is vaak de enige praktische manier om informatie op "
+"een grote site te vinden en kan voor het vinden van gebruikers en inhoud van "
+"de site worden toegepast."
+
+#: modules/search/search.module:100
+msgid ""
+"To provide keyword searching, the search engine maintains an index of words "
+"found in your site's content. To build and maintain this index, a correctly "
+"configured <a href=\"@cron\">cron maintenance task</a> is required. Indexing "
+"behavior can be adjusted using the <a href=\"@searchsettings\">search "
+"settings page</a>; for example, the <em>Number of items to index per cron "
+"run</em> sets the maximum number of items indexed in each pass of a <a href="
+"\"@cron\">cron maintenance task</a>. If necessary, reduce this number to "
+"prevent timeouts and memory errors when indexing."
+msgstr ""
+"Om het zoeken op de website mogelijk te maken houdt de Drupal-zoekmachine "
+"een index bij van woorden die voorkomen in de inhoud van de site. Voor het "
+"opbouwen en bijhouden van deze index is <a href=\"@cron\">cron</a> nodig. "
+"Het indexeergedrag kan worden ingesteld op de pagina <a href="
+"\"@searchsettings\">Zoekinstellingen</a>. Op deze pagina kan het <em>Aantal "
+"items dat per cron-uitvoering wordt geïndexeerd</em> worden ingesteld. "
+"Verminder dit aantal om timeout- en geheugenfouten tijdens het indexeren te "
+"voorkomen."
+
+#: modules/search/search.module:101
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@search"
+"\">Search module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@search"
+"\">Search-module</a>."
+
+#: modules/search/search.module:104
+msgid ""
+"The search engine maintains an index of words found in your site's content. "
+"To build and maintain this index, a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a> is required. Indexing behavior can be adjusted "
+"using the settings below."
+msgstr ""
+"De zoekmachine van deze website houdt een index bij van woorden die "
+"voorkomen in de inhoud van de site. Voor het opbouwen en bijhouden van deze "
+"index is <a href=\"@cron\">cron</a> nodig. Het indexeergedrag kan met de "
+"onderstaande instellingen worden gewijzigd."
+
+#: modules/search/search.module:106
+msgid ""
+"<ul>\n"
+"<li>Check if your spelling is correct.</li>\n"
+"<li>Remove quotes around phrases to match each word individually: <em>\"blue "
+"smurf\"</em> will match less than <em>blue smurf</em>.</li>\n"
+"<li>Consider loosening your query with <em>OR</em>: <em>blue smurf</em> will "
+"match less than <em>blue OR smurf</em>.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li>Controleer de spelling.</li>\n"
+"<li>Verwijder eventuele aanhalingstekens.</li>\n"
+"<li>Voeg OR toe om de zoekopdracht minder strikt te maken.</li>\n"
+"</ul>"
+
+#: modules/search/search.module:152
+msgid "Search form"
+msgstr "Zoekveld"
+
+#: modules/search/search.module:922
+msgid ""
+"You must include at least one positive keyword with @count characters or "
+"more."
+msgstr "Geef minsten één trefwoord met @count of meer karakters op."
+
+#: modules/search/search.module:926
+msgid ""
+"Search for either of the two terms with uppercase <strong>OR</strong>. For "
+"example, <strong>cats OR dogs</strong>."
+msgstr ""
+"Zoek op elk van de beide zoekwoorden door het toevoegen van <strong>OR</"
+"strong> in hoofdletters. Bijvoorbeeld: <strong>hond OR kat</strong>."
+
+#: modules/search/search.module:1033
+msgid "Enter your keywords"
+msgstr "Geef uw trefwoorden op"
+
+#: modules/search/search.module:1067
+msgid "Search this site"
+msgstr "Zoek door deze site"
+
+#: modules/search/search.module:1071
+msgid "Enter the terms you wish to search for."
+msgstr "Geef de woorden op waarnaar u wilt zoeken."
+
+#: modules/search/search.module:144
+msgid "search content"
+msgstr "inhoud doorzoeken"
+
+#: modules/search/search.module:144
+msgid "use advanced search"
+msgstr "gebruik uitgebreid zoeken"
+
+#: modules/search/search.module:144
+msgid "administer search"
+msgstr "zoeken beheren"
+
+#: modules/search/search.module:176
+msgid "Search settings"
+msgstr "Zoekinstellingen"
+
+#: modules/search/search.module:177
+msgid "Configure relevance settings for search and other indexing options"
+msgstr "Relevantie voor zoeken en andere indexeerinstellingen."
+
+#: modules/search/search.module:185
+msgid "Clear index"
+msgstr "Index leegmaken"
+
+#: modules/search/search.module:193
+msgid "Top search phrases"
+msgstr "Meest populaire zoekwoorden"
+
+#: modules/search/search.module:194
+msgid "View most popular search phrases."
+msgstr "Bekijk de meest populaire zoekwoorden"

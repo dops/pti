@@ -1,0 +1,176 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  trigger.admin.inc,v 1.5 2008/01/08 10:35:43 goba
+#  trigger.module,v 1.13.2.3 2009/06/08 16:34:57 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/trigger/trigger.admin.inc:74
+msgid "Are you sure you want to unassign the action %title?"
+msgstr "Weet u zeker dat u de toewijzing van actie %title ongedaan wilt maken?"
+
+#: modules/trigger/trigger.admin.inc:76
+msgid "You can assign it again later if you wish."
+msgstr "U kunt het zo nodig op een later moment opnieuw toewijzen."
+
+#: modules/trigger/trigger.admin.inc:88,87
+msgid "Action %action has been unassigned."
+msgstr "Actie %action is niet toegewezen"
+
+#: modules/trigger/trigger.admin.inc:144
+msgid "Trigger: "
+msgstr "Trigger: "
+
+#: modules/trigger/trigger.admin.inc:154
+msgid "unassign"
+msgstr "toewijzing ongedaan maken"
+
+#: modules/trigger/trigger.admin.inc:171
+msgid "Assign"
+msgstr "Toewijzen"
+
+#: modules/trigger/trigger.admin.inc:176
+msgid "No available actions for this trigger."
+msgstr "Geen actie beschikbaar voor deze trigger."
+
+#: modules/trigger/trigger.admin.inc:192
+msgid "The action you chose is already assigned to that trigger."
+msgstr "De door u gekozen actie is al aan die trigger toegekend."
+
+#: modules/trigger/trigger.admin.inc:218
+msgid ""
+"You have added an action that changes a the property of a post. A Save post "
+"action has been added so that the property change will be saved."
+msgstr ""
+"Een actie toegevoegd die de eigenschap van een inzending wijzigt. Een actie "
+"'Inzending bewaren' is toegevoegd zodat de wijziging van de eigenschap "
+"bewaard zal worden."
+
+#: modules/trigger/trigger.admin.inc:238
+msgid "Operation"
+msgstr "Bewerking"
+
+#: modules/trigger/trigger.module:14
+msgid ""
+"Triggers are system events, such as when new content is added or when a user "
+"logs in. Trigger module combines these triggers with actions (functional "
+"tasks), such as unpublishing content or e-mailing an administrator. The <a "
+"href=\"@url\">Actions settings page</a> contains a list of existing actions "
+"and provides the ability to create and configure additional actions."
+msgstr ""
+"Triggers zijn systeem gebeurtenissen, zoals het toevoegen van nieuwe inhoud "
+"of het inloggen door gebruikers. De Trigger-module combineert de triggers "
+"met acties (functionele taken), zoals het intrekken van inhoud of het e-"
+"mailen van een beheerder. De Actions instellingenpagina bevat een lijst van "
+"bestaande acties en biedt de mogelijkheid om andere acties aan te maken en "
+"in te stellen."
+
+#: modules/trigger/trigger.module:17
+msgid ""
+"Below you can assign actions to run when certain comment-related triggers "
+"happen. For example, you could promote a post to the front page when a "
+"comment is added."
+msgstr ""
+"Hieronder kunnen acties toegekend worden die uitgevoerd worden zodra bepaald "
+"commentaar-gerelateerde triggers optreden. Bijvoorbeeld: een inzending kan "
+"op de voorpagina worden weergegeven als er een reactie is toegevoegd."
+
+#: modules/trigger/trigger.module:19
+msgid ""
+"Below you can assign actions to run when certain content-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"post is created or updated."
+msgstr ""
+"Hieronder kunt u acties toewijzen die worden uitgevoerd wanneer "
+"inhoudgerelateerde triggers plaatsvinden."
+
+#: modules/trigger/trigger.module:21
+msgid ""
+"Below you can assign actions to run during each pass of a <a href=\"@cron"
+"\">cron maintenance task</a>."
+msgstr ""
+"Hieronder kunt u acties toekennen die iedere keer dat een <a href=\"@cron"
+"\">cron onderhoudstaak</a> loopt, uitgevoerd moeten worden."
+
+#: modules/trigger/trigger.module:23
+msgid ""
+"Below you can assign actions to run when certain taxonomy-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"term is deleted."
+msgstr ""
+"Hieronder kunt u het acties toekennen die uitgevoerd worden wanneer bepaalde "
+"taxonomie gerelateerde triggers plaatsvinden. U kan bijvoorbeeld een e-mail "
+"naar een beheerder sturen als er een term verwijderd wordt."
+
+#: modules/trigger/trigger.module:25
+msgid ""
+"Below you can assign actions to run when certain user-related triggers "
+"happen. For example, you could send an e-mail to an administrator when a "
+"user account is deleted."
+msgstr ""
+"Hieronder kunnen acties toegekend worden die uitgevoerd worden zodra bepaald "
+"gebruiker-gerelateerde triggers optreden. Bijvoorbeeld: er kan een e-mail "
+"aan de beheerder worden gestuurd zodra een gebruiker is verwijderd."
+
+#: modules/trigger/trigger.module:27
+msgid ""
+"The Trigger module provides the ability to trigger <a href=\"@actions"
+"\">actions</a> upon system events, such as when new content is added or when "
+"a user logs in."
+msgstr ""
+"De Trigger-module biedt de mogelijkheid om <a href=\"@actions\">acties</a> "
+"in te schakelen in reactie op gebeurtenissen in het systeem, zoals wanneer "
+"inhoud is toegevoegd of wanneer een gebruiker inlogt."
+
+#: modules/trigger/trigger.module:28
+msgid ""
+"The combination of actions and triggers can perform many useful tasks, such "
+"as e-mailing an administrator if a user account is deleted, or automatically "
+"unpublishing comments that contain certain words. By default, there are five "
+"\"contexts\" of events (Comments, Content, Cron, Taxonomy, and Users), but "
+"more may be added by additional modules."
+msgstr ""
+"De combinatie van acties en triggers kan vele nuttige taken uitvoeren, zoals "
+"het e-mailen van een beheerder als een gebruikersaccount verwijderd wordt, "
+"of automatisch reacties intrekken die bepaalde woorden bevatten. Standaard "
+"zijn er vijf soorten context voor gebeurtenissen (Reacties, Inhoud, Cron, "
+"Taxonomie en Gebruikers), maar extra modules kunnen hier meer soorten "
+"context aan toevoegen."
+
+#: modules/trigger/trigger.module:29
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@trigger"
+"\">Trigger module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@trigger"
+"\">Trigger-module</a>."
+
+#: modules/trigger/trigger.module:39
+msgid "Triggers"
+msgstr "Triggers"
+
+#: modules/trigger/trigger.module:40
+msgid "Tell Drupal when to execute actions."
+msgstr "Geef aan wanneer acties uitgevoerd moeten worden."
+
+#: modules/trigger/trigger.module:85
+msgid "Cron"
+msgstr "Cron"
+
+#: modules/trigger/trigger.module:115
+msgid "Unassign an action from a trigger."
+msgstr "Ontkoppel een actie van een trigger."
+
+#: modules/trigger/trigger.module:0
+msgid "trigger"
+msgstr "trigger"

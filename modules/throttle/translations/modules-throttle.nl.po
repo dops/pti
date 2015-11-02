@@ -1,0 +1,176 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  throttle.admin.inc,v 1.2 2008/01/08 10:35:43 goba
+#  throttle.module,v 1.83 2007/12/14 18:08:49 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: 2009-05-04 23:31+0200\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/throttle/throttle.admin.inc:21
+msgid "Auto-throttle on anonymous users"
+msgstr "Auto-throttle op anonieme gebruikers"
+
+#: modules/throttle/throttle.admin.inc:25
+msgid ""
+"The congestion control throttle can be automatically enabled when the number "
+"of anonymous users currently visiting your site exceeds the specified "
+"threshold. For example, to start the throttle when your site has 250 "
+"anonymous users online at once, enter '250' in this field. Leave this value "
+"blank or set to \"0\" if you do not wish to auto-throttle on anonymous "
+"users. You can inspect the current number of anonymous users using the "
+"\"Who's online\" block."
+msgstr ""
+"Het beperken van verstoppingen kan automatisch worden ingeschakeld wanneer "
+"het actuele aantal bezoekers of het aantal gebruikers van de site een "
+"bepaalde grenswaarde overschreidt. Om de beperking in te schakelen wanneer "
+"er bijvoorbeeld 250 anonieme bezoekers gelijktijdig de site bezoeken, vult u "
+"\"250\" in dit veld in. Laat het veld leeg of vul \"0\" in wanneer u geen "
+"gebruik wilt maken van het beperkingsmechanisme voor anonieme bezoekers. U "
+"kunt het huidige aantal anonieme bezoekers met behulp van het \"Wie is online"
+"\" blok achterhalen."
+
+#: modules/throttle/throttle.admin.inc:29
+msgid "Auto-throttle on authenticated users"
+msgstr "Auto-throttle op geverifieerde gebruikers"
+
+#: modules/throttle/throttle.admin.inc:33
+msgid ""
+"The congestion control throttle can be automatically enabled when the number "
+"of authenticated users currently visiting your site exceeds the specified "
+"threshold. For example, to start the throttle when your site has 50 "
+"registered users online at once, enter '50' in this field. Leave this value "
+"blank or set to \"0\" if you do not wish to auto-throttle on authenticated "
+"users. You can inspect the current number of authenticated users using the "
+"\"Who's online\" block."
+msgstr ""
+"Het beperken van verstoppingen kan automatisch worden ingeschakeld wanneer "
+"het actuele aantal geverifieerde gebruikers van de site een bepaalde "
+"grenswaarde overschreidt. Om de beperking in te schakelen wanneer er "
+"bijvoorbeeld 50 geregistreerde gebruikers gelijktijdig de site bezoeken, "
+"vult u \"50\" in dit veld in. Laat het veld leeg of vul \"0\" in wanneer u "
+"geen gebruik wilt maken van het beperkingsmechanisme voor geverifieerde "
+"gebruikers. U kunt het huidige aantal gebruikers met behulp van het \"Wie is "
+"online\" blok achterhalen."
+
+#: modules/throttle/throttle.admin.inc:37
+msgid "Auto-throttle probability limiter"
+msgstr "Throttle (afknijpen) waarschijnlijkheids limiet"
+
+#: modules/throttle/throttle.admin.inc:40
+msgid ""
+"The auto-throttle probability limiter is an efficiency mechanism to "
+"statistically reduce the overhead of the auto-throttle. The limiter is "
+"expressed as a percentage of page views, so for example if set to the "
+"default of 10% we only perform the extra database queries to update the "
+"throttle status 1 out of every 10 page views. The busier your site, the "
+"lower you should set the limiter value."
+msgstr ""
+"De auto-throttle waarschijnlijkheidsbeperker is een efficiënt mechanisme om "
+"de gemiddelde overhead van de auto-throttle te verminderen. De "
+"beperkerwaarde is uitgedrukt in een percentage van het aantal bekeken "
+"pagina's. Wanneer de waarde bijvoorbeeld de standaard 10% is, wordt 1 maal "
+"per 10 bekeken pagina's de throttle status opnieuw bepaald. Hoe drukker uw "
+"site is des te lager het percentage moet worden ingesteld."
+
+#: modules/throttle/throttle.admin.inc:50,53
+msgid ""
+"%value is not a valid auto-throttle setting. Please enter a positive numeric "
+"value."
+msgstr ""
+"'%value' is geen geldige auto-throttle instelling. Geef een positief getal "
+"op."
+
+#: modules/throttle/throttle.module:121
+msgid ""
+"The throttle module provides a congestion control mechanism that "
+"automatically adjusts to a surge in incoming traffic. If your site is "
+"referenced by a popular website, or experiences a \"Denial of Service"
+"\" (DoS) attack, your webserver might become overwhelmed. The throttle "
+"mechanism is utilized by modules to temporarily disable CPU-intensive "
+"functionality, increasing performance. For instance, via the throttle "
+"module, modules may choose to disable resource-intensive blocks or the code "
+"within the site theme may temporarily disable user pictures in posts."
+msgstr ""
+"De Throttle-module bied een mogelijkheid om verstoppingen in het dataverkeer "
+"te besturen door automatisch veranderingen in het dataverkeer op de site de "
+"detecteren. Wanneer naar de site wordt verwezen door een populiare site of "
+"de site een DoS-aanval (Denial of Service attack) ondergaat kan de server "
+"overspoeld raken. Het throttle-mechanisme wordt door andere modules gebruikt "
+"om automatisch hun werking aan te passen door CPU-intensieve functionaliteit "
+"tijdelijk uit te schakelen. Zo kunt u er bijvoorbeeld voor kiezen om in de "
+"template de afbeeldingen uit te schakelen wanneer de site te druk is en zo "
+"bandbreedte te besparen. Ook kunt u er voor kiezen om complexe logica uit te "
+"schakelen en zo CPU-cappaciteit te besparen."
+
+#: modules/throttle/throttle.module:122
+msgid ""
+"The congestion control throttle can be automatically enabled when the number "
+"of anonymous or authenticated users currently visiting the site exceeds a "
+"specified threshold."
+msgstr ""
+"Throttle kan automatisch ingeschakeld worden als het aantal anonieme of "
+"ingelogde gebruikers op uw site hoger is dan een bepaalde drempelwaarde."
+
+#: modules/throttle/throttle.module:123
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@throttle"
+"\">Throttle module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@throttle"
+"\">Throttle-module</a>."
+
+#: modules/throttle/throttle.module:126
+msgid ""
+"The throttle module provides a congestion control mechanism that "
+"automatically adjusts to a surge in incoming traffic. If your site is "
+"referenced by a popular website, or experiences a \"Denial of Service"
+"\" (DoS) attack, your webserver might become overwhelmed. The throttle "
+"mechanism is utilized by modules to temporarily disable CPU-intensive "
+"functionality, increasing performance."
+msgstr ""
+"De Throttle-module bied een mogelijkheid om verstoppingen in het dataverkeer "
+"te besturen door automatisch veranderingen in het dataverkeer op de site de "
+"detecteren. Wanneer naar de site wordt verwezen door een populiare site of "
+"de site een DoS-aanval (Denial of Service attack) ondergaat kan de server "
+"overspoeld raken. Het throttle-mechanisme wordt door andere modules gebruikt "
+"om automatisch hun werking aan te passen door CPU-intensieve functionaliteit "
+"tijdelijk uit te schakelen."
+
+#: modules/throttle/throttle.module:110,0
+msgid "throttle"
+msgstr "Throttle"
+
+#: modules/throttle/throttle.module:110
+msgid "Throttle: %message"
+msgstr "Throttle: %message"
+
+#: modules/throttle/throttle.module:87
+msgid "1 user accessing site; throttle enabled."
+msgid_plural "@count users accessing site; throttle enabled."
+msgstr[0] "1 gebruiker met toegang tot de site; throttle ingeschakeld."
+msgstr[1] "@count gebruikers met toegang tot de site; throttle ingeschakeld."
+
+#: modules/throttle/throttle.module:95
+msgid "1 guest accessing site; throttle enabled."
+msgid_plural "@count guests accessing site; throttle enabled."
+msgstr[0] "1 gast met toegang tot de site; throttle ingeschakeld."
+msgstr[1] "@count gasten met toegang tot de site; throttle ingeschakeld."
+
+#: modules/throttle/throttle.module:105
+msgid "1 guest accessing site; throttle disabled"
+msgid_plural "@count guests accessing site; throttle disabled"
+msgstr[0] "1 gast met toegang tot de site; throttle uitgeschakeld"
+msgstr[1] "@count gasten met toegang tot de site; throttle uitgeschakeld"
+
+#: modules/throttle/throttle.module:12
+msgid "Control how your site cuts out content during heavy load."
+msgstr "Bepaal hoe de site onder hoge belasting beplaalde inhoud uitschakeld."

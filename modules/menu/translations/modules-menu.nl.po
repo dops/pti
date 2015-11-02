@@ -1,0 +1,396 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  menu.admin.inc,v 1.26.2.4 2009/02/25 13:15:40 goba
+#  menu.module,v 1.157.2.6 2009/04/27 12:50:13 goba
+#  menu.install,v 1.9.2.1 2009/01/06 15:46:37 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: 2009-05-04 23:32+0200\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/menu/menu.admin.inc:54
+msgid "There are no menu items yet."
+msgstr "Er zijn nog geen menuonderdelen beschikbaar."
+
+#: modules/menu/menu.admin.inc:104
+msgid "reset"
+msgstr "reset"
+
+#: modules/menu/menu.admin.inc:175
+msgid "Menu item"
+msgstr "Menuonderdeel"
+
+#: modules/menu/menu.admin.inc:177,299
+msgid "Expanded"
+msgstr "Uitgeklapt"
+
+#: modules/menu/menu.admin.inc:260
+msgid ""
+"The path this menu item links to. This can be an internal Drupal path such "
+"as %add-node or an external URL such as %drupal. Enter %front to link to the "
+"front page."
+msgstr ""
+"Het pad waarnaar dit menuonderdeel verwijst. Dit kan een intern Drupal-pad "
+"zijn zoals %add-node of een externe URL zoals %drupal. Geef %front op om "
+"naar de voorpagina te verwijzen."
+
+#: modules/menu/menu.admin.inc:281
+msgid ""
+"The link text corresponding to this item that should appear in the menu."
+msgstr "De tekst van de link naar dit item, dat moet verschijnen in het menu."
+
+#: modules/menu/menu.admin.inc:289
+msgid "The description displayed when hovering over a menu item."
+msgstr ""
+"De beschrijving wordt weergegeven als u met de muis boven een menuonderdeel "
+"zweeft."
+
+#: modules/menu/menu.admin.inc:295
+msgid "Menu items that are not enabled will not be listed in any menu."
+msgstr ""
+"Menu-onderdelen die niet zijn ingeschakeld, worden niet in menu's "
+"weergegeven."
+
+#: modules/menu/menu.admin.inc:301
+msgid ""
+"If selected and this menu item has children, the menu will always appear "
+"expanded."
+msgstr ""
+"Wanneer dit menuonderdeel is geselecteerd en het heeft onderliggende "
+"menuonderdelen, dan zal het menu altijd uitgeklapt worden weergeven."
+
+#: modules/menu/menu.admin.inc:403
+msgid "Menu name"
+msgstr "Menunaam"
+
+#: modules/menu/menu.admin.inc:405
+msgid ""
+"The machine-readable name of this menu. This text will be used for "
+"constructing the URL of the <em>menu overview</em> page for this menu. This "
+"name must contain only lowercase letters, numbers, and hyphens, and must be "
+"unique."
+msgstr ""
+"De machineleesbare naam voor dit menu. Deze tekst zal gebruikt worden om de "
+"URL van de <em>menu overzicht</em>-pagina voor dit menu op te bouwen. Deze "
+"naam mag enkel kleine letters, cijfers en koppeltekens bevatten en moet "
+"uniek zijn."
+
+#: modules/menu/menu.admin.inc:460
+msgid "Are you sure you want to delete the custom menu %title?"
+msgstr "Weet u zeker dat u het aangepaste menu %title wilt verwijderen?"
+
+#: modules/menu/menu.admin.inc:492
+msgid "The custom menu %title has been deleted."
+msgstr "Het aangepaste menu %title is verwijderd."
+
+#: modules/menu/menu.admin.inc:502
+msgid ""
+"The menu name may only consist of lowercase letters, numbers, and hyphens."
+msgstr ""
+"De naam van het menu mag enkel bestaan uit kleine letters, cijfers en "
+"liggende streepjes."
+
+#: modules/menu/menu.admin.inc:512
+msgid "The menu already exists."
+msgstr "Dit menu bestaat reeds."
+
+#: modules/menu/menu.admin.inc:564
+msgid "Are you sure you want to delete the custom menu item %item?"
+msgstr "Weet u zeker dat u het aangepast menuonderdeel %item wilt verwijderen?"
+
+#: modules/menu/menu.admin.inc:574
+msgid "The menu item %title has been deleted."
+msgstr "Het menuonderdeel %title is verwijderd."
+
+#: modules/menu/menu.admin.inc:584
+msgid "Are you sure you want to reset the item %item to its default values?"
+msgstr ""
+"Weet u zeker dat u het onderdeel %item wil terugzetten naar de beginwaarden?"
+
+#: modules/menu/menu.admin.inc:584
+msgid "Any customizations will be lost. This action cannot be undone."
+msgstr ""
+"Alle aanpassingen zullen verloren gaan. Deze actie kan niet ongedaan worden "
+"gemaakt."
+
+#: modules/menu/menu.admin.inc:593
+msgid "The menu item was reset to its default settings."
+msgstr "Het menuonderdeel is teruggezet naar de beginwaarden."
+
+#: modules/menu/menu.admin.inc:603
+msgid ""
+"The menu module allows on-the-fly creation of menu links in the content "
+"authoring forms. The following option sets the default menu in which a new "
+"link will be added."
+msgstr ""
+"De Menu-module maakt het mogelijk om in het node-invoer- en "
+"bewerkingsformulier een menu-link naar de node aan te maken. De volgende "
+"optie bepaalt het standaardmenu waaraan een nieuwe link zal worden "
+"toegevoegd."
+
+#: modules/menu/menu.admin.inc:609
+msgid "Default menu for content"
+msgstr "Standaardmenu voor inhoud"
+
+#: modules/menu/menu.admin.inc:612
+msgid ""
+"Choose the menu to be the default in the menu options in the content "
+"authoring form."
+msgstr ""
+"Selecteer het menu dat in het node-invoer- en bewerkingsformulier als "
+"standaardmenu gebruikt zal worden."
+
+#: modules/menu/menu.admin.inc:616
+msgid "No primary links"
+msgstr "Geen primaire links"
+
+#: modules/menu/menu.admin.inc:619
+msgid "Source for the primary links"
+msgstr "Bron van primaire links"
+
+#: modules/menu/menu.admin.inc:623
+msgid "Select what should be displayed as the primary links."
+msgstr "Selecteer wat als primaire link dient te worden weergegeven."
+
+#: modules/menu/menu.admin.inc:626
+msgid "No secondary links"
+msgstr "Geen secundaire links"
+
+#: modules/menu/menu.admin.inc:629
+msgid "Source for the secondary links"
+msgstr "Bron van secundaire links"
+
+#: modules/menu/menu.admin.inc:633
+msgid ""
+"Select what should be displayed as the secondary links. You can choose the "
+"same menu for secondary links as for primary links (currently %primary). If "
+"you do this, the children of the active primary menu link will be displayed "
+"as secondary links."
+msgstr ""
+"Selecteer wat als secundaire link dient te worden weergegeven. Als u kiest "
+"voor secundaire links het zelfde menu kiest als voor primaire links (op dit "
+"moment %primary) dan worden de onderliggende menu-onderdelen van de primaire "
+"links als secundaire links weergegeven."
+
+#: modules/menu/menu.admin.inc:493
+msgid "Deleted custom menu %title and all its menu items."
+msgstr "Menu %title en alle bijbehorende menu-items zijn verwijderd."
+
+#: modules/menu/menu.admin.inc:575
+msgid "Deleted menu item %title."
+msgstr "Menuonderdeel %title verwijderd."
+
+#: modules/menu/menu.admin.inc:457
+msgid ""
+"<strong>Warning:</strong> There is currently 1 menu item in %title. It will "
+"be deleted (system-defined items will be reset)."
+msgid_plural ""
+"<strong>Warning:</strong> There are currently @count menu items in %title. "
+"They will be deleted (system-defined items will be reset)."
+msgstr[0] ""
+"<strong>Let op:</strong> menu %title bevat 1 menu-item. Dit menu-item zal "
+"worden verwijderd (door het systeem gedefinieerde menu-items worden gereset)."
+msgstr[1] ""
+"<strong>Let op:</strong> menu %title bevat @count menu-items. Deze zullen "
+"worden verwijderd (door het systeem gedefinieerde menu-items worden gereset)."
+
+#: modules/menu/menu.admin.inc:505
+msgid "The menu name can't be longer than 1 character."
+msgid_plural "The menu name can't be longer than @count characters."
+msgstr[0] "De menu-naam kan niet langer zijn dan 1 teken."
+msgstr[1] "De menu-naam kan niet langer zijn dan @count tekens."
+
+#: modules/menu/menu.module:21
+msgid ""
+"The menu module provides an interface to control and customize Drupal's "
+"powerful menu system. Menus are a hierarchical collection of links, or menu "
+"items, used to navigate a website, and are positioned and displayed using "
+"Drupal's flexible block system. By default, three menus are created during "
+"installation: <em>Navigation</em>, <em>Primary links</em>, and <em>Secondary "
+"links</em>. The <em>Navigation</em> menu contains most links necessary for "
+"working with and navigating your site, and is often displayed in either the "
+"left or right sidebar. Most Drupal themes also provide support for "
+"<em>Primary links</em> and <em>Secondary links</em>, by displaying them in "
+"either the header or footer of each page. By default, <em>Primary links</em> "
+"and <em>Secondary links</em> contain no menu items but may be configured to "
+"contain custom menu items specific to your site."
+msgstr ""
+"De Menu-module biedt de mogelijkheid om het Drupal menu-systeem te beheren "
+"en in te stellen. Menu's zijn een verzameling van links (menu-onderdelen) "
+"die worden gebruikt om binnen de website te navigeren en worden met behulp "
+"van Drupal-blokken binnen een pagina gepositioneerd en weergegeven. "
+"Standaard worden tijdens installatie drie menu's aangemaakt: <em>Navigatie</"
+"em>, <em>Primaire links</em> en <em>Secundaire links</em>. Het "
+"<em>Navigatie</em>menu bevat de menu-onderdelen die nodig zijn om de website "
+"te beheren en wordt vaak in de linker of rechter zijbalk weergegeven. De "
+"meeste Drupal-templates ondersteunen <em>Primaire links</em> en "
+"<em>Secundaire links</em> en geven deze menu's in kop of voet van de pagina "
+"weer. Standaard bevatten <em>Primaire links</em> en <em>Secundaire links</"
+"em> geen menu-onderdelen, maar deze kunnen door de beheerder met website-"
+"specifieke menu-onderdelen worden gevuld."
+
+#: modules/menu/menu.module:22
+msgid ""
+"The <a href=\"@menu\">menus page</a> displays all menus currently available "
+"on your site. Select a menu from this list to add or edit a menu item, or to "
+"rearrange items within the menu. Create new menus using the <a href=\"@add-"
+"menu\">add menu page</a> (the block containing a new menu must also be "
+"enabled on the <a href=\"@blocks\">blocks administration page</a>)."
+msgstr ""
+"De pagina <a href=\"@menu\">menu's</a> bevat alle menu's die op de site "
+"beschikbaar zijn. Selecteer een menu om menu-onderdelen toe te voegen, te "
+"wijzingen of de volgorde van menu-onderdelen binnen het menu te veranderen. "
+"Op de pagina <a href=\"@add-menu\">menu toevoegen</a> kunt u een menu "
+"toevoegen (Op de pagina <a href=\"@blocks\">Blokken beheren</a> kunt u het "
+"blok dat dit menu bevat inschakelen)."
+
+#: modules/menu/menu.module:23
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@menu"
+"\">Menu module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@menu\">Menu-"
+"module</a>."
+
+#: modules/menu/menu.module:26
+msgid ""
+"Menus are a collection of links (menu items) used to navigate a website. The "
+"menus currently available on your site are displayed below. Select a menu "
+"from this list to manage its menu items."
+msgstr ""
+"Menu's zijn een verzameling van links (menu-onderdelen) die worden gebruikt "
+"om binnen de website te navigeren. Hier onder vindt u alle menu's die op de "
+"site beschikbaar zijn. Selecteer een menu uit de lijst om de bijbehorende "
+"menu-onderdelen te beheren."
+
+#: modules/menu/menu.module:28
+msgid ""
+"Enter the name for your new menu. Remember to enable the newly created block "
+"in the <a href=\"@blocks\">blocks administration page</a>."
+msgstr ""
+"Geef de naam op voor een nieuw menu. Vergeet niet het nieuw aangemaakte blok "
+"in de pagina <a href=\"@blocks\">blokbeheer</a> in te schakelen."
+
+#: modules/menu/menu.module:30
+msgid ""
+"To rearrange menu items, grab a drag-and-drop handle under the <em>Menu "
+"item</em> column and drag the items (or group of items) to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"Om menu-onderdelen te verplaatsen klik-sleept u deze aan het handvat in de "
+"kolom <em>Menu-item</em> naar een nieuwe positie in de lijst. (U klik-sleept "
+"het blok door met de muis boven het handvatpictogram te klikken, vast te "
+"houden en de muis te verplaatsen.) Wijzigingen worden pas opgeslagen wanneer "
+"u de knop <em>Opslaan</em> onderaan de pagina aanklikt."
+
+#: modules/menu/menu.module:32
+msgid "Enter the title and path for your new menu item."
+msgstr "Titel en pad van het nieuwe menu-item invoeren."
+
+#: modules/menu/menu.module:381
+msgid "Delete this menu item."
+msgstr "Dit menu-onderdeel verwijderen."
+
+#: modules/menu/menu.module:396
+msgid ""
+"The link text corresponding to this item that should appear in the menu. "
+"Leave blank if you do not wish to add this post to the menu."
+msgstr ""
+"De tekst van de link naar dit item, die moet verschijnen in het menu. "
+"Leeglaten als u voor deze pagina geen menu-item wilt toevoegen."
+
+#: modules/menu/menu.module:40
+msgid "administer menu"
+msgstr "menu beheren"
+
+#: modules/menu/menu.module:48
+msgid "Menus"
+msgstr "Menu's"
+
+#: modules/menu/menu.module:49
+msgid ""
+"Control your site's navigation menu, primary links and secondary links. as "
+"well as rename and reorganize menu items."
+msgstr ""
+"Navigatiemenu, primaire en secundaire links beheren, menu-onderdelen "
+"hernoemen en menu's reorganiseren."
+
+#: modules/menu/menu.module:57
+msgid "List menus"
+msgstr "Menu's weergeven"
+
+#: modules/menu/menu.module:63
+msgid "Add menu"
+msgstr "Menu toevoegen"
+
+#: modules/menu/menu.module:80
+msgid "Customize menu"
+msgstr "Menu aanpassen"
+
+#: modules/menu/menu.module:90
+msgid "List items"
+msgstr "Onderdelen weergeven"
+
+#: modules/menu/menu.module:96
+msgid "Add item"
+msgstr "Item toevoegen"
+
+#: modules/menu/menu.module:104
+msgid "Edit menu"
+msgstr "Menu bewerken"
+
+#: modules/menu/menu.module:112
+msgid "Delete menu"
+msgstr "Menu verwijderen"
+
+#: modules/menu/menu.module:120
+msgid "Edit menu item"
+msgstr "Menuonderdeel bewerken"
+
+#: modules/menu/menu.module:128
+msgid "Reset menu item"
+msgstr "Menuonderdeel terugzetten"
+
+#: modules/menu/menu.module:136
+msgid "Delete menu item"
+msgstr "Menuonderdeel verwijderen"
+
+#: modules/menu/menu.install:12
+msgid ""
+"The navigation menu is provided by Drupal and is the main interactive menu "
+"for any site. It is usually the only menu that contains personalized links "
+"for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+"Het navigatiemenu is standaard in Drupal beschikbaar en is het centrale menu "
+"van iedere website. Het is meestal het enige menu dat voor geregistreerde "
+"gebruikers gepersonaliseerde links bevat. Het navigatiemenu is voor anonieme "
+"gebruikers gewoonlijk niet zichtbaar."
+
+#: modules/menu/menu.install:13
+msgid ""
+"Primary links are often used at the theme layer to show the major sections "
+"of a site. A typical representation for primary links would be tabs along "
+"the top."
+msgstr ""
+"Primaire links worden vaak gebruikt om de hoofdonderdelen van een website "
+"weer te geven. Primaire links worden vaak bovenaan op de pagina geplaatst."
+
+#: modules/menu/menu.install:14
+msgid ""
+"Secondary links are often used for pages like legal notices, contact "
+"details, and other secondary navigation items that play a lesser role than "
+"primary links"
+msgstr ""
+"Secundaire links worden vaak gebruikt voor bijvoorbeeld contact gegevens, "
+"disclaimer of andere secundaire navigatie gebruikt. Secundaire navigatie "
+"speelt een minder prominente rol dan de primaire navigatie."

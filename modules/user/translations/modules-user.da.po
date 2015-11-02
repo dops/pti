@@ -1,0 +1,1505 @@
+# Dansk translation of drupal (6.12)
+# Copyright (c) 2009 by the Dansk translation team
+# Generated from files:
+#  user.admin.inc,v 1.18.2.1 2008/08/13 23:59:14 drumm
+#  user.pages.inc,v 1.11.2.1 2008/10/08 20:12:18 goba
+#  user.module,v 1.892.2.13 2009/04/27 12:02:27 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.12)\n"
+"POT-Creation-Date: 2009-05-20 03:59-0700\n"
+"PO-Revision-Date: 2009-05-12 01:32-0700\n"
+"Language-Team: Dansk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/user/user.admin.inc:43
+msgid "Show only users where"
+msgstr "Vis kun brugere hvor"
+
+#: modules/user/user.admin.inc:52
+msgid ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+msgstr "<em>og</em> hvor <strong>%property</strong> er <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:55
+msgid "<strong>%property</strong> is <strong>%value</strong>"
+msgstr "<strong>%property</strong> er <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:138,911
+msgid "Last access"
+msgstr "Seneste tilgang"
+
+#: modules/user/user.admin.inc:221
+msgid "No users selected."
+msgstr "Ingen brugere valgt."
+
+#: modules/user/user.admin.inc:233
+msgid "User registration settings"
+msgstr "Indstillinger for nye brugere"
+
+#: modules/user/user.admin.inc:234
+msgid "Public registrations"
+msgstr "Offentlig registrering"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr "Besøgende kan oprette konti uden godkendelse"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr ""
+"Besøgende kan oprette konti men nye konti skal godkendes af administratoren."
+
+#: modules/user/user.admin.inc:235
+msgid "Require e-mail verification when a visitor creates an account"
+msgstr "Kræv e-mail bekræftelse når en besøgende opretter en konto"
+
+#: modules/user/user.admin.inc:235
+msgid ""
+"If this box is checked, new users will be required to validate their e-mail "
+"address prior to logging into the site, and will be assigned a system-"
+"generated password. With it unchecked, users will be logged in immediately "
+"upon registering, and may select their own passwords during registration."
+msgstr ""
+"Hvis feltet er markeret skal nye brugere validere deres e-mail-adresse før "
+"de kan logge ind på sitet, og de vil blive tildelt en adgangskode af "
+"systemet. Hvis ikke kan brugeren logge ind med det samme og de kan selv "
+"vælge deres adgangskode."
+
+#: modules/user/user.admin.inc:236
+msgid "User registration guidelines"
+msgstr "Retningslinjer for nye brugere"
+
+#: modules/user/user.admin.inc:236
+msgid ""
+"This text is displayed at the top of the user registration form and is "
+"useful for helping or instructing your users."
+msgstr ""
+"Tekst der vises når en ny bruger registrerer sig. Kan bruges til at hjælpe "
+"dine brugere."
+
+#: modules/user/user.admin.inc:241
+msgid "User e-mail settings"
+msgstr "Bruger e-mail-indstillinger"
+
+#: modules/user/user.admin.inc:242
+msgid ""
+"Drupal sends emails whenever new users register on your site, and "
+"optionally, may also notify users after other account actions. Using a "
+"simple set of content templates, notification e-mails can be customized to "
+"fit the specific needs of your site."
+msgstr ""
+"Drupal sender e-mails når nye brugere opretter en konto, og kan, hvis det "
+"ønskes, giver brugerne besked om ændringer i deres konto. Ved hjælp af en "
+"række skabeloner er det nemt at tilpasse de forskellige e-mails så de passer "
+"til dit sites behov."
+
+#: modules/user/user.admin.inc:246
+msgid "Available variables are:"
+msgstr "Tilgængelige variable er:"
+
+#: modules/user/user.admin.inc:250
+msgid "Welcome, new user created by administrator"
+msgstr "Velkommen, ny bruger oprettet af administrator"
+
+#: modules/user/user.admin.inc:253
+msgid ""
+"Customize welcome e-mail messages sent to new member accounts created by an "
+"administrator."
+msgstr ""
+"Tilpas indholdet af velkomstbeskeden, der sendes til nye medlemskonti "
+"oprettet af en administrator."
+
+#: modules/user/user.admin.inc:270
+msgid "Welcome, no approval required"
+msgstr "Velkomst, ingen godkendelse nødvendig"
+
+#: modules/user/user.admin.inc:273
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"no administrator approval is required."
+msgstr ""
+"Tilpas indholdet af velkomstbeskeden, der sendes til nye medlemskonti "
+"oprettet af en administrator uden krav om godkendelse."
+
+#: modules/user/user.admin.inc:290
+msgid "Welcome, awaiting administrator approval"
+msgstr "Velkomstbesked, afventer godkendelse af administrator"
+
+#: modules/user/user.admin.inc:293
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"administrative approval is required."
+msgstr ""
+"Tilpas indholdet af velkomstbeskeden, der sendes til nye medlemskonti "
+"oprettet af en administrator med krav om godkendelse."
+
+#: modules/user/user.admin.inc:310
+msgid "Password recovery email"
+msgstr "Besked om ny adgangskode"
+
+#: modules/user/user.admin.inc:313
+msgid "Customize e-mail messages sent to users who request a new password."
+msgstr ""
+"Tilpas indholdet af beskeden, der sendes til nye medlemmer der ønsker en ny "
+"adgangskode."
+
+#: modules/user/user.admin.inc:330
+msgid "Account activation email"
+msgstr "Besked om aktivering af konto"
+
+#: modules/user/user.admin.inc:333
+msgid ""
+"Enable and customize e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+"Aktiver og tilpas e-mail-beskeder som sendes til brugerne når en konto "
+"aktiveres (når en administrator aktiverer kontoen for en bruger, som "
+"allerede er tilmeldt, på et site hvor administratorens godkendelse er "
+"påkrævet)."
+
+#: modules/user/user.admin.inc:337
+msgid "Notify user when account is activated."
+msgstr "Giv bruger besked når konto aktiveres."
+
+#: modules/user/user.admin.inc:355
+msgid "Account blocked email"
+msgstr "Besked om blokering af konto"
+
+#: modules/user/user.admin.inc:358
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr ""
+"Aktiver og tilpas e-mail-beskeder som sendes til brugerne når en konto "
+"blokeres."
+
+#: modules/user/user.admin.inc:362
+msgid "Notify user when account is blocked."
+msgstr "Giv bruger besked når konto blokeres."
+
+#: modules/user/user.admin.inc:380
+msgid "Account deleted email"
+msgstr "Besked om slettet konto"
+
+#: modules/user/user.admin.inc:383
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"deleted."
+msgstr ""
+"Aktiver og tilpas e-mail-beskeder som sendes til brugerne når en konto "
+"slettes."
+
+#: modules/user/user.admin.inc:387
+msgid "Notify user when account is deleted."
+msgstr "Giv bruger besked når konto slettes."
+
+#: modules/user/user.admin.inc:406
+msgid "Signatures"
+msgstr "Signaturer"
+
+#: modules/user/user.admin.inc:410
+msgid "Signature support"
+msgstr "Signaturunderstøttelse"
+
+#: modules/user/user.admin.inc:423
+msgid "Pictures"
+msgstr "Billeder"
+
+#: modules/user/user.admin.inc:428
+msgid "Picture support"
+msgstr "Billedunderstøttelse"
+
+#: modules/user/user.admin.inc:448
+msgid "Picture image path"
+msgstr "Sti til billeder"
+
+#: modules/user/user.admin.inc:452
+msgid "Subdirectory in the directory %dir where pictures will be stored."
+msgstr "Undermappe i mappen %dir hvor billeder gemmes."
+
+#: modules/user/user.admin.inc:456
+msgid "Default picture"
+msgstr "Standardbillede"
+
+#: modules/user/user.admin.inc:460
+msgid ""
+"URL of picture to display for users with no custom picture selected. Leave "
+"blank for none."
+msgstr ""
+"URL for billede der vises for brugere der ikke har uploadet deres eget "
+"billede. Lad dette felt være tomt hvis du ikke ønsker et standard billede."
+
+#: modules/user/user.admin.inc:464
+msgid "Picture maximum dimensions"
+msgstr "Dimensioner"
+
+#: modules/user/user.admin.inc:468
+msgid "Maximum dimensions for pictures, in pixels."
+msgstr "Maksimal filstørrelse for billeder, i pixels."
+
+#: modules/user/user.admin.inc:472
+msgid "Picture maximum file size"
+msgstr "Filstørrelse"
+
+#: modules/user/user.admin.inc:476
+msgid "Maximum file size for pictures, in kB."
+msgstr "Maksimal filstørrelse for billeder, i kB."
+
+#: modules/user/user.admin.inc:480
+msgid "Picture guidelines"
+msgstr "Retningslinjer"
+
+#: modules/user/user.admin.inc:482
+msgid ""
+"This text is displayed at the picture upload form in addition to the default "
+"guidelines. It's useful for helping or instructing your users."
+msgstr ""
+"Denne tekst vises når brugeren overfører et billede. Den kan bruges til at "
+"hjælpe brugerne."
+
+#: modules/user/user.admin.inc:543
+msgid "Save permissions"
+msgstr "Gem tilladelser"
+
+#: modules/user/user.admin.inc:595
+msgid "Permission"
+msgstr "Tilladelse"
+
+#: modules/user/user.admin.inc:624
+msgid "Role name"
+msgstr "Navn"
+
+#: modules/user/user.admin.inc:629
+msgid ""
+"The name for this role. Example: \"moderator\", \"editorial board\", \"site "
+"architect\"."
+msgstr "Rollens navn. Eksempel: \"godkender\", \"redaktører\", \"udvikler\"."
+
+#: modules/user/user.admin.inc:637,662,679
+msgid "Save role"
+msgstr "Gem rolle"
+
+#: modules/user/user.admin.inc:641,683
+msgid "Delete role"
+msgstr "Slet rolle"
+
+#: modules/user/user.admin.inc:652,667,691
+msgid "Add role"
+msgstr "Tilføj rolle"
+
+#: modules/user/user.admin.inc:664,669
+msgid "The role name %name already exists. Please choose another role name."
+msgstr "Rollen %name findes allerede. Vælg venligst et andet navn."
+
+#: modules/user/user.admin.inc:674
+msgid "You must specify a valid role name."
+msgstr "Du skal angive et gyldigt rollenavn."
+
+#: modules/user/user.admin.inc:681
+msgid "The role has been renamed."
+msgstr "Rolle omdøbt."
+
+#: modules/user/user.admin.inc:689
+msgid "The role has been deleted."
+msgstr "Rolle slettet."
+
+#: modules/user/user.admin.inc:693
+msgid "The role has been added."
+msgstr "Rolle tilføjet."
+
+#: modules/user/user.admin.inc:778
+msgid "The access rule has been added."
+msgstr "Adgangsregel tilføjet."
+
+#: modules/user/user.admin.inc:774
+msgid "The access rule has been saved."
+msgstr "Adgangsregel gemt."
+
+#: modules/user/user.admin.inc:725
+msgid "Save rule"
+msgstr "Gem regel"
+
+#: modules/user/user.admin.inc:741,885
+msgid "Access type"
+msgstr "Adgangstype"
+
+#: modules/user/user.admin.inc:743
+msgid "Allow"
+msgstr "Tillad"
+
+#: modules/user/user.admin.inc:743
+msgid "Deny"
+msgstr "Afvis"
+
+#: modules/user/user.admin.inc:745
+msgid "Host"
+msgstr "Værtsnavn"
+
+#: modules/user/user.admin.inc:748,885
+msgid "Rule type"
+msgstr "Regeltype"
+
+#: modules/user/user.admin.inc:754,885
+msgid "Mask"
+msgstr "Maske"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches any number of characters, even zero characters"
+msgstr "Matcher ethvert antal tegn, også nul tegn"
+
+#: modules/user/user.admin.inc:758
+msgid "Matches exactly one character."
+msgstr "Matcher nøjagtigt et tegn"
+
+#: modules/user/user.admin.inc:785
+msgid "No value entered. Please enter a test string and try again."
+msgstr "Ingen værdi indtastet. Indtast venligst en teststreng og prøv igen."
+
+#: modules/user/user.admin.inc:791
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr ""
+"Indtast et brugernavn for at undersøge om det bliver tilladt eller afvist."
+
+#: modules/user/user.admin.inc:793
+msgid "Check username"
+msgstr "Tjek brugernavn"
+
+#: modules/user/user.admin.inc:802
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr ""
+"Indtast en e-mail-adresse for at undersøge om den bliver tilladt eller "
+"afvist."
+
+#: modules/user/user.admin.inc:804
+msgid "Check e-mail"
+msgstr "Tjek adresse"
+
+#: modules/user/user.admin.inc:813
+msgid ""
+"Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr ""
+"Indtast et værtsnavn eller en IP adresse for at undersøge om den bliver "
+"afvist eller tilladt."
+
+#: modules/user/user.admin.inc:815
+msgid "Check hostname"
+msgstr "Tjek værtsnavn"
+
+#: modules/user/user.admin.inc:826
+msgid "The username %name is not allowed."
+msgstr "Brugernavnet %name er ikke tilladt."
+
+#: modules/user/user.admin.inc:829
+msgid "The username %name is allowed."
+msgstr "Brugernavnet %name er tilladt."
+
+#: modules/user/user.admin.inc:834
+msgid "The e-mail address %mail is not allowed."
+msgstr "E-mail-adressen %mail er ikke tilladt."
+
+#: modules/user/user.admin.inc:837
+msgid "The e-mail address %mail is allowed."
+msgstr "E-mail-adressen %mail er tilladt."
+
+#: modules/user/user.admin.inc:842
+msgid "The hostname %host is not allowed."
+msgstr "Værtsnavnet %host er ikke tilladt."
+
+#: modules/user/user.admin.inc:845
+msgid "The hostname %host is allowed."
+msgstr "Værtsnavnet %host er tilladt."
+
+#: modules/user/user.admin.inc:860,887
+msgid "username"
+msgstr "brugernavn"
+
+#: modules/user/user.admin.inc:860,887
+msgid "e-mail"
+msgstr "e-mail"
+
+#: modules/user/user.admin.inc:860,887
+msgid "host"
+msgstr "værtsnavn"
+
+#: modules/user/user.admin.inc:866
+msgid "Are you sure you want to delete the @type rule for %rule?"
+msgstr "Ønsker du at slette reglen @type for %rule?"
+
+#: modules/user/user.admin.inc:876
+msgid "The access rule has been deleted."
+msgstr "Adgangsregel slettet."
+
+#: modules/user/user.admin.inc:890
+msgid "allow"
+msgstr "tillad"
+
+#: modules/user/user.admin.inc:890
+msgid "deny"
+msgstr "afvis"
+
+#: modules/user/user.admin.inc:893
+msgid "There are currently no access rules."
+msgstr "Der er i øjeblikket ingen regler."
+
+#: modules/user/user.admin.inc:930
+msgid "No users available."
+msgstr "Ingen brugere tilgængelige."
+
+#: modules/user/user.admin.inc:951
+msgid "edit permissions"
+msgstr "redigér tilladelser"
+
+#: modules/user/user.admin.inc:953
+msgid "edit role"
+msgstr "redigér rolle"
+
+#: modules/user/user.admin.inc:956
+msgid "locked"
+msgstr "låst"
+
+#: modules/user/user.pages.inc:34
+msgid "Username or e-mail address"
+msgstr "Brugernavn eller e-mail-adresse"
+
+#: modules/user/user.pages.inc:39
+msgid "E-mail new password"
+msgstr "Send ny adgangskode"
+
+#: modules/user/user.pages.inc:63
+msgid "Sorry, %name is not recognized as a user name or an e-mail address."
+msgstr "%name findes ikke som brugernavn eller e-mail-adresse."
+
+#: modules/user/user.pages.inc:74
+msgid "Further instructions have been sent to your e-mail address."
+msgstr "Yderligere instruktioner er sendt til din e-mail-adresse."
+
+#: modules/user/user.pages.inc:88
+msgid ""
+"You have already used this one-time login link. It is not necessary to use "
+"this link to login anymore. You are already logged in."
+msgstr ""
+"Du har allerede brugt dette engangslogind-link. Det er ikke længere "
+"nødvendigt at bruge dette link for at logge ind. Du er allerede logget ind."
+
+#: modules/user/user.pages.inc:105
+msgid ""
+"You have tried to use a one-time login link that has expired. Please request "
+"a new one using the form below."
+msgstr ""
+"Du har forsøgt at bruge en engangslogind-URL som er udløbet. Brug formularen "
+"herunder til at anmode om en ny."
+
+#: modules/user/user.pages.inc:117
+msgid ""
+"You have just used your one-time login link. It is no longer necessary to "
+"use this link to login. Please change your password."
+msgstr ""
+"Du har netop brugt dit engangslogind-link. Det er ikke længere nødvendigt at "
+"bruge dette link til at logge ind. Skift venligst din adgangskode."
+
+#: modules/user/user.pages.inc:121
+msgid ""
+"<p>This is a one-time login for %user_name and will expire on %"
+"expiration_date.</p><p>Click on this button to login to the site and change "
+"your password.</p>"
+msgstr ""
+"<p>Dette er et engangs-login for %user_name der udløber %expiration_date.</"
+"p><p>Klik på knappen for at logge ind på sitet og ændre din adgangskode.</p>"
+
+#: modules/user/user.pages.inc:122
+msgid "This login can be used only once."
+msgstr "Dette logind kan kun bruges én gang."
+
+#: modules/user/user.pages.inc:129
+msgid ""
+"You have tried to use a one-time login link which has either been used or is "
+"no longer valid. Please request a new one using the form below."
+msgstr ""
+"Du har forsøgt at bruge en engangslogind-URL, som er blevet brugt eller ikke "
+"ikke længere er gyldig. Brug formularen herunder til at anmode om en ny."
+
+#: modules/user/user.pages.inc:321
+msgid "Are you sure you want to delete the account %name?"
+msgstr "Ønsker du at slette kontoen %name?"
+
+#: modules/user/user.pages.inc:323
+msgid ""
+"All submissions made by this user will be attributed to the anonymous "
+"account. This action cannot be undone."
+msgstr ""
+"Alle indlæg skrevet af denne bruger bliver tilskrevet den anonyme konto. "
+"Denne handling kan ikke fortrydes."
+
+#: modules/user/user.pages.inc:332
+msgid "%name has been deleted."
+msgstr "%name slettet."
+
+#: modules/user/user.pages.inc:73
+msgid "Password reset instructions mailed to %name at %email."
+msgstr "Instruktioner om nulstilling af adgangskode sendt til %name på %email."
+
+#: modules/user/user.pages.inc:111
+msgid "User %name used one-time login link at time %timestamp."
+msgstr "Brugeren %name brugte et engangslogind-link %timestamp."
+
+#: modules/user/user.pages.inc:147
+msgid "Session closed for %name."
+msgstr "Session lukket for %name."
+
+#: modules/user/user.module:381
+msgid "You must enter a username."
+msgstr "Du skal indtaste et brugernavn."
+
+#: modules/user/user.module:382
+msgid "The username cannot begin with a space."
+msgstr "Brugernavnet må ikke begynde med et mellemrum."
+
+#: modules/user/user.module:383
+msgid "The username cannot end with a space."
+msgstr "Brugernavnet må ikke slutte med et mellemrum."
+
+#: modules/user/user.module:384
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "Brugernavnet må ikke indholde flere mellemrum i træk."
+
+#: modules/user/user.module:385,396
+msgid "The username contains an illegal character."
+msgstr "Brugernavnet indeholder et ugyldigt tegn."
+
+#: modules/user/user.module:398
+msgid "The username is not a valid authentication ID."
+msgstr "Brugernavnet er ikke en gyldig ID."
+
+#: modules/user/user.module:399
+msgid "The username %name is too long: it must be %max characters or less."
+msgstr ""
+"Brugernavnet %username er for langt. Det skal være kortere end %max tegn."
+
+#: modules/user/user.module:403
+msgid "You must enter an e-mail address."
+msgstr "Du skal indtaste en e-mail-adresse."
+
+#: modules/user/user.module:405
+msgid "The e-mail address %mail is not valid."
+msgstr "E-mail-adressen %mail er ugyldig."
+
+#: modules/user/user.module:431
+msgid ""
+"Failed to upload the picture image; the %directory directory doesn't exist "
+"or is not writable."
+msgstr ""
+"Kan ikke overføre billedet. Mappen %directory eksisterer ikke, eller der kan "
+"ikke skrives til den."
+
+#: modules/user/user.module:619
+msgid "History"
+msgstr "Historik"
+
+#: modules/user/user.module:641
+msgid "Account settings"
+msgstr "Kontoindstillinger"
+
+#: modules/user/user.module:669
+msgid "Create a new user account."
+msgstr "Opret en brugerkonto."
+
+#: modules/user/user.module:671,922
+msgid "Request new password"
+msgstr "Bestil ny adgangskode"
+
+#: modules/user/user.module:671
+msgid "Request new password via e-mail."
+msgstr "Bestil ny adgangskode via e-mail."
+
+#: modules/user/user.module:683,730
+msgid "User login"
+msgstr "Log ind"
+
+#: modules/user/user.module:692,751
+msgid "Who's new"
+msgstr "Nye brugere"
+
+#: modules/user/user.module:695,790
+msgid "Who's online"
+msgstr "Hvem er online"
+
+#: modules/user/user.module:702
+msgid "Number of users to display"
+msgstr "Antal brugere der vises"
+
+#: modules/user/user.module:710
+msgid "User activity"
+msgstr "Brugeraktivitet"
+
+#: modules/user/user.module:710
+msgid ""
+"A user is considered online for this long after they have last viewed a page."
+msgstr ""
+"En bruger bliver opfattet som online i dette tidsrum efter hun sidst har set "
+"en side."
+
+#: modules/user/user.module:711
+msgid "User list length"
+msgstr "Længde af brugerliste"
+
+#: modules/user/user.module:711
+msgid "Maximum number of currently online users to display."
+msgstr "Hvor mange brugere skal der maksimalt vises."
+
+#: modules/user/user.module:778
+msgid "There is currently %members and %visitors online."
+msgstr "Der er i øjeblikket %members og %visitors online."
+
+#: modules/user/user.module:781
+msgid "There are currently %members and %visitors online."
+msgstr "Der er i øjeblikket %members og %visitors online."
+
+#: modules/user/user.module:787
+msgid "Online users"
+msgstr "Brugere online"
+
+#: modules/user/user.module:818
+msgid "@user's picture"
+msgstr "@users billede"
+
+#: modules/user/user.module:1182,1052
+msgid "My account"
+msgstr "Min konto"
+
+#: modules/user/user.module:1254
+msgid "Enter your @s username."
+msgstr "Indtast dit @s brugernavn."
+
+#: modules/user/user.module:1257
+msgid "Enter the password that accompanies your username."
+msgstr "Indtast adgangskoden der hører til dit brugernavn."
+
+#: modules/user/user.module:1295
+msgid "The username %name has not been activated or is blocked."
+msgstr "Brugernavnet %name er blokeret eller ikke aktiveret."
+
+#: modules/user/user.module:1299
+msgid "The name %name is a reserved username."
+msgstr "Navnet %name er reserveret."
+
+#: modules/user/user.module:1319
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"Ukendt brugernavn eller adgangskode. <a href=\"@password\">Har du glemt din "
+"adgangskode?</a>"
+
+#: modules/user/user.module:1439
+msgid "Account information"
+msgstr "Konto"
+
+#: modules/user/user.module:1456
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"Indtast en gyldig e-mail-adresse. Al e-mail fra sitet sendes til denne "
+"adresse. E-mail-adressen offentliggøres ikke, og bruges kun hvis du ønsker "
+"at modtage en ny adgangskode eller nyheder og opdateringer via e-mail."
+
+#: modules/user/user.module:1461
+msgid ""
+"To change the current user password, enter the new password in both fields."
+msgstr ""
+"Indtast den  nye adgangskode i begge felter for at ændre din nuværende "
+"adgangskode."
+
+#: modules/user/user.module:1468
+msgid "Provide a password for the new account in both fields."
+msgstr "Vælg en adgangskode til den nye konto."
+
+#: modules/user/user.module:1478
+msgid "Blocked"
+msgstr "Blokeret"
+
+#: modules/user/user.module:1513
+msgid "Signature settings"
+msgstr "Indstillinger for signatur"
+
+#: modules/user/user.module:1518
+msgid "Signature"
+msgstr "Signatur"
+
+#: modules/user/user.module:1520
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "Din signatur vises under dine kommentarer."
+
+#: modules/user/user.module:1526
+msgid "Picture"
+msgstr "Billede"
+
+#: modules/user/user.module:1530
+msgid "Delete picture"
+msgstr "Slet billede"
+
+#: modules/user/user.module:1530
+msgid "Check this box to delete your current picture."
+msgstr "Marker dette felt for at slette dit nuværende billede."
+
+#: modules/user/user.module:1535
+msgid "Upload picture"
+msgstr "Upload billede"
+
+#: modules/user/user.module:1535
+msgid ""
+"Your virtual face or picture. Maximum dimensions are %dimensions and the "
+"maximum size is %size kB."
+msgstr ""
+"Dit billede. Maksimal størrelse er %dimensions og den maksimale filstørrelse "
+"er %size kB."
+
+#: modules/user/user.module:1551
+msgid "The name %name is already taken."
+msgstr "Navnet %name er allerede taget."
+
+#: modules/user/user.module:1554
+msgid "The name %name has been denied access."
+msgstr "Navnet %name er nægtet adgang."
+
+#: modules/user/user.module:1563
+msgid ""
+"The e-mail address %email is already registered. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+"E-mail-adressen %email er allerede i brug. <a href=\"@password\">Har du "
+"glemt din adgangskode?</a>"
+
+#: modules/user/user.module:1566
+msgid "The e-mail address %email has been denied access."
+msgstr "E-mail-adressen %email er nægtet adgang."
+
+#: modules/user/user.module:1646
+msgid "Account details for !username at !site"
+msgstr "Konto information for !username på !site"
+
+#: modules/user/user.module:1648
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. You may now log in to !login_uri using "
+"the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Tak fordi du har registreret dig som bruger på !site. Du kan logge ind på !"
+"login_uri med følgende brugernavn og adgangskode:\n"
+"\n"
+"Brugernavn: !username\n"
+"Adgangskode: !password\n"
+"\n"
+"Du kan også logge ind ved at klikke på følgende link eller ved at kopiere og "
+"indsætte det i din browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Dette er et engangs-login, så det kan kun bruges én gang.\n"
+"\n"
+"Når du er logget ind, bliver du omdirigeret til !edit_uri, så du kan skifte "
+"din adgangskode.\n"
+"\n"
+"\n"
+"-- !site holdet"
+
+#: modules/user/user.module:1650
+msgid "An administrator created an account for you at !site"
+msgstr "En administrator har oprettet en konto til dig på !site"
+
+#: modules/user/user.module:1652
+msgid ""
+"!username,\n"
+"\n"
+"A site administrator at !site has created an account for you. You may now "
+"log in to !login_uri using the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"En administrator på !site har oprettet en konto til dig. Du kan logge ind "
+"på !login_uri med følgende brugernavn og adgangskode:\n"
+"\n"
+"Brugernavn: !username\n"
+"Adgangskode: !password\n"
+"\n"
+"Du kan også logge ind ved at klikke på følgende link eller ved at kopiere og "
+"indsætte det i din browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Dette er et engangs-login, så det kan kun bruges én gang.\n"
+"\n"
+"Når du er logget ind, bliver du omdirigeret til !edit_uri, så du kan skifte "
+"din adgangskode.\n"
+"\n"
+"\n"
+"-- !site holdet"
+
+#: modules/user/user.module:1655
+msgid "Account details for !username at !site (pending admin approval)"
+msgstr ""
+"Konto detaljer for !username på !site (afventer godkendelse af administrator)"
+
+#: modules/user/user.module:1657
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\n"
+"\n"
+"Tak fordi du har registreret dig som bruger på !site. Din konto afventer "
+"godkendelse af administratoren. Når den er givet, vil du modtage en e-mail "
+"med information om, hvordan du logger ind, vælger en adgangskode og andre "
+"detaljer.\n"
+"\n"
+"\n"
+"-- !site holdet"
+
+#: modules/user/user.module:1659
+msgid ""
+"!username has applied for an account.\n"
+"\n"
+"!edit_uri"
+msgstr ""
+"!username har ansøgt om en konto.\n"
+"\n"
+"!edit_uri"
+
+#: modules/user/user.module:1661
+msgid "Replacement login information for !username at !site"
+msgstr "Ny login-information for !username på !site"
+
+#: modules/user/user.module:1663
+msgid ""
+"!username,\n"
+"\n"
+"A request to reset the password for your account has been made at !site.\n"
+"\n"
+"You may now log in to !uri_brief by clicking on this link or copying and "
+"pasting it in your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password."
+msgstr ""
+"!username,\n"
+"\n"
+"Der er lavet en forespørgsel om at nulstille adgangskoden for din konto på !"
+"site.\n"
+"\n"
+"Du kan logge ind på !uri_brief ved at klikke på følgende link eller kopiere "
+"det til din browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Dette er et engangs-login. Det udløber efter én dag. Der sker ikke noget "
+"hvis du ikke bruger det.\n"
+"\n"
+"Når du har logget ind vil du blive viderestillet til !edit_uri så du kan "
+"ændre din adgangskode."
+
+#: modules/user/user.module:1665
+msgid "Account details for !username at !site (approved)"
+msgstr "Kontoinformation for !username på !site (godkendt)"
+
+#: modules/user/user.module:1667
+msgid ""
+"!username,\n"
+"\n"
+"Your account at !site has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to !"
+"login_uri in the future using:\n"
+"\n"
+"username: !username\n"
+msgstr ""
+"!username,\n"
+"\n"
+"Din konto på !site er blevet aktiveret.\n"
+"\n"
+"Du kan logge ind ved at klikke på følgende link eller ved at kopiere og "
+"indsætte det i din browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"Dette er et engangs-login, så den kan kun bruges én gang.\n"
+"\n"
+"Når du er logget ind, bliver du omdirigeret til !edit_uri, så du kan skifte "
+"din adgangskode.\n"
+"\n"
+"Du vil fremover kunne logge ind på !login_uri med:\n"
+"\n"
+"brugernavn: !username\n"
+
+#: modules/user/user.module:1669
+msgid "Account details for !username at !site (blocked)"
+msgstr "Kontoinformation for !username på !site (blokeret)"
+
+#: modules/user/user.module:1671
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been blocked."
+msgstr ""
+"!username,\n"
+"\n"
+"Din konto på !site er blevet blokeret."
+
+#: modules/user/user.module:1673
+msgid "Account details for !username at !site (deleted)"
+msgstr "Kontoinformation for !username på !site (slettet)"
+
+#: modules/user/user.module:1675
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been deleted."
+msgstr ""
+"!username,\n"
+"\n"
+"Din konto på !site er blevet slettet."
+
+#: modules/user/user.module:1735
+msgid "Unblock the selected users"
+msgstr "Fjern blokering af valgte brugere"
+
+#: modules/user/user.module:1739
+msgid "Block the selected users"
+msgstr "Bloker valgte brugere"
+
+#: modules/user/user.module:1743
+msgid "Delete the selected users"
+msgstr "Slet valgte brugere"
+
+#: modules/user/user.module:1763
+msgid "Add a role to the selected users"
+msgstr "Tilføj en rolle til de valgte brugere"
+
+#: modules/user/user.module:1766
+msgid "Remove a role from the selected users"
+msgstr "Fjern en rolle fra de valgte brugere"
+
+#: modules/user/user.module:1868
+msgid "Are you sure you want to delete these users?"
+msgstr "Ønsker du at slette disse brugere?"
+
+#: modules/user/user.module:1878
+msgid "The users have been deleted."
+msgstr "Brugere slettet"
+
+#: modules/user/user.module:1892
+msgid ""
+"The user module allows users to register, login, and log out. Users benefit "
+"from being able to sign on because it associates content they create with "
+"their account and allows various permissions to be set for their roles. The "
+"user module supports user roles which establish fine grained permissions "
+"allowing each role to do only what the administrator wants them to. Each "
+"user is assigned to one or more roles. By default there are two roles "
+"<em>anonymous</em> - a user who has not logged in, and <em>authenticated</"
+"em> a user who has signed up and who has been authorized."
+msgstr ""
+"Brugermodulet lader brugere registrere sig, logge på og logge af. Brugere "
+"har fordel af at registrere sig fordi det knytter det indhold de opretter "
+"til deres konto og tillader forskellige tilladelser at blive tildelt deres "
+"roller. Brugermodulet understøtter brugerroller som kan opsætte findelte "
+"tilladelser der kun tillader hver rolle at gøre det som administratoren "
+"ønsker. Hver bruger knyttes til en eller flere roller. Som standard er der "
+"to roller: <em>anonym</em> - en bruger der ikke er logget på, og "
+"<em>godkendt</em> - en bruger der har oprettet en konto og som er logget på."
+
+#: modules/user/user.module:1893
+msgid ""
+"Users can use their own name or handle and can specify personal "
+"configuration settings through their individual <em>My account</em> page. "
+"Users must authenticate by supplying a local username and password or "
+"through their OpenID, an optional and secure method for logging into many "
+"websites with a single username and password. In some configurations, users "
+"may authenticate using a username and password from another Drupal site, or "
+"through some other site-specific mechanism."
+msgstr ""
+"Brugere kan bruge deres eget navn eller kaldenavn og kan justere deres "
+"personlige indstillinger på deres individuelle <em>Min konto</em>-side. "
+"Registrerede bruger skal godkendes ved at indtaste et lokalt brugernavn og "
+"adgangskode eller ved at bruge deres OpenID, en valgfri og sikker metode til "
+"at logge på mange websites med ét brugernavn. Afhængig af de aktuelle "
+"indstillinger kan brugerne logge ind med brugernavn og adgangskode fra et "
+"andet Drupal-site eller via en anden site-specifik metode."
+
+#: modules/user/user.module:1894
+msgid ""
+"A visitor accessing your website is assigned a unique ID, or session ID, "
+"which is stored in a cookie. The cookie does not contain personal "
+"information, but acts as a key to retrieve information from your site. Users "
+"should have cookies enabled in their web browser when using your site."
+msgstr ""
+"En besøgende på dit site tildeles en unik ID, en session ID, som gemmes i en "
+"cookie. Cookien indeholder ikke personlig information, men fungere som en "
+"nøgle til at hente information fra dit site. Brugeren skal have aktiveret "
+"cookies i deres browser når de besøger dit site."
+
+#: modules/user/user.module:1895
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@user"
+"\">User module</a>."
+msgstr ""
+"Læs håndbogens afsnit om <a href=\"@user\">brugere</a> for yderligere "
+"information."
+
+#: modules/user/user.module:1898
+msgid ""
+"Drupal allows users to register, login, log out, maintain user profiles, "
+"etc. Users of the site may not use their own names to post content until "
+"they have signed up for a user account."
+msgstr ""
+"Brugere kan registrere sig, logge ind, logge ud, vedligeholde brugerprofiler "
+"osv. En besøgende kan ikke skrive indlæg i eget navn før hun har oprettet en "
+"brugerkonto."
+
+#: modules/user/user.module:1901
+msgid ""
+"This web page allows administrators to register new users. Users' e-mail "
+"addresses and usernames must be unique."
+msgstr ""
+"Administratorer kan oprette nye brugere manuelt. Brugeres e-mail-adresser og "
+"brugernavne skal være unikke."
+
+#: modules/user/user.module:1903
+msgid ""
+"Set up username and e-mail address access rules for new <em>and</em> "
+"existing accounts (currently logged in accounts will not be logged out). If "
+"a username or e-mail address for an account matches any deny rule, but not "
+"an allow rule, then the account will not be allowed to be created or to log "
+"in. A host rule is effective for every page view, not just registrations."
+msgstr ""
+"Opret regler for brugernavne og e-mail-adresser for nye <em>og</em> "
+"eksisterende konti (brugere, der i øjeblikket er logget ind, bliver ikke "
+"logget ud). Hvis et brugernavn eller en e-mail-adresse svarer til en af "
+"afvis-reglerne men ikke en tillad-regel, vil en ny konto ikke kunne "
+"oprettes. En værtsregel gælder for alle sidevisninger, ikke kun oprettelse "
+"af en ny bruger."
+
+#: modules/user/user.module:1905
+msgid ""
+"Permissions let you control what users can do on your site. Each user role "
+"(defined on the <a href=\"@role\">user roles page</a>) has its own set of "
+"permissions. For example, you could give users classified as \"Administrators"
+"\" permission to \"administer nodes\" but deny this power to ordinary, "
+"\"authenticated\" users. You can use permissions to reveal new features to "
+"privileged users (those with subscriptions, for example). Permissions also "
+"allow trusted users to share the administrative burden of running a busy "
+"site."
+msgstr ""
+"Tilladelser bestemmer hvad brugerne kan foretage sig på sitet. Hver "
+"brugerrolle (oprettet under <a href=\"@role\">brugerroller</a>) har sine "
+"egne tilladelser. Du kan f.eks. give brugerne med rollen \"administrator\" "
+"tilladelsen \"administrer indhold\" og fjerne denne mulighed for almindelige "
+"brugere. Du kan også bruge tilladelser til at give særlige muligheder til "
+"priviligerede brugere eller brugere som hjælper med at administrere sitet."
+
+#: modules/user/user.module:1907
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A "
+"role defines a group of users that have certain privileges as defined in <a "
+"href=\"@permissions\">user permissions</a>. Examples of roles include: "
+"anonymous user, authenticated user, moderator, administrator and so on. In "
+"this area you will define the <em>role names</em> of the various roles. To "
+"delete a role choose \"edit\".</p><p>By default, Drupal comes with two user "
+"roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user "
+"account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all "
+"logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p>Roller bruges til at justere sikkerheden og administrationen af Drupal. "
+"En rolle beskriver en gruppe af brugere med bestemte privilegier defineret "
+"under <a href=\"@permissions\">tilladelser</a>. Eksempler på roller er: "
+"anonym bruger, godkendt bruger, godkender, administrator osv. Her bestemmer "
+"du <em>navnene</em> på de forskellige roller. Klik på \"rediger\" for at "
+"slette en rolle.</p><p>Som standard indeholder Drupal to roller:</p>\n"
+"<ul>\n"
+"<li>Anonym bruger: bruges til brugere, der ikke har en konto, eller som ikke "
+"er godkendt.</li>\n"
+"<li>Godkendt bruger: tildeles automatisk til godkendte brugere.</li>\n"
+"</ul>"
+
+#: modules/user/user.module:1913
+msgid ""
+"Enter a simple pattern (\"*\" may be used as a wildcard match) to search for "
+"a username or e-mail address. For example, one may search for \"br\" and "
+"Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
+msgstr ""
+"Indtast et simpelt mønster (\"*\" kan bruges som joker) for at søge efter et "
+"brugernavn. Søger du efter \"br\" kan Drupal f.eks. returnere \"brian\", "
+"\"brad\" og \"brenda@example.com\"."
+
+#: modules/user/user.module:1950
+msgid "role"
+msgstr "rolle"
+
+#: modules/user/user.module:1968
+msgid "permission"
+msgstr "tilladelse"
+
+#: modules/user/user.module:2170
+msgid "Password strength:"
+msgstr "Adgangskodekvalitet:"
+
+#: modules/user/user.module:2171
+msgid "Low"
+msgstr "Lav"
+
+#: modules/user/user.module:2173
+msgid "High"
+msgstr "Høj"
+
+#: modules/user/user.module:2174
+msgid ""
+"It is recommended to choose a password that contains at least six "
+"characters. It should include numbers, punctuation, and both upper and "
+"lowercase letters."
+msgstr ""
+"Vi anbefaler, at du vælger en adgangskode på mindst seks tegn. Den bør "
+"indeholde tal, specialtegn og både store og små bogstaver."
+
+#: modules/user/user.module:2175
+msgid "The password does not include enough variation to be secure. Try:"
+msgstr ""
+"Der er for lidt variation i adgangskoden til at den er sikker. Forslag:"
+
+#: modules/user/user.module:2176
+msgid "Adding both upper and lowercase letters."
+msgstr "Tilføj både store og små bogstaver."
+
+#: modules/user/user.module:2177
+msgid "Adding numbers."
+msgstr "Tilføj tal."
+
+#: modules/user/user.module:2178
+msgid "Adding punctuation."
+msgstr "Tilføj specialtegn."
+
+#: modules/user/user.module:2179
+msgid "It is recommended to choose a password different from the username."
+msgstr ""
+"Det anbefales at vælge en adgangskode der er forskellig fra brugernavnet."
+
+#: modules/user/user.module:2182
+msgid "Passwords match:"
+msgstr "Adgangskoder er ens:"
+
+#: modules/user/user.module:2197
+msgid "After a user account has been created"
+msgstr "Efter en konto er oprettet."
+
+#: modules/user/user.module:2200
+msgid "After a user's profile has been updated"
+msgstr "Efter en brugerprofil er opdateret"
+
+#: modules/user/user.module:2203
+msgid "After a user has been deleted"
+msgstr "Efter en bruger er slettet."
+
+#: modules/user/user.module:2206
+msgid "After a user has logged in"
+msgstr "Efter en bruger er logget ind"
+
+#: modules/user/user.module:2209
+msgid "After a user has logged out"
+msgstr "Efter en bruger er logget ud"
+
+#: modules/user/user.module:2212
+msgid "When a user's profile is being viewed"
+msgstr "Når en brugerprofil vises"
+
+#: modules/user/user.module:2225
+msgid "Block current user"
+msgstr "Blokér aktuelle bruger"
+
+#: modules/user/user.module:2231
+msgid "Ban IP address of current user"
+msgstr "Bandlys aktuelle brugers IP adresse"
+
+#: modules/user/user.module:2324
+msgid ""
+"Welcome to Drupal. You are now logged in as user #1, which gives you full "
+"control over your website."
+msgstr ""
+"Velkommen til Drupal. Du er nu logget ind som bruger nummer 1, hvilket giver "
+"dig fuld kontrol over dit site."
+
+#: modules/user/user.module:2326
+msgid ""
+"</p><p> Your password is <strong>%pass</strong>. You may change your "
+"password below.</p>"
+msgstr ""
+"</p><p> Din adgangskode er <strong>%pass</strong>. Du kan skifte din "
+"adgangskode herunder.</p>"
+
+#: modules/user/user.module:2338
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail has "
+"been sent."
+msgstr "Ny konto oprettet for <a href=\"@url\">%name</a>. Ingen e-mail sendt."
+
+#: modules/user/user.module:2345
+msgid "Registration successful. You are now logged in."
+msgstr "Registrering lykkedes. Du er nu logget ind."
+
+#: modules/user/user.module:2355
+msgid ""
+"Password and further instructions have been e-mailed to the new user <a href="
+"\"@url\">%name</a>."
+msgstr ""
+"Adgangskode og yderligere instruktioner er blevet sendt til den nye bruger "
+"<a href=\"@url\">%name</a>."
+
+#: modules/user/user.module:2358
+msgid ""
+"Your password and further instructions have been sent to your e-mail address."
+msgstr ""
+"Din adgangskode og yderligere forklaring er blevet sendt til din e-mail-"
+"adresse."
+
+#: modules/user/user.module:2366
+msgid ""
+"Thank you for applying for an account. Your account is currently pending "
+"approval by the site administrator.<br />In the meantime, a welcome message "
+"with further instructions has been sent to your e-mail address."
+msgstr ""
+"Tak for din ansøgning om en konto. Din konto afventer godkendelse af en "
+"administrator.<br />I mellemtiden er din adgangskode og yderligere "
+"instruktioner blevet sendt til din e-mail-adresse."
+
+#: modules/user/user.module:2403
+msgid "Notify user of new account"
+msgstr "Påmind bruger om ny konto"
+
+#: modules/user/user.module:1320
+msgid "Login attempt failed for %user."
+msgstr "Login-forsøg mislykkedes for %user."
+
+#: modules/user/user.module:1366
+msgid "Session opened for %name."
+msgstr "Session åbnet for %name."
+
+#: modules/user/user.module:1420
+msgid "New external user: %name using module %module."
+msgstr "Ny ekstern bruger: %user via modulet %module."
+
+#: modules/user/user.module:1598
+msgid "Deleted user: %name %email."
+msgstr "Bruger slettet: %name %email."
+
+#: modules/user/user.module:2256
+msgid "Blocked user %name."
+msgstr "Bruger %name blokeret."
+
+#: modules/user/user.module:2266
+msgid "Banned IP address %ip"
+msgstr "IP adresse %ip blokeret"
+
+#: modules/user/user.module:2320
+msgid "New user: %name (%email)."
+msgstr "Ny bruger: %name (%email)."
+
+#: modules/user/user.module:778,781
+msgid "1 guest"
+msgid_plural "@count guests"
+msgstr[0] "1 gæst"
+msgstr[1] "@count gæster"
+
+#: modules/user/user.module:546
+msgid "administer permissions"
+msgstr "administrer tilladelser"
+
+#: modules/user/user.module:546
+msgid "administer users"
+msgstr "administrer brugere"
+
+#: modules/user/user.module:546
+msgid "access user profiles"
+msgstr "tilgå brugerprofiler"
+
+#: modules/user/user.module:546
+msgid "change own username"
+msgstr "skift eget brugernavn"
+
+#: modules/user/user.module:889
+msgid "User autocomplete"
+msgstr "Autofuldfør bruger"
+
+#: modules/user/user.module:899
+msgid "User account"
+msgstr "Brugerkonto"
+
+#: modules/user/user.module:930
+msgid "Reset password"
+msgstr "Nulstil adgangskode"
+
+#: modules/user/user.module:940
+msgid "User management"
+msgstr "Brugerhåndtering"
+
+#: modules/user/user.module:941
+msgid "Manage your site's users, groups and access to site features."
+msgstr "Håndtér brugere, grupper og adgangsbegrænsning."
+
+#: modules/user/user.module:950
+msgid "List, add, and edit users."
+msgstr "Vis, tilføj og redigér brugere."
+
+#: modules/user/user.module:962
+msgid "Add user"
+msgstr "Tilføj bruger"
+
+#: modules/user/user.module:969
+msgid "User settings"
+msgstr "Brugerindstillinger"
+
+#: modules/user/user.module:970
+msgid ""
+"Configure default behavior of users, including registration requirements, e-"
+"mails, and user pictures."
+msgstr ""
+"Brugerindstillinger, som f.eks. krav til registrering, e-mails og billeder."
+
+#: modules/user/user.module:979
+msgid "Permissions"
+msgstr "Tilladelser"
+
+#: modules/user/user.module:980
+msgid "Determine access to features by selecting permissions for roles."
+msgstr ""
+"Bestem adgang til forskellige funktioner ved at give tilladelser til roller."
+
+#: modules/user/user.module:988
+msgid "List, edit, or add user roles."
+msgstr "Vis, tilføj og redigér brugerroller."
+
+#: modules/user/user.module:995
+msgid "Edit role"
+msgstr "Redigér rolle"
+
+#: modules/user/user.module:1002
+msgid "Access rules"
+msgstr "Kontoregler"
+
+#: modules/user/user.module:1003
+msgid ""
+"List and create rules to disallow usernames, e-mail addresses, and IP "
+"addresses."
+msgstr ""
+"Vis og opret regler til at forbyde brugernavne, e-mail-adresser og IP-"
+"adresser."
+
+#: modules/user/user.module:1021
+msgid "Check rules"
+msgstr "Tjek regler"
+
+#: modules/user/user.module:1028
+msgid "Edit rule"
+msgstr "Redigér regel"
+
+#: modules/user/user.module:1035
+msgid "Delete rule"
+msgstr "Slet regel"
+
+#: modules/user/user.module:1044
+msgid "Log out"
+msgstr "Log ud"
+
+#: modules/user/user.module:1091
+msgid "Account"
+msgstr "Konto"
+
+#: modules/user/user.module:0
+msgid "anonymous user"
+msgstr "anonym bruger"
+
+#: modules/user/user.module:0
+msgid "authenticated user"
+msgstr "godkendt bruger"
+
+#: modules/user/user.module:1342
+msgid ""
+"The name %name is registered using a reserved e-mail address and therefore "
+"could not be logged in."
+msgstr ""
+"Navnet %name er registreret med en reserveret e-mail-adresse og kan derfor "
+"ikke logge ind."
+
+#: modules/user/user.pages.inc:50
+msgid "%name is not allowed to request a new password."
+msgstr "%name har ikke lov til at bestille en ny adgangskode."
+
+#: modules/user/user.pages.inc:99
+msgid ""
+"You have tried to use a one-time login for an account which has been blocked."
+msgstr ""
+"Du har forsøgt at bruge et engangs-login til en konto som er blevet blokeret."

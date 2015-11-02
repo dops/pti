@@ -1,0 +1,38 @@
+<?php
+
+function testreports_help($path, $arg) {
+	switch ($path) {
+		default: return '';
+	}
+}
+
+
+function testreport_perm() {
+	return array(
+		'create testreport',
+		'edit own testreport',
+	);
+}
+
+
+function testreport_menu() {
+	$items	= array();
+	
+	return $items;
+}
+
+
+function testreport_block($op = 'list', $delta = 0) {
+	$block = array();
+	
+	if ($op == 'list') {
+		
+	} elseif ($op == 'edit') {
+		
+	} elseif ($op == 'save') {
+		
+	} elseif ($op == 'view') {
+		
+	}
+	return $block;
+}

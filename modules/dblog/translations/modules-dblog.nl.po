@@ -1,0 +1,140 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from files:
+#  dblog.admin.inc,v 1.6.2.1 2008/09/17 05:47:53 goba
+#  dblog.module,v 1.21.2.2 2008/04/09 21:11:46 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/dblog/dblog.admin.inc:18
+msgid "Discard log entries above the following row limit"
+msgstr "Verwijder log-items boven de volgende rijlimiet."
+
+#: modules/dblog/dblog.admin.inc:21
+msgid ""
+"The maximum number of rows to keep in the database log. Older entries will "
+"be automatically discarded. (Requires a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a>.)"
+msgstr ""
+"Met maximum aantal gebeurtenissen dat in de database-log wordt bewaard."
+
+#: modules/dblog/dblog.admin.inc:91,119
+msgid "No log messages available."
+msgstr "Geen logberichten beschikbaar."
+
+#: modules/dblog/dblog.admin.inc:107
+msgid "Count"
+msgstr "Aantal"
+
+#: modules/dblog/dblog.admin.inc:150
+msgid "Location"
+msgstr "Lokatie"
+
+#: modules/dblog/dblog.admin.inc:162,230
+msgid "Severity"
+msgstr "Zwaarte"
+
+#: modules/dblog/dblog.admin.inc:270
+msgid "Filter log messages"
+msgstr "Logberichten filteren"
+
+#: modules/dblog/dblog.admin.inc:307
+msgid "You must select something to filter by."
+msgstr "U dient iets te selecteren waarop gefilterd wordt."
+
+#: modules/dblog/dblog.module:21
+msgid ""
+"The dblog module monitors your system, capturing system events in a log to "
+"be reviewed by an authorized individual at a later time. This is useful for "
+"site administrators who want a quick overview of activities on their site. "
+"The logs also record the sequence of events, so it can be useful for "
+"debugging site errors."
+msgstr ""
+"De DBlog-module bewaakt de website en slaat systeemgebeurtenissen op in een "
+"logboek dat iedere gebruiker met toestemming op een later tijdstip kan "
+"bekijken. Dit is nuttig voor sitebeheerders die een snel overzicht willen "
+"van activiteiten op de site. Het logboek slaat ook de volgorde van de "
+"gebeurtenissen op, wat nuttig kan zijn om fouten op de site op te lossen."
+
+#: modules/dblog/dblog.module:22
+msgid ""
+"The dblog log is simply a list of recorded events containing usage data, "
+"performance data, errors, warnings and operational information. "
+"Administrators should check the dblog report on a regular basis to ensure "
+"their site is working properly."
+msgstr ""
+"Het dblog-logboek is een eenvoudige lijst van geregistreerde gebeurtenissen "
+"zoals gebruiks- en prestatiegegevens, fouten, waarschuwingen en operationele "
+"informatie. Beheerders zouden regelmatig de dblog moeten controleren om er "
+"zeker van te zijn dat de site goed functioneert."
+
+#: modules/dblog/dblog.module:23
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@dblog"
+"\">Dblog module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@dblog"
+"\">Dblog-module</a>."
+
+#: modules/dblog/dblog.module:26
+msgid ""
+"The dblog module monitors your website, capturing system events in a log to "
+"be reviewed by an authorized individual at a later time. The dblog log is "
+"simply a list of recorded events containing usage data, performance data, "
+"errors, warnings and operational information. It is vital to check the dblog "
+"report on a regular basis as it is often the only way to tell what is going "
+"on."
+msgstr ""
+"De DBlog-module bewaakt de website en slaat systeemgebeurtenissen op in een "
+"logboek dat iedere gebruiker met toestemming op een later tijdstip kan "
+"bekijken. Het logboek is een eenvoudige lijst van geregistreerde "
+"gebeurtenissen zoals gebruiks- en prestatiegegevens, fouten, waarschuwingen "
+"en operationele informatie. Aangezien het logboek vaak de enige bron van "
+"informatie is, is het belangrijk dat dit regelmatig gecontroleerd wordt."
+
+#: modules/dblog/dblog.module:47
+msgid ""
+"Settings for logging to the Drupal database logs. This is the most common "
+"method for small to medium sites on shared hosting. The logs are viewable "
+"from the admin pages."
+msgstr ""
+"Instellingen voor het bijhouden van de Drupal-databaselogs. Dit is de meest "
+"gebruikelijke methode for kleine tot middelgrote sites op shared hosting. De "
+"logs kunnen op de beheerpagina's worden bekeken."
+
+#: modules/dblog/dblog.module:55
+msgid "Recent log entries"
+msgstr "Recente logs"
+
+#: modules/dblog/dblog.module:56
+msgid "View events that have recently been logged."
+msgstr "Gebeurtenissen bekijken die recent zijn gelogd."
+
+#: modules/dblog/dblog.module:63
+msgid "Top 'page not found' errors"
+msgstr "Meest voorkomende fouten 'pagina niet gevonden'"
+
+#: modules/dblog/dblog.module:64
+msgid "View 'page not found' errors (404s)."
+msgstr "'Pagina niet gevonden' fouten (404) bekijken."
+
+#: modules/dblog/dblog.module:71
+msgid "Top 'access denied' errors"
+msgstr "Meest voorkomende fouten 'Geen toegang'"
+
+#: modules/dblog/dblog.module:72
+msgid "View 'access denied' errors (403s)."
+msgstr "'Geen toegang' fouten (403) bekijken."
+
+#: modules/dblog/dblog.module:0
+msgid "dblog"
+msgstr "dblog"

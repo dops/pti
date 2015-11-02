@@ -1,0 +1,6 @@
+;  $Id:$
+name = Pathauto Batch
+description = Batch node path update functions for Pathauto
+dependencies[] = path
+dependencies[] = pathauto
+core = 6.x

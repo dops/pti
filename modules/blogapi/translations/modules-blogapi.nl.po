@@ -1,0 +1,304 @@
+# Dutch translation of drupal (6.13)
+# Copyright (c) 2009 by the Dutch translation team
+# Generated from file: blogapi.module,v 1.115.2.5 2008/10/08 20:12:17 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.13)\n"
+"POT-Creation-Date: 2009-07-28 17:32+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/blogapi/blogapi.module:15
+msgid ""
+"The Blog API module allows your site's users to access and post to their "
+"blogs from external blogging clients. External blogging clients are "
+"available for a wide range of desktop operating systems, and generally "
+"provide a feature-rich graphical environment for creating and editing posts."
+msgstr ""
+"Met de Blog API-module kunnen gebruikers van uw site hun blogs onderhouden "
+"met behulp van een extern programma. Externe blog-programma's zijn voor "
+"diverse besturingssystemen beschikbaar en bieden meestal een grafische "
+"omgeving en vele mogelijkheden om blog-items te maken en te bewerken."
+
+#: modules/blogapi/blogapi.module:16
+msgid ""
+"<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both Mac OS "
+"X and Microsoft Windows, can be used with Blog API. Blog API also supports "
+"<a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api"
+"\">MetaWeblog API</a>, and most of the <a href=\"@movabletype-api\">Movable "
+"Type API</a>. Blogging clients and other services (e.g. <a href=\"@flickr"
+"\">Flickr's</a> \"post to blog\") that support these APIs may also be "
+"compatible."
+msgstr ""
+"Het blog-programma <a href=\"@ecto-link\">Ecto</a>, beschikbaar voor zowel "
+"Mac OS X als Microsoft Windows, kan samen met de Blog API worden gebruikt. "
+"Blog API ondersteund ook <a href=\"@blogger-api\">Blogger API</a>, <a href="
+"\"@metaweblog-api\">MetaWeblog API</a> en de meeste van de <a href="
+"\"@movabletype-api\">Movable Type API's</a>. Alle blog-hulpprogramma's en "
+"services (zoals de \"post to blog\" service van <a href=\"@ flickr\">Flickr</"
+"a> ) die deze api's ondersteunen kunnen met de site werken."
+
+#: modules/blogapi/blogapi.module:17
+msgid ""
+"Select the content types available to external clients on the <a href="
+"\"@blogapi-settings\">Blog API settings page</a>. If supported and "
+"available, each content type will be displayed as a separate \"blog\" by the "
+"external client."
+msgstr ""
+"Selecteer op pagina <a href=\"@blogapi-settings\">Blog API instellingen</a> "
+"de inhoudstypen die met externe blog-programma's kunnen samenwerken. Als het "
+"blog-programma dit ondersteund wordt ieder inhoudstype als een aparte 'blog' "
+"weergegeven."
+
+#: modules/blogapi/blogapi.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@blogapi"
+"\">Blog API module</a>."
+msgstr ""
+"Lees voor meer informatie het online-handboek over de <a href=\"@blogapi"
+"\">Blog API-module</a>."
+
+#: modules/blogapi/blogapi.module:39
+msgid "Returns a list of blogs to which an author has posting privileges."
+msgstr ""
+"Geeft een lijst van blogs waarvoor een auteur rechten heeft om berichten te "
+"schrijven."
+
+#: modules/blogapi/blogapi.module:44
+msgid "Returns information about an author in the system."
+msgstr "Geeft informatie over een auteur in het systeem."
+
+#: modules/blogapi/blogapi.module:49,74
+msgid "Creates a new post, and optionally publishes it."
+msgstr "Maakt een nieuw bericht aan en publiceert dit optioneel."
+
+#: modules/blogapi/blogapi.module:54
+msgid "Updates the information about an existing post."
+msgstr "Vernieuwt de informatie over een bestaand bericht."
+
+#: modules/blogapi/blogapi.module:59,84
+msgid "Returns information about a specific post."
+msgstr "Geeft informatie over een specifiek bericht."
+
+#: modules/blogapi/blogapi.module:64
+msgid "Deletes a post."
+msgstr "Verwijdert een bericht."
+
+#: modules/blogapi/blogapi.module:69,99
+msgid "Returns a list of the most recent posts in the system."
+msgstr "Geeft een lijst van de meest recente berichten in het systeem."
+
+#: modules/blogapi/blogapi.module:79
+msgid "Updates information about an existing post."
+msgstr "Vernieuwt informatie over een bestaand bericht."
+
+#: modules/blogapi/blogapi.module:89
+msgid "Uploads a file to your webserver."
+msgstr "Uploadt een bestand naar de webserver."
+
+#: modules/blogapi/blogapi.module:94,114
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr ""
+"Geeft een lijst van alle categorieën waaraan het bericht wordt toegewezen."
+
+#: modules/blogapi/blogapi.module:104
+msgid ""
+"Returns a bandwidth-friendly list of the most recent posts in the system."
+msgstr ""
+"Geeft een bandbreedte-vriendelijke lijst van de meest recente inzendingen in "
+"het systeem."
+
+#: modules/blogapi/blogapi.module:109
+msgid "Returns a list of all categories defined in the blog."
+msgstr "Geeft een lijst van alle categorieën die in de blog werden bepaald."
+
+#: modules/blogapi/blogapi.module:119
+msgid "Sets the categories for a post."
+msgstr "Bepaalt de categorieën voor een inzending."
+
+#: modules/blogapi/blogapi.module:124
+msgid "Retrieve information about the XML-RPC methods supported by the server."
+msgstr ""
+"Vind informatie rond de XML-RPC-methodes die door de server worden "
+"ondersteund."
+
+#: modules/blogapi/blogapi.module:129
+msgid ""
+"Retrieve information about the text formatting plugins supported by the "
+"server."
+msgstr ""
+"Vind informatie over de tekst door het formatteren van plugins, ondersteund "
+"door de server."
+
+#: modules/blogapi/blogapi.module:134
+msgid ""
+"Publish (rebuild) all of the static files related to an entry from your "
+"blog. Equivalent to saving an entry in the system (but without the ping)."
+msgstr ""
+"Publiceer (genereer opnieuw) alle statische bestanden die gerelateerd zijn "
+"aan een item in de blog. Dit is hetzelfde als het item opslaan (maar dan "
+"zonder de ping)."
+
+#: modules/blogapi/blogapi.module:216
+msgid "You do not have permission to create this type of post."
+msgstr "U heeft geen toegangsrechten voor dit type inzending."
+
+#: modules/blogapi/blogapi.module:243,304
+msgid "Error storing post."
+msgstr "Fout bij het opslaan van het bericht."
+
+#: modules/blogapi/blogapi.module:265,644
+msgid "You do not have permission to update this post."
+msgstr "U mag dit bericht niet bijwerken."
+
+#: modules/blogapi/blogapi.module:338
+msgid ""
+"You do not have permission to publish this type of post. Please save it as a "
+"draft instead."
+msgstr ""
+"U heeft geen toegangsrechten om dit inhoudstype te publiceren. U kunt het "
+"wel als ongepubliceerd opslaan."
+
+#: modules/blogapi/blogapi.module:341
+msgid ""
+"You do not have permission to save this post as a draft. Please publish it "
+"instead."
+msgstr ""
+"U heeft geen toegangsrechten om dit inhoudstype ongepubliceerd op te slaan. "
+"U kunt het wel publiceren."
+
+#: modules/blogapi/blogapi.module:426
+msgid ""
+"It is not possible to upload the file, because it exceeded the maximum "
+"filesize of @maxsize."
+msgstr ""
+"Het is niet mogelijk om het bestand te uploaden. Het is groter dan het "
+"toegestane maximum van @maxsize."
+
+#: modules/blogapi/blogapi.module:430
+msgid ""
+"The file can not be attached to this post, because the disk quota of @quota "
+"has been reached."
+msgstr ""
+"Het is niet mogelijk om dit bestand toe te voegen, het maximum quotum van "
+"@quota is bereikt."
+
+#: modules/blogapi/blogapi.module:446
+msgid ""
+"It is not possible to upload the file, because it is only possible to upload "
+"files with the following extensions: @extensions"
+msgstr ""
+"Het is niet mogelijk om het bestand te uploaden. Alleen bestanden met de "
+"volgende extensies zijn toegestaan: @extensions"
+
+#: modules/blogapi/blogapi.module:456
+msgid "No file sent."
+msgstr "Geen bestand verzonden."
+
+#: modules/blogapi/blogapi.module:460
+msgid "Error storing file."
+msgstr "Fout bij het opslaan van het bestand."
+
+#: modules/blogapi/blogapi.module:584
+msgid "Invalid categories submitted."
+msgstr "Ongeldige categorieën opgeslagen"
+
+#: modules/blogapi/blogapi.module:593
+msgid "A category from the @vocabulary_name vocabulary is required."
+msgstr "Een categorie van de woordenlijst @vocabulary_name is vereist."
+
+#: modules/blogapi/blogapi.module:597
+msgid "You may only choose one category from the @vocabulary_name vocabulary."
+msgstr ""
+"U kunt slechts één categorie van de woordenlijst @vocabulary_name kiezen."
+
+#: modules/blogapi/blogapi.module:602
+msgid "Error saving categories. This feature is not available."
+msgstr ""
+"Er is een fout opgetreden bij het opslaan van categorieën. Deze functie is "
+"niet beschikbaar."
+
+#: modules/blogapi/blogapi.module:635
+msgid "Invalid post."
+msgstr "Ongeldig bericht."
+
+#: modules/blogapi/blogapi.module:680
+msgid "You do not have permission to edit this blog."
+msgstr "U heeft geen toegangsrechten om deze blog bij te werken."
+
+#: modules/blogapi/blogapi.module:684
+msgid "Wrong username or password."
+msgstr "Foute gebruikersnaam of wachtwoord."
+
+#: modules/blogapi/blogapi.module:707
+msgid "Enable for external blogging clients"
+msgstr "Gebruik van externe blog-programma's mogelijk maken"
+
+#: modules/blogapi/blogapi.module:711
+msgid ""
+"Select the content types available to external blogging clients via Blog "
+"API. If supported, each enabled content type will be displayed as a separate "
+"\"blog\" by the external client."
+msgstr ""
+"Selecteer de inhoudstypen die door externe blog-programma's (via de Blog-"
+"API) gebruikt kunnen worden. Indien ondersteund, zal het blog-programma "
+"ieder inhoudstype als een aparte blog weergeven."
+
+#: modules/blogapi/blogapi.module:720
+msgid "File settings"
+msgstr "Bestandsinstellingen"
+
+#: modules/blogapi/blogapi.module:738
+msgid "The default maximum file size a user can upload."
+msgstr "Maximum bestandsgrootte die een gebruiker standaard kan uploaden."
+
+#: modules/blogapi/blogapi.module:777
+msgid "The maximum size of a file a user can upload (in megabytes)."
+msgstr "Maximale bestandsgrootte die een gebruiker kan uploaden (in megabytes)"
+
+#: modules/blogapi/blogapi.module:785
+msgid ""
+"The maximum size of all files a user can have on the site (in megabytes)."
+msgstr ""
+"De maximale bestandsgrootte van alle bestanden die een gebruiker op de "
+"website kan hebben (in megabytes)."
+
+#: modules/blogapi/blogapi.module:815,794
+msgid "RSD"
+msgstr "RSD"
+
+#: modules/blogapi/blogapi.module:933
+msgid ""
+"Blog API module is not configured to support the %type content type, or you "
+"don't have sufficient permissions to post this type of content."
+msgstr ""
+"De Blog API-module is niet geconfigureerd voor ondersteuring van inhoudstype "
+"%type of u heeft onvoldoende toegangsrechten om een pagina van dit type toe "
+"te voegen."
+
+#: modules/blogapi/blogapi.module:238
+msgid "@type: added %title using blog API."
+msgstr "@type: %title toegevoegd via de blog-api."
+
+#: modules/blogapi/blogapi.module:300
+msgid "@type: updated %title using Blog API."
+msgstr "@type: %title is via de Blog-API bijgewerkt."
+
+#: modules/blogapi/blogapi.module:27
+msgid "administer content with blog api"
+msgstr "inhoud beheren met blog-API"
+
+#: modules/blogapi/blogapi.module:801
+msgid "Configure the content types available to external blogging clients."
+msgstr ""
+"Inhoudstypen instellen die door externe blog-programma's gebruikt kunnen "
+"worden."
+
+#: modules/blogapi/blogapi.module:0
+msgid "blogapi"
+msgstr "blog-api"
